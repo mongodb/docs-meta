@@ -38,7 +38,7 @@ Step 1: Branch
 
 .. code-block:: sh
 
-   git checkout -b v2.2
+   git checkout -b v2.2 upstream/master
    git push origin v2.2
    git checkout master
 
@@ -59,10 +59,13 @@ will find a file called  ``build_conf.yaml``. Update this file's
 Step 3: Update published branches configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In the ``docs-tools`` repository under the ``data/`` directory, you will
-find a file called ``bi-connector-published-branches.yaml``. Update this
-file to include a ``2.3`` version and a ``v2.2`` branch; and set the
-``version.upcoming`` key to ``2.3``.
+a. Checkout the master branch. 
+b. In the ``docs-tools`` repository under the ``data/`` directory, open
+   a file called ``bi-connector-published-branches.yaml``.
+c. Update this file to include a ``2.3`` version and a ``v2.2`` branch; and set the
+   ``version.upcoming`` key to ``2.3``.
+d. Commit your change and push the commit to origin <local branch>.
+e. Create a separate PR to merge the change to master.
 
 .. list-table::
    :header-rows: 1
