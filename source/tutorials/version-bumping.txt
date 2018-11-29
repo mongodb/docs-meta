@@ -42,9 +42,9 @@ version:
 .. code-block:: sh
 
    git checkout -b v2.2 upstream/master
+   git pull --rebase
    git push origin v2.2
    git checkout master
-   git pull --rebase
 
 Step 2: Update project version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
