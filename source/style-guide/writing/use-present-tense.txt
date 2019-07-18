@@ -1,7 +1,7 @@
 .. _use-present-tense:
 
 =================
-Use present tense
+Use Present Tense
 =================
 
 Users read content to help them perform tasks or to gather information. These activities occur in the users' present time, so the present tense is appropriate in most content. The present tense implies that users should take action now. Sentences that use the present tense are easier to read than sentences that use past or future tense.
