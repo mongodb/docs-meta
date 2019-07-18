@@ -1,4 +1,4 @@
-.. _terms-for-global-audience:
+.. _terms-for-accessibility:
 
 =========================
 Writing for Accessibility
