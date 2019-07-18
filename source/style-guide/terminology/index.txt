@@ -35,7 +35,6 @@ content.
       :titlesonly:
 
       /style-guide/terminology/general-term-guidelines/index
-      /style-guide/terminology/terms-for-global-audience
       /style-guide/terminology/alphabetical-terms
       /style-guide/terminology/concise-terms
       /style-guide/terminology/trademarks

@@ -23,3 +23,5 @@ and consistent, and that helps users accomplish their goals.
    /style-guide/writing/use-positive-statements
    /style-guide/writing/use-correct-punctuation
    /style-guide/writing/use-interjections-with-care
+   /style-guide/writing/write-for-accessibility
+   /style-guide/terminology/terms-for-global-audience
