@@ -438,8 +438,8 @@ trademarks in documentation.
    :header-rows: 1
 
    * - Guideline
-     - Example — Use
-     - Example — Don't use
+     - Example - Use
+     - Example - Don't use
 
    * - Show a trademark exactly as it's shown by the owning company
        (MongoDB or third-party). Don't change the capitalization or
@@ -514,8 +514,6 @@ trademarks in documentation.
 
        For more information, see the `MongoDB Trademark Guidelines from
        Legal <https://one.MongoDB.com/display/legal/Trademarks>`__.
-     - MongoDB provides you with a Fanatical Experience™.
-     - MongoDB is Fanatical.
 
    * - Always use Fanatical Support as a trademark. Don't use Fanatical
        or fanatical outside of the trademark. On the first use of this
@@ -527,4 +525,6 @@ trademarks in documentation.
        For more information, see the `MongoDB Trademark Guidelines from
        Legal <https://one.MongoDB.com/display/legal/Trademarks>`__.
      - We provide **Fanatical Support**\®.
-     - Our support is Fanatical.
+       Our support is Fanatical.
+     - MongoDB provides you with a Fanatical Experience™.
+       MongoDB is Fanatical.

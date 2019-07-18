@@ -4,13 +4,9 @@
 Use present tense
 =================
 
-Users read content to help them perform tasks or to gather information. These
-activities occur in the users' present time, so the present tense is
-appropriate in most content. Additionally, sentences that use the present tense
-are easier to read than sentences that use past or future tense.
+Users read content to help them perform tasks or to gather information. These activities occur in the users' present time, so the present tense is appropriate in most content. The present tense implies that users should take action now. Sentences that use the present tense are easier to read than sentences that use past or future tense.
 
-Use future tense only when you need to emphasize that something occurs later,
-from the users' perspective.
+The future tense can imply a sense of uncertainty. (We can't truly guarantee a future action, regardless of expectation!) Use future tense only when you need to emphasize that something occurs later, from the users' perspective.
 
 .. tip::
 

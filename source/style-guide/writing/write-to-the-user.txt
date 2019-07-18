@@ -1,8 +1,8 @@
 .. _write-to-the-user:
 
-========================================================
-Write to the User: Use Second Person and Imperative Mood
-========================================================
+=====================================
+Use Second Person and Imperative Mood
+=====================================
 
 Users are more engaged with content when it talks to them directly. You
 talk to users directly by using *second person*, addressing the user as

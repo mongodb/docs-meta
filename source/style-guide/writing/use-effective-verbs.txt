@@ -4,20 +4,18 @@
 Use Effective Verbs
 ===================
 
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
 Verbs carry the action in a sentence, and they make your content come
 alive for users. To make the biggest impact with your writing, use
 strong, simple, action verbs. See the following sections for specific
 guidelines.
 
--  `Use action-oriented verbs <#use-action-oriented-verbs>`__
--  `Avoid nouns built from verbs <#avoid-nouns-built-from-verbs>`__
--  `Use the simplest tense <#use-the-simplest-tense>`__
--  `Use helping verbs accurately <#use-helping-verbs-accurately>`__
--  `Use single-word verbs <#use-single-word-verbs>`__
--  `Don't use verbs as nouns or adjectives <#don-t-use-verbs-as-nouns-or-adjectives>`__
--  `Don't use nonverbs as verbs <#don-t-use-nonverbs-as-verbs>`__
--  `Use transitive verbs transitively, not intransitively <#use-transitive-verbs-transitively-not-intransitively>`__
--  `Don't humanize inanimate objects <#don-t-humanize-inanimate-objects>`__
+.. _use-action-oriented-verbs:
 
 Use action-oriented verbs
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -51,6 +49,8 @@ direct.
    * - When you **create** a server, ...
      - When **creating** a server, ...
 
+.. _avoid-nouns-built-from-verbs:
+
 Avoid nouns built from verbs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -75,6 +75,8 @@ verb (as shown in the following examples).
    * - The program **encrypts** user IDs and passwords.
      - The program **enables the encryption of** user IDs and
        passwords.
+
+.. _use-simplest-tense:
 
 Use the simplest tense
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -103,36 +105,45 @@ perfect tense, or verbs combined with helping verbs (such as *can*,
 
 .. _helping-verbs:
 
-Use helping verbs accurately
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use modal verbs accurately
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you need to use the following helping verbs, use them accurately and
-consistently:
-
-- **Can**: Use *can* to indicate the ability to perform an action.
-- **May**: Use *may* to indicate permission.
-- **Might**: Use *might* to indicate probability or possibility.
-- **Must**: You can use *must* to indicate the necessity of an action.
-  However, in general, use the imperative mood, which implies the
-  subject *you* and doesn't require *must* but still indicates
-  necessity.
-- **Should**: Use *should* to tell users what they *ought* to do.
-  Because *should* implies uncertainty, avoid using it unless you
-  explain further.
+Modal verbs are helping verbs that further modify the action or meaning
+of the main verb. If you need to use the following helping or modal
+verbs, use them accurately and consistently:
 
 .. list-table::
-   :widths: 100
+   :widths: 10 45 45
    :header-rows: 1
 
-   * - Use
-   * - You **can** customize Cloud Queues to achieve a wide range of
+   * - Modal verb
+     - Description
+     - Example
+   * - can
+     - Indicates the ability to perform an action.
+     - You **can** customize Cloud Queues to achieve a wide range of
        performance, durability, availability, and efficiency goals.
-   * - If you need space, you **may** uninstall the program.
-   * - A service **might** expose endpoints in different regions.
-   * - The worker **must** delete the message when work is done.
-   * - To avoid losing a claim in the middle of processing a message,
+   * - may
+     - Indicates permission.
+     - If you need space, you **may** uninstall the program.
+   * - might
+     - Indicates probability or possibility.
+     - A service **might** expose endpoints in different regions.
+   * - must
+     - Indicates the necessity of an action.
+       However, in general, use the imperative mood, which implies the
+       subject *you* and doesn't require *must* but still indicates
+       necessity.
+     - The worker **must** delete the message when work is done.
+   * - should
+     - Indicates a recommendation or an expectation. Avoid using
+       should, because it implies uncertainty or could imply a best
+       practice (which we might or might not want to do).
+     - To avoid losing a claim in the middle of processing a message,
        clients **should** periodically renew claims during long-running
        batches of work.
+
+.. _use-single-word-verbs:
 
 Use single-word verbs
 ~~~~~~~~~~~~~~~~~~~~~
@@ -160,7 +171,7 @@ around*.
    * - Use
      - Avoid
    * - **Determine** the type of encryption (32-bit or 64-bit) that
-     your computer uses.
+       your computer uses.
      - **Figure out** the type of encryption (32-bit or 64-bit) that
        your computer uses.
    * - **Click** the link.
@@ -169,6 +180,8 @@ around*.
        Backup.
      - You can safely **back a database up** by using MongoDB Cloud
        Backup.
+
+.. _dont-use-verbs-as-nouns-or-adjectives:
 
 Don't use verbs as nouns or adjectives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -248,12 +261,27 @@ Don't humanize inanimate objects
 
 Be careful not to ascribe human feelings, motivations, and actions to
 inanimate objects. For example, a software program doesn't know, need,
-remember, see, think, understand, or want. However, it can detect,
-record, require, store, check, calculate, and process.
+remember, see, think, understand, or want.
 
-The following anthropomorphic verbs are acceptable in the computer
-industry: accept, calculate, deny, detect, interact, interpret, listen,
-refuse, read, and write.
+Be careful not to ascribe human qualities, traits, or emotions to
+inanimate objects like software, hardware, or interfaces. Often, we use
+anthropomorphic words in an attempt to make difficult topics easier for
+readers to understand or relate to. However, this can actually make the
+concept harder to grasp for ESL readers or those less familiar with
+metaphors. For example, a software program doesn't know, need,
+remember, see, think, understand, or want.
+
+However, there are standard anthropomorphic verbs in the computer
+industry. For example, a software program can detect, record, require,
+store, check, calculate, process, accept, calculate, deny, detect,
+interact, interpret, listen, refuse, read, and write. You can use
+anthropomorphic phrases standard to the industry to avoid awkward
+sentence constructions, but do take the time to question common usage
+and decide if there’s a better word.
+
+In general, avoid phrases that convey intention or desire (such as
+*needs* or *wants*), intellect (*thinks*, *knows*, or *realizes*), or
+emotion (*likes* or *cares*).
 
 .. list-table::
    :widths: 50 50
