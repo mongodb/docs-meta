@@ -6,8 +6,9 @@ Avoid Obscure Non-English Words and Abbreviations
 
 Some non-English words and abbreviations might be unfamiliar to some
 users. Latin abbreviations in particular, like *i.e.*, *e.g.*, and
-*etc.*, are unnecessarily vague. The following table lists terms and
-abbreviations to avoid, and their preferred alternatives.
+*etc.*, are unnecessarily vague and do not translate well. The
+following table lists terms and abbreviations to avoid, and their
+preferred alternatives.
 
 .. list-table::
    :widths: 30 70
@@ -28,6 +29,6 @@ abbreviations to avoid, and their preferred alternatives.
           The use of *per* to mean *for each* is acceptable and is
           preferable to using a slash.
    * - via
-     - through
+     - through, by
    * - vs.
      - versus, or an appropriate term
