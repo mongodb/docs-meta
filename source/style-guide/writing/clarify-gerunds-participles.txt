@@ -1,15 +1,16 @@
 .. _clarify-gerunds-participles:
 
 ===============================
-Clarify gerunds and participles
+Clarify Gerunds and Participles
 ===============================
 
-Participles are verbs that end in *-ed* or *-ing* and act as modifiers. Gerunds
-are verbs that end in *-ing* and act as nouns. Both types of words are useful
-and acceptable, but they can cause confusion if they are misplaced in a
-sentence. For example, the word *meeting* can be a gerund or a participle (or
-even a noun) depending on its placement in a sentence. When you use gerunds and
-participles, ensure that the meaning is clear.
+Participles are verbs that end in *-ed* or *-ing* and act as modifiers.
+Gerunds are verbs that end in *-ing* and act as nouns. Both types of
+words are useful and acceptable, but they can cause confusion if they
+are misplaced in a sentence. For example, the word *meeting* can be a
+gerund or a participle (or even a noun) depending on its placement in a
+sentence. When you use gerunds and participles, ensure that the meaning
+is clear.
 
 .. list-table::
    :widths: 50 50
@@ -17,20 +18,22 @@ participles, ensure that the meaning is clear.
 
    * - Use
      - Avoid
-   * - A job can include **metadata that schedules** the program to run at a
-       specified date and time.
-     - A job can include **scheduling metadata** that enables the program to
-       run at a specified date and time.
-   * - Public Cloud is infrastructure **that consists of** shared resources,
-       deployed on a self-service basis over the Internet.
-     - Public Cloud is infrastructure **consisting of** shared resources,
-       deployed on a self-service basis over the Internet.
-   * - Test the certificate **by using** a browser to connect to your server.
-     - Test the certificate **using** a browser to connect to your server.
-   * - When **you use** a load balancer with a public-facing IP address, this
-       address becomes the IP address of your website.
-     - When **using** a load balancer with a public-facing IP address, this
-       address becomes the IP address of your website.
+   * - A job can include **metadata that schedules** the program to run
+       at a specified date and time.
+     - A job can include **scheduling metadata** that enables the
+       program to run at a specified date and time.
+   * - Public Cloud is infrastructure **that consists of** shared
+       resources, deployed on a self-service basis over the Internet.
+     - Public Cloud is infrastructure **consisting of** shared
+       resources, deployed on a self-service basis over the Internet.
+   * - Test the certificate **by using** a browser to connect to your
+       server.
+     - Test the certificate **using** a browser to connect to your
+       server.
+   * - When **you use** a load balancer with a public-facing IP
+       address, this address becomes the IP address of your website.
+     - When **using** a load balancer with a public-facing IP address,
+       this address becomes the IP address of your website.
 
 The last example illustrates a *dangling modifier*. In the "Avoid"
 example, *using* doesn't have a subject, so the implied subject is
@@ -38,9 +41,9 @@ example, *using* doesn't have a subject, so the implied subject is
 you must revise the sentence to provide a subject for the modifying
 phrase.
 
-The titles of tutorial or high-level process articles or topics usually start
-with a gerund. Titles have less context than sentences, so you have to be
-especially careful to ensure that the meaning is clear.
+The titles of tutorial or high-level process articles or topics usually
+start with a gerund. Titles have less context than sentences, so you
+have to be especially careful to ensure that the meaning is clear.
 
 .. list-table::
    :widths: 50 50

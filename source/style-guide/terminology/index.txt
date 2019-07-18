@@ -13,10 +13,6 @@ content.
    Provides some general guidelines for using consistent, short, and
    familiar words.
 
-:doc:`/style-guide/terminology/terms-for-global-audience`
-   Provides guidelines specifically for clarifying content for global
-   audiences.
-
 :doc:`/style-guide/terminology/alphabetical-terms`
    Provides usage guidelines for common words and technical terms that
    are used in MongoDB content.

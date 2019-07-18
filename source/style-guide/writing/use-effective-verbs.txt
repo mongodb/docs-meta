@@ -245,7 +245,8 @@ passive if the performer of the action is understood or not important.
 
    * - Correct
      - Incorrect
-   * - The product **displays** the available servers in the right pane.
+   * - The product **displays** the available servers in the right
+     pane.
 
        *or*
 
@@ -255,6 +256,33 @@ passive if the performer of the action is understood or not important.
        services are running.
      - After the installation **completes**, ensure that the FTP
        services are running.
+
+Use correct plurality agreements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Verbs have singular and plural forms. Use the verb form that agrees
+with the subject of the sentence in number.
+
+.. list-table::
+   :widths: 33 33 34
+   :header-rows: 1
+
+   * - When the subject is
+     - The verb is
+     - Examples
+   * - A group of things
+     - Singular
+     - A variety of games is available from the app store.
+   * - Two or more singular things connected by *and*
+     - Plural
+     - Facebook and Twitter are available from the app store.
+   * - Two or more singular things connected by *or*
+     - Singular
+     - Your tablet or phone is all you need to play your favorite games
+       on the go.
+   * - A singular thing and a plural thing connected by *or*
+     - Singular or plural, to match the closest subject
+     - Skype or social media apps are available from the app store.
+       Social media apps or Skype is available from the app store.
 
 Don't humanize inanimate objects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

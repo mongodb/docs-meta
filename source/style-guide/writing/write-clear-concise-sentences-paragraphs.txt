@@ -10,14 +10,22 @@ Write clear and concise sentences and paragraphs
    :depth: 1
    :class: singlecol
 
-Users can understand wordy and complex writing, and they can wade through walls of text, but we shouldn't force them to. Use the following guidelines to help you write clear and concise sentences and paragraphs.
+Users can understand wordy and complex writing, and they can wade
+through walls of text, but we shouldn't force them to. Use the
+following guidelines to help you write clear and concise sentences and
+paragraphs.
 
 .. _use-consistent-sentence-structure:
 
 Use a consistent sentence structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As often as possible, use the sentence structure *subject*—*verb*—*object*. Use simple declarative sentences for descriptions, and use simple imperative sentences for instructions. Sentences that describe a condition should always begin with the conditional clause, so that the user can stop reading and move on if the condition does not apply to them.
+As often as possible, use the sentence structure
+*subject*—*verb*—*object*. Use simple declarative sentences for
+descriptions, and use simple imperative sentences for instructions.
+Sentences that describe a condition should always begin with the
+conditional clause, so that the user can stop reading and move on if
+the condition does not apply to them.
 
 .. list-table::
    :widths: 50 50
@@ -25,14 +33,16 @@ As often as possible, use the sentence structure *subject*—*verb*—*object*. 
 
    * - Use
      - Avoid
-   * - The value is truncated only when it's stored in an integer value.
+   * - The value is truncated only when it's stored in an integer
+       value.
      - Only when stored in an integer variable is the value truncated.
    * - To bake a cake, follow these steps.
-     - Take a look at the following procedure below to bake a simple cake.
-   * - If you must monitor clients from the host, you can configure your
-       settings in the directory.
-     - You can configure your settings in the directory if you must monitor
-       clients from the host.
+     - Take a look at the following procedure below to bake a simple
+       cake.
+   * - If you must monitor clients from the host, you can configure
+       your settings in the directory.
+     - You can configure your settings in the directory if you must
+       monitor clients from the host.
 
 .. _restrict-sentence-length:
 

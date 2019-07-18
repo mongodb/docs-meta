@@ -12,9 +12,6 @@ guidelines for MongoDB technical documentation. Use these guidelines
 to create clear, concise, and consistent technical content for
 Rackspace external and internal customers.
 
-:doc:`/style-guide`
-   Highlights top writing and style guidelines for content contributors.
-
 :doc:`/style-guide/writing/index`
    Provides detailed advice for writing content that is clear, active,
    direct, and grammatically correct. This section explains fundamental

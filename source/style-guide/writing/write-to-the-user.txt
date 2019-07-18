@@ -69,3 +69,23 @@ talk to users directly by using *second person*, addressing the user as
        project and our future plans. (from a blog post)
      - This post describes the current status of the project and
        future plans.
+
+Avoid the Subjunctive Mood
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The subjunctive mood expresses doubt. That doesn’t engender trust from
+readers about our documentation! Avoid words like “should” and “could”;
+they imply uncertainty.
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Use
+     - Avoid
+   * - The logs download as a .CSV file.
+     - The logs should download as a .CSV file.
+   * - If you install the MongoDB Agent, you can manage your deployment
+       with Automation.
+     - If you were to install the MongoDB agent, you could manage your
+       deployment with Automation.
