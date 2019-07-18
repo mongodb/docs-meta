@@ -1,8 +1,14 @@
 .. _terms-for-global-audience:
 
-=================================
-Terminology for a Global Audience
-=================================
+=============================
+Writing for a Global Audience
+=============================
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
 .. include:: /style-guide/includes/page-needs-update.rst
 
@@ -13,12 +19,6 @@ consume our English content. All of the guidelines in this topic
 ("Basic writing guidelines") are designed to make content easy to
 understand for all audiences, but the following guidelines will
 especially clarify content for global audiences.
-
-.. contents:: On this page
-   :local:
-   :backlinks: none
-   :depth: 1
-   :class: singlecol
 
 Don't Use Idioms or Colloquialisms
 ----------------------------------
