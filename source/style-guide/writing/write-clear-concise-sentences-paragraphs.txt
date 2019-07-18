@@ -1,7 +1,7 @@
 .. _write-clear-concise-sentences-paragraphs:
 
 ================================================
-Write clear and concise sentences and paragraphs
+Write Clear and Concise Sentences and Paragraphs
 ================================================
 
 .. contents:: On this page
