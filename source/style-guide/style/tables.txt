@@ -4,17 +4,18 @@
 Tables
 ======
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Text that's difficult to read in paragraph form often becomes clear
 when put into a table. Tables clarify the relationships among
 information, and they're easy to scan. This topic provides the
 guidelines for the following aspects of tables:
 
--  `Introductory text for tables <#introductory-text-for-tables>`__
--  `Table titles <#table-titles>`__
--  `Column headers <#column-headers>`__
--  `Table text <#table-text>`__
--  `Table footnotes <#table-footnotes>`__
--  `Attribute or parameter tables in API documents <#attribute-or-parameter-tables-in-api-documents>`__
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
 Example tables that reflect the guidelines are presented in a separate
 section at the end of this topic.
@@ -26,7 +27,7 @@ section at the end of this topic.
    up into smaller tables.
 
 Introductory Text for Tables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 In the text that precedes a table, introduce the table in a way that
 relates the table to the text. If the table immediately follows the
@@ -38,8 +39,8 @@ the table is in a different article or section.
 To introduce a table, use a sentence (not a fragment), and end the
 sentence with a colon.
 
-Table titles
-~~~~~~~~~~~~
+Table Titles
+------------
 
 Tables should normally have titles (captions). However, some tables are
 closely associated with the surrounding text and don't require titles.
@@ -65,8 +66,8 @@ When creating table titles, use the following guidelines:
 
 - Don't include trademark symbols in table titles.
 
-Column headers
-~~~~~~~~~~~~~~
+Column Headers
+--------------
 
 Use the following guidelines for text in column headers:
 
@@ -77,8 +78,8 @@ Use the following guidelines for text in column headers:
    otherwise.
 -  Don't end column headers with ellipses or colons.
 
-Table text
-~~~~~~~~~~
+Table Text
+----------
 
 Use the following guidelines for text in table cells:
 
@@ -100,8 +101,8 @@ Use the following guidelines for text in table cells:
    percent).
 -  Don't use color to differentiate table text.
 
-Table footnotes
-~~~~~~~~~~~~~~~
+Table Footnotes
+---------------
 
 If a notation (for example, a note or warning) applies to the entire
 table, place the content in a regular notation preceding the table. If
@@ -132,8 +133,8 @@ can use footnotes.
       cell. Use a cell-level footnote if the note applies to multiple
       cells in the table.
 
-Attribute or parameter tables in API documents
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Attribute or Parameter Tables in API documents
+----------------------------------------------
 
 When creating attribute or parameter tables in API documents, use the
 following additional guidelines:
@@ -151,7 +152,7 @@ following additional guidelines:
 -  Avoid putting definition lists in tables.
 
 Examples
-~~~~~~~~
+--------
 
 The following table explains the different parts of the preceding URL:
 

@@ -4,6 +4,8 @@
 General Terminology Guidelines
 ==============================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Use these terminology guidelines to create MongoDB content that's clear
 and consistent.
 

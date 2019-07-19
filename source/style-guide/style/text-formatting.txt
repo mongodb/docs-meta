@@ -1,8 +1,10 @@
 .. _text-formatting:
 
 ===============
-Text formatting
+Text Formatting
 ===============
+
+.. include:: /style-guide/includes/page-needs-update.rst
 
 Sometimes text should be formatted differently to designate a special
 meaning or to make the text stand out. Usually this formatting is
@@ -366,7 +368,6 @@ elements. The following style differences are highlighted:
        error message appears:
 
        ``The user doesn't have permission to perform this action.``
-
 
    * - Method names (HTTP)
      - Bold

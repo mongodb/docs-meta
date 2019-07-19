@@ -4,6 +4,8 @@
 Terminology for a Global Audience
 =================================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 MongoDB is a global company, with customers in many countries. A small
 amount of content has been translated, but most has not, which means
 that many customers who don't speak English as their first language
@@ -12,15 +14,14 @@ consume our English content. All of the guidelines in this topic
 understand for all audiences, but the following guidelines will
 especially clarify content for global audiences.
 
--  `Don't use idioms or colloquialisms <#don-t-use-idioms-or-colloquialisms>`__
--  `Avoid metaphorical terms <#avoid-metaphorical-terms>`__
--  `Don't use humor <#don-t-use-humor>`__
--  `Use jargon carefully <#use-jargon-carefully>`__
--  `Use culture-neutral language and examples <#use-culture-neutral-language-and-examples>`__
--  `Use culture-neutral graphics <#use-culture-neutral-graphics>`__
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
 Don't Use Idioms or Colloquialisms
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 An *idiom* is an expression whose meaning can't be derived from the
 literal meaning of the individual words. Some examples are *in a
@@ -90,8 +91,8 @@ alternatives that you can use.
    * - when you're done
      - when you're finished
 
-Avoid metaphorical terms
-~~~~~~~~~~~~~~~~~~~~~~~~
+Avoid Metaphorical Terms
+------------------------
 
 A *metaphor* is a figure of speech in which a word or phrase that
 denotes one kind of object or action is used in place of another to
@@ -126,14 +127,14 @@ can easily be replaced with one or more words.
      - the disadvantage of frequent updates
 
 Don't Use Humor
-~~~~~~~~~~~~~~~
+---------------
 
 Humor is culture specific. What might be funny in one culture might be
 offensive or obscene in another culture. Humor doesn't translate well,
 literally or figuratively, so don't use it.
 
 Use Jargon with Care
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 *Jargon* is the specialized language of a profession. Jargon can be
 useful for technical audiences, but it can be meaningless to novice
@@ -150,7 +151,6 @@ industry and some possible alternatives.
 .. list-table::
    :widths: 25 25 50
    :header-rows: 1
-
 
    * - Jargon
      - Alternative
@@ -249,7 +249,7 @@ industry and some possible alternatives.
      - If the program fails, an error is generated.
 
 Use Culture-Neutral Language and Examples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
 Cultural references and examples in your documentation can cause
 problems for a global audience and for translation. Sounds, colors,
@@ -273,7 +273,7 @@ names that represent a variety of ethnic backgrounds, genders, and
 locations.
 
 Use Culture-Neutral Graphics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 Use graphics whenever possible to present processes and complex ideas.
 However, be aware of the following possible issues:

@@ -4,11 +4,13 @@
 Diagram Guidelines
 ==================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Diagrams can help users visualize complex processes in a simplified
-way. However, diagrams can sometimes be too simplistic, confusing the
-user instead of providing help. The decision about whether a diagram
-might be helpful depends on the context of each document and the
-discretion of each writer.
+way. Sometimes, diagrams *can* be too simplistic, confusing rather than
+helping the user. The decision about whether a diagram might be helpful
+depends on the context of each document and the discretion of each
+writer.
 
 .. contents:: On this page
    :local:
@@ -17,7 +19,7 @@ discretion of each writer.
    :class: singlecol
 
 When to Use Diagrams
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 Include diagrams in the following situations:
 
@@ -31,29 +33,28 @@ Include diagrams in the following situations:
 
 Do *not* include diagrams in the following situations:
 
--  When a workflow is simplistic, such as using the control panel to
-   create a cloud server
+-  When a workflow is simplistic, such as using the user interface to
+   create a MongoDB user
 
 -  When there is no interaction with a MongoDB product
 
 Before You Create a Diagram
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 To create diagrams, you need to access the recommended software and
 download the required icons and stencils.
 
 Software
---------
+~~~~~~~~
 
 Use `draw.io <https://www.draw.io/>`__ to create your diagrams. Draw.io
 enables you to create diagrams directly in your web browser of choice.
 
-To get started with draw.io, see the instructions in the `Draw.io
-Online User Manual
-<https://support.draw.io/display/DO/Draw.io+Online+User+Manual>`__.
+To get started with draw.io, see the instructions in the
+`Draw.io Online User Manual <https://support.draw.io/display/DO/Draw.io+Online+User+Manual>`__.
 
-Icons, stencils, and shapes
----------------------------
+Icons, Stencils, and Shapes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Download MongoDB's library of product icons and stencils. These icons
 and stencils are considered **objects**.
@@ -69,13 +70,13 @@ and stencils are considered **objects**.
 After you download the icons and stencils, you can being making
 diagrams in Draw.io.
 
-Diagram checklist
-~~~~~~~~~~~~~~~~~
+Diagram Checklist
+-----------------
 
 Use the following standards when creating diagrams:
 
 Properties
-----------
+~~~~~~~~~~
 
 Each diagram property is located on the right side of the Draw.io
 main screen under **Diagrams**.
@@ -97,8 +98,8 @@ main screen under **Diagrams**.
 -  **File name**: Create unique and meaningful file names to
    differentiate diagrams.
 
-Text formatting
----------------
+Text Formatting
+~~~~~~~~~~~~~~~
 
 -  **Font**: Set the font to **Helvetica**.
 
@@ -106,7 +107,7 @@ Text formatting
    least **24px** in size. Use sentence-style capitalization.
 
 Objects
--------
+~~~~~~~
 
 -  **Product icons**: An icon represents its corresponding product.
    Product icons are always blue. Following is the Cloud Images icon.
@@ -128,8 +129,8 @@ Objects
    capitalization (that is, capitalize *only* terms that are proper or
    are normally capitalized).
 
-Lines and arrows
-----------------
+Lines and Arrows
+~~~~~~~~~~~~~~~~
 
 -  **Line usage**: Use lines are used to connect and display a
    relationship between two or more objects.

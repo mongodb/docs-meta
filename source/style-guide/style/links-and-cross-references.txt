@@ -4,6 +4,8 @@
 Links and Cross-References
 ==========================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Use cross-references to help users navigate content and find content
 that's related to what they're currently viewing. Cross-references can
 be linked or not linked, depending on the location of the content to
@@ -102,24 +104,25 @@ the topic.
    * - For more information about the protocols that you can choose
        when configuring a load balancer, see
        `Available protocols when configuring a Cloud Load Balancer <https://support.MongoDB.com/how-to/available-protocols-when-configuring-a-cloud-load-balancer/>`__.
-     - See `Available protocols when configuring a
-       Cloud Load Balancer <https://support.MongoDB.com/how-to/available-protocols-when-configuring-a-cloud-load-balancer/>`__
-       for more information about the protocols that you can choose when
-       configuring a load balancer.
+     - See `Available protocols when configuring a Cloud Load Balancer <https://support.MongoDB.com/how-to/available-protocols-when-configuring-a-cloud-load-balancer/>`__
+       for more information about the protocols that you can choose
+       when configuring a load balancer.
 
-   * - Snapshots are described in `Create and use Cloud Block Storage
-       snapshots <https://support.MongoDB.com/how-to/create-and-use-cloud-block-storage-snapshots/>`__.
-     - Snapshots are described `later in this Getting Started Guide <https://support.MongoDB.com/how-to/create-and-use-cloud-block-storage-snapshots/>`__.
+   * - Snapshots are described in
+       :atlas:`Create and use Cloud Block Storage snapshots </backup/cloud-provider-snapshots>`.
+     - Snapshots are described
+       :atlas:`later in this Getting Started Guide </backup/cloud-provider-snapshots>`.
 
-   * - The following table lists the OpenStack versions and components
-       supported by the current releases of MongoDB Private Cloud.
-     - The table below lists the OpenStack versions and components
-       supported by the current releases of MongoDB Private Cloud.
+   * - The following table lists the MongoDB versions and components
+       supported by the current releases of MongoDB Ops Manager.
+     - The table below lists the MongoDB versions and components
+       supported by the current releases of MongoDB Ops Manager.
 
-   * - The most current versions of all SDKs are located on the
-       `MongoDB Developer Docs site <https://developer.MongoDB.com/docs/#sdks>`__.
-     - The most current versions of all SDKs are located on the MongoDB
-       Developer Docs site: https://developer.MongoDB.com/docs/#sdks.
+   * - The most current versions of all drivers are located on the
+       :mdbdrivers:`MongoDB Drivers site </>`.
+     - The most current versions of all drivers are located on the
+       MongoDB Developer Docs site:
+       https://docs.mongodb.com/ecosystem/drivers/.
 
    * - You can obtain the key by logging in to the
        `Cloud Control Panel <https://mycloud.MongoDB.com/>`__

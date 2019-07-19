@@ -4,6 +4,8 @@
 Use Consistent References to Time, Space, and Versions
 ======================================================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Use the following terms consistently:
 
 .. list-table::

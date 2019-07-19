@@ -39,6 +39,8 @@ Rackspace external and internal customers.
    standard control panels and portals that are referenced in our
    technical documentation.
 
+   .. note:: This information may not be in the final |mdbsg|.
+
 :doc:`/style-guide/how-to-article-guidelines`
    Provides guidelines specifically for How-To articles that are
    published at https://support.rackspace.com/. Use these guidelines
@@ -53,6 +55,8 @@ Rackspace external and internal customers.
    https://developer.rackspace.com/blog/. Use these guidelines when
    writing any developer blog for this site.
 
+   .. note:: This information may not be in the final |mdbsg|.
+
 :doc:`/style-guide/error-message-guidelines`
    Provides guidelines specifically for error messages in Rackspace
    internal and external documentation. You can share these guidelines
@@ -60,18 +64,22 @@ Rackspace external and internal customers.
    Developer and use them as you review error messages written by
    development teams.
 
+   .. note:: This information may not be in the final |mdbsg|.
+
 :doc:`/style-guide/release-notes-guidelines`
    Provides instructions specifically for writing release notes for
    Rackspace Cloud services APIs. You can use these basic guidelines,
    however, when writing release notes for any product or service.
 
 :doc:`/style-guide/user-interface-guidelines`
-   Provides links to the user interface guidelines in the Helix
-   documentation. The Helix documentation includes text conventions for
-   user interfaces. Helix is a Rackspace-chartered effort to unify the
-   look, feel, and functionality of Rackspace interfaces. Helix is one
-   system composed of a design library for designers and a UI toolkit
-   for developers.
+   Provides links to the user interface guidelines in the MongoDB
+   documentation. The MongoDB documentation includes text conventions
+   for user interfaces. MongoDB is a Rackspace-chartered effort to
+   unify the look, feel, and functionality of Rackspace interfaces.
+   MongoDB is one system composed of a design library for designers and
+   a UI toolkit for developers.
+
+   .. note:: This information may not be in the final |mdbsg|.
 
 
 .. cssclass:: hidden

@@ -4,6 +4,8 @@
 Glossaries
 ==========
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Create a glossary to document the following items:
 
 -  New, unfamiliar, or unique terms
@@ -12,16 +14,17 @@ Create a glossary to document the following items:
 
 This section provides guidelines for the following items:
 
-- `Glossary terms <#glossary-terms>`__
-- `Glossary definitions <#glossary-definitions>`__
-- `Cross-references to glossary terms <#cross-references-to-glossary-terms>`__
-- `Guidelines for a comprehensive glossary <#guidelines-for-a-comprehensive-glossary>`__
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
 For guidelines about formatting glossary terms that are used in regular
 text, see :ref:`text-formatting`.
 
-Glossary terms
-~~~~~~~~~~~~~~
+Glossary Terms
+--------------
 
 To show the glossary term that you're defining, use the following
 guidelines:
@@ -55,8 +58,8 @@ slashes, and apostrophes continue a single word.
 
        newspaper
 
-Glossary definitions
-~~~~~~~~~~~~~~~~~~~~
+Glossary Definitions
+--------------------
 
 Make your glossary definitions brief. Try to restrict definitions to no
 more than one or two short paragraphs, and avoid the inclusion of notes
@@ -116,7 +119,7 @@ The following table shows examples.
        and protocols that programmers can use to create application
        services by using an open application.
 
-Cross-references to glossary terms
+Cross-References to Glossary Terms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Use the following guidelines when creating cross-references within a
@@ -165,7 +168,7 @@ glossary:
        To recover by dropping the selected database and re-creating it.
        *Contrast with* copy over.
 
-Guidelines for a comprehensive glossary
+Guidelines for a Comprehensive Glossary
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A comprehensive glossary might have the following types of terms:

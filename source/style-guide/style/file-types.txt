@@ -1,8 +1,10 @@
 .. _file-types:
 
 ==========
-File types
+File Types
 ==========
+
+.. include:: /style-guide/includes/page-needs-update.rst
 
 For references to a file type in text (not code), use one of the
 following naming conventions, depending on the type of file and the

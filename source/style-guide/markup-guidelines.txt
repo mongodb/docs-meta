@@ -4,6 +4,8 @@
 Markup Guidelines
 =================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 This section of the style guide provides detailed guidelines about and
 instructions for applying markup conventions for ReStructure Text (RST)
 and MarkDown (MD).

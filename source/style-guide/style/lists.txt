@@ -6,23 +6,23 @@ Lists
 
 The following types of lists are commonly used in documentation:
 
-- **Ordered lists**, which are numbered. The list items must be
+- **Ordered lists** or numbered lists. The list items must be
   performed or considered in a particular order.
-- **Unordered lists**, which are delineated by bullets (and therefore
-  also referred to as bullet lists). The order of the list items isn't
-  important.
+- **Unordered lists** or bulleted lists. The order of the list items
+  isn't important.
 
-This topic provides the following guidelines for lists:
-
--  `Introductory text <#introductory-text>`__
--  `List items <#list-items>`__
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
 Introductory Text
-~~~~~~~~~~~~~~~~~
+-----------------
 
-Provide context for a list by introducing it. In most cases, you use a
-sentence; however, you can introduce procedures with a heading. Use the
-following guidelines when introducing lists.
+Introduce a list with context. In most cases, you use a sentence;
+you can introduce procedures with a heading. Use the following
+guidelines when introducing lists.
 
 .. list-table::
    :widths: 50 50
@@ -85,8 +85,8 @@ following guidelines when introducing lists.
 
 .. _writing-list-items:
 
-List items
-~~~~~~~~~~
+List Items
+----------
 
 Use the following guidelines when writing list items:
 
@@ -125,10 +125,13 @@ Use the following guidelines when writing list items:
 -  Unless another order makes sense or is preferable, alphabetize list
    items.
 
+List Examples
+-------------
+
 The following sections show examples of the indicated types of lists.
 
-All list items are sentences, example
--------------------------------------
+All List Items Are Sentences
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you create an isolated network, the following limitations apply:
 
@@ -137,8 +140,8 @@ When you create an isolated network, the following limitations apply:
   attached to each one.
 - After you create an isolated network, you can't rename it.
 
-All list items are fragments, example
--------------------------------------
+All List Items Are Fragments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The example creates a database instance called myrackinstance with the
 following characteristics:
@@ -149,8 +152,8 @@ following characteristics:
   ``utf8_general_ci`` collation - User named ``simplestUser`` with the
   password ``password``
 
-All list items are imperative statements, example
--------------------------------------------------
+All List Items Are Imperative Statements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can use Cloud Backup to perform the following actions:
 
@@ -165,8 +168,8 @@ You can use Cloud Backup to perform the following actions:
   portions of files.
 - Create unlimited backups.
 
-List items mix fragments and sentences, example
------------------------------------------------
+List Items Mix Fragments and Sentences
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To run the examples in this guide, the following prerequisites are
 required:
@@ -175,8 +178,8 @@ required:
   the MongoDB Public Cloud signup page.
 - MongoDB username and password that you specified during registration.
 
-List that provides terms and more information, example
-------------------------------------------------------
+List that Provides Terms and More Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You have the following choices for your virtual IP:
 

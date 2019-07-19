@@ -1,8 +1,10 @@
 .. _urls:
 
 =====================
-URLs and domain names
+URLs and Domain Names
 =====================
+
+.. include:: /style-guide/includes/page-needs-update.rst
 
 Some samples, such as those related to the Customer Service Layer API,
 include a sample customer's URL or email address. Don't invent a fake

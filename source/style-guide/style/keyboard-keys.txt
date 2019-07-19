@@ -4,6 +4,8 @@
 Keyboard Keys
 =============
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Different keyboards use different names for common keys. For
 consistency, use the following key names unless the technology that you
 are documenting requires other forms:
@@ -39,12 +41,14 @@ names, and shortcuts, see :ref:`text-formatting`.
    :header-rows: 1
 
    * - Guideline
+
      - Example
 
    * - When telling users to *type* a letter key (as in a command), use
        lowercase for the letter unless uppercase is required. Use
        *type* or *enter* when the action results in output on the
        interface.
+
      - When prompted, type ``y`` and then press **Enter**.
 
        To change from command mode to insert mode, type ``i``.
@@ -59,6 +63,7 @@ names, and shortcuts, see :ref:`text-formatting`.
        Separate the key names by **-** or **+**, depending on whether
        you're documenting Linux or Windows. If you're documenting for
        both, pick one symbol and use it consistently.
+
      - When you're finished, press **Ctrl+X** to exit, type ``y`` to
        confirm your changes, and then press **Enter** to save as the
        indicated file.
@@ -77,6 +82,7 @@ names, and shortcuts, see :ref:`text-formatting`.
        **Shift** to the combination and then provide the name or symbol
        that results from pressing **Shift** (such as \*\*\*\*\* or
        **P**).
+
      - To jump to the end of the file, press **Shift+G**.
 
        To apply the general number format, press **Ctrl+Shift+~**.
@@ -86,6 +92,7 @@ names, and shortcuts, see :ref:`text-formatting`.
        If needed for clarity, on the first use of a key name, you can
        use the definite article *the* and *key* with the name. On
        subsequent uses, refer to the key only by its name.
+
      - Press **F3** to find the next matching process, or press **Esc**
        to quit the search.
 

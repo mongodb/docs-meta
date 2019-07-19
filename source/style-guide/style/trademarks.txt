@@ -4,14 +4,16 @@
 Trademarks
 ==========
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Using MongoDB trademarks correctly protects MongoDB brands and
 intellectual property, and promotes our reputation. Using third-party
 trademarks correctly protects MongoDB from legal action.
 
-MongoDB Legal has created comprehensive guidelines for using
-trademarks at MongoDB. To get a comprehensive view of trademarks, read
-the `21-page
-PDF <https://one.MongoDB.com/pages/worddav/preview.action?fileName=MongoDB-%2327629-v1-MongoDB_Trademark_Guidelines.pdf&pageId=72684499>`__.
+MongoDB Legal has created comprehensive guidelines for using trademarks
+at MongoDB. To get a comprehensive view of trademarks, read the
+`21-page PDF
+<https://one.MongoDB.com/pages/worddav/preview.action?fileName=MongoDB-%2327629-v1-MongoDB_Trademark_Guidelines.pdf&pageId=72684499>`__.
 If you're interested in only what you need to know to comply with
 guidelines in your documentation, review the guidelines in this topic.
 
@@ -19,23 +21,21 @@ Also, you can check out the MongoDB Legal wiki page for
 `trademark information <https://one.MongoDB.com/display/legal/Trademarks>`_.
 
 .. note::
-   Show the trademark (™) or registered trademark (®) symbol for the first
-   occurrence of the word in a document.
+   Show the trademark (™) or registered trademark (®) symbol for the
+   first occurrence of the word in a document.
 
-
-Examples of MongoDB trademarks
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Examples of MongoDB Trademarks
+------------------------------
 
 Following are examples of MongoDB trademarks:
 
 -  MongoDB (when used in connection with service names), such as
    MongoDB Ops Manager or MongoDB Atlas
 
-For a complete list, see the `MongoDB Trademark
-List <https://www.MongoDB.com/information/legal/tmlist>`__.
+For a complete list, see the :website:`MongoDB Trademark Standards for Use </legal/trademark-usage-guidelines>`.
 
-Examples of third-party trademarks
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Examples of Third-Party Trademarks
+----------------------------------
 
 The following table shows examples of third-party trademarks that are
 often used in our content.
@@ -359,8 +359,8 @@ often used in our content.
    * - Windows Server®
      -
 
-Links to company trademark pages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Links to Company Trademark Pages
+--------------------------------
 
 If you need to verify whether a name is a trademark, see that company's
 website. The following table provides links to some commonly used
@@ -428,7 +428,7 @@ trademark pages.
 
 
 Trademark Usage Guidelines
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Use the following guidelines when showing MongoDB and third-party
 trademarks in documentation.
@@ -448,8 +448,9 @@ trademarks in documentation.
        Abbreviations are acceptable only if they're used by the owning
        company and also trademarked.
      - This article describes the process of backing up a Microsoft®
-       SQL Server® 2008 database. These actions need to be completed by the administrator user or by a user who is part of the SQL Server
-       administration user group.
+       SQL Server® 2008 database. These actions need to be completed by
+       the administrator user or by a user who is part of the SQL
+       Server administration user group.
      - This article describes the process of backing up an MS SQL
        Server 2008 database. These actions need to be completed by the
        Administrator user or by a user that's part of the MS SQL Admin
@@ -458,8 +459,8 @@ trademarks in documentation.
    * - Use trademarks as adjectives on first use in the text of an
        article or chapter, and as often as possible after that.
 
-       After first use, you can use the trademark as an noun if it's clear
-       that you're referring to that trademark.
+       After first use, you can use the trademark as an noun if it's
+       clear that you're referring to that trademark.
 
        Don't use a trademark as a verb.
      - Each cloud server has a single private IP address. When you use
@@ -515,16 +516,3 @@ trademarks in documentation.
        For more information, see the `MongoDB Trademark Guidelines from
        Legal <https://one.MongoDB.com/display/legal/Trademarks>`__.
 
-   * - Always use Fanatical Support as a trademark. Don't use Fanatical
-       or fanatical outside of the trademark. On the first use of this
-       trademark in a document, in body content (not in headings), use
-       bold font and use a registered trademark symbol. In RST files,
-       the syntax is ``**Fanatical Support**\®``. In Markdown files,
-       the syntax is ``**Fanatical Support**&reg;``.
-
-       For more information, see the `MongoDB Trademark Guidelines from
-       Legal <https://one.MongoDB.com/display/legal/Trademarks>`__.
-     - We provide **Fanatical Support**\®.
-       Our support is Fanatical.
-     - MongoDB provides you with a Fanatical Experience™.
-       MongoDB is Fanatical.

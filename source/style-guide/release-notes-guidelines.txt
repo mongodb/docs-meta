@@ -4,6 +4,8 @@
 Release Notes Guidelines
 ========================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 This topic provides guidelines for writing release notes (RN) for
 MongoDB Cloud services APIs.
 
@@ -11,8 +13,7 @@ A template for API RN is available in `on
 GitHub <https://github.com/rackerlabs/docs-repo-template/blob/master/api-guide-template/release-notes/releases/release-notes-template.rst>`__.
 
 For an example that illustrates most of these guidelines, see the
-`Cloud Block Storage Release Notes
-<https://developer.MongoDB.com/docs/cloud-block-storage/v1/release-notes/>`__.
+:opsmgr:`Ops Manager Server Release Notes </release-notes/application/>`.
 
 .. contents:: On this page
    :local:
@@ -21,12 +22,15 @@ For an example that illustrates most of these guidelines, see the
    :class: singlecol
 
 Structure
-~~~~~~~~~
+---------
 
-For each release-specific RN file that you create, observe the
-following guidelines:
+Initial Major Version Release
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Use one of the following formats for the title of the RN file:
+For each major version-specific release note file that you create,
+observe the following guidelines:
+
+-  Use one of the following formats for the title of the release note:
 
    .. list-table::
       :widths: 50 50
@@ -37,7 +41,21 @@ following guidelines:
         - Example
 
       * - If the release has a version number, use that in the title.
-        - **v2.20.0, June 25, 2017**
+        -
+          .. code-block:: rst
+
+             .. _opsmgr-server-4.0.13:
+
+             |onprem| Server 4.0.13
+             ~~~~~~~~~~~~~~~~~~~~~~
+
+             *Released on 2019-07-04*
+
+             - Removing whitelist from Admin (General > Users) now possible.
+               Displays error message when Authentication expires
+
+             - **Agent Upgrades:** :ref:`automation-5.4.20.5541`,
+               :ref:`backup-6.8.7.1024`
 
       * - If the release does not have a version number, use the API
           contract version and date.
@@ -74,7 +92,8 @@ following guidelines:
    variable inserts the boilerplate text "None for this release." For
    example:
 
-   **Known issues**
+   Known issues
+   ````````````
 
    ``|no changes|``
 

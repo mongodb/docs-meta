@@ -4,12 +4,15 @@
 Abbreviations
 =============
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Unless an abbreviation is common, spell out the words of the
 abbreviation on the first use in an article or topic. Show the
 abbreviation in parentheses after the spelled-out term; for example,
 access control list (ACL). On subsequent uses in the article or topic,
 use the abbreviation. If you introduce an abbreviation, use it; don't
-alternate between the abbreviation and the spelled-out term.
+alternate between the abbreviation and the spelled-out term. Use the
+``:abbr:`` role to embed the words as a hover option.
 
 .. note::
 
@@ -31,6 +34,7 @@ Also use the following guidelines related to abbreviations.
    * - Guideline
      - Use
      - Don't use
+
    * - Don't show both the spelled-out term and its abbreviation in a
        title or heading. In most cases, use the abbreviation in the
        title or heading and show the spelled-out term and its
@@ -44,33 +48,40 @@ Also use the following guidelines related to abbreviations.
 
        An ACL allows access from an outside network into the
        ObjectRocket system.
+
    * - Use only established abbreviations. Don't create new ones.
      - hybrid cloud
      - HC
+
    * - Don't use abbreviated forms of MongoDB product names.
 
        However, if you think that a user might use an abbreviated name
        in a search, you can tag the document with the abbreviation.
-     - Cloud Block Storage
-     - CBS
+     - Cloud Provider Snapshots
+     - CPS
+
    * - If an abbreviation is used as part of a compound modifier,
        hyphenate it as you would a word.
 
        For more information, see :ref:`hyphens-in-compound-modifiers`.
      - 1000-bps rate
      - 1000 bps rate
+
    * - Don't surround abbreviations with quotation marks.
      - OS
      - "OS"
+
    * - Use periods only if the abbreviation normally has them (for
-       example, *etc.* although this should not be used in MongoDB
+       example, *etc.*, although this should not be used in MongoDB
        content) or could otherwise be misread as a word, such as *in.*
        (for *inch*).
      - FAQ
      - F.A.Q.
+
    * - Don't use an abbreviation as a verb.
      - Use FTP to copy the file to the server.
      - FTP the file to the server.
+
    * - Avoid using abbreviations in the possessive. Instead, treat the
        abbreviation as an adjective or put it in a prepositional
        phrase.
@@ -78,6 +89,7 @@ Also use the following guidelines related to abbreviations.
 
        Type the password of the DBA.
      - Type the DBA's password.
+
    * - To form the plural of an abbreviation, except for a unit of
        measure, append a lowercase *s* without an apostrophe.
 
@@ -96,6 +108,7 @@ Also use the following guidelines related to abbreviations.
        10 mms
 
        FAQs
+
    * - For abbreviated units of measure, insert a space between the
        number and the abbreviation. Insert a hyphen if the phrase is a
        compound modifier.
@@ -107,6 +120,7 @@ Also use the following guidelines related to abbreviations.
        100GB drive
 
        100 GB drive
+
    * - Don't use Latin abbreviations or non-English words and phrases.
        For more information, see :ref:`avoid-obscure-words`.
      - for example
@@ -127,8 +141,10 @@ addition to the abbreviation.
    :header-rows: 1
 
    * - Examples
+
    * - The 100-GB drive appears as 107.4 GB because of how the
        megabytes are counted.
+
    * - The unit of value for this alarm is megabits per second (Mbps).
 
 Common Abbreviations
