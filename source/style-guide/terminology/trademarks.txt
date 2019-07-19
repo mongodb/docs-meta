@@ -4,6 +4,8 @@
 Third-Party Names and Trademarks
 ================================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 For legal reasons, you must show third-party *names* and *trademarks*
 correctly.
 

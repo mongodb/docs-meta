@@ -1,8 +1,10 @@
 .. _code-examples:
 
 =============
-Code examples
+Code Examples
 =============
+
+.. include:: /style-guide/includes/page-needs-update.rst
 
 .. note::
 
@@ -32,17 +34,19 @@ or output examples:
 
 -  Ensure that any placeholder text in code is obvious.
 
-   - If the authoring tool allows it, apply italics to placeholders; if not,
-     enclose them in angle brackets.
-   - Use lowercase letters for single-word placeholders. To show multiple-word
-     placeholders, don't separate the words with spaces or symbols and
-     capitalize the first letter of each word after the first word (camelCase).
+   - If the authoring tool allows it, apply italics to placeholders; if
+     not, enclose them in angle brackets.
+   - Use lowercase letters for single-word placeholders. To show
+     multiple-word placeholders, don't separate the words with spaces
+     or symbols and capitalize the first letter of each word after the
+     first word (camelCase).
 
      .. note::
 
         Use lowercase and camelCase unless you have to follow the
-        conventions of the programming language. For example, you might need to
-        use underscores (account_ID) or all capitals (ACCOUNT_ID).
+        conventions of the programming language. For example, you might
+        need to use underscores (account_ID) or all capitals
+        (ACCOUNT_ID).
 
 -  Follow the conventions of the programming language used and preserve
    the capitalization that the author of the code used.
@@ -51,43 +55,43 @@ or output examples:
    blocks by ending each line with a backslash.
 
 -  If the input includes a list of arguments or parameters, show the
-   important or relevant ones first, and group related ones. If no other
-   order makes sense, use alphabetical order. If you explain the
+   important or relevant ones first, and group related ones. If no
+   other order makes sense, use alphabetical order. If you explain the
    arguments or parameters in text, show them in the same order that
    they appear in the code block.
 
 The following examples illustrate many of these guidelines:
 
-Create a VM running a Docker host
+Create a VM Running a Docker Host
 ---------------------------------
 
 #. Show all the available virtual machines (VMs) that are running
    Docker.
 
-   .. code::
+   .. code-block:: sh
 
       $ docker-machine ls
 
    If you have not created any VMs yet, your output should look as follows:
 
-   .. code::
+   .. code-block:: sh
 
       NAME ACTIVE DRIVER STATE URL
 
 #. Create a VM that's running Docker.
 
-   .. code::
+   .. code-block:: sh
 
       $ docker-machine create --driver virtualbox test
 
    The ``--driver`` flag indicates what type of driver the machine runs
    on. In this case, ``virtualbox`` indicates that the driver is Oracle
-   VirtualBox. The final argument in the command gives the VM a name, in
-   this case, ``test``.
+   VirtualBox. The final argument in the command gives the VM a name,
+   in this case, ``test``.
 
    The output should look as follows:
 
-   .. code::
+   .. code-block:: sh
 
       Creating VirtualBox VM...
       Creating SSH key...
@@ -100,7 +104,7 @@ Create a VM running a Docker host
 
    The output should look as follows:
 
-   .. code::
+   .. code-block:: sh
 
       NAME ACTIVE DRIVER STATE URL SWARM
       test virtualbox Running tcp://192.168.99.101:237
@@ -112,7 +116,7 @@ Run the application
    environment variables that you defined to connect to the MongoDB
    container.
 
-   .. code::
+   .. code-block:: sh
 
       $ docker run --detach \
         --env MONGO_HOST=$MONGO_HOST \ env MONGO_PORT=$MONGO_PORT \ env
@@ -121,21 +125,23 @@ Run the application
         --5000:5000 \
         guestbook-mongo:1.0
 
-#. View the status of the container by using the ``--latest`` parameter.
+#. View the status of the container by using the ``--latest``
+   parameter.
 
-   .. code::
+   .. code-block:: sh
 
       $ docker ps --latest
 
 The status of the container should begin with ``Up``.
 
-Remove the containers already using the port
+Remove the Containers Already using the Port
 --------------------------------------------
 
-#. To identify the containers that are using the port, run the following
-   command, changing ``<port>`` to the port number that you want to use.
+#. To identify the containers that are using the port, run the
+   following command, changing ``<port>`` to the port number that you
+   want to use.
 
-   .. code::
+   .. code-block:: sh
 
       $ docker ps -a | grep <port>/tcp
 
@@ -146,7 +152,7 @@ Remove the containers already using the port
    The ``--force`` argument ensures that the container is removed even
    if it's currently running.
 
-   .. code::
+   .. code-block:: sh
 
       docker rm --force --volumes <containerId>
 
@@ -156,7 +162,7 @@ Troubleshooting
 Sometimes, when you use a docker command, you receive the following
 output:
 
-.. code::
+.. code-block:: sh
 
    $ docker info Get http:///var/run/docker.sock/v1.20/info: dial unix
    /var/run/docker.sock: no such file or directory.

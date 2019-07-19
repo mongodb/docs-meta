@@ -4,6 +4,8 @@
 Control Panel and Portal Standards
 ==================================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 This section includes guidelines for the capitalization and the URLs
 used for standard control panels and portals that MongoDB technical
 documentation references.

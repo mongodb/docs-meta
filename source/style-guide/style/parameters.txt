@@ -4,6 +4,8 @@
 Parameters
 ==========
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 When documenting parameters, use the following guidelines:
 
 -  In request and response examples, show all of the parameters.
@@ -11,17 +13,19 @@ When documenting parameters, use the following guidelines:
 -  Describe all of the parameters in tables preceding the examples.
    Use the following guidelines for writing descriptions:
 
-   -  Provide meaningful information about the parameter; don't just repeat
-      the parameter's name. Link to other sections of the documentation if
-      more explanation is needed or if the list of possible values is long.
+   -  Provide meaningful information about the parameter; don't just
+      repeat the parameter's name. Link to other sections of the
+      documentation if more explanation is needed or if the list of
+      possible values is long.
 
-   -  Write the first sentence of a description with an implied subject.
-      For example, if the parameter is ``name``, the description might be
-      "Server name, which becomes the initial host name of the server."
+   -  Write the first sentence of a description with an implied
+      subject. For example, if the parameter is ``name``, the
+      description might be "Server name, which becomes the initial host
+      name of the server."
 
    -  Include any valid values and default value at the end of the
-      description. Use the formats "Valid values are *n* and *n*." and "The
-      default is *n*." For example, "Valid values are ``true`` and
+      description. Use the formats "Valid values are *n* and *n*." and
+      "The default is *n*." For example, "Valid values are ``true`` and
       ``false``." and "The default is ``false``."
 
 -  For request body parameters only, label the required parameters by

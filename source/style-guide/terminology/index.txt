@@ -4,6 +4,8 @@
 Terminology Guidelines
 ======================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 This section provides guidelines for using terms in MongoDB technical
 content.
 

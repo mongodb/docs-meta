@@ -4,6 +4,8 @@
 Tasks
 =====
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 A *task* is an action that users perform to achieve a goal, such as
 creating a server. A task topic, article, or section provides the
 action steps and the necessary context and reference information that
@@ -18,24 +20,27 @@ This topic provides guidelines for developing tasks.
    :class: singlecol
 
 Task Titles
-~~~~~~~~~~~
+-----------
 
 The title of a task topic, article, or section begins with the
 imperative form of the task action, and it uniquely, precisely, and
 clearly describes the task. Use a plural subject unless the singular
 makes more sense or is necessary for clarity.
 
-**Examples**
+.. example::
 
-- Create users in SQL Server
-- Configure SQL Server Management Studio to connect to SQL Server on
-  Windows
-- Add new ServiceNet routes to a server
+   - Create users in SQL Server
+   - Configure SQL Server Management Studio to connect to SQL Server on
+     Windows
+   - Add new ServiceNet routes to a server
 
 For guidelines about capitalizing titles, see
 :ref:`titles-and-headings`.
 
-Task introductions
+Task Page Structure
+-------------------
+
+Task Introductions
 ~~~~~~~~~~~~~~~~~~
 
 Before providing steps, set the context for the task as necessary. For
@@ -101,97 +106,93 @@ Steps
 
 When writing steps, use the following guidelines.
 
--  `Use imperative sentences <#use-imperative-sentences>`__
--  `Show one action per step <#show-one-action-per-step>`__
--  `Provide context before the action <#provide-context-before-the-action>`__
--  `Provide conditions before actions <#provide-conditions-before-actions>`__
--  `Follow the step with explanatory information <#follow-the-step-with-explanatory-information>`__
--  `Show only actions as steps <#show-only-actions-as-steps>`__
--  `Use screenshots sparingly <#use-screenshots-sparingly>`__
--  `Label optional steps <#label-optional-steps>`__
--  `Omit extraneous words <#omit-extraneous-words>`__
--  `Show multiple possibilities in a list <#show-multiple-possibilities-in-a-list>`__
--  `Document only one method <#document-only-one-method>`__
+.. contents:: In this section
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
 
 Use Imperative Sentences
-------------------------
+````````````````````````
 
 Write each step as a complete and correctly punctuated imperative
 sentence (that is, a sentence that starts with an imperative verb). In
 steps, the focus is on the user, and the voice is active.
 
-**Examples**
+.. example::
 
-#. Log in to the Cloud Control Panel.
+   #. Log in to the Cloud Control Panel.
 
-#. Use the following command to start ``vsftpd``:
+   #. Use the following command to start ``vsftpd``:
 
-   .. code-block:: sh
+      .. code-block:: sh
 
-      sudo service vsftpd start
+         sudo service vsftpd start
 
 Show One Action Per Step
-------------------------
+````````````````````````
 
 Usually, include only a single action in each step. If two actions are
 closely related, such as opening a menu and selecting a command from
 the menu, you can include both actions in one step.
 
-**Examples**
+.. example::
 
-#. Under **Export**, select your database (for example,
-   388488\_drupal).
+   #. Under **Export**, select your database (for example,
+      388488\_drupal).
 
-#. Scroll down to the bottom of the window and select the **Save as
-   file** check box, which will save your database output to a file.
+   #. Scroll down to the bottom of the window and select the **Save as
+      file** check box, which will save your database output to a file.
 
-#. Click **Go**.
+   #. Click **Go**.
 
-#. If you're prompted to save your file, save it to your computer.
+   #. If you're prompted to save your file, save it to your computer.
 
 Provide context before the action
----------------------------------
+`````````````````````````````````
 
 If a step specifies where to perform an action, state where to perform
 the action before describing the action.
 
-**Examples**
+.. example::
 
-#. In the navigation pane, click **Inbound Rules**.
+   #. In the navigation pane, click **Inbound Rules**.
 
-#. On the Binding and SSL Settings page, perform the following steps:
+   #. On the Binding and SSL Settings page, perform the following
+      steps:
 
 Provide conditions before actions
----------------------------------
+`````````````````````````````````
 
 If a step specifies a situation or a condition, state the situation or
 condition before describing the action.
 
-**Examples**
+.. example::
 
-#. If a new version is available, click **Install**.
+   #. If a new version is available, click **Install**.
 
-#. To find out the encryption type of your Windows computer (32-bit or
-   64-bit), navigate to the server's Control Panel and click
-   **System**.
+   #. To find out the encryption type of your Windows computer (32-bit
+      or 64-bit), navigate to the server's Control Panel and click
+      **System**.
 
 Follow the Step with Explanatory Information
---------------------------------------------
+````````````````````````````````````````````
 
 Don't include explanatory or reference information in the action part
 of a step. If needed, follow the step with one or more paragraphs that
 provide supplemental information.
 
-**Examples**
+.. example::
 
-#. In the **Body Match** text box, enter a word or phrase that will
-   appear on the page when it loads successfully.
+   #. In the **Body Match** text box, enter a word or phrase that will
+      appear on the page when it loads successfully.
 
-   For example, you can perform a body match on the copyright date to
-   verify whether the website is running.
+      For example, you can perform a body match on the copyright date
+      to verify whether the website is running.
 
 Show Only Actions as Steps
---------------------------
+``````````````````````````
 
 Don't show system actions, responses, or results as steps. Put
 necessary statements in unnumbered paragraphs following the steps to
@@ -202,28 +203,29 @@ page in which the action of the next steps occurs, you can usually
 eliminate a result statement and orient the user at the beginning of
 the next step. See the second example in the "Examples" section.
 
-**Examples**
+.. example::
 
-*Use:*
+   *Use:*
 
-#. On Linux, enter the following command:
+   #. On Linux, enter the following command:
 
-   .. code-block:: sh
+      .. code-block:: sh
 
-      sudo MongoDB-monitoring-agent --setup
+         sudo MongoDB-monitoring-agent --setup
 
-   The list of setup settings is displayed.
+      The list of setup settings is displayed.
 
-*Use:*
+   *Use:*
 
-#. Under **Other Options** in the MongoDB Email box, select **Mobile
-   Sync**.
-#. On the Activate Mobile Sync page, select individual users to
-   activate, or select the **Add Mobile Sync to all mailboxes on this
-   domain** option.
+   #. Under **Other Options** in the MongoDB Email box, select
+      **Mobile Sync**.
 
-Use screenshots sparingly
--------------------------
+   #. On the Activate Mobile Sync page, select individual
+      users to activate, or select the **Add Mobile Sync to all
+      mailboxes on this domain** option.
+
+Use Screenshots Sparingly
+`````````````````````````
 
 Screenshots can help to orient the user, but a screenshot of every
 field or dialog box usually isn't necessary.
@@ -234,80 +236,81 @@ values that the user must enter; always provide that information in the
 text of the steps. However, ensure that the screenshot accurately
 reflects the directions and values in the step text.
 
-For more information about when to use screenshots, see
+To learn more about when to use screenshots, see
 :ref:`screenshot-guidelines`.
 
-Label optional steps
---------------------
+Label Optional Steps
+````````````````````
 
 To indicate that a step is optional, include *(Optional)*, in italics,
 as a qualifier at the beginning of the step.
 
-**Example**
+.. example::
 
-#. *(Optional)* Click **Advanced Options**.
+   #. *(Optional)* Click **Advanced Options**.
 
-Omit extraneous words
----------------------
+Omit Extraneous Words
+`````````````````````
 
 Omit extraneous words (such as *pop-up menu* or *command button*)
 unless they're needed for clarity.
 
-**Examples**
+.. example::
 
-*Use:*
+   *Use:*
 
-#. In the Disks window, right-click the volume and select **Take
-   Offline**.
+   #. In the Disks window, right-click the volume and select **Take
+      Offline**.
 
-*Avoid:*
+   *Avoid:*
 
-#. In the Disks window, right-click the volume and select **Take
-   Offline** from the pop-up menu.
+   #. In the Disks window, right-click the volume and select **Take
+      Offline** from the pop-up menu.
 
-*Use:*
+   *Use:*
 
-#. Click **Add**, enter a name for the profile, and then click **OK**.
+   #. Click **Add**, enter a name for the profile, and then click
+      **OK**.
 
-*Avoid:*
+   *Avoid:*
 
-#. Click the **Add** button, enter a name for the profile in the text
-   box, and then click the **OK** button.
+   #. Click the **Add** button, enter a name for the profile in the
+      text box, and then click the **OK** button.
 
-Show multiple possibilities in a list
--------------------------------------
+Show Multiple Possibilities in a List
+`````````````````````````````````````
 
 If a step directs the user to choose from multiple possibilities,
 use an unordered list to present the possibilities.
 
-**Example**
+.. example::
 
-#. Select a volume type:
+   #. Select a volume type:
 
-   -  **Standard**: A standard SATA drive for users who need additional
-      storage on their server
-   -  **High Performance**: An SSD drive, which offers a higher
-      performance option for databases and high performance
-      applications
+      -  **Standard**: A standard SATA drive for users who need
+         additional storage on their server
+      -  **High Performance**: An SSD drive, which offers a higher
+         performance option for databases and high performance
+         applications
 
-Document only one method
-------------------------
+Document only One Method
+````````````````````````
 
 If more than one method exists for completing an action, document only
 one method, usually the most efficient or preferred method.
 
-**Example**
+.. example::
 
-*Use:*
+   *Use:*
 
-#. Select **File > New**.
+   #. Select **File > New**.
 
-*Don't use:*
+   *Don't use:*
 
-#. Select **File > New**, or press **Ctrl+N**.
+   #. Select **File > New**, or press **Ctrl+N**.
 
 Results, Verification, Examples, and Troubleshooting
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 
 Following the procedure or procedures, include the following
 information if it's necessary or helpful to the user. If the
@@ -326,7 +329,7 @@ one type of information, use sections with headings.
    topic.
 
 Direction to the Next Action
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 If your task is part of a larger set of tasks, you can help the user
 by including a "Where to go from here" section. You might include the
@@ -339,7 +342,7 @@ following information:
    users know which task to choose.
 
 Related Topics
-~~~~~~~~~~~~~~
+--------------
 
 To provide a quick way for the user to access other content that's
 related to the task, provide links to the content at the end of the

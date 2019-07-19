@@ -14,52 +14,16 @@ documentation.
    :class: singlecol
 
 Capitalization
-~~~~~~~~~~~~~~
+--------------
 
-Use *sentence-style* capitalization for most titles and headings,
+Use *headline-style* capitalization for most titles and headings,
 including article, chapter, table, figure, and example titles, as well
 as section and procedure headings.
 
-One exception is guide titles, which use *title-style* capitalization.
+.. _headline-style-capitalization:
 
-.. _sentence-style-capitalization:
-
-Guidelines for sentence-style capitalization
+Guidelines for Headline-Style Capitalization
 --------------------------------------------
-
-In sentence-style capitalization, you capitalize only the first word of
-the title or heading, plus any proper nouns, proper adjectives, and
-terms that are always capitalized, such as some acronyms and
-abbreviations. If the title includes a colon, capitalize the first word
-that follows the colon, regardless of its part of speech.
-
-If the heading includes text from a user interface, the capitalization
-of that text must match the capitalization on the interface.
-
-.. list-table::
-   :widths: 50 50
-   :header-rows: 1
-
-   * - Examples
-     -
-   * - Preparing a cloud server to be a mail server
-     - Can I buy extra IP addresses?
-   * - What are cloud servers?
-     - What are the PHP configuration limits for Cloud Sites?
-   * - Install or upgrade PHP 5.3 for CentOS 5.x
-     - How do I install my own PEAR module?
-   * - Ubuntu Hardy: Using mod\_python to serve your application
-     - I live outside the United States. Can I use my foreign credit card to
-       pay for my account?
-   * - Shopping cart software: The basics
-     - Troubleshoot a Vyatta site-to-site VPN connection
-   * - Back up your files
-     - Differences between IMAP and POP
-
-.. _title-style-capitalization:
-
-Guidelines for title-style capitalization
------------------------------------------
 
 Title-style capitalization uses initial uppercase letters for the
 first, last, and all the significant words in the title.
@@ -90,6 +54,11 @@ words:
    * - Stand-alone Object Storage Guide
    * - MongoDB Private Cloud powered by VMware Customer Handbook
    * - Cloud Networks Release Notes
+
+.. seealso::
+   To learn more about the principles of headline-style
+   capitalization, read `section 8.159 </part2/ch08/psec159.html>` of
+   the *Chicago Manual of Style*.
 
 Style and Structure
 ~~~~~~~~~~~~~~~~~~~
@@ -214,8 +183,8 @@ guides, and tables, figures, and examples follow this list.
          Scheduled images FAQ
        - Not applicable
 
-Stand-alone Articles
---------------------
+Standalone Articles
+~~~~~~~~~~~~~~~~~~~
 
 In addition to the preceding guidelines, use the following guidelines
 when creating titles and headings for stand-alone articles on the
@@ -236,8 +205,8 @@ Support site or in other collections of documentation:
 - Start with the highest level of heading that is approved for headings
   (for example, h3), and do not skip heading levels.
 
-Product guides
---------------
+Product Guides
+~~~~~~~~~~~~~~
 
 In addition to the preceding guidelines, use the following guidelines
 when creating titles and headings for sections in product guides:
@@ -254,7 +223,7 @@ when creating titles and headings for sections in product guides:
 
 - Define consistent heading levels, and do not skip levels.
 
-Tables, figures, and examples
+Tables, Figures, and Examples
 -----------------------------
 
 As a general rule, tables, figures, and examples should have titles

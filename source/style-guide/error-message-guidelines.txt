@@ -4,6 +4,8 @@
 Error Message Guidelines
 ========================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Developers often ask an Information Developer to edit error messages
 that they have written.
 
@@ -19,10 +21,11 @@ This information is also available in the
 `Helix documentation <http://helix.rax.io/style/alert-messages.html>`_.
 
 
-General guidelines
+General Guidelines
 ------------------
 
-When you review error messages, consider the following guidelines for them:
+When you review error messages, consider the following guidelines for
+them:
 
 - Be courteous and do not blame the user.
 
@@ -36,7 +39,7 @@ When you review error messages, consider the following guidelines for them:
 - Error messages must be short, accurate, complete, and helpful.
 
 
-Message guidelines and examples
+Message Guidelines and Examples
 -------------------------------
 
 Use the following guidelines when you review messages written for a

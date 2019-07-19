@@ -4,16 +4,18 @@
 Numbers
 =======
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Use the following guidelines for showing numbers in documentation.
 
--  `Numbers versus words <#numbers-versus-words>`__
--  `Commas in numbers <#commas-in-numbers>`__
--  `Ranges of numbers <#ranges-of-numbers>`__
--  `Unspecified, generic, and unknown
-   numbers <#unspecified-generic-and-unknown-numbers>`__
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
-Numbers versus words
-~~~~~~~~~~~~~~~~~~~~
+Numbers versus Words
+--------------------
 
 Spell out numbers from zero through nine, except in the cases shown in
 the following table. In these cases, or if the number is 10 or larger,
@@ -75,7 +77,6 @@ parenthetically after the numeral.
    :widths: 50 50
    :header-rows: 1
 
-
    * - Use
      - Don't use
 
@@ -91,7 +92,7 @@ parenthetically after the numeral.
 .. _commas-in-numbers:
 
 Commas in Numbers
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Use commas in numbers with five or more digits. However, don't use
 commas in the following types of numbers:
@@ -131,7 +132,7 @@ commas in the following types of numbers:
 .. _ranges-of-numbers:
 
 Ranges of Numbers
-~~~~~~~~~~~~~~~~~
+-----------------
 
 When describing number ranges, use the following guidelines:
 
@@ -166,8 +167,8 @@ When describing number ranges, use the following guidelines:
    * - between 2010 and 2012
      - between 2000–2002
 
-Unspecified, generic, and unknown numbers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unspecified, Generic, and Unknown Numbers
+-----------------------------------------
 
 To represent an unspecified or generic number, use *n* as the variable
 and apply italics.
@@ -178,7 +179,6 @@ digit and apply italics.
 .. list-table::
    :widths: 100
    :header-rows: 1
-
 
    * - Use
 

@@ -4,6 +4,8 @@
 Alphabetical List of Terms
 ==========================
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 This section provides usage guidelines for general terms. The table
 indicates the following special types of terms:
 
@@ -33,17 +35,20 @@ parts of speech:
 
    * - 24x7x365
      -
-     - Use this phrase to describe continuous availability. Don't replace the
-       *x*'s with slashes, hyphens, or the word *by*.
+     - Use this phrase to describe continuous availability. Don't
+       replace the *x*'s with slashes, hyphens, or the word *by*.
 
        *Use:*
 
-       We deliver Fanatical Experience™ — we are here to help, 24x7x365.
+       We deliver fantastic support — we are here to help, 24x7x365.
 
    * - about, on
      - Restricted
-     - Don't use *on* to mean *about*. For example, use *information
-       about*, not *information on*.
+     - Don't use *on* to mean *about*. 
+
+       .. example::
+
+          Use *information about*, not *information on*.
 
        Don't use *about* to mean *approximately*.
 
@@ -1183,10 +1188,10 @@ parts of speech:
    * - drop-down (adj)
      - Restricted
      - Only when you are referring to a drop-down menu as a user
-       interface element, for example, in Helix documentation, use
-       drop-down as an adjective.
+       interface element. Include the hyphen.
 
-       Include the hyphen.
+       .. example::
+          In Ops Manager documentation, use drop-down as an adjective.
 
        *Use:*
 
@@ -1249,9 +1254,9 @@ parts of speech:
 
    * - effect, affect
      -
-     - Use *affect* as a verb to mean influence, change, or have an effect on.
-       Use *effect* as a noun to mean the result of an action or the power to
-       bring about a result.
+     - Use *affect* as a verb to mean influence, change, or have an
+       effect on. Use *effect* as a noun to mean the result of an
+       action or the power to bring about a result.
 
        *Use:*
 
@@ -1264,6 +1269,8 @@ parts of speech:
    * - e.g.
      - Don't use
      - Use *for example* instead. See :ref:`avoid-obscure-words`.
+
+       For multiline examples, use an ``.. example::`` block.
 
    * - either
      -
@@ -1298,33 +1305,36 @@ parts of speech:
    * - email hosting, Email Hosting
      -
      - Use lowercase when referring generally to the industry and
-       providers. Capitalize when referring to it as a MongoDB
-       offering.
+       providers. Capitalize when referring to it as a vendor offering.
 
    * - enable
      -
      - You can use *enable* instead of *allow* to describe how a
        customer interacts with a program, feature, or product. When
-       possible, however, use *you can* instead.
+       possible, use *you can* instead.
 
        *Use:*
 
-       MongoDB Private Cloud can be deployed with a Chef-based approach
-       that enables customers to create an OpenStack cluster on Ubuntu,
-       CentOS, or Red Hat Enterprise Linux.
+       MongoDB clusters can be deployed with a Terraform-based approach
+       that enables customers to create a sharded cluster on Ubuntu or
+       Red Hat Enterprise Linux.
 
        *Don't use:*
 
-       MongoDB Private Cloud can be deployed with a Chef-based approach
-       that allows customers to create an OpenStack cluster on Ubuntu,
-       CentOS, or Red Hat Enterprise Linux.
+       MongoDB clusters can be deployed with a Terraform-based approach
+       that allows customers to create a sharded cluster on Ubuntu or
+       Red Hat Enterprise Linux.
 
    * - end user (n), end-user (adj)
      - Restricted
      - When addressing your audience, use *customer*, *you*, or the
        imperative mood instead. You can use *end user* to refer to the
-       users of your audience (for example, the users of a developer's
-       program or the users that an administrator supports).
+       users of your audience.
+
+       .. example::
+
+          The users of a developer's program or the users that an
+          administrator supports.
 
        Hyphenate the term when it's used as a modifier.
 
@@ -1393,8 +1403,8 @@ parts of speech:
        use *end*, *leave*, *stop*, or *terminate* to refer to closing a
        program or application.
 
-       Use *close* to refer to the **Close** button or closing a
-       window, dialog box, or file.
+       Use *close* to refer to the :guilabel:`Close` button or closing
+       a window, dialog box, or file.
 
        Use *quit* to refer to the ``QUIT`` command.
 
@@ -1418,23 +1428,6 @@ parts of speech:
      - Avoid
      - Use *unable to* instead.
 
-   * - fanatical, fanatically
-     - Don't use
-     - Because *Fanatical Experience* and *Fanatical Support* are
-       either registered service marks or service marks of MongoDB,
-       don't use *Fanatical* or *fanatical* as a general adjective, and
-       don't use *fanatically*.
-
-       *Use (first use in content):*
-
-       Our dedication to deliver Fanatical Experience™ extends beyond
-       expert live assistance to ensuring that customers have access to
-       self-help tools.
-
-       *Don't use:*
-
-       We fanatically support your infrastructure.
-
    * - FAQ
      -
      - Use the acronym *FAQ* to refer to an article or section that
@@ -1449,7 +1442,7 @@ parts of speech:
        *Use:*
 
        This article provides answers to frequently asked questions
-       about MongoDB Cloud Servers.
+       about MongoDB Cloud Manager.
 
        We provide answers to your questions about MongoDB products in
        product-specific FAQ articles.
@@ -1465,8 +1458,8 @@ parts of speech:
 
        *Use:*
 
-       Fewer resources mean heavier workloads, less time, and lower levels of
-       staff experience.
+       Fewer resources mean heavier workloads, less time, and lower
+       levels of staff experience.
 
    * - file name, file system
      -
@@ -1524,7 +1517,7 @@ parts of speech:
    * - forward slash
      - Don't use
      - Use *slash* to refer to the / character. Use *backslash* to
-       refer to the \\ character.
+       refer to the \\ character.
 
    * - free
      - Restricted
@@ -1781,8 +1774,8 @@ parts of speech:
 
        *Use:*
 
-       MyRack is used by customers with dedicated servers and is the
-       interface for RackConnect.
+       Compass is used by customers with dedicated servers and is the
+       interface for MongoDB.
 
        The phpMyAdmin package enables you to interact with your
        database through a PHP user interface.
@@ -1801,7 +1794,7 @@ parts of speech:
        Internet.
 
        .. note::
-          An intranet is a network that usually uses applications that
+          An *intranet* is a network that usually uses applications that
           are associated with the Internet (such as web pages and an
           e-mail system), but the network is accessible only to people
           within a given company or organization.

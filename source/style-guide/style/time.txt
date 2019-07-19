@@ -4,24 +4,26 @@
 Time
 ====
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 You can show time by using either the 24-hour or 12-hour clock.
 
--  The 24-hour clock is the preferred format for international audiences and
-   the format used in most computer systems, so use the 24-hour clock when
-   possible.
--  If the technology or interface that you're documenting shows or uses the
-   12-hour clock, then be consistent with the interface and use the 12-hour
-   clock.
+-  The 24-hour clock is the preferred format for international
+   audiences and the format used in most computer systems, so use the
+   24-hour clock when possible.
+-  If the technology or interface that you're documenting shows or uses
+   the 12-hour clock, then be consistent with the interface and use the
+   12-hour clock.
 
-24-hour clock
-~~~~~~~~~~~~~
+24-hour Clock
+-------------
 
 When you use the 24-hour clock to show time, use the following
 guidelines:
 
 -  Use a colon to separate the hours, minutes, and seconds.
--  Show the hours, minutes, and seconds with two digits each, even if the
-   leading digit is 0.
+-  Show the hours, minutes, and seconds with two digits each, even if
+   the leading digit is 0.
 -  If you need to show a time zone, use Coordinated Universal Time
    (UTC), and indicate the time-zone offset from UTC.
 
@@ -37,8 +39,8 @@ guidelines:
    * - 12:00:00 (noon)
    * - 00:00:00 (midnight)
 
-12-hour clock
-~~~~~~~~~~~~~
+12-hour Clock
+-------------
 
 When you use the 12-hour clock to show time, use the following
 guidelines:

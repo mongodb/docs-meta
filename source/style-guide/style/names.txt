@@ -4,6 +4,8 @@
 Names
 =====
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Don't use real or copyrighted names in examples. For example, don't
 use john.smith@example.com.
 

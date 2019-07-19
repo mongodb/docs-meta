@@ -4,6 +4,8 @@
 Quickstart
 ==========
 
+.. include:: /style-guide/includes/page-needs-update.rst
+
 Thank you for contributing to MongoDB content!
 
 Don't worry if your job title doesn't include the word *writer*,
