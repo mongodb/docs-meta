@@ -5,6 +5,9 @@
 MongoDB Documentation Style Guide
 =================================
 
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
 
 *Last updated:* |today|
 
@@ -24,9 +27,20 @@ MongoDB external and internal customers.
    headings, whether we allow contractions, and what formatting we
    apply to certain text.
 
+   .. note:: This information is under revision.
+
+:doc:`/style-guide/markup-guidelines`
+  Provides detailed guidelines about and instructions for applying
+  markup conventions for ReStructure Text (RST) and Yet Another Markup
+  Language (YAML).
+
+  .. note:: This information is under revision.
+
 :doc:`/style-guide/terminology/index`
    Provides advice for using accurate, consistent, and concise
    terminology in your content, and for writing for a global audience.
+
+   .. note:: This information is under revision.
 
 :doc:`/style-guide/screenshots/index`
    Provides instructions for when to use and how to create screenshots

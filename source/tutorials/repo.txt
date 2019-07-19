@@ -20,4 +20,4 @@
      Congratulations! Now that you've created your repository, you can create your docstools-enabled content.
    seealso:
      - `check out the guides site for examples <http://www.mongodb.com/docs/guides>`__.
-     - :doc:`Tabbed Content Tutorial </tutorials/tabbed-content>`
+     - :doc:`Tabbed Content Tutorial </style-guide/markup/directives/tabs>`

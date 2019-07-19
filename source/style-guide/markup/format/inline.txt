@@ -1,0 +1,110 @@
+=============
+Inline Markup
+=============
+
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+Basic Markup
+------------
+
+- To **strongly emphasize** or **bold** text, use two asterisks on
+  either side of the text.
+
+  .. code-block:: rst
+
+     **bold**
+
+- To *emphasize* or *italicize* text, use two asterisks on either side
+  of the text.
+
+  .. code-block:: rst
+
+     *italic*
+
+- To ``monospace`` text, use two backticks on either side of the text.
+
+  .. code-block:: rst
+
+     ``monospace``
+
+Basic markup has some limitations. You can't:
+
+- Start or end markup with whitespace.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+
+            **bold code**
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            ** bold code**
+
+
+- Apply more than one type of markup to any text.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+
+            ``bold code``
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            **``bold code``**
+
+- Apply markup in the middle of text without escaping a space around
+  the markup.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+
+            this is *four* words
+
+            thisis\ *one*\ word
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            thisis*one*word
+
+

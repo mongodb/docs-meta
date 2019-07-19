@@ -1,6 +1,10 @@
 ==============
-Tabbed Content
+Tabs Directive
 ==============
+
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
 
 .. contents:: On this page
    :local:
@@ -8,8 +12,9 @@ Tabbed Content
    :depth: 2
    :class: singlecol
 
-The tabbed content extension can be used in any MongoDB docs repository
-that uses `docs-tools <https://github.com/mongodb/docs-tools>`_.
+The tabs directive Sphinx extension can be used in any MongoDB docs
+repository that uses
+`docs-tools <https://github.com/mongodb/docs-tools>`_.
 
 Importing the Tabs Extension
 ----------------------------

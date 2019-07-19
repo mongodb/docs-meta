@@ -45,6 +45,7 @@ extensions = [
     'icon',
     'source_constants',
     'xmlrole',
+    'source_constants',
     'guides'
 ]
 
@@ -68,7 +69,8 @@ rst_epilog = '\n'.join([
     '.. |hardlink| replace:: {0}/{1}'.format(conf.project.url, conf.git.branches.current),
     '.. |branch| replace:: ``{0}``'.format(conf.git.branches.current),
     '.. |bi| replace:: MongoDB Connector for BI',
-    '.. |mdbsg| replace:: MongoDB Style Guide'
+    '.. |mdbsg| replace:: MongoDB Style Guide',
+    '.. |rst| replace:: reStructuredText'
 ])
 
 pygments_style = 'sphinx'

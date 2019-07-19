@@ -1,0 +1,14 @@
+======================
+Link Formatting Syntax
+======================
+
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+

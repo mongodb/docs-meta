@@ -1,0 +1,128 @@
+=====================
+Headings and Sections
+=====================
+
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
+|rst| uses repeating characters beneath the heading text to set
+headings.
+
+Heading Level Markup
+--------------------
+
+For, the under- and overlines for each Heading Level, use:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 10 10 10 60 10
+
+   * - Heading Level
+     - Character
+     - Under or Overline
+     - Common Usage
+     - Render in HTML as
+
+   * - 1
+     - ``=`` (Equals sign)
+     - Both
+     - Page Titles Only
+     - ``<h1>``
+
+   * - 2
+     - ``-`` (Hyphen)
+     - Under
+     - Main Headings
+     - ``<h1>``
+
+   * - 3
+     - ``~`` (Tilde)
+     - Under
+     - Subheadings
+     - ``<h3>``
+
+   * - 4
+     - `` ` `` (Backtick)
+     - Under
+     - 2nd Level Subheadings
+     - ``<h4>``
+
+   * - 5
+     - ``+`` (Plus sign)
+     - Under
+     - 3rd Level Subheadings
+     - ``<h5>``
+
+Tools don't return build errors if you use a different underline order
+as long as it's done consistently. That said, don't use different
+underline orders. It will confuse other writers.
+
+Heading Markup Rules
+--------------------
+
+Headings must follow these rules to prevent build errors:
+
+- Don't skip Heading Levels. Heading Level 3 cannot come after
+  Heading Level 1.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+
+            ============
+            Manage Users
+            ============
+
+            Create One New User
+            -------------------
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            ============
+            Manage Users
+            ============
+
+            Create One New User
+            ~~~~~~~~~~~~~~~~~~~
+
+- Make the underline at least as long as the text above it.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+
+            Create One New User
+            -------------------
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            Create One New User
+            ----------------
+
+- Avoid |rst| replacements in heading text.
+  If the replacement text makes the heading text longer than the
+  underline length, your build generates an error.
+
+- Avoid headings within tabbed content directives, even those from
+  included files. If you need headings for your tabbed content,
