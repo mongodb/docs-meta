@@ -17,6 +17,7 @@ and consistent, and that helps users accomplish their goals.
    /style-guide/writing/write-clear-concise-sentences-paragraphs
    /style-guide/writing/use-effective-verbs
    /style-guide/writing/clarify-gerunds-participles
+   /style-guide/writing/clarify-modifiers
    /style-guide/writing/use-that-which-correctly
    /style-guide/writing/use-pronouns-carefully
    /style-guide/writing/use-gender-neutral-pronouns

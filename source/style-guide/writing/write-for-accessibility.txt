@@ -1,8 +1,8 @@
 .. _write-for-accessibility:
 
-=========================
-Writing for Accessibility
-=========================
+=======================
+Write for Accessibility
+=======================
 
 .. contents:: On this page
    :local:
@@ -38,12 +38,16 @@ color or location).
 Directional phrases like “at the top of the page” or "right-hand side"
 might not provide adequate information to someone using a screen
 reader. Even relating one element to another with phrases like “next
-to” or “above” might not provide enough context. Be as descriptive as
-possible when locating elements on the UI by using headings, field
-names, panels, or modals, and where they are relative to each other. If
-a UI element is hard to find, provide a screenshot.
+to” or “above” might not provide the correct context.
 
-Use the label of an element and not its shape or color to describe it.
+- When referring to a UI element in a procedure, use previous steps to
+  clearly navigate the user to the element to maintain clarity and
+  avoid wordiness. If the same icon, button, or element appears on the
+  page more than once, be more descriptive by using section, modal, or
+  panel headings and field names.
+- If a UI element is hard to find, provide a screenshot.
+- Use the label of an element and not its shape or color to describe
+  it.
 
 .. list-table::
    :widths: 50 50
@@ -54,9 +58,16 @@ Use the label of an element and not its shape or color to describe it.
    * - Click **Save**.
      - Click the green button.
        Click the round button.
-   * - Click **...**.
-     - In the Clusters view, click the ellipses **…** button next to
-       the cluster you want to modify.
+   * - *Where an element appears more than once in the UI:*
+       1. Click **Clusters**.
+       2. Click **...** next to the cluster you want to modify.
+       *or*
+       *Where an element appears once in the UI:*
+       1. Click **Clusters**.
+       2. Click **...**.
+     - 1. Click **...**.
+       *or*
+       2. In the clusters view, click the **...** button next to the cluster you want to modify.
 
 Write for Ease of Reading
 ~~~~~~~~~~~~~~~~~~~~~~~~~

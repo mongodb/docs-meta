@@ -1,8 +1,8 @@
 .. _terms-for-global-audience:
 
-=============================
-Writing for a Global Audience
-=============================
+===========================
+Write for a Global Audience
+===========================
 
 .. contents:: On this page
    :local:
