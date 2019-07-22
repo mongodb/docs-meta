@@ -41,7 +41,7 @@ In the following examples, the placement of *only* greatly affects the meaning o
    * - **Only** the ``db.collection.createIndex`` method creates an
        index if an index of the same specification does not already
        exist.
-   * - No other method can create an index if an index of the same
+     - No other method can create an index if an index of the same
        specification does not already exist. Another method could
        create an index if an index of the same specification exists.
 
@@ -86,10 +86,8 @@ clause modifies another object in the sentence, the clause is called a
    * - Use
      - Avoid
 
-   * - When you log in, your clusters are displayed.
-       *or*
-       Logging in to |mms|, you can see existing clusters.
-     - Logging in to |mms|, your clusters display. (This sentence means
+   * - When you log in to Atlas, your clusters are displayed.
+     - Logging in to Atlas, your clusters display. (This sentence means
        that your clusters are logging in, not the user.)
 
    * - The replica set elects a new primary after you force an

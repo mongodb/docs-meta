@@ -84,7 +84,6 @@ Rackspace external and internal customers.
    .. toctree::
       :titlesonly:
 
-      /style-guide
       /style-guide/quickstart
       /style-guide/writing/index
       /style-guide/style/index

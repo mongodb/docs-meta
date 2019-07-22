@@ -35,11 +35,11 @@ is clear.
      - When **using** a load balancer with a public-facing IP address,
        this address becomes the IP address of your website.
 
-The last example illustrates a :ref:`dangling-modifier`. In the "Avoid"
-example, *using* doesn't have a subject, so the implied subject is
-*address*, which is incorrect. If the implied subject isn't correct,
-you must revise the sentence to provide a subject for the modifying
-phrase.
+The last example illustrates a :ref:`dangling modifier
+<dangling-modifiers>`. In the "Avoid" example, *using* doesn't have a
+subject, so the implied subject is *address*, which is incorrect. If
+the implied subject isn't correct, you must revise the sentence to
+provide a subject for the modifying phrase.
 
 The titles of tutorial or high-level process articles or topics usually
 start with a gerund. Titles have less context than sentences, so you

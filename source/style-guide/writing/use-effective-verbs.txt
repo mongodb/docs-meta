@@ -246,10 +246,8 @@ passive if the performer of the action is understood or not important.
    * - Correct
      - Incorrect
    * - The product **displays** the available servers in the right
-     pane.
-
+       pane.
        *or*
-
        The available servers **are displayed** in the right pane.
      - The available servers **display** in the right pane.
    * - After the installation **is completed**, ensure that the FTP
