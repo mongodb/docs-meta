@@ -2,16 +2,30 @@
 Clarify Ambgiuous Modifiers
 ===========================
 
-Modifiers that can be misinterpreted as being associated with a word other than the one intended, or with no particular word at all, are called *misplaced* or *dangling modifiers*.
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
 
-In general, move the modifier closer to the noun or phrase it modifies to increase clarity.
+Modifiers that can be misinterpreted as being associated with a word
+other than the one intended, or with no particular word at all, are
+called *misplaced* or *dangling modifiers*.
+
+In general, move the modifier closer to the noun or phrase it modifies
+to increase clarity.
 
 Misplaced Modifiers
 -------------------
 
-Simple adverbs used to convey limits (such as *almost*, *hardly*, *nearly*, *just*, *only*, or *merely*) can change the meaning of your writing depending on their placement in the sentence. Ensure that these modifiers are placed correctly so that they convey your intended meaning.
+Simple adverbs used to convey limits (such as *almost*, *hardly*,
+*nearly*, *just*, *only*, or *merely*) can change the meaning of your
+writing depending on their placement in the sentence. Ensure that these
+modifiers are placed correctly so that they convey your intended
+meaning.
 
-In the following examples, the placement of *only* greatly affects the meaning of the sentence:
+In the following examples, the placement of *only* greatly affects the
+meaning of the sentence:
 
 .. list-table::
    :widths: 50 50
