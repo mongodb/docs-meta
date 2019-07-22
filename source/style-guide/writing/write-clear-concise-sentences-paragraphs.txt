@@ -17,7 +17,7 @@ paragraphs.
 
 .. _use-consistent-sentence-structure:
 
-Use a consistent sentence structure
+Use a Consistent Sentence Structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As often as possible, use the sentence structure
@@ -46,7 +46,7 @@ the condition does not apply to them.
 
 .. _restrict-sentence-length:
 
-Restrict sentence length
+Restrict Sentence Length
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Even a well-written long sentence can be hard to follow and understand.
@@ -75,7 +75,7 @@ between the clauses should be clear.
 
 .. _use-necessary-words:
 
-Use the necessary words
+Use the Cecessary Words
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Technical writing isn't creative writing. Use only the words necessary
@@ -126,7 +126,7 @@ such as those described in :ref:`clarify-gerunds-participles`,
 
 .. _create-short-paragraphs:
 
-Create short paragraphs
+Create Short Paragraphs
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Short paragraphs are easier to scan and understand than longer ones.

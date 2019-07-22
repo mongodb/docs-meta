@@ -17,7 +17,7 @@ guidelines.
 
 .. _use-action-oriented-verbs:
 
-Use action-oriented verbs
+Use Action-Oriented Verbs
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Verbs are supposed to carry the action in a sentence. However, when you
@@ -51,7 +51,7 @@ direct.
 
 .. _avoid-nouns-built-from-verbs:
 
-Avoid nouns built from verbs
+Avoid Nouns Built from Verbs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Many nouns are built from verbs, for example, *description* and
@@ -78,7 +78,7 @@ verb (as shown in the following examples).
 
 .. _use-simplest-tense:
 
-Use the simplest tense
+Use the Simplest Tense
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Simple verbs, such as verbs in the present tense, are easier to read
@@ -105,7 +105,7 @@ perfect tense, or verbs combined with helping verbs (such as *can*,
 
 .. _helping-verbs:
 
-Use modal verbs accurately
+Use Modal Verbs Accurately
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Modal verbs are helping verbs that further modify the action or meaning
@@ -145,7 +145,7 @@ verbs, use them accurately and consistently:
 
 .. _use-single-word-verbs:
 
-Use single-word verbs
+Use Single-Word Verbs
 ~~~~~~~~~~~~~~~~~~~~~
 
 When possible, use single-word verbs rather than phrasal verbs (verbs
@@ -183,7 +183,7 @@ around*.
 
 .. _dont-use-verbs-as-nouns-or-adjectives:
 
-Don't use verbs as nouns or adjectives
+Don't Use vVrbs as Nouns or Adjectives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If a word is defined in the dictionary as a verb, don't use it as a
@@ -205,7 +205,7 @@ adjectives are *configure*, *compile*, *debug*, and *install*.
      - When the **compile process** is finished, the following message
        appears at the bottom of the output text.
 
-Don't use nonverbs as verbs
+Don't Use Nonverbs as Verbs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Don't use nouns or adjectives as verbs, and don't add verb suffixes to
@@ -229,7 +229,7 @@ abbreviations, nouns, or conjunctions.
    * - **Navigate** to the new directory.
      - **CD** to the new directory.
 
-Use transitive verbs transitively, not intransitively
+Use Transitive Verbs Transitively, not Intransitively
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Transitive verbs, such as *display* and *complete*, require a direct
@@ -255,7 +255,7 @@ passive if the performer of the action is understood or not important.
      - After the installation **completes**, ensure that the FTP
        services are running.
 
-Use correct plurality agreements
+Use Correct Plurality Agreements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Verbs have singular and plural forms. Use the verb form that agrees
 with the subject of the sentence in number.
@@ -282,7 +282,7 @@ with the subject of the sentence in number.
      - Skype or social media apps are available from the app store.
        Social media apps or Skype is available from the app store.
 
-Don't humanize inanimate objects
+Don't Humanize Inanimate Objects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Be careful not to ascribe human feelings, motivations, and actions to
