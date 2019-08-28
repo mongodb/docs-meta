@@ -145,7 +145,7 @@ guides, and tables, figures, and examples follow this list.
          Prepare data disks on servers running Windows
 
          Set up Mobile Sync for Webmail
-       - Sign up for a MongoDB Cloud account
+       - Sign up for a MongoDB Atlas account
 
          Authenticate with the nova client
 

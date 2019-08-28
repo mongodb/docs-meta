@@ -13,7 +13,7 @@ Don't worry if your job title doesn't include the word *writer*,
 knowledge and expertise. Your willingness to share what you know with
 users will help them to accomplish their goals and be successful.
 
-The Information Development team is ready to help turn your
+The Documentation team is ready to help turn your
 contributions into clear, concise, consistent, easy-to-read content for
 users. We do this, in part, by adhering to the standards that are
 defined in this style guide. The team doesn't expect contributors to

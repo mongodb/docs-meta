@@ -174,7 +174,7 @@ List Items Mix Fragments and Sentences
 To run the examples in this guide, the following prerequisites are
 required:
 
-- MongoDB Cloud account. To sign up for a MongoDB Cloud account, go to
+- MongoDB Atlas account. To sign up for a MongoDB Atlas account, go to
   the MongoDB Public Cloud signup page.
 - MongoDB username and password that you specified during registration.
 

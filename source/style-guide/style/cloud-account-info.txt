@@ -55,7 +55,7 @@ to see actual values from the system, use "real-looking" values that
 are nevertheless obviously made up, such the following one for
 ``X-Auth-Token``:
 
-.. code-block::
+.. code-block:: ini
 
    abcdef123ghi4j5k67m8910n12op3qrs
 

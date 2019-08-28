@@ -58,7 +58,7 @@ talk to users directly by using *second person*, addressing the user as
    * - We offer you a comprehensive portfolio of hosting options.
      - MongoDB offers a comprehensive portfolio of hosting options for
        the enterprise buyer.
-   * - Providing you a Fanatical Experience sets MongoDB apart. We are
+   * - Providing you a fantastic experience sets MongoDB apart. We are
        here to help, 24x7x365.
      - MongoDB is here to help customers.
    * - Cloud Backup uses block-level deduplication, which means that

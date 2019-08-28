@@ -7,8 +7,8 @@ guide.
 
 2019-07-19
 ~~~~~~~~~~
-Revised v2 based on material from MongoDB, Google, and MailChimp. All
-licensed under Creative Commons 4.0 license.
+Revised v2 based on material from MongoDB, Rackspace, Google, and
+MailChimp. All licensed under Creative Commons 4.0 license.
 
 2016-01-05
 ~~~~~~~~~~

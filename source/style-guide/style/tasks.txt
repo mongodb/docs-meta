@@ -101,6 +101,8 @@ steps. Consider the following guidelines when creating a procedure:
    are in the process, judge their progress, and complete the task
    successfully.
 
+.. _style-steps:
+
 Steps
 ~~~~~
 

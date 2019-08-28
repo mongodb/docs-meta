@@ -41,7 +41,7 @@ Following are some examples:
 - Differences between IMAP and POP
 
 For more information about titles and headings, see the
-`Titles and headings </style-guide/style/titles-and-headings/>`__ topic in this style guide.
+:doc:`Titles and Headings </style-guide/style/titles-and-headings>` topic in this style guide.
 
 .. _active-voice:
 
@@ -132,7 +132,7 @@ Avoid switching person (point of view) in the same document.
    headings and task examples use imperative mood.
 
 For more information about this topic, see the
-:doc:`Write to the user by using second person and imperative mood </style-guide/writing/write-to-the-user/#write-to-the-user>`.
+:ref:`Write to the user by using second person and imperative mood <write-to-the-user>`.
 
 .. _step-text:
 
@@ -141,10 +141,9 @@ Write Clear and Consistent Step Text
 
 When you are providing instructions to users, you should generally
 number the steps (unless you have just one step). For the steps, use
-the following guidelines. The guidelines are followed by an example.
-For more extensive examples, see the
-:doc:`Steps </style-guide/style/tasks/#steps>` section of this style
-guide.
+the following guidelines. The guidelines are followed by an example. To
+read more extensive examples, see the :ref:`Steps <style-steps>`
+section of this style guide.
 
 - Write each step as a complete imperative sentence (that is, a
   sentence that starts with an imperative verb) and use ending

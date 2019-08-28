@@ -6,12 +6,12 @@ Error Message Guidelines
 
 .. include:: /style-guide/includes/page-needs-update.rst
 
-Developers often ask an Information Developer to edit error messages
+Developers often ask an Technical Writer to edit error messages
 that they have written.
 
 When you edit error messages, use the writing guidelines in this Style
 Guide as you would with other documentation that is curated by the
-Information Development team. Start with the information in the
+Documentation team. Start with the information in the
 :ref:`quickstart`.
 
 This topic provides additional guidelines specific to reviewing

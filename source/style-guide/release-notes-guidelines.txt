@@ -92,10 +92,12 @@ observe the following guidelines:
    variable inserts the boilerplate text "None for this release." For
    example:
 
-   Known issues
-   ````````````
+   .. code-block:: rst
 
-   ``|no changes|``
+      Known issues
+      ````````````
+
+      ``|no changes|``
 
 
 -  Include the "Documentation changes" section only if you have
