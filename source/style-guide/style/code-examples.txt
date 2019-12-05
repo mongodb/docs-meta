@@ -14,6 +14,23 @@ Code Examples
 Use the following guidelines when creating blocks of code as input
 or output examples:
 
+-  Code examples should be formatted and checked to ensure they are idiomatic
+   using software tooling. Integrations with most IDEs and Editors are available.
+   Those tools are:
+
+   -  Javascript - The main tools for Javascript are `Eslint <https://eslint.org/>`_
+      and `Prettier <https://prettier.io>`_. Configurations for both are
+      located in the `code/js` directory of the `docs-meta repository <https://github.com/mongodb/docs-meta>`_
+      for use.
+
+   -  Python - Use `flake8 <http://flake8.pycqa.org/en/latest/>`_ for linting
+      and `autopep8 <https://github.com/hhatto/autopep8>`_ for formatting.
+
+   -  Java - Ensure there are no warnings in `IntelliJ <https://www.jetbrains.com/idea/>`_.
+      IntelliJ Community is avialable for download for free.
+
+   -  Go - There is built in formatting and available linting with `golint <https://github.com/golang/lint>`_.
+
 -  Don't use screenshots to show code examples. Format them as blocks
    of code by using the appropriate markup in your authoring tool. For
    more information about formatting, see :ref:`text-formatting`.
