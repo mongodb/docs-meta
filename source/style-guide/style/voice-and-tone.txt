@@ -2,7 +2,7 @@
 Voice and Tone
 ==============
 
-The voice and tone that we use with words influence how people think
+The voice and tone that we use influences how people think
 and feel about MongoDB.
 
 Voice is our style and communicates our personality to the user. Tone
@@ -22,7 +22,8 @@ No matter where our words land, they should sound like us.
 Voice and Tone Attributes
 -------------------------
 
-The following table shows attributes for voice and tone:
+The following table shows attributes for voice and tone. These can be
+range in intensity. While our words should always use these basic attributes, they can also use amplified attributes when necessary.
 
 .. list-table::
    :widths: 50 50
@@ -71,7 +72,7 @@ Best Practices
 Consider the following best practices for voice and tone:
 
 .. list-table::
-   :widths: 33 33 34
+   :widths: 50 25 25
    :header-rows: 1
 
    * - Best practices
@@ -92,9 +93,9 @@ Consider the following best practices for voice and tone:
        action (usually the user) the subject of the sentence.
        Active-voice sentences are more direct and easier to understand
        than passive-voice sentences.
-     - After you install the software, start the computer.
+     - After you install the software, restart the computer.
      - After the software has been installed, the computer can be
-       started.
+       restarted.
 
    * - Use present tense. Users read content to help them perform tasks
        or to gather information. These activities occur in the users'
@@ -104,27 +105,31 @@ Consider the following best practices for voice and tone:
      - The product **will prompt** you to verify the deletion.
 
    * - Be impactful and speak directly to a pain point.
-     - Stop letting the cloud manage you.
-     - Are you ready for the managed cloud?
+     - Stop letting maintenance of your database take time away from
+       develping your app.
+     - MongoDB Atlas is built for agile teams who'd rather spend time
+       building apps than managing databases.
 
    * - It's about them, not us, and promises a solution.
      - Offload the burden of managing the cloud to a team of experts.
      - The managed cloud difference, fueled by expertise...
 
    * - Be simple and direct.
-     - The cloud is hard. We can help.
-     - Let us help you solve your cloud challenges.
+     - Why MongoDB Atlas? Flexible and scalable document database.   
+       Available as a fully managed service.
+     - Are you looking for a global cloud database service that deploys
+       fully managed document databases?
 
    * - Write in a way that the user wants to be spoken to. Use helpful
        words and phrases that are informative, simple, clear, and easy
        to understand.
-     - The IP address of the server needs to be entered. Click the **My
-       Server** button to complete the configuration.
+     - You must enter the IP address of the server. Click **My
+       Server** to complete the configuration.
      - The monitoring engine couldn't connect to the server. Make sure
        the information is correctly entered.
 
-   * - Temper the enthusiasm conveyed in content.
-     - You have successfully configured databased for monitoring.
+   * - Avoid being overly enthusiastic.
+     - You successfully configured all databases for monitoring.
      - Congratulations!! ALL of your databases are now being
        monitored!!
 
