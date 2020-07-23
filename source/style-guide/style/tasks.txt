@@ -4,8 +4,6 @@
 Tasks
 =====
 
-.. include:: /style-guide/includes/page-needs-update.rst
-
 A *task* is an action that users perform to achieve a goal, such as
 creating a server. A task topic, article, or section provides the
 action steps and the necessary context and reference information that
@@ -29,10 +27,9 @@ makes more sense or is necessary for clarity.
 
 .. example::
 
-   - Create users in SQL Server
-   - Configure SQL Server Management Studio to connect to SQL Server on
-     Windows
-   - Add new ServiceNet routes to a server
+   - Restart a Running Deployment
+   - Install Ops Manager from Archive on Linux
+   - Add Existing MongoDB Processes to Ops Manager
 
 For guidelines about capitalizing titles, see
 :ref:`titles-and-headings`.
@@ -57,6 +54,20 @@ especially if it will take a long time.
     introduction to a task. Provide that information in a separate
     informational topic or in a topic that introduces the task as part
     of a larger process or user goal.
+
+Considerations
+~~~~~~~~~~~~~~
+
+If the task has items that the user should acknowledge or contemplate
+before taking action, describe them in a "Considerations" section that
+precedes any prerequisites or the procedure. You could include the
+following information:
+
+- Descriptions of variations, options, or scopes
+- Hyperlinks to information that prepares the user for any choices they
+  must make
+- Impacts on other areas of the product or later tasks they might want 
+  to complete
 
 Prerequisites
 ~~~~~~~~~~~~~
