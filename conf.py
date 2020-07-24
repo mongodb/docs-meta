@@ -120,12 +120,11 @@ source_constants = {
     'rst': 'restructuredText',
     'Rst': 'RestructuredText',
     'package-branch': 'testing',
-    'package-version': '3.0.0',
+    'package-version': '4.4.0',
     'package-name-org': 'mongodb-org',
-    'version': '3.0',
+    'version': '4.0',
     'nbsp' : 'unicode:: 0xA0'
 }
-
 
 ## add `extlinks` for each published version.
 for i in conf.git.branches.published:
