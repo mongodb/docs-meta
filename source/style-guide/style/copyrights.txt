@@ -4,6 +4,12 @@
 Copyrights
 ==========
 
-.. include:: /style-guide/includes/page-needs-update.rst
+.. default-domain:: mongodb
 
-For both API and How-To content, use copyright instructions from `RackLaw <https://www.MongoDB.com/information/legal>`_.
+.. include:: /includes/styles/corrections.rst
+
+All names, terms, content and design of MongoDB offerings are licensed
+under :cc:`Creative Commons BY-NC-SA 1.0 </by-nc-sa/1.0/legalcode>`.
+
+You don't need to include a copyright symbol with any product or
+service that MongoDB offers.
