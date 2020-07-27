@@ -112,11 +112,13 @@ extlinks = {
     'rst' : ('http://docutils.sourceforge.net/docs/ref/rst%s',''),
     'cc' : ('https://creativecommons.org/licenses%s',''),
     'gh' : ('https://github.com%s',''),
-    'mdb-legal' : ('https://www.mongodb.com/legal%s','')
+    'mdb-legal' : ('https://www.mongodb.com/legal%s',''),
+    'mdbcloud' : ('https://cloud.mongodb.com%s',''),
 }
 
 source_constants = {
-    'rst': 'restructuredtext',
+    'rst': 'restructuredText',
+    'Rst': 'RestructuredText',
     'package-branch': 'testing',
     'package-version': '3.0.0',
     'package-name-org': 'mongodb-org',
