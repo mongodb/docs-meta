@@ -4,8 +4,6 @@
 Telephone Numbers
 =================
 
-.. include:: /style-guide/includes/page-needs-update.rst
-
 Use these guidelines when showing telephone numbers in content.
 
 Use a space, not a hyphen or a dash, to separate parts of the telephone
@@ -22,7 +20,7 @@ number.
    * - 1 800 961 4454
      - 1 (800) 961-4454
 
-Precede US and Canadian telephone numbers with ``+1``. Precede all
+Precede US and Canadian telephone numbers with ``1``. Precede all
 other telephone numbers with a plus sign.
 
 .. list-table::
