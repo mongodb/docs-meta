@@ -39,14 +39,6 @@ MongoDB external and internal customers.
    Technical Writer and use them as you review How-To articles
    written by outside contributors.
 
-:doc:`/style-guide/blog-guidelines`
-   Provides instructions specifically for blogs for the MongoDB
-   Developer Blog that is published at
-   https://www.mongodb.com/blog. Use these guidelines when
-   writing any developer blog for this site.
-
-   .. note:: This information may not be in the final |mdbsg|.
-
 :doc:`/style-guide/error-message-guidelines`
    Provides guidelines specifically for error messages in MongoDB
    internal and external documentation. You can share these guidelines
@@ -78,7 +70,6 @@ MongoDB external and internal customers.
       /style-guide/terminology/index
       /style-guide/screenshots/index
       /style-guide/how-to-article-guidelines
-      /style-guide/blog-guidelines
       /style-guide/error-message-guidelines
       /style-guide/release-notes-guidelines
       /style-guide/revision-history
