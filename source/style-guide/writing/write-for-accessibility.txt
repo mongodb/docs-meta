@@ -102,7 +102,7 @@ heading. Make the hierarchy clear and headings meaningful.
 - Don't use a heading level that doesn't fit the hierarchy. Find
   another way to change the visual formatting of a heading.
 - Don't have empty headings or headings with no associated content.
-- Format headings using RST markup, not bold.
+- Format headings using RST markup, like `heading types <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#sections>`__, not **bold**.
 - Use an ``h1`` for the page title or main content heading.
 
 Use Meaningful Link Text and Formatting
