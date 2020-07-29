@@ -1,20 +1,24 @@
 .. _callouts:
 
-=========
-Call-outs
-=========
+========================
+Callouts and Admonitions
+========================
 
-Call-outs (formerly known as *admonitions*) emphasize important or
-helpful information. Use call-outs sparingly to avoid clutter on
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
+Callouts or admonitions emphasize important or
+helpful information. Use callouts sparingly to avoid clutter on
 the page and to preserve visual impact. 
 
 .. list-table::
    :widths: 20 60 30
    :header-rows: 1
 
-   * - Call-out Type
+   * - Callout Type
      - Description
-     - RST Directive
+     - Directive
    * - Tip
      - Provides useful information that might improve product
        performance or make procedures easier to follow. Tips provide
@@ -34,7 +38,7 @@ the page and to preserve visual impact.
      - ``.. note:: <title>``
    * - Important
      - Presents an important or essential point. As a rule, users must
-       pay attention to important call-outs to complete a task or
+       pay attention to important callouts to complete a task or
        understand a topic.
      - ``.. important:: <title>``
    * - Warning
@@ -61,30 +65,30 @@ the page and to preserve visual impact.
      - ``.. seealso::``
 
 
-When creating call-outs, use the following guidelines:
+When creating callouts, use the following guidelines:
 
--  Use the call-out type to convey the kind of information you want 
+-  Use the callout type to convey the kind of information you want 
    to communicate. Don't rely on color to convey intensity.
 
--  Use the correct RST directive to create the call-out. Don't attempt
-   to create call-outs with bold formatting, headings, or custom CSS.
+-  Use the correct {+rst+} directive to create the callout. Don't 
+   attempt to create callouts using boldface, headings, or custom
+   :abbr:`CSS`.
 
--  If possible, avoid nesting call-outs inside tables and other 
-   elements.
+-  Avoid nesting callouts inside tables and other elements.
 
--  Avoid nesting code blocks inside call-outs.
+-  Avoid nesting code blocks inside callouts.
 
--  Place a call-out as close as possible to the information that it
+-  Place a callout as close as possible to the information that it
    emphasizes or clarifies.
 
--  Don't "stack" call-outs of the same type (for example, by following
+-  Don't "stack" callouts of the same type (for example, by following
    one labeled note directly with another labeled note). Instead, use
-   separate paragraphs or an unordered list within a single call-out.
-   You can have call-outs of different types follow one
+   separate paragraphs or an unordered list within a single callout.
+   You can have callouts of different types follow one
    another.
 
-The following call-outs might appear in existing documentation but are
-deprecated. Don't use these call-outs in new content:
+The following callouts might appear in existing documentation but are
+deprecated. Don't use these callouts in new content:
 
 - ``.. admonition::``
 - ``.. caution::``
