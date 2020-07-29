@@ -4,10 +4,14 @@
 Email Addresses
 ===============
 
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
 If you need to show an example email address, use **example.com** or
 **example.org** as the domain. The Internet Assigned Numbers Authority
 (IANA) reserves these domains for use in examples.
 
-If you need to show an actual email address, use a `standalone hyperlink
-<https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#standalone-hyperlinks>`_
-to make the email address live.
+If you need to show an actual email address, you don't need to format
+it. RST automatically formats email addresses as a
+:rst:`standalone hyperlink </restructuredtext.html#standalone-hyperlinks>`.
