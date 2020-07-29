@@ -3,7 +3,9 @@
 =====
 Tasks
 =====
+.. default-domain:: mongodb
 
+.. include:: /includes/styles/corrections.rst
 A *task* is an action that users perform to achieve a goal, such as
 creating a server. A task topic, article, or section provides the
 action steps and the necessary context and reference information that
@@ -31,7 +33,7 @@ makes more sense or is necessary for clarity.
    - Install Ops Manager from Archive on Linux
    - Add Existing MongoDB Processes to Ops Manager
 
-For guidelines about capitalizing titles, see
+To learn how to capitalize titles, see
 :ref:`titles-and-headings`.
 
 Task Page Structure
