@@ -4,6 +4,10 @@
 Parameters
 ==========
 
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
 When documenting parameters, use the following guidelines:
 
 -  In request and response examples, show all of the parameters.
