@@ -4,10 +4,14 @@
 Punctuation
 ===========
 
+.. default-domain:: mongodb
+
+.. include:: /includes/style/corrections.rst
+
 Use punctuation correctly and consistently. This section provides
 guidelines for using punctuation in MongoDB documentation. For basic
-rules about punctuation, see a grammar reference, such as the
-*Chicago Manual of Style*.
+rules about punctuation, see :cmos17:`section 5, Grammar and Usage
+</part2/ch05/toc.html>` in the *Chicago Manual of Style*.
 
 .. contents:: On this page
    :local:
@@ -60,8 +64,9 @@ Use the following guidelines for colons:
 Commas
 ~~~~~~
 
-Use the following guidelines for commas. For basic comma usage, see a
-grammar reference, such as the *Chicago Manual of Style*.
+Use the following guidelines for commas. For basic comma usage,
+:cmos17:`section 6.16, Commas </part2/ch06/psec016.html>` in the Chicago
+Manual of Style.
 
 .. list-table::
    :widths: 40 30 30
