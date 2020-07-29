@@ -74,7 +74,7 @@ following information:
 Prerequisites
 ~~~~~~~~~~~~~
 
-If the task has requirements that the user *must* meet before taking
+If the task has requirements that the user *must* meet *before* taking
 action, describe them in a "Prerequisites" section that precedes the
 steps. You could include the following information:
 
@@ -97,7 +97,7 @@ Procedures
 A task contains one or more *procedures*, or set of sequential action
 steps. Consider the following guidelines when creating a procedure:
 
--  If the procedure has more than one step, use a numbered list for the
+-  If the procedure has more than one step, use a ``steps`` file for the
    steps. Don't use bullets, except to list choices within a step.
 -  If the procedure has only one step, show that step in a regular
    paragraph. That is, don't number it.
