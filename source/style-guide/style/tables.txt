@@ -49,7 +49,7 @@ When creating table titles, use the following guidelines:
 - Don't start a table title with an article (*a*, *an*, *the*).
 - Don't end a table title with a period or colon.
 - Place the title above the table, not below it, and format it in 
-  **bold**.
+  **boldface**.
 - Don't number table titles.
 - Make table titles concise; limit them to one line if possible.
 - Make table titles descriptive:
@@ -89,7 +89,7 @@ Use the following guidelines for text in table cells:
    for matrix-type tables that use an X or other marker to indicate
    support. In such cases, blank cells are acceptable (see the third
    example at the end of this topic).
--  When showing a call-out (for example, a note or warning) in a table,
+-  When showing a callout (for example, a note or warning) in a table,
    use the guidelines in :ref:`callouts`.
 -  If space in a table is constrained, you can use abbreviations and
    symbols that you wouldn't normally use in body text (such as % for
@@ -118,10 +118,9 @@ can use footnotes.
 -  Place the footnote text at the end of the table, either in a final
    row that spans the entire table or under the last row in the table.
 
--  Use `RST markup 
-   <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#footnotes>`_
-   to indicate the footnotes in the cells to which they apply. If
-   numbers might be confusing (for example, because the text in the
+-  Use :rst:`RST markup </restructuredtext.html#footnotes>`_
+   to set the footnotes in the cells to which they apply. If
+   numbers might be confusing (because maybe the text in the
    cells are numerical values), use symbols instead.
 
    -  A footnote cited in a column header applies to the entire column.
