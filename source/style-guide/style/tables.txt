@@ -40,7 +40,10 @@ sentence with a colon.
 Table Titles
 ------------
 
-Tables in conceptual topics should normally have titles (captions). However, some tables are closely associated with the surrounding text and don't require titles. For example, decision matrixes and tables within tasks, procedures, and tutorials don't require titles.
+Tables in conceptual topics should normally have titles (captions).
+However, some tables are closely associated with the surrounding text
+and don't require titles. For example, decision matrixes and tables
+within tasks, procedures, and tutorials don't require titles.
 
 When creating table titles, use the following guidelines:
 
@@ -102,7 +105,7 @@ Table Footnotes
 If a callout (for example, a note or warning) applies to the entire
 table, place the content in a regular callout preceding the table. If
 a callout applies only to the content in a certain cell, place the
-callout in that cell. However, if a call-out applies to all of the
+callout in that cell. However, if a callout applies to all of the
 content in a row or column, or to the content in two or more cells, you
 can use footnotes.
 
