@@ -12,6 +12,7 @@ instructions for applying style conventions.
    :maxdepth: 1
 
    /style-guide/style/abbreviations
+   /style-guide/style/callouts
    /style-guide/style/capitalization
    /style-guide/style/citations
    /style-guide/style/cloud-account-info
@@ -28,7 +29,6 @@ instructions for applying style conventions.
    /style-guide/style/lists
    /style-guide/style/messages
    /style-guide/style/names
-   /style-guide/style/notations
    /style-guide/style/numbers
    /style-guide/style/parameters
    /style-guide/style/placeholder-variable-text
