@@ -7,6 +7,7 @@ Tables
 .. default-domain:: mongodb
 
 .. include:: /includes/styles/corrections.rst
+
 Text that's difficult to read in paragraph form often becomes clear
 when put into a table. Tables clarify the relationships among
 information, and they're easy to scan. This topic provides the
@@ -144,10 +145,16 @@ following additional guidelines:
    sentence of a description with an implied subject. For example, if
    the attribute is name, the description might be as follows:
    "Initial hostname of the server."
--  For attributes, include the valid values and default value at the
-   end of the description. Use the formats "Valid values are *n* and
-   *n*." and "The default is *n*." For example, "Valid values are
-   ``true`` and ``false``." and "The default is ``false``."
+-  For attributes or parameters, include the valid values and default 
+   value at the end of the description. 
+   
+   - For request parameters, use the formats "Application accepts 
+     *n* or *n*." and "The default is *n*." For example, "Atlas accepts
+     ``true`` or ``false``." and "The default is ``false``."
+   - For response parameters, use the formats "Application returns 
+     *n* or *n*." and "The default is *n*." For example, "Atlas returns
+     ``true`` or ``false``." and "The default is ``false``."
+
 -  If table descriptions or construction is complex, consider using a
    definition list or itemized list instead of a table.
 -  Avoid putting definition lists in tables.
