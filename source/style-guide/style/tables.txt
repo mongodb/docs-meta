@@ -125,7 +125,7 @@ can use footnotes.
 -  Place the footnote text at the end of the table, either in a final
    row that spans the entire table or under the last row in the table.
 
--  Use :rst:`{+rst+} markup </restructuredtext.html#footnotes>`_
+-  Use :rst:`{+rst+} markup </restructuredtext.html#footnotes>`
    to set the footnotes in the cells to which they apply. If
    numbers might be confusing (because maybe the text in the
    cells are numerical values), use symbols instead.
