@@ -336,8 +336,9 @@ Be careful not to ascribe human feelings, motivations, and actions to
 inanimate objects. For example, a web application doesn't *know*,
 *need*, *remember*, *see*, *think*, *understand*, or *want*.
 
-Often, we use anthropomorphic words to make difficult topics more
-understandable or relatable. These words can actually make the
+Often, we humanize technology with anthropomorphic words.
+Some writers believe this makes difficult topics more
+understandable or relatable. These words can make the
 concept harder to grasp for:
 - Readers that are less familiar with metaphors.
 - Readers with English as a second language.
