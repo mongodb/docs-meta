@@ -12,6 +12,11 @@ Callouts or admonitions emphasize important or
 helpful information. Use callouts sparingly to avoid clutter on
 the page and to preserve visual impact. 
 
+Callout Types
+-------------
+
+You can use the following callouts:
+
 .. list-table::
    :widths: 20 60 30
    :header-rows: 1
@@ -94,6 +99,5 @@ deprecated. Don't use these callouts in new content:
 - ``.. caution::``
 - ``.. danger::``
 - ``.. topic::``
-
 
 
