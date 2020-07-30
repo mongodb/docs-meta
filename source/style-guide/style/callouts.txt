@@ -69,7 +69,8 @@ You can use the following callouts:
        information, deeper context, or common related tasks.
      - ``.. seealso::``
 
-
+Callout Guidelines
+------------------
 When creating callouts, use the following guidelines:
 
 -  Use the callout type to convey the kind of information you want 
@@ -77,7 +78,7 @@ When creating callouts, use the following guidelines:
 
 -  Use the correct {+rst+} directive to create the callout. Don't 
    attempt to create callouts using boldface, headings, or custom
-   :abbr:`CSS`.
+   :abbr:`CSS (Cascading Style Sheets)`.
 
 -  Avoid nesting callouts inside tables and other elements.
 
@@ -99,5 +100,4 @@ deprecated. Don't use these callouts in new content:
 - ``.. caution::``
 - ``.. danger::``
 - ``.. topic::``
-
 

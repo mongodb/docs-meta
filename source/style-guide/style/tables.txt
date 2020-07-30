@@ -104,10 +104,10 @@ Use the following guidelines for text in table cells:
 Table Footnotes
 ---------------
 
-If a call-out (for example, a note or warning) applies to the entire
-table, place the content in a regular call-out preceding the table. If
-a call-out applies only to the content in a certain cell, place the
-call-out in that cell. However, if a call-out applies to all of the
+If a callout (for example, a note or warning) applies to the entire
+table, place the content in a regular callout preceding the table. If
+a callout applies only to the content in a certain cell, place the
+callout in that cell. However, if a call-out applies to all of the
 content in a row or column, or to the content in two or more cells, you
 can use footnotes.
 
