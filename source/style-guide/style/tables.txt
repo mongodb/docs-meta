@@ -4,6 +4,9 @@
 Tables
 ======
 
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
 Text that's difficult to read in paragraph form often becomes clear
 when put into a table. Tables clarify the relationships among
 information, and they're easy to scan. This topic provides the
@@ -121,7 +124,7 @@ can use footnotes.
 -  Place the footnote text at the end of the table, either in a final
    row that spans the entire table or under the last row in the table.
 
--  Use :rst:`RST markup </restructuredtext.html#footnotes>`_
+-  Use :rst:`{+rst+} markup </restructuredtext.html#footnotes>`_
    to set the footnotes in the cells to which they apply. If
    numbers might be confusing (because maybe the text in the
    cells are numerical values), use symbols instead.
@@ -139,7 +142,8 @@ following additional guidelines:
 
 -  For tables that describes JSON or XML attributes, write the first
    sentence of a description with an implied subject. For example, if
-   the attribute is name, the description might be as follows: "Initial host name of the server."
+   the attribute is name, the description might be as follows:
+   "Initial hostname of the server."
 -  For attributes, include the valid values and default value at the
    end of the description. Use the formats "Valid values are *n* and
    *n*." and "The default is *n*." For example, "Valid values are
