@@ -4,7 +4,9 @@
 Error Message Guidelines
 ========================
 
-.. include:: /style-guide/includes/page-needs-update.rst
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
 
 Developers often ask an Technical Writer to edit error messages
 that they have written.
