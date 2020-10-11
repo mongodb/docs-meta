@@ -4,21 +4,22 @@
 Code Examples
 =============
 
-.. include:: /style-guide/includes/page-needs-update.rst
-
 .. note::
 
    For more information about formatting code, see the "Code" row in
-   the Text formatting topic.
+   :ref:`text-formatting`.
 
 Use the following guidelines when creating blocks of code as input
 or output examples:
 
 -  Don't use screenshots to show code examples. Format them as blocks
-   of code by using the appropriate markup in your authoring tool. For
+   of code by using the ``.. code-block::`` directive. For
    more information about formatting, see :ref:`text-formatting`.
 
--  When showing input, always include a command prompt (such as $).
+-  When showing input, don't include a command prompt (such as $). Users
+   can copy many of our examples. If a user pastes a command with a
+   command prompt included, it can cause an error and make the user
+   believe our product doesn't work as expected.
 
 -  As often as necessary, show input and output in separate blocks and
    provide explanations for each. For example, if the input contains
@@ -29,21 +30,20 @@ or output examples:
 -  When the command is simple, and there's nothing specific to say
    about the output, you can show the input and output in the same code
    block, as users would actually see the code in their own terminal.
-   The inclusion of the command prompt differentiates the input from
-   the output.
+   In this case, you can include the command prompt to differentiate the
+   input from the output. Ensure that this code block is set to 
+   ``:copyable: false``.
 
 -  Ensure that any placeholder text in code is obvious.
 
-   - If the authoring tool allows it, apply italics to placeholders; if
-     not, enclose them in angle brackets.
+   - Enclose placeholders in angle brackets.
    - Use lowercase letters for single-word placeholders. To show
-     multiple-word placeholders, don't separate the words with spaces
-     or symbols and capitalize the first letter of each word after the
-     first word (camelCase).
+     multiple-word placeholders, user lowercase letters and separate the
+     words with hyphens (kebab-case).
 
      .. note::
 
-        Use lowercase and camelCase unless you have to follow the
+        Use lowercase and kebab-case unless you have to follow the
         conventions of the programming language. For example, you might
         need to use underscores (account_ID) or all capitals
         (ACCOUNT_ID).
@@ -60,113 +60,60 @@ or output examples:
    arguments or parameters in text, show them in the same order that
    they appear in the code block.
 
+- Set code blocks that contain only example output to 
+  ``:copyable: false``. 
+
 The following examples illustrate many of these guidelines:
 
-Create a VM Running a Docker Host
----------------------------------
+Configure the MongoDB CLI
+-------------------------
 
-#. Show all the available virtual machines (VMs) that are running
-   Docker.
+#. Create a profile.
+
+   This command creates a profile with a custom name in the MongoDB CLI
+   Configuration File. To use this profile, you must specify it with the
+   ``--profile`` flag in every MongoDB CLI command.
+
+   Run the ``mongocli config`` command:
+
+   .. code-block:: sh
+   
+      mongocli config  --profile <profile-name>
+
+#. Enter your Programmatic API Key and Project ID.
+
+   When prompted, enter the Public API Key, Private API Key, and Project ID for your Atlas deployment.
+
+   .. code-block:: sh
+      :copyable: false
+
+      ? Public API Key: abcdef
+      ? Private API Key: [? for help] ************************************
+      ? Project ID [optional]: 7ehf04abc10defb66c7d1234c
+
+   If you don’t save your project ID in your profile, you must specify the ``--projectId`` option every time you run a MongoDB CLI command.
+
+#. Verify your profile.
+   
+   View the configuration file or run the mongocli config describe command to verify your profile.
+
+   .. important::
+
+      Your API keys are like passwords. The configuration file stores API keys in plaintext, so ensure that you secure the configuration file appropriately.
+
+   In the following example, the ``mongocli config describe`` command returns the settings in the profile named myMongoDB:
 
    .. code-block:: sh
 
-      $ docker-machine ls
+      mongocli config describe myMongoDB
 
-   If you have not created any VMs yet, your output should look as follows:
+   The command returns following settings. The myMongoDB profile has a Programmatic API Key, which is redacted in the command output for security purposes, and project ID for an Atlas deployment.
 
-   .. code-block:: sh
+   .. code-block:: sh 
+      :copyable: false
 
-      NAME ACTIVE DRIVER STATE URL
+      private_api_key = redacted
+      public_api_key = redacted
+      project_id = 7ehf04abc10defb66c7d1234c
+      service = cloud   
 
-#. Create a VM that's running Docker.
-
-   .. code-block:: sh
-
-      $ docker-machine create --driver virtualbox test
-
-   The ``--driver`` flag indicates what type of driver the machine runs
-   on. In this case, ``virtualbox`` indicates that the driver is Oracle
-   VirtualBox. The final argument in the command gives the VM a name,
-   in this case, ``test``.
-
-   The output should look as follows:
-
-   .. code-block:: sh
-
-      Creating VirtualBox VM...
-      Creating SSH key...
-      Starting VirtualBox VM...
-      Starting VM...
-      To see how to connect Docker to this machine, run:
-      docker-machine env test
-
-#. Run docker-machine ls again to see the VM that you created.
-
-   The output should look as follows:
-
-   .. code-block:: sh
-
-      NAME ACTIVE DRIVER STATE URL SWARM
-      test virtualbox Running tcp://192.168.99.101:237
-
-Run the application
--------------------
-
-#. Run a container from the image. The application code uses the
-   environment variables that you defined to connect to the MongoDB
-   container.
-
-   .. code-block:: sh
-
-      $ docker run --detach \
-        --env MONGO_HOST=$MONGO_HOST \ env MONGO_PORT=$MONGO_PORT \ env
-        --MONGO_SSL=$MONGO_SSL \ env MONGO_DATABASE=$MONGO_DATABASE \ env
-        --MONGO_USER=$MONGO_USER \ env MONGO_PASSWORD=$MONGO_PASSWORD \ publish
-        --5000:5000 \
-        guestbook-mongo:1.0
-
-#. View the status of the container by using the ``--latest``
-   parameter.
-
-   .. code-block:: sh
-
-      $ docker ps --latest
-
-The status of the container should begin with ``Up``.
-
-Remove the Containers Already using the Port
---------------------------------------------
-
-#. To identify the containers that are using the port, run the
-   following command, changing ``<port>`` to the port number that you
-   want to use.
-
-   .. code-block:: sh
-
-      $ docker ps -a | grep <port>/tcp
-
-#. To remove the containers, run the following command for each
-   container identified in step 1, changing ``<containerId>`` to the ID
-   of the container.
-
-   The ``--force`` argument ensures that the container is removed even
-   if it's currently running.
-
-   .. code-block:: sh
-
-      docker rm --force --volumes <containerId>
-
-Troubleshooting
----------------
-
-Sometimes, when you use a docker command, you receive the following
-output:
-
-.. code-block:: sh
-
-   $ docker info Get http:///var/run/docker.sock/v1.20/info: dial unix
-   /var/run/docker.sock: no such file or directory.
-   * Are you trying to connect to a TLS-enabled daemon without TLS?
-   * Is your docker daemon up and running?
-
-If you receive this output, your VM isn't running on a Docker host.
