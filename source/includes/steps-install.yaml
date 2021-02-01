@@ -127,8 +127,8 @@ content: |
 
    .. code-block:: sh
 
-      brew cask install xquartz
+      brew install --cask xquartz
 
-   Once XQuartz is installed,
-   `download and install Inkscape <https://inkscape.org/release/inkscape-0.92.2/mac-os-x/107/dmg/dl/>`__.
+   Once XQuartz is installed, `download and install Inkscape
+   <https://inkscape.org/release/inkscape-1.0.1/mac-os-x/1010-1015/dl/>`__.
 ...
