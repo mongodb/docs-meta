@@ -151,7 +151,9 @@ that gives the user more questions.
 
 .. note::
 
-   Production notes and other similar resources where we recommend best practices configuration settings for use with MongoDB offerings.
+   An exception to this rule are production notes and other similar
+   resources where we recommend best practices configuration settings
+   for use with MongoDB offerings.
 
    .. example::
 

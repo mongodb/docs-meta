@@ -70,8 +70,8 @@ of the user from those of the technology.
 
 .. _use-passive-voice:
 
-When Do You Use Passive Voice?
-------------------------------
+When To Use Passive Voice?
+--------------------------
 
 You can use passive voice when using active voice:
 
@@ -79,9 +79,9 @@ You can use passive voice when using active voice:
    example, you can use passive voice in an error message or
    troubleshooting content when the active subject is the user.
 -  Makes the sentence wordy or awkward.
--  Would emphasize the performer when you don't know the performer of
-   action or you want to de-emphasize the performer in favor the object
-   on which the action is performed.
+-  Would emphasize the performer when you don't know the performer of an
+   action or when you want to de-emphasize the performer in favor the
+   object on which the action is performed.
 
 .. list-table::
    :widths: 33 33 33

@@ -80,7 +80,7 @@ Write for Ease of Reading
 
 - Break up walls of text to aid in scannability. For example, separate
   paragraphs, create headings, and use lists.
-- Use shorter sentences. Try to use fewer than 26 words per sentence.
+- Use shorter sentences. Try to use fewer than 25 words per sentence.
 - Define acronyms and abbreviations on first usage and if they're used
   infrequently.
 - Use parallel writing structures for similar things. For example,

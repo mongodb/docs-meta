@@ -20,7 +20,7 @@ plural pronoun.
 
    * - *They*, *their*, *theirs*, *them*, or *themselves* as a singular
        pronoun.
-     - *he*, *him*, *his*, *she*, or *her* as gender-neutral pronouns
+     - *he*, *him*, *his*, *she*, *her*, or *hers* as gender-neutral pronouns
        and *he/she* or *(s)he* or other such punctuational approaches.
 
 Following are some examples:
@@ -30,12 +30,11 @@ Following are some examples:
 - Who left their laptop opened and unsecured?
 
 In these sentences, we’re talking about one person, but we don’t know
-how that person self identifies. In the past, people might have
-written "Tell the next caller he needs to forward the status" or "Tell
-the next caller he or she need to forward the status. But recently,
-acceptance of the pronoun *they* or *their* in sentences similar to
-these is moving forward. (Singular *they* is actually an old pattern in
-English.)
+the person's pronouns. In the past, people might have written "Tell the
+next caller he needs to forward the status" or "Tell the next caller he
+or she need to forward the status. But recently, acceptance of the
+pronoun *they* or *their* in sentences similar to these is moving
+forward. (Singular *they* is actually an old pattern in English.)
 
 You can also rewrite the sentence avoiding singular nouns. Using
 plurals can often help, as shown in the following example:
