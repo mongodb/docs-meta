@@ -64,7 +64,7 @@ Use the following guidelines for colons:
 Commas
 ~~~~~~
 
-Use the following guidelines for commas. For basic comma usage,
+Use the following guidelines for commas. For basic comma usage, see
 :cmos17:`section 6.16, Commas </part2/ch06/psec016.html>` in the Chicago
 Manual of Style.
 
@@ -133,7 +133,7 @@ Manual of Style.
        Unlike the other alarms in this list you set the network check
        alarm variable upon network check creation.
 
-       To learn more, see Upgrading Ops Manager.
+       To learn more see Upgrading Ops Manager.
 
    * - Don't use a comma between the verbs in a compound predicate.
      - These open-source Python clients run on Linux or Mac OS X
@@ -366,7 +366,7 @@ grammar reference, :cmos17:`section 6.12, Periods </part2/ch06/psec012.html>` in
     with a period.
   - In a list of fragments, some or all of which are followed by
     sentences, end every fragment and sentence in the list with a
-    period. For example, see the "Lists" topic.
+    period. For example, see :ref:`lists`.
 
 
 - Use periods with abbreviations that could be misread as a word, such

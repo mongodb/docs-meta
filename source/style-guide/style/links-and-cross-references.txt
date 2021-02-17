@@ -99,7 +99,7 @@ Link and Cross-Reference Formatting
 -----------------------------------
 
 - Don't code a link to open in a new tab or window. Users can choose
-  whether they want open a link in a new tab or window.
+  whether they want to open a link in a new tab or window.
 
 - If your article or topic has multiple subheadings, provide a TOC
   (jump list) at the beginning of the article or topic, after an
@@ -126,7 +126,7 @@ Link and Cross-Reference Formatting
        they end with only one underscore. If you create two links to
        the same URL with only one underscore, the engine returns a
        build error. If you end the link with two underscores, the
-       engine creates modifies subsequent URLs to prevent this build
+       engine modifies subsequent URLs to prevent this build
        error.
 
 - Test links to ensure that they're live and that they point to
