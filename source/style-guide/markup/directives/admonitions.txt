@@ -8,24 +8,15 @@ Admonitions
    * - Directive
      - Description
 
-   * - :rst:`attention </directives.html#attention>`
-     -
-   * - :rst:`caution </directives.html#caution>`
-     -
-   * - :rst:`danger </directives.html#danger>`
-     -
-   * - :rst:`error </directives.html#error>`
-     -
-   * - :rst:`hint </directives.html#hint>`
-     -
    * - :rst:`important </directives.html#important>`
-     - Indicates that this block contains information that could impact
+     - Indicates information required for section.
    * - :rst:`note </directives.html#note>`
-     -
+     - Indicates related material or content under various conditions.
    * - :rst:`tip </directives.html#tip>`
-     -
+     - Provides helpful actions related to topic or section.
    * - :rst:`warning </directives.html#warning>`
-     -
+     - Indicates actions that are destructive to data and/or
+       ignore administrative rights.
    * - :rst:`admonition </directives.html#admonitions>`
      - Creates a generic admonition to which you can add a title and
        a class.
