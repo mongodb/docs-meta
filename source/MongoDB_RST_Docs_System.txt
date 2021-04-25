@@ -402,7 +402,7 @@ Internal Hyperlinks
 Use cross references
 
 Footnotes
-Use [#name]_ to mark the footnote location
+Use [#name]_ to mark the footnote location
 Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_ 
 Add the footnote body at the bottom of the document after a “Footnotes” rubric heading:
 .. rubric:: Footnotes
@@ -1102,3 +1102,16 @@ Administer Backups
 ==================
 
 
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
