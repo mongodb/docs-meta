@@ -9,11 +9,72 @@ Table Directives
    * - Directive
      - Description
 
-   * - :rst:`table </directives.html#table>`
-     - Table with title
-
-   * - :rst:`csv-table </directives.html#csv-table>`
-     - Table generated from comma-separated values
-
    * - :rst:`list-table </directives.html#list-table>`
      - Table generated from a list of lists
+
+Use Case
+--------
+
+Use tables whenever you find you have written a list with one or more
+dashes, colons, or semicolons to separate content on each line.
+
+Example
+-------
+
+The ``list-table`` directive creates a table from data in a two-level
+bulleted list. The first level of bullet points specifies rows, and
+the second level of bullet points specifies columns. Each row must
+contain the same number of columns.
+
+.. example::
+
+   .. code-block:: rst
+
+      .. list-table:: Hobbits
+         :widths: 60 10 30
+         :header-rows: 1
+
+         * - Name
+           - Height
+           - Nickname
+         * - Peregrin Took
+           - 4'2"
+           - Pippin
+         * - Bilbo Baggins
+           - 3'10"
+           - Attercop
+         * - Meriadoc Brandybuck
+           - 4'0"
+           - Merry
+
+Options
+-------
+
+``list-table`` recognizes the following options:
+
+.. list-table:: Options
+   :widths: 20 80
+   :header-rows: 1
+
+   * - Option
+     - Description
+
+   * - widths
+     - A space-separated list of relative column widths.
+       Defaults to equal-width columns. Must contain the same number
+       of width specifications as there are columns in the table.
+
+   * - header-rows
+     - The number of rows to format as table headers.
+       Defaults to 0.
+
+   * - stub-columns
+     - The number of columns to format as row titles on the left
+       hand side of the table. Defaults to 0.
+
+   * - align
+     - The horizontal alignment of the tablel. Values: "left",
+       "center", or "right".
+
+You can use other rST markup, such as references, admonitions, includes,
+code-blocks, and even additional tables within cells of a table.
