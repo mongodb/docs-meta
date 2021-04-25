@@ -7,16 +7,27 @@ Admonitions
 
    * - Directive
      - Description
+     - Example
 
    * - :rst:`important </directives.html#important>`
      - Indicates information required for section.
+     - '''.. important:: These instructions do not apply to older versions. '''
    * - :rst:`note </directives.html#note>`
      - Indicates related material or content under various conditions.
+     - '''.. note:: If you do not specify the password in the connection string,
+       the shell will prompt for the password. '''
    * - :rst:`tip </directives.html#tip>`
      - Provides helpful actions related to topic or section.
+     - '''.. tip:: See also:
+       `Manage users and roles <https://docs.mongodb.com/manual/tutorial/manage-users-and-roles/>`_'''
    * - :rst:`warning </directives.html#warning>`
-     - Indicates actions that are destructive to data and/or
-       ignore administrative rights.
+     - Indicates actions that may be destructive to data, share sensitive
+       information, and/or ignore administrative rights.
+     - '''.. warning:: The local variables contain sensitive information. Do not check these values in
+       to a repository that is available publicly.'''
    * - :rst:`admonition </directives.html#admonitions>`
      - Creates a generic admonition to which you can add a title and
        a class.
+     - '''.. admonition:: Fun fact!
+       The word sweaterdresses is the longest English word typable with only
+       the left hand.'''
