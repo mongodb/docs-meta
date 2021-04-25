@@ -50,7 +50,7 @@ contain the same number of columns.
 Options
 -------
 
-``list-table`` recognizes the following options:
+The ``list-table`` directive recognizes the following options:
 
 .. list-table:: Options
    :widths: 20 80
