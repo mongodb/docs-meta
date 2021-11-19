@@ -55,7 +55,7 @@ saying something that might otherwise be upsetting or contentious.
    clauses?
 
    Good: \*\*suggestion: (blocking)\*\* Semicolons should only be used to
-   join two related independent clauses in pace of a comma and coordinating
+   join two related independent clauses in place of a comma and coordinating
    conjunction. Here's how you'd use a semicolon in this instance...
 
 
