@@ -133,8 +133,8 @@ you PRs that are great from the start, requiring less and less review time.
 Reviewers learn to respond quickly and not add unnecessary latency into
 the review process.
 
-**Don't compromise on the :ref:`review standards <pr-standard>` or quality
-for an imagined improvement in velocity; it's not going to make anything
+Don't compromise on the :ref:`review standards <pr-standard>` or quality
+for an imagined improvement in velocity. It isn't going to make anything
 happen more quickly in the long run.
 
 Emergencies

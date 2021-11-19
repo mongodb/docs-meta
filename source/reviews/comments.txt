@@ -9,13 +9,11 @@ Summary
 - Explain your reasoning.
 - Balance giving explicit directions with just pointing out problems and letting
   the author decide.
-- Code
-  - Encourage authors to simplify code or add code comments instead
-    of just explaining the complexity to you.
-- Copy
-  - Encourage writers to simplify explanations when appropriate. We're all
-    smart, but smart words take more time to read. Readers prefer
-    conciseness and the simplest explanation in most situations.
+- Encourage authors to simplify code or add code comments instead
+  of just explaining the complexity to you.
+- Encourage authors to simplify explanations when appropriate. We're all
+  smart, but smart words take more time to read. Readers prefer
+  conciseness and the simplest explanation in most situations.
 
 Label Comments
 ++++++++++++++
