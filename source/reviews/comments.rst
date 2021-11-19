@@ -1,0 +1,108 @@
+==========================================
+How To Write Code And Copy Review Comments
+==========================================
+
+Summary
+-------
+
+- Be kind.
+- Explain your reasoning.
+- Balance giving explicit directions with just pointing out problems and letting
+  the author decide.
+- Code
+  - Encourage authors to simplify code or add code comments instead
+    of just explaining the complexity to you.
+- Copy
+  - Encourage writers to simplify explanations when appropriate. We're all
+    smart, but smart words take more time to read. Readers prefer
+    conciseness and the simplest explanation in most situations.
+
+Label Comments
+++++++++++++++
+
+Label comments similar to `Conventional Comments <https://conventionalcomments.org/>`__
+so the reviewee understands this is a suggestion, issue, question, or comment.
+
+- **No "nits"**.
+- Issues are **always** blocking.
+- Suggestions **may** be blocking. If they are, label them as such.
+  You **must** include a substantive suggestion, not a suggestion disguised
+  as a comment.
+- Questions are **never** blocking on their own.
+- Comments are **never** blocking.
+
+.. example::
+
+   .. code:: sh
+
+      **suggestion: (non-blocking)**
+      **suggestion: (blocking)**
+      **issue**
+      **question**
+      **comment**
+
+Courtesy
+++++++++
+
+In general, it is important to be :ref:`courteous and respectful <pr-courtesy>`
+while also being clear and helpful to the author whose content you are
+reviewing. One way to do this is to be sure that you are always making comments
+about the *content* and never making comments about the *author*. You don't
+always have to follow this practice, but you should definitely use it when
+saying something that might otherwise be upsetting or contentious.
+
+.. example::
+
+   Bad: \*\*question\*\* Why did **you** use a semicolon to join two unrelated
+   clauses?
+
+   Good: \*\*suggestion: (blocking)\*\* Semicolons should only be used to
+   join two related independent clauses in pace of a comma and coordinating
+   conjunction. Here's how you'd use a semicolon in this instance...
+
+
+Explain Why
++++++++++++
+
+One thing you'll notice about the "good" example from above is that it helps the
+author understand *why* you are making your comment. You don't always need to
+include this information in your review comments, but sometimes it's appropriate
+to give a bit more explanation around your intent, the best practice you're
+following, or how your suggestion improves code health.
+
+Giving Guidance
++++++++++++++++
+
+**In general it is the author's responsibility to fix a PR, not the reviewer's.**
+You are not required to do detailed design of a solution or write
+content for the author.
+
+This doesn't mean the reviewer should be unhelpful, though. In general you
+should strike an appropriate balance between pointing out problems and providing
+direct guidance. Pointing out problems and letting the developer make a decision
+often helps the author learn, and makes it easier to do reviews. It also
+can result in a better solution, because the author is closer to the content
+than the reviewer is.
+
+That said, sometimes direct instructions, suggestions, or even content are more
+helpful. The primary goal of review is to get the best PR possible. A
+secondary goal is improving the skills of authors so that they require less
+and less review over time.
+
+Remember that people learn from reinforcement of what they are doing well and
+not just what they could do better. If you see things you like in the PR,
+comment on those too! Examples: author cleaned up a messy paragraph, added
+new examples or tests, or you as the reviewer learned something from the PR.
+Just as with all comments, include why you liked something, further encouraging
+the author to continue good practices.
+
+Accepting Explanations
+++++++++++++++++++++++
+
+If you ask a author to explain content that you don't understand,
+that should usually result in them **rewriting the content more clearly**.
+
+**Explanations written only in the code review tool are not helpful to future readers.**
+They are acceptable only in a few circumstances, such as when
+you are reviewing an area you are not familiar with and the author
+explains something that normal readers of the code would have already known.
