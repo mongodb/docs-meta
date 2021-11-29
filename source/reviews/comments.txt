@@ -15,29 +15,35 @@ Summary
   smart, but smart words take more time to read. Readers prefer
   conciseness and the simplest explanation in most situations.
 
-Label Comments
-++++++++++++++
+Label Your Comments
++++++++++++++++++++
 
 Label comments similar to `Conventional Comments <https://conventionalcomments.org/>`__
-so the reviewee understands this is a suggestion, issue, question, or comment.
+so the author understands this is a suggestion, issue, question, or comment.
 
 - **No "nits"**.
-- Issues are **always** blocking.
-- Suggestions **may** be blocking. If they are, label them as such.
-  You **must** include a substantive suggestion, not a suggestion disguised
-  as a comment.
-- Questions are **never** blocking on their own.
-- Comments are **never** blocking.
+- Issue: Something is logically, factually, or grammatically incorrect and needs
+  to be corrected. Issues are **always** blocking and no PR should be merged with
+  an open issue.
+- Question: You (the reviewer) have a question about something in a PR.
+  **Do not use** questions as in a Socratic style. If there is a logical, factual, or
+  grammatical error use the proper comment label instead (issue:). Questions must
+  be answered but are **never** blocking, i.e. they do not require a content revision.
+- Comment: You (the reviewer) want to say something about a particular piece
+  of content. Do not use comments as a form of "passive issue". Comments **never** block
+  PR approval and do not require addressing by the author.
+- Suggestion: A way to propose a change as part of a PR comment. It is not required
+  to offer suggestions.
+
 
 .. example::
 
    .. code:: sh
 
-      **suggestion: (non-blocking)**
-      **suggestion: (blocking)**
-      **issue**
-      **question**
-      **comment**
+      issue:
+      suggestion:
+      question:
+      comment:
 
 Courtesy
 ++++++++
