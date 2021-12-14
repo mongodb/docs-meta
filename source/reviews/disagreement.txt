@@ -1,10 +1,14 @@
-=================================
-Handling Pushback In Code Reviews
-=================================
+================================
+Handling Disagreement In Reviews
+================================
 
-Sometimes an author will push back on a review. Either they will disagree
-with your suggestion or they will complain that you are being too strict in
-general.
+Sometimes an author disagree with a review. They may disagree with you,
+feel you are being too strict, or feel the review is too long.
+
+Below are some guidelines for handling disagreements:
+
+
+
 
 Who Is Right
 ------------
@@ -34,7 +38,7 @@ Upsetting Authors
 
 Reviewers sometimes believe that the author will be upset if the reviewer
 insists on an improvement. Sometimes authors do become upset, but it is
-usually brief and they become very thankful later that you helped them improve
+usually brief and they become thankful later that you helped them improve
 the quality of their content. Usually, if you are polite in your comments,
 authors actually don't become upset at all, and the worry is just in the reviewer's
 mind. Upsets are usually more about *the way comments are written* than about
@@ -45,8 +49,8 @@ Cleaning It Up Later
 
 A common source of push back is that authors (understandably) want to get
 things done. They don't want to go through another round of review just to get
-this PR in. So, they say they will clean something up in a later PR or capture it
-in a ticket, and thus you should LGTM *this* PR now. Some authors are very good
+this PR in. They say they will clean something up in a later PR or capture it
+in a ticket, and thus you should LGTM *this* PR now. Some authors are good
 about this, and will immediately write a follow-up PR that fixes the issue.
 However, experience shows that as more time passes after a authors writes the
 original PR, the less likely this clean up is to happen. In fact, unless the
@@ -66,7 +70,7 @@ Strictness
 ----------
 
 If you previously had fairly lax reviews and you switch to having strict
-reviews, some authors will complain very loudly. Improving the speed of
+reviews, some authors will complain loudly. Improving the speed of
 your reviews usually causes these complaints to fade away.
 
 Sometimes it can take months for these complaints to fade away, but eventually
@@ -80,6 +84,6 @@ Conflicts
 
 If you are following all of the above but you still encounter a conflict
 between yourself and an author that can't be resolved, see
-:ref:`the Standard of Code Review <pr-standard>` for guidelines and
+:ref:`the Standard of Content Review <pr-standard>` for guidelines and
 principles that can help resolve the conflict, and the
 :ref:`reviewer guidelines <pr-courtesy>`.

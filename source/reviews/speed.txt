@@ -10,33 +10,33 @@ content together**, as opposed to optimizing for the speed at which an
 individual author can write content. The speed of an individual is
 important, it's just not *as* important as the velocity of the entire team.
 
-When code reviews are slow, several things happen:
+When content reviews are slow, several things happen:
 
 -   **The velocity of the team as a whole is decreased.** Yes, the individual
     who doesn't respond quickly to the review gets other work done. However, new
     features and bug fixes for the rest of the team are delayed by days, weeks,
-    or months as each PR waits for review and re-review.
+    or months as each PR waits for review.
 -   **Authors start to protest the review process.** If a reviewer only
     responds every few days, but requests major changes to the PR each time,
     that can be frustrating and difficult for authors. Often, this is
-    expressed as complaints about how "strict" or "nitpicky" the reviewer
+    expressed as complaints about how "strict" or "nit picky" the reviewer
     is being. If the reviewer requests the *same* substantial changes
     (changes which really do improve content health), but responds *quickly*
     every time the developer makes an update, the complaints tend to disappear.
-    **Most complaints about the code review process are resolved by making the
+    **Most complaints about the content review process are resolved by making the
     process faster.**
 -   **Content health can be impacted.** When reviews are slow, there is increased
     pressure to allow developers to submit PRs that are not as good as they
-    could be. Slow reviews also discourage content cleanups, refactorings, and
+    could be. Slow reviews also discourage content cleanups, refactoring, and
     further improvements to existing PRs.
 
-How Fast Should Code Reviews Be?
+How Fast Should Content Reviews Be?
 --------------------------------
 
 If you are not in the middle of a focused task, **you should do a review
 shortly after it comes in.**
 
-**One business day is the maximum time it should take to respond** to a code
+**One business day is the maximum time it should take to respond** to a content
 review request (i.e., first thing the next morning).
 
 Following these guidelines means that a typical PR should get multiple rounds of
@@ -45,9 +45,9 @@ review (if needed) within a single day.
 Speed vs. Interruption
 ----------------------
 
-There is one time where the consideration of personal velocity trumps team
-velocity. **If you are in the middle of a focused task, such as writing content,
-don't interrupt yourself to do a code review.**
+**If you are in the middle of a focused task, such as writing content,
+don't interrupt yourself to do a content review.**
+
 Research has shown that it can take a long time for an author to get back into a
 smooth flow of work after being interrupted. Interrupting yourself while writing
 is actually *more* expensive to the team than making another author wait a bit
@@ -78,7 +78,7 @@ you should interrupt focus work to send a response; send the response at
 a reasonable break point in your work.)
 
 **It is important that reviewers spend enough time on review that they are
-certain their "LGTM" means "this code meets :ref:`our standards <pr-standard>`"**
+certain their "LGTM" means "this content meets :ref:`our standards <pr-standard>`"**
 However, individual responses should still fast.
 
 Cross-Time-Zone Reviews
@@ -113,7 +113,7 @@ If somebody sends you a review that is so large you're not sure when you
 will be able to have time to review it, your typical response should be to ask
 the author to split the PRs into several smaller PRs that build on
 each other, instead of one huge PR that has to be reviewed all at once. This is
-usually possible and very helpful to reviewers, even if it takes additional work
+usually possible and helpful to reviewers, even if it takes additional work
 from the author.
 
 If a PR *can't* be broken up into smaller PRs, and you don't have time to review
@@ -140,9 +140,8 @@ happen more quickly in the long run.
 Emergencies
 -----------
 
-There are also emergencies where PRs must pass through the *whole* review process
-very quickly, and where the quality guidelines would be relaxed. However,
-reference the following list as most "emergencies" really aren't.
+The following constitute emergencies where PRs must pass through the *whole*
+review process quickly, and where the quality guidelines may be relaxed.
 
 - Broken links
 - Unavailable content

@@ -1,6 +1,6 @@
-==========================================
-How To Write Code And Copy Review Comments
-==========================================
+===============
+Giving Feedback
+===============
 
 Summary
 -------
@@ -22,8 +22,8 @@ Label comments similar to `Conventional Comments <https://conventionalcomments.o
 so the author understands this is a suggestion, issue, question, or comment.
 
 - **No "nits"**.
-- Issue: Something is logically, factually, or grammatically incorrect and needs
-  to be corrected. Issues are **always** blocking and no PR should be merged with
+- Issue: Something is logically, factually, or grammatically incorrect, and needs
+  correction. Issues are **always** blocking and no PR should be merged with
   an open issue.
 - Question: You (the reviewer) have a question about something in a PR.
   **Do not use** questions as in a Socratic style. If there is a logical, factual, or
@@ -32,8 +32,9 @@ so the author understands this is a suggestion, issue, question, or comment.
 - Comment: You (the reviewer) want to say something about a particular piece
   of content. Do not use comments as a form of "passive issue". Comments **never** block
   PR approval and do not require addressing by the author.
-- Suggestion: A way to propose a change as part of a PR comment. It is not required
-  to offer suggestions.
+
+Suggestions are a way to propose a change as part of a PR comment. It is not required
+to offer suggestions.
 
 
 .. example::
@@ -41,16 +42,15 @@ so the author understands this is a suggestion, issue, question, or comment.
    .. code:: sh
 
       issue:
-      suggestion:
       question:
       comment:
 
 Courtesy
 ++++++++
 
-In general, it is important to be :ref:`courteous and respectful <pr-courtesy>`
-while also being clear and helpful to the author whose content you are
-reviewing. One way to do this is to be sure that you are always making comments
+Be :ref:`courteous and respectful <pr-courtesy>` while also being clear and
+helpful to the author whose content you are reviewing. One way to do this is
+to be sure that you are always making comments
 about the *content* and never making comments about the *author*. You don't
 always have to follow this practice, but you should definitely use it when
 saying something that might otherwise be upsetting or contentious.
@@ -62,7 +62,7 @@ saying something that might otherwise be upsetting or contentious.
 
    Good: \*\*suggestion: (blocking)\*\* Semicolons should only be used to
    join two related independent clauses in place of a comma and coordinating
-   conjunction. Here's how you'd use a semicolon in this instance...
+   conjunction.
 
 
 Explain Why
@@ -72,17 +72,17 @@ One thing you'll notice about the "good" example from above is that it helps the
 author understand *why* you are making your comment. You don't always need to
 include this information in your review comments, but sometimes it's appropriate
 to give a bit more explanation around your intent, the best practice you're
-following, or how your suggestion improves code health.
+following, or how your suggestion improves content health.
 
 Giving Guidance
 +++++++++++++++
 
-**In general it is the author's responsibility to fix a PR, not the reviewer's.**
-You are not required to do detailed design of a solution or write
+It is the author's responsibility to fix a PR, not a reviewer's. As a reviewer,
+you are not required to provide the detailed design of a solution or write
 content for the author.
 
-This doesn't mean the reviewer should be unhelpful, though. In general you
-should strike an appropriate balance between pointing out problems and providing
+This doesn't mean the reviewer should be unhelpful, though. You should strike an
+appropriate balance between pointing out problems and providing
 direct guidance. Pointing out problems and letting the developer make a decision
 often helps the author learn, and makes it easier to do reviews. It also
 can result in a better solution, because the author is closer to the content
@@ -106,7 +106,7 @@ Accepting Explanations
 If you ask a author to explain content that you don't understand,
 that should usually result in them **rewriting the content more clearly**.
 
-**Explanations written only in the code review tool are not helpful to future readers.**
+Explanations written only in the review cycle are not helpful to future readers.
 They are acceptable only in a few circumstances, such as when
 you are reviewing an area you are not familiar with and the author
-explains something that normal readers of the code would have already known.
+explains something that normal readers of the content would have already known.

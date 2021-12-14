@@ -1,33 +1,47 @@
-=======================
-Respectful Code Reviews
-=======================
+==========================
+Respectful Content Reviews
+==========================
 
 .. _pr-courtesy:
 
-A Guide for Code Reviewers
+A Guide for Content Reviewers
 --------------------------
 
 This is not an all-inclusive list. Feel free to submit pull requests to
 make additions as needed.
 
+.. list-table::
+
+Do
+++
+
+   * - Assume competence and goodwill.
+     - We attract competent people - and that
+       means even when they're wrong, it most likely comes from lack of information,
+       not from inability.
+
+   * -
+     -
+
+
 Do
 ++
 
 - Assume competence and goodwill. We attract competent people - and that
-  means even when they‘re wrong, it most likely comes from lack of information,
+  means even when they're wrong, it most likely comes from lack of information,
   not from inability.
 
 - Discuss in person. If there is a disagreement, have a quick in-person/video/Slack
-  chat to sort out what is going on - it‘s much easier to address all the little
-  "Oh, I didn’t know"s in a single face-to-face, instead of back-and-forth via e-mail
+  chat to sort out what is going on - it's much easier to address all the little
+  "Oh, I didn't know"s in a single face-to-face, instead of back-and-forth via e-mail
   with long delays. “In person” doubly applies if you are disagreeing with another
   reviewer. And please make sure to record the outcomes on the review.
 
-- Explain why. It might be obvious to you that some content is wrong, but it‘s
-  probably not obvious to the author — or they wouldn’t have written it that way.
-  Please don‘t say “This is wrong”. Instead, explain at least what the right
+- Explain why. It might be obvious to you that some content is wrong, but it's
+  probably not obvious to the author — or they wouldn't have written it that way.
+  Please don't say “This is wrong”. Instead, explain at least what the right
   way looks like. Or even better, explain why they should do things differently.
-  And if you’re the slightest bit uncertain, “Maybe I'm missing something, but…”
+  And if you're the slightest bit uncertain, “Maybe I'm missing something, but…”
   is a helpful sentence. Remember, assume competence.
 
 - Ask for the why. If it is unclear why the author is doing things a certain way,
@@ -36,11 +50,11 @@ Do
   Sometimes, “I'm curious, why did you decide to do it that way?” can help the author
   to rethink their decision.
 
-- Find an end. If you like things neat, it‘s tempting to go over a review over and
-  over until it’s perfect, dragging it out for longer than necessary. It‘s soul-deadening
+- Find an end. If you like things neat, it's tempting to go over a review over and
+  over until it's perfect, dragging it out for longer than necessary. It's soul-deadening
   for the recipient, though. Keep in mind that “LGTM” does not mean “I vouch my
   immortal soul this good”, but “looks good to me”. If it looks good, move on.
-  That doesn’t mean you shouldn‘t be thorough. It’s a judgment call.
+  That doesn't mean you shouldn't be thorough. It's a judgment call.
   And if there are bigger refactorings to be done, move them to a new PR.
 
 - Reply within a reasonable time frame. Please don't leave the reviewee waiting
@@ -50,11 +64,11 @@ Do
   if the reviewee sends you a reminder.
 
 - If you will be on vacation or otherwise OOO for more than a few days, please
-  set your status in the Slack to indicate this (e.g. adding ‘(OOO until )’) and
+  set your status in the Slack to indicate this (e.g. adding '(OOO until )') and
   blocking your calendar.
 
-- Mention the positives. It‘s very easy to get into the mindset of “find ALL the flaws”,
-  but acknowledging the positives helps keep things civil, and brightens the recipient’s
+- Mention the positives. It's very easy to get into the mindset of “find ALL the flaws”,
+  but acknowledging the positives helps keep things civil, and brightens the recipient's
   day. No need to be all fake smiles, but if there's a good decision, or if somebody takes
   on a really grungy task, acknowledging that is a nice thing to do.
   Conversely, a “thank you” to the reviewers is occasionally a nice thing, too.
@@ -67,21 +81,21 @@ Don't
   why we have reviews - to spot those mistakes. While flawless PRs are awesome,
   flawed ones are the norm.
 
-- Don't use extreme or very negative language. Please don‘t say things like
-  “no sane person would ever do this” or “this is terrible”, whether it’s about
-  the PR you‘re reviewing or about the surrounding content. While it might
-  intimidate the reviewee into doing what you want, it’s not helpful in the long run -
+- Don't use extreme or very negative language. Please don't say things like
+  “no sane person would ever do this” or “this is terrible”, whether it's about
+  the PR you're reviewing or about the surrounding content. While it might
+  intimidate the reviewee into doing what you want, it's not helpful in the long run -
   they will feel incapable, and there is not much info in there to help them improve.
   “This is a good start, but it could use some work” or “This needs some cleanup”
   are nicer ways of saying it. Discuss the content, not the person.
 
 - Don't discourage tool use. If people use the automated formatter, be grateful
-  they‘re willing to give up the power of formatting in favor of ensuring consistency.
+  they're willing to give up the power of formatting in favor of ensuring consistency.
   Think carefully before enforcing your own preferences over it.
 
 - Don't bike shed. Always ask yourself if this decision really matters in the long
-  run, or if you‘re enforcing a subjective preference. It feels good to be right,
-  but only one of the two participants can win that game. If it’s not important,
+  run, or if you're enforcing a subjective preference. It feels good to be right,
+  but only one of the two participants can win that game. If it's not important,
   agree to disagree, and move on.
 
 *Adapted from the Chromium Code Review Guidelines*

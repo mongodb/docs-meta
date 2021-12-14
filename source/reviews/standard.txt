@@ -25,13 +25,13 @@ content degrades through small decreases in content health over time,
 especially when a team is under significant time constraints and they feel
 that they have to take shortcuts in order to accomplish their goals.
 
-Also, a reviewer has ownership and responsibility over the code they are
+Also, a reviewer has ownership and responsibility over the content they are
 reviewing. They want to ensure that the corpus stays consistent and maintainable.
 
 The Prime Directive
 -------------------
 
-In general, reviewers should favor approving a PR once it is in a state
+Reviewers should favor approving a PR once it is in a state
 where it definitely improves the overall content health of the area
 being worked on, even if the PR isn't perfect.
 

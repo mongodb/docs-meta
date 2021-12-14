@@ -4,8 +4,8 @@ Code Review Guide
 
 This guide adapts the `Google Engineering Practices Documentation <https://github.com/google/eng-practices>`__
 
-The pages in this guide contain information on how you are expected to conduct
-reviews.
+The pages in this guide contain information on how you are expected to conduct yourself during the review process from
+both the author and reviewer's perspective.
 
 .. cssclass:: hidden
 
@@ -14,8 +14,10 @@ reviews.
 
       /reviews/standard
       /reviews/speed
-      /reviews/comments
-      /reviews/pushback
+      /reviews/disagreement
       /reviews/respect
+      /reviews/author/feedback
+      /reviews/reviewer/feedback
+
 
 
