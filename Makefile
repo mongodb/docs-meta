@@ -8,6 +8,18 @@ PRODUCTION_BUCKET=docs-mongodb-org-prod
 # "PROJECT" currently exists to support having multiple projects
 # within one bucket. For the manual it is empty.
 PROJECT=meta
+PREFIX=ruby-driver
+STGPREFIX=ruby-driver
+
+
+ifeq ($(ENV), 'dotcom')
+	STAGING_URL="https://mongodbcom-cdn.website.staging.corp.mongodb.com"
+	STAGING_BUCKET=docs-mongodb-org-dotcomstg
+	PRODUCTION_URL="https://mongodb.com"
+	PRODUCTION_BUCKET=docs-mongodb-org-dotcomprd
+	PREFIX=docs-qa/meta
+	STGPREFIX=docs/meta
+endif
 
 .PHONY: help lint html stage deploy
 
@@ -31,8 +43,8 @@ publish: ## Builds this branch's publishable HTML and other artifacts under buil
 #   <basename>/<filename>.
 #   * Upload each to the S3 bucket under <project>/<username>/<basename>/<filename>
 stage: ## Host online for review
-	mut-publish build/${GIT_BRANCH}/html ${STAGING_BUCKET} --prefix=${PROJECT} --stage ${ARGS}
-	@echo "Hosted at ${STAGING_URL}/${PROJECT}/${USER}/${GIT_BRANCH}/index.html"
+	mut-publish build/${GIT_BRANCH}/html ${STAGING_BUCKET} --prefix=${STGPREFIX} --stage ${ARGS}
+	@echo "Hosted at ${STAGING_URL}/${STGPREFIX}/${USER}/${GIT_BRANCH}/index.html"
 
 # - Enter build/public/<branch>, as well as any symbolic links pointing
 #   to it, and recurse over each file <basename>/<filename>.
@@ -49,6 +61,6 @@ stage: ## Host online for review
 # The recursive behavior would CHANGE if --all-subdirectories were
 # given: ALL contents of build/public/<branch> would be upload
 deploy: build/public ## Deploy to the production bucket
-	mut-publish build/public ${PRODUCTION_BUCKET} --prefix=${PROJECT} --deploy --all-subdirectories ${ARGS}
+	mut-publish build/public ${PRODUCTION_BUCKET} --prefix=${PREFIX} --deploy --all-subdirectories ${ARGS}
 
-	@echo "Hosted at ${PRODUCTION_URL}/index.html"
+	@echo "Hosted at ${PRODUCTION_URL}/${PREFIX}/index.html"
