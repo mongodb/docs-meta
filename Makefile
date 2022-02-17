@@ -8,8 +8,6 @@ PRODUCTION_BUCKET=docs-mongodb-org-prd
 # "PROJECT" currently exists to support having multiple projects
 # within one bucket. For the manual it is empty.
 PROJECT=meta
-PREFIX=ruby-driver
-STGPREFIX=ruby-driver
 DOTCOM_STAGING_URL="https://mongodbcom-cdn.website.staging.corp.mongodb.com"
 DOTCOM_STAGING_BUCKET=docs-mongodb-org-dotcomstg
 DOTCOM_PRODUCTION_URL="https://mongodb.com"
