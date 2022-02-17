@@ -3,7 +3,7 @@ USER=`whoami`
 STAGING_URL="https://docs-mongodborg-staging.corp.mongodb.com"
 PRODUCTION_URL="https://docs.mongodb.org/meta"
 STAGING_BUCKET=docs-mongodb-org-prd-staging
-PRODUCTION_BUCKET=docs-mongodb-org-prod
+PRODUCTION_BUCKET=docs-mongodb-org-prd
 
 # "PROJECT" currently exists to support having multiple projects
 # within one bucket. For the manual it is empty.
