@@ -20,19 +20,19 @@ user experience.
 Documentation writers use links to direct users to related material
 outside of the current page or section. Links may be:
 
-- Inline textual references to different sections. For example:
+- Inline textual references to different sections. 
 
-  "Partial indexes include more details about indexed
+  For example: "Partial indexes include more details about indexed
   documents compared to :manual:`Sparse Indexes </core/index-sparse/>`."
 
-- Explicit references to different sections. For example:
+- Explicit references to different sections.
 
-  To learn more about aggregation pipelines, see:
+  For example: "To learn more about aggregation pipelines, see:
 
   - :ref:`aggregation-expression-operators`
   - :ref:`aggregation-pipeline-operator-reference`
   - `Practical MongoDB Aggregations
-    <https://www.practical-mongodb-aggregations.com>`__
+    <https://www.practical-mongodb-aggregations.com>`__"
 
 - Explicit hyperlinks to specific URLs. For example, a link to a GitHub
   repository.
