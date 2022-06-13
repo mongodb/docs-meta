@@ -91,7 +91,7 @@ parenthetically after the numeral.
    * - zero probability
      - zero (0) probability
 
-   * - Enter **0** (zero).
+   * - Enter **0** (zero)
      -
 
 .. _commas-in-numbers:
