@@ -44,6 +44,9 @@ use numerals.
    * - Numbers with symbols
      - 7%
 
+   * - Numbers with units
+     - 10 MB
+
    * - Numbers with units of measure or abbreviations
      - 5 mm, 3-inch disk
 
@@ -83,13 +86,14 @@ parenthetically after the numeral.
      - Don't use
 
    * - two panels
-
-       zero probability
-
-       Enter **0** (zero). *(acceptable)*
      - two (2) panels
 
-       zero (0) probability
+   * - zero probability
+     - | zero (0) probability
+       | Enter **0** (zero). *(acceptable)*
+
+   * - Numbers with units
+     - 10MB
 
 .. _commas-in-numbers:
 
