@@ -14,9 +14,6 @@ Links and Cross-References
 
 .. include:: /includes/styles/corrections.rst
 
-This document describes best practices for linking to provide an optimal
-user experience.
-
 Documentation writers use links to direct users to related material
 outside of the current page or section. Links may be:
 
@@ -41,7 +38,7 @@ Best Practices
 --------------
 
 Use the following guidelines to create clear and specific
-cross-references.
+links and cross-references.
 
 Link with Care
 ~~~~~~~~~~~~~~
