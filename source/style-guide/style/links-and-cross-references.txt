@@ -20,14 +20,14 @@ user experience.
 Documentation writers use links to direct users to related material
 outside of the current page or section. Links may be:
 
-- Inline textual references to different sections. 
+- Inline textual references to different sections. For example:
 
-  For example: "Partial indexes include more details about indexed
-  documents compared to :manual:`Sparse Indexes </core/index-sparse/>`."
+  "Partial indexes include more details about indexed documents compared
+  to :manual:`Sparse Indexes </core/index-sparse/>`."
 
-- Explicit references to different sections.
+- Explicit references to different sections. For example:
 
-  For example: "To learn more about aggregation pipelines, see:
+  "To learn more about aggregation pipelines, see:
 
   - :ref:`aggregation-expression-operators`
   - :ref:`aggregation-pipeline-operator-reference`
