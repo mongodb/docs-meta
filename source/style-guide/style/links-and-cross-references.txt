@@ -58,8 +58,8 @@ Be aware that providing a brief definition or attempting to explain a
 concept on the current page may introduce maintenance issues. If the
 behavior of the topic we're describing changes, it may become more
 difficult to track down each place that topic is mentioned and know what
-needs to be updated. When possible,  single-source content using an
-include to reduce future maintenance.
+needs to be updated. When possible, use an include to single-source
+content and reduce future maintenance.
 
 Consider Link Placement
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -155,16 +155,15 @@ complete link sentence should look like this:
 Use MongoDB-Domain Links When Possible
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use links to the MongoDB domain whenever possible instead of directing
-users to external domains. Some topics described in our documentation
-are also covered by other products' documentation, external tutorials,
-or Wikipedia. By keeping users in the MongoDB domain, we ensure that we
-are in full control of the content presented, and maintain trust with
-users.
+Link to the MongoDB domain whenever possible instead of directing users
+to external domains. Some topics described in our documentation are also
+covered by other products' documentation, external tutorials, or
+Wikipedia. By keeping users in the MongoDB domain, we ensure that we are
+in full control of the content presented, and maintain trust with users.
 
 Directing users outside of the MongoDB domain is acceptable when it is
 critical to provide additional context on a topic and we do not have
-sufficient context in our docs to cover user needs.
+sufficient context in our documentation to cover user needs.
 
 Use ``:ref:`` Links Instead of ``:doc:`` Links
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
