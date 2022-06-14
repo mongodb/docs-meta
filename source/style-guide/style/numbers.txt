@@ -157,7 +157,6 @@ When describing number ranges, use the following guidelines:
    :widths: 50 50
    :header-rows: 1
 
-
    * - Use
      - Don't use
 
