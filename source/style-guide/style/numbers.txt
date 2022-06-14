@@ -89,11 +89,10 @@ parenthetically after the numeral.
      - two (2) panels
 
    * - zero probability
-     - | zero (0) probability
-       | Enter **0** (zero). *(acceptable)*
+     - zero (0) probability
 
-   * - Numbers with units
-     - 10MB
+   * - Enter **0** (zero)
+     -
 
 .. _commas-in-numbers:
 
@@ -157,7 +156,6 @@ When describing number ranges, use the following guidelines:
 .. list-table::
    :widths: 50 50
    :header-rows: 1
-
 
    * - Use
      - Don't use
