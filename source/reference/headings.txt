@@ -19,7 +19,7 @@ structure:
 
 .. list-table::
    :header-rows: 1
-   :widths: 10 10 10 60 10
+   :widths: 10 30 10 40 10
 
    * - Heading Level
      - Character
@@ -145,7 +145,7 @@ Headings must follow these rules to prevent build errors:
             Create One New User
             ~~~~~~~~~~~~~~~~~~~
 
-- Avoid using rST replacements-such as source constants-in heading text. If the
+- Avoid using {+rst+} replacements-such as source constants-in heading text. If the
   replacement text makes the heading text longer than the underline length, your
   build generates an error.
 
@@ -158,7 +158,7 @@ Headings must follow these rules to prevent build errors:
 
      * -
 
-         .. code-block:: rst
+         .. code-block:: none
 
             =============
             {+replaceMe+}
