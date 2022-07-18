@@ -1,0 +1,30 @@
+=========
+Footnotes
+=========
+
+Use footnotes for tangential explanations of greater technical depth that build
+understanding but can be ignored.
+
+Use ``[#footnote-identifier]`` to mark the footnote location in the text:
+
+.. code-block:: rst
+
+    This sentence ends with a footnote.[#first-footnote]
+    This sentence also ends with a footnote.[#second-footnote]  
+    The same footnote can be added to multiple sentences.[#first-footnote]
+
+Add the footnotes to the bottom of the page. It's best practice to place them 
+beneath a "Footnotes" rubric heading:
+
+.. code-block:: rst
+
+    .. rubric:: Footnotes
+    .. [#first-footnote] This footnote supplements the first and third sentences above.
+    .. [#second-footnote] This footnote supplements the second sentence above.
+
+
+Example here.
+https://raw.githubusercontent.com/mongodb/docs-ecosystem/45f70cdd2e302ac57e2bdcde85264467f93faf52/source/includes/mongodb-compatibility-table-rust.rst
+
+
+
