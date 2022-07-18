@@ -46,7 +46,7 @@ structure:
      - ``<h3>``
 
    * - 4
-     - `` ` `` (Backtick)
+     - `` \` `` (Backtick)
      - Under
      - 2nd Level Subheadings
      - ``<h4>``
@@ -161,7 +161,7 @@ Headings must follow these rules to prevent build errors:
          .. code-block:: none
 
             =============
-            {+replaceMe+}
+            \{+replaceMe+}
             =============
 
        -
