@@ -1,0 +1,56 @@
+.. _procedures:
+
+==========
+Procedures
+==========
+
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
+Procedures separate multi-step processes into individual steps.
+Use procedures whenever stepped instructions require any of the following:
+
+- code blocks
+- significant explanation (more than a sentence)
+- images
+
+Procedure Types
+---------------
+
+The following table shows the different styles of procedure and the
+syntax required to generate those styles.
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Syntax
+     - Result
+
+   * - .. include:: /includes/procedure-example-default.rst
+     - .. literalinclude:: /includes/procedure-example-default.rst
+
+   * - .. include:: /includes/procedure-example-connected.rst
+     - .. literalinclude:: /includes/procedure-example-connected.rst
+
+   * - .. include:: /includes/procedure-example-normal.rst
+     - .. literalinclude:: /includes/procedure-example-normal.rst
+
+   * - .. include:: /includes/procedure-example-compact.rst
+     - .. literalinclude:: /includes/procedure-example-compact.rst
+
+
+Procedure Guidelines
+--------------------
+
+When creating procedures, use the following guidelines:
+
+- `normal`: use most of the time.
+- `connected`: use mostly for longer procedures and for getting started quick starts.
+- `compact`: is reserved for using on docs landing pages only.
+
+You may find YAML step files in existing documentation,
+e.g. :file:`/source/includes/steps-example.yaml`. When possible,
+convert these YAML step files to rST procedures. You can do this manually,
+or via a `script <https://github.com/mongodben/rst-parser/tree/master/parser/convert-step-yaml-to-procedure-steps-directive>`.
