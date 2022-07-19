@@ -50,7 +50,7 @@ Emphasis Markup Rules
     - ***text***
 
 - Text within emphasis markup characters can't begin or end with a whitespace.
-  This will cause the text to render incorrectly.
+  This causes the text to render incorrectly.
 
   .. list-table::
      :header-rows: 1
@@ -68,4 +68,4 @@ Emphasis Markup Rules
   * - ```` text ````
     - `` text ``
 
-- You can't use emphasis within a link or cross reference.
+- You can't use emphasis markup within a link or cross reference.
