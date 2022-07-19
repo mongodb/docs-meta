@@ -2,24 +2,39 @@
 Footnotes
 =========
 
-Limit footnotes to tangential explanations of greater technical depth that build
-understanding but can be ignored.
+Use footnotes to add detail that not all readers will need.
 
-Use ``[#footnote-identifier]`` to mark the footnote location in the text, then add the 
-footnote to the bottom of the page. It's best practice to place footnotes beneath a
-"Footnotes" rubric heading:
+Syntax
+------
+
+.. procedure::
+    :style: normal
+
+    .. step: Use ``[#footnote-identifier]`` to mark the footnote location in the text.
+    .. step: Add the footnote to the bottom of the page. It's best practice to place 
+       footnotes beneath a ``Footnotes`` rubric heading.
+
+Example
+-------
 
 .. code-block:: rst
 
     This sentence ends with a footnote.[#first-footnote]
-    This sentence also ends with a footnote.[#second-footnote]  
+    This sentence also ends with a footnote.[#second-footnote]
+    Two sentences can use the same footnote.[#first-footnote]
 
     .. rubric:: Footnotes
-    .. [#first-footnote] This footnote supplements the first sentence above.
+    .. [#first-footnote] This footnote supplements the first and third sentences above.
     .. [#second-footnote] This footnote supplements the second sentence above.
 
+Rendered View
+`````````````
+This sentence ends with a footnote.[#first-footnote]
+This sentence also ends with a footnote.[#second-footnote] 
+Two sentences can use the same footnote.[#first-footnote] 
 
-See `this page <https://raw.githubusercontent.com/mongodb/docs-ecosystem/45f70cdd2e302ac57e2bdcde85264467f93faf52/source/includes/mongodb-compatibility-table-rust.rst>`__ for an example.
-Note that the same footnote can be used in multiple locations.
+.. rubric:: Footnotes
+.. [#first-footnote] This footnote supplements the first and third sentences above.
+.. [#second-footnote] This footnote supplements the second sentence above.
 
 
