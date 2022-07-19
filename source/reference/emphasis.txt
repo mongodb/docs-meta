@@ -7,7 +7,7 @@ Emphasis
 .. default-domain:: mongodb
 
 Use **bold** or *italics* to add emphasis to text that you want to stand out on the
-page. Use ``monospace`` to emphasize code or key words.
+page. Use ``monospace`` to emphasize code or key information.
 
 Emphasis Markup
 ---------------
@@ -35,11 +35,37 @@ Emphasis Markup
 Emphasis Markup Rules
 ---------------------
 
-- You can only use one form of emphasis at a time. For example, attempting to
-  use both bold and italics will result in 
+- Use only one form of emphasis at a time. For example, attempting to
+  use both bold and italics results in bolding the text while rendering one
+  set of asterisks.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
 
   * - Markup
     - result
 
   * - ``***text***``
     - ***text***
+
+- Text within emphasis markup characters can't begin or end with a whitespace.
+  This will cause the text to render incorrectly.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+  * - Markup
+    - result
+
+  * - ``* text*``
+    - * text*  
+
+  * - ``**text **``
+    - **text **
+
+  * - ```` text ````
+    - `` text ``
+
+- You can't use emphasis within a link or cross reference.
