@@ -65,7 +65,7 @@ Emphasis Markup Rules
     * - ``**text **``
       - **text **
 
-    * - ```` text ````
+    * - `` text ``
       - `` text ``
 
 - You can't use emphasis markup within a link or cross reference.

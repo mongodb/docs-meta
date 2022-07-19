@@ -12,11 +12,12 @@ Ordered Lists
 -------------
 
 Ordered lists show a number for each item in the list. Create an ordered list by
-starting a line with ``#.``, or by using a number followed by a ``.``.
+starting a line with ``#.``, or by using a number followed by a ``.``. Using
+``#.`` in place of numbers prompts Snooty to generate list numbers automatically.
 
 .. list-table::
-    :header-rows: 1
-    :widths: 50 50
+   :header-rows: 1
+   :widths: 50 50
 
    * - Markup
      - Result
@@ -24,6 +25,7 @@ starting a line with ``#.``, or by using a number followed by a ``.``.
    * -
 
        .. code-block:: rst
+          :copyable: false
 
            #. Item 1
            #. Item 2
@@ -34,8 +36,8 @@ starting a line with ``#.``, or by using a number followed by a ``.``.
        #. Item 3
 
 .. list-table::
-    :header-rows: 1
-    :widths: 50 50
+   :header-rows: 1
+   :widths: 50 50
 
    * - Markup
      - Result
@@ -43,6 +45,7 @@ starting a line with ``#.``, or by using a number followed by a ``.``.
    * -
 
        .. code-block:: rst
+          :copyable: false
 
            1. Item 1
            2. Item 2
@@ -59,8 +62,8 @@ Unordered lists show a bullet point for each item in the list. Create an
 unordered list by starting a line with ``*`` or ``-``. 
 
 .. list-table::
-    :header-rows: 1
-    :widths: 50 50
+   :header-rows: 1
+   :widths: 50 50
 
    * - Markup
      - Result
@@ -79,8 +82,8 @@ unordered list by starting a line with ``*`` or ``-``.
        * Item 3
 
 .. list-table::
-    :header-rows: 1
-    :widths: 50 50
+   :header-rows: 1
+   :widths: 50 50
 
    * - Markup
      - Result
@@ -107,8 +110,8 @@ a blank line and indented. Indent the second list to the same level of
 the text of the parent list.
 
 .. list-table::
-    :header-rows: 1
-    :widths: 50 50
+   :header-rows: 1
+   :widths: 50 50
 
    * - Markup
      - Result
