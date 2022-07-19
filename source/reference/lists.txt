@@ -11,15 +11,15 @@ You can create *ordered* or *unordered* lists in {+rst+}.
 Ordered Lists
 -------------
 
-Ordered lists show a number for each item in the list. They can be specified by
+Ordered lists show a number for each item in the list. Create an ordered list by
 starting a line with ``#.``, or by using a number followed by a ``.``.
 
 .. list-table::
     :header-rows: 1
     :widths: 50 50
 
-   * - Use
-     - Avoid
+   * - Markup
+     - Result
 
    * -
 
@@ -37,8 +37,8 @@ starting a line with ``#.``, or by using a number followed by a ``.``.
     :header-rows: 1
     :widths: 50 50
 
-   * - Use
-     - Avoid
+   * - Markup
+     - Result
 
    * -
 
@@ -50,6 +50,84 @@ starting a line with ``#.``, or by using a number followed by a ``.``.
 
      - 1. Item 1
        2. Item 2
-       4. Item 3
+       3. Item 3
 
+Unordered Lists
+---------------
+
+Unordered lists show a bullet point for each item in the list. Create an
+unordered list by starting a line with ``*`` or ``-``. 
+
+.. list-table::
+    :header-rows: 1
+    :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * -
+
+       .. code-block:: rst
+
+           * Item 1
+           * Item 2
+           * Item 3
+
+     - * Item 1
+       * Item 2
+       * Item 3
+
+.. list-table::
+    :header-rows: 1
+    :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * -
+
+       .. code-block:: rst
+
+           - Item 1
+           - Item 2
+           - Item 3
+
+     - - Item 1
+       - Item 2
+       - Item 3
+
+Nested Lists
+------------
+
+You can create nested lists with both ordered and unordered lists. Create a
+nested list by first creating a list, then creating a second list separated by
+a blank line and indented. Indent the second list to the same level of
+the text of the parent list.
+
+.. list-table::
+    :header-rows: 1
+    :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * -
+
+       .. code-block:: rst
+
+           - Item 1
+
+             - Nested Item 1
+             - Nested Item 2
+             
+           - Item 2
+           - Item 3
+
+     - - Item 1
+
+         - Nested Item 1
+         - Nested Item 2
+
+       - Item 2
+       - Item 3
 

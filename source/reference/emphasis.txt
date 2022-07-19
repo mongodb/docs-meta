@@ -44,7 +44,7 @@ Emphasis Markup Rules
      :widths: 50 50
 
   * - Markup
-    - result
+    - Result
 
   * - ``***text***``
     - ***text***
@@ -57,7 +57,7 @@ Emphasis Markup Rules
      :widths: 50 50
 
   * - Markup
-    - result
+    - Result
 
   * - ``* text*``
     - * text*  
