@@ -1,4 +1,4 @@
-. _style-guide-lists:
+..  _style-guide-lists:
 
 =====
 Lists
@@ -68,6 +68,7 @@ unordered list by starting a line with ``*`` or ``-``.
    * -
 
        .. code-block:: rst
+          :copyable: false
 
            * Item 1
            * Item 2
@@ -87,6 +88,7 @@ unordered list by starting a line with ``*`` or ``-``.
    * -
 
        .. code-block:: rst
+          :copyable: false
 
            - Item 1
            - Item 2
@@ -114,6 +116,7 @@ the text of the parent list.
    * -
 
        .. code-block:: rst
+          :copyable: false
 
            - Item 1
 

@@ -4,68 +4,68 @@
 Emphasis
 ========
 
-.. .. default-domain:: mongodb
+.. default-domain:: mongodb
 
-.. Use **bold** or *italics* to add emphasis to text that you want to stand out on the
-.. page. Use ``monospace`` to emphasize code or key information.
+Use **bold** or *italics* to add emphasis to text that you want to stand out on the
+page. Use ``monospace`` to emphasize code or key information.
 
-.. Emphasis Markup
-.. ---------------
+Emphasis Markup
+---------------
 
-.. .. list-table::
-..    :header-rows: 1
-..    :widths: 30 40 30
+.. list-table::
+   :header-rows: 1
+   :widths: 30 40 30
 
-..    * - Format
-..      - Markup
-..      - Rendered
+   * - Format
+     - Markup
+     - Rendered
 
-..    * - Bold
-..      - ``**text**``
-..      - **text**
+   * - Bold
+     - ``**text**``
+     - **text**
 
-..    * - Italic
-..      - ``*text*``
-..      - *text*
+   * - Italic
+     - ``*text*``
+     - *text*
 
-..    * - Monospace
-..      - ````text````
-..      - ``text``
+   * - Monospace
+     - ````text````
+     - ``text``
 
-.. Emphasis Markup Rules
-.. ---------------------
+Emphasis Markup Rules
+---------------------
 
-.. - Use only one form of emphasis at a time. For example, attempting to
-..   use both bold and italics results in bolding the text while rendering one
-..   set of asterisks.
+- Use only one form of emphasis at a time. For example, attempting to
+  use both bold and italics results in bolding the text while rendering one
+  set of asterisks.
 
-..   .. list-table::
-..      :header-rows: 1
-..      :widths: 50 50
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
 
-..   * - Markup
-..     - Result
+    * - Markup
+      - Result
 
-..   * - ``***text***``
-..     - ***text***
+    * - ``***text***``
+      - ***text***
 
-.. - Text within emphasis markup characters can't begin or end with a whitespace.
-..   This causes the text to render incorrectly.
+- Text within emphasis markup characters can't begin or end with a whitespace.
+  This causes the text to render incorrectly.
 
-..   .. list-table::
-..      :header-rows: 1
-..      :widths: 50 50
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
 
-..   * - Markup
-..     - Result
+    * - Markup
+      - Result
 
-..   * - ``* text*``
-..     - * text*  
+    * - ``* text*``
+      - * text*  
 
-..   * - ``**text **``
-..     - **text **
+    * - ``**text **``
+      - **text **
 
-..   * - ```` text ````
-..     - `` text ``
+    * - ```` text ````
+      - `` text ``
 
-.. - You can't use emphasis markup within a link or cross reference.
+- You can't use emphasis markup within a link or cross reference.

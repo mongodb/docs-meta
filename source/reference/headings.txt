@@ -74,6 +74,7 @@ Headings must follow these rules to prevent build errors:
      * -
 
          .. code-block:: rst
+            :copyable: false
 
             Create One New User
             -------------------
@@ -98,6 +99,7 @@ Headings must follow these rules to prevent build errors:
      * -
 
          .. code-block:: rst
+            :copyable: false
 
             -------------------
             Create One New User
@@ -125,6 +127,7 @@ Headings must follow these rules to prevent build errors:
      * -
 
          .. code-block:: rst
+            :copyable: false
 
             ============
             Manage Users
