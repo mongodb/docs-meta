@@ -1,0 +1,130 @@
+.. _style-guide-hyperlink-ref:
+
+==========
+Hyperlinks
+==========
+
+You can link out to other sites, internal pages or sections using inline
+hyperlinks and cross-referenced hyperlinks.
+
+Inline Hyperlinks
+-----------------
+
+Use inline hyperlinks when you want to link to a full URL.
+
+Syntax
+~~~~~~
+
+.. code-block:: none
+
+   `your text <your link>`__
+
+.. procedure::
+   :style:  normal
+
+   .. step:: Start with a backtick ``\```.
+
+   .. step:: Insert the text you want displayed.
+
+   .. step:: Put your URL between the angle brackets ``<>``.
+
+   .. step:: Close with another backtick ``\```.
+
+   .. step:: Append 2 underscores ``__``. This tells Sphinx and docutils to treat
+      each link as unique when converting to it HTML.
+
+Example
+```````
+
+.. code-block:: none
+
+   Here is the `MongoDB Go Driver Documentation <https://www.mongodb.com/docs/drivers/go/current/>`__.
+
+Rendered View
+`````````````
+
+Here is the `MongoDB Go Driver Documentation <https://www.mongodb.com/docs/drivers/go/current/>`__.
+
+Cross-Referenced Hyperlinks
+---------------------------
+
+Use cross-referenced hyperlinks when you want to link to another page in
+docs. This page can be in the same repo, or another within the same
+organization.
+
+Syntax
+~~~~~~
+
+To create a cross-referenced hyperlink:
+
+.. code-block:: none
+
+    .. _some-link:
+
+To reference a cross-referenced hyperlink:
+
+.. code-block:: none
+
+    :ref:`Some Text <some-link>`
+
+.. procedure::
+   :style:  normal
+
+   .. step:: At the line before where you want to link to, create the cross-referenced hyperlink.
+    
+    .. procedure::
+      :style:  connected
+      
+      .. step:: Start with two periods ``..``.
+
+      .. step:: Enter a space `` ``.
+
+      .. step:: Add an underscore ``_`` followed with the text you want displayed.
+   
+      .. step:: Close with a colon ``:``.
+
+   .. step:: Reference the cross-referenced hyperlink.
+    
+      .. procedure::
+         :style:  connected
+      
+         .. step:: Start with the ref tag ``:ref:``.
+
+         .. step:: Add a backtick ``\```.
+
+         .. step:: Insert the text you want displayed.
+
+            You can omit ``Some Text`` if its the same as the heading
+            below the reference. 
+
+         .. step:: Put your URL between the angle brackets ``<>``.
+
+         .. step:: Close with another backtick ``\```.    
+
+Example
+```````
+
+This is the first line of this page:
+
+.. code-block:: none
+
+    .. _style-guide-hyperlink-ref:
+
+Here, we'll reference the link:
+
+.. code-block:: none
+
+    To learn more, see :ref:`Hyperlinks <style-guide-hyperlink-ref>`.
+
+.. tip::
+    
+   You could also reference the link like this:
+
+   .. code-block:: none
+
+      To learn more, see :ref:`style-guide-hyperlink-ref`.
+
+Rendered View
+`````````````
+
+To learn more, see :ref:`style-guide-hyperlink-ref`.
