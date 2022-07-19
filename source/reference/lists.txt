@@ -131,3 +131,4 @@ the text of the parent list.
        - Item 2
        - Item 3
 
+For more guidelines on lists, see :ref:`lists`.
