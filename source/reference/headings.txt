@@ -149,26 +149,4 @@ Headings must follow these rules to prevent build errors:
   replacement text makes the heading text longer than the underline length, your
   build generates an error.
 
-  .. list-table::
-     :header-rows: 1
-     :widths: 50 50
-
-     * - Use
-       - Avoid
-
-     * -
-
-         .. code-block:: none
-
-            ==============
-            {+replace-me+}
-            ==============
-
-       -
-
-         .. code-block:: rst
-            :copyable: false
-
-            ================
-            Replacement Text
-            ================
+For more guidelines on headings, see :ref:`titles-and-headings`.
