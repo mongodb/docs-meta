@@ -43,11 +43,11 @@ Emphasis Markup Rules
      :header-rows: 1
      :widths: 50 50
 
-    * - Markup
-      - Result
+     * - Markup
+       - Result
 
-    * - ``***text***``
-      - ***text***
+     * - ``***text***``
+       - ***text***
 
 - Text within emphasis markup characters can't begin or end with a whitespace.
   This causes the text to render incorrectly.
@@ -56,16 +56,16 @@ Emphasis Markup Rules
      :header-rows: 1
      :widths: 50 50
 
-    * - Markup
-      - Result
+     * - Markup
+       - Result
 
-    * - ``* text*``
-      - * text*  
+     * - ``* text*``
+       - * text*  
 
-    * - ``**text **``
-      - **text **
+     * - ``**text **``
+       - **text **
 
-    * - `` text ``
-      - `` text ``
+     * - `` text ``
+       - `` text ``
 
 - You can't use emphasis markup within a link or cross reference.
