@@ -8,7 +8,7 @@ Procedures
 
 .. include:: /includes/styles/corrections.rst
 
-Procedures separate multi-step processes into individual steps.
+Procedures visually separate multi-step processes into individual steps.
 Use procedures whenever stepped instructions require any of the following:
 
 - code blocks
@@ -19,14 +19,15 @@ Procedure Types
 ---------------
 
 The following table shows the different styles of procedure and the
-syntax required to generate those styles.
+syntax required to generate those styles. If you omit the ``style``,
+procedures default to a value of ``connected``.
 
 .. list-table::
-   :widths: 50 50
+   :widths: 40 60
    :header-rows: 1
 
    * - Syntax
-     - Result
+     - Rendered Result
 
    * - .. include:: /includes/procedure-example-default.rst
      - .. literalinclude:: /includes/procedure-example-default.rst
@@ -37,20 +38,24 @@ syntax required to generate those styles.
    * - .. include:: /includes/procedure-example-normal.rst
      - .. literalinclude:: /includes/procedure-example-normal.rst
 
-   * - .. include:: /includes/procedure-example-compact.rst
+   * - **compact style does not render on non-landing pages**
      - .. literalinclude:: /includes/procedure-example-compact.rst
 
+.. warning:: Compact Style
+
+   The ``compact`` style option only displays on landing pages. On all
+   other content pages, the directive does not render at all.
 
 Procedure Guidelines
 --------------------
 
 When creating procedures, use the following guidelines:
 
-- `normal`: use most of the time.
-- `connected`: use mostly for longer procedures and for getting started quick starts.
-- `compact`: is reserved for using on docs landing pages only.
+- ``normal``: Best for high levels of abstraction.
+- ``connected``: Useful for quick starts and tutorials.
+- ``compact``: Reserved for docs landing pages *only*.
 
-You may find YAML step files in existing documentation,
-e.g. :file:`/source/includes/steps-example.yaml`. When possible,
+You may find YAML step files in existing documentation
+(e.g. :file:`/source/includes/steps-example.yaml`). When possible,
 convert these YAML step files to rST procedures. You can do this manually,
-or via a `script <https://github.com/mongodben/rst-parser/tree/master/parser/convert-step-yaml-to-procedure-steps-directive>`.
+or via a `script <https://github.com/mongodben/rst-parser/tree/master/parser/convert-step-yaml-to-procedure-steps-directive>`__.
