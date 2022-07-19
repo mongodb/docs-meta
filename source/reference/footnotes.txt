@@ -10,18 +10,40 @@ Syntax
 .. procedure::
     :style: normal
 
-    .. step:: Use ``[#footnote-identifier]_`` to mark the footnote location in the text.
-    .. step:: Add the footnote to the bottom of the page. It's best practice to place 
-       footnotes beneath a ``Footnotes`` rubric heading.
+    .. step:: If the page doesn't have a "Footnotes" rubric, add one.
+
+        .. procedure::
+            :style: connected
+
+            .. step:: At the bottom of the page, type ``.. rubric:: Footnotes``.
+
+    .. step:: Mark the footnote location in your text. 
+
+        .. procedure::
+            :style: connected
+
+            .. step:: Add a space after the end of the sentence you're adding the 
+                footnote to.
+            
+            .. step:: Enter ``[#footnote-identifier]_``, where "footnote-identifer" is 
+                whatever you like.
+
+    .. step:: Add the footnote.
+        
+        .. procedure::
+            :style: connected
+            
+            .. step:: Beneath the "Footnotes" rubric, enter ``.. [#footnote-identifier] 
+                <footnote>``
 
 Example
 -------
 
 .. code-block:: rst
 
-    This sentence ends with a footnote.[#first-footnote]_
-    This sentence also ends with a footnote.[#second-footnote]_
-    Two sentences can use the same footnote.[#first-footnote]_
+    This sentence ends with a footnote. [#first-footnote]_
+    This sentence ends with a different footnote. [#second-footnote]_
+    Two sentences can use the same footnote. [#first-footnote]_
 
     .. rubric:: Footnotes
     .. [#first-footnote] This footnote supplements the first and third sentences above.
@@ -29,9 +51,9 @@ Example
 
 Rendered View
 `````````````
-| This sentence ends with a footnote.[#first-footnote]_
-| This sentence also ends with a footnote.[#second-footnote]_ 
-| Two sentences can use the same footnote.[#first-footnote]_ 
+| This sentence ends with a footnote. [#first-footnote]_
+| This sentence also ends with a footnote. [#second-footnote]_ 
+| Two sentences can use the same footnote. [#first-footnote]_ 
 
 .. rubric:: Footnotes
 .. [#first-footnote] This footnote supplements the first and third sentences above.
