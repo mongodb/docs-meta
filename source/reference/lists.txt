@@ -1,0 +1,53 @@
+. _style-guide-lists:
+
+=====
+Lists
+=====
+
+.. default-domain:: mongodb
+
+You can create *ordered* or *unordered* lists in {+rst+}.
+
+Ordered Lists
+-------------
+
+Ordered lists show a number for each item in the list. They can be specified by
+starting a line with ``#.``, or by using a number followed by a ``.``.
+
+.. list-table::
+    :header-rows: 1
+    :widths: 50 50
+
+   * - Use
+     - Avoid
+
+   * -
+
+       .. code-block:: rst
+
+           #. Item 1
+           #. Item 2
+           #. Item 3
+
+     - #. Item 1
+       #. Item 2
+       #. Item 3
+
+.. list-table::
+    :header-rows: 1
+    :widths: 50 50
+
+   * - Use
+     - Avoid
+
+   * -
+
+       .. code-block:: rst
+
+           1. Item 1
+           2. Item 2
+           3. Item 3
+
+     - 1. Item 1
+       2. Item 2
+       4. Item 3
