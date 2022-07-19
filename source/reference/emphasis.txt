@@ -1,0 +1,45 @@
+.. _style-guide-emphasis:
+
+========
+Emphasis
+========
+
+.. default-domain:: mongodb
+
+Use **bold** or *italics* to add emphasis to text that you want to stand out on the
+page. Use ``monospace`` to emphasize code or key words.
+
+Emphasis Markup
+---------------
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 40 30
+
+   * - Format
+     - Markup
+     - Rendered
+
+   * - Bold
+     - ``**text**``
+     - **text**
+
+   * - Italic
+     - ``*text*``
+     - *text*
+
+   * - Monospace
+     - ````text````
+     - ``text``
+
+Emphasis Markup Rules
+---------------------
+
+- You can only use one form of emphasis at a time. For example, attempting to
+  use both bold and italics will result in 
+
+  * - Markup
+    - result
+
+  * - ``***text***``
+    - ***text***
