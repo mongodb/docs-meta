@@ -23,7 +23,7 @@ syntax required to generate those styles. If you omit the ``style``,
 procedures default to a value of ``connected``.
 
 .. list-table::
-   :widths: 40 60
+   :widths: 60 40
    :header-rows: 1
 
    * - Syntax
@@ -59,8 +59,3 @@ When creating procedures, use the following guidelines:
 - ``normal``: Best for high levels of abstraction.
 - ``connected``: Useful for quick starts and tutorials.
 - ``compact``: Reserved for docs landing pages *only*.
-
-You may find YAML step files in existing documentation
-(e.g. :file:`/source/includes/steps-example.yaml`). When possible,
-convert these YAML step files to rST procedures. You can do this manually,
-or via a `script <https://github.com/mongodben/rst-parser/tree/master/parser/convert-step-yaml-to-procedure-steps-directive>`__.
