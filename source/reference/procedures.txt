@@ -31,15 +31,19 @@ procedures default to a value of ``connected``.
 
    * - .. include:: /includes/procedure-example-default.rst
      - .. literalinclude:: /includes/procedure-example-default.rst
+          :copyable: false
 
    * - .. include:: /includes/procedure-example-connected.rst
      - .. literalinclude:: /includes/procedure-example-connected.rst
+          :copyable: false
 
    * - .. include:: /includes/procedure-example-normal.rst
      - .. literalinclude:: /includes/procedure-example-normal.rst
+          :copyable: false
 
    * - **compact style does not render on non-landing pages**
      - .. literalinclude:: /includes/procedure-example-compact.rst
+          :copyable: false
 
 .. warning:: Compact Style
 
