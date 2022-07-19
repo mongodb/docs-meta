@@ -10,8 +10,8 @@ Syntax
 .. procedure::
     :style: normal
 
-    .. step: Use ``[#footnote-identifier]`` to mark the footnote location in the text.
-    .. step: Add the footnote to the bottom of the page. It's best practice to place 
+    .. step:: Use ``[#footnote-identifier]_`` to mark the footnote location in the text.
+    .. step:: Add the footnote to the bottom of the page. It's best practice to place 
        footnotes beneath a ``Footnotes`` rubric heading.
 
 Example
@@ -19,9 +19,9 @@ Example
 
 .. code-block:: rst
 
-    This sentence ends with a footnote.[#first-footnote]
-    This sentence also ends with a footnote.[#second-footnote]
-    Two sentences can use the same footnote.[#first-footnote]
+    This sentence ends with a footnote.[#first-footnote]_
+    This sentence also ends with a footnote.[#second-footnote]_
+    Two sentences can use the same footnote.[#first-footnote]_
 
     .. rubric:: Footnotes
     .. [#first-footnote] This footnote supplements the first and third sentences above.
@@ -29,9 +29,9 @@ Example
 
 Rendered View
 `````````````
-This sentence ends with a footnote.[#first-footnote]
-This sentence also ends with a footnote.[#second-footnote] 
-Two sentences can use the same footnote.[#first-footnote] 
+| This sentence ends with a footnote.[#first-footnote]_
+| This sentence also ends with a footnote.[#second-footnote]_ 
+| Two sentences can use the same footnote.[#first-footnote]_ 
 
 .. rubric:: Footnotes
 .. [#first-footnote] This footnote supplements the first and third sentences above.
