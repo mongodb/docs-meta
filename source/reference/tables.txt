@@ -14,8 +14,9 @@ Tables
 
 .. include:: /includes/styles/corrections.rst
 
-Tables compare items across multiple domains.
-Use tables whenever you need to compare multiple items in multiple ways.
+Tables compare items across multiple domains in a consistent manner.
+Use tables whenever you need to compare multiple items in multiple ways,
+such as a summary of API or function parameters.
 
 Table Types
 -----------
@@ -71,7 +72,8 @@ To create a table, use the ``list-table`` directive. List tables accept the foll
      - The width of the table on the page.
 
 Under the ``list-table`` directive, create rows and columns using a two-level
-bulleted list with the following form:
+bulleted list. Every row must contain the same number of columns, even
+if some of those columns are empty. Rows contents have the following form:
 
 .. code-block::
 
@@ -130,3 +132,11 @@ When creating tables, use the following guidelines:
 .. seealso::
 
    For style guidelines on tables, see :ref:`tables`.
+
+.. example::
+
+   For a live example of a MongoDB docs site using procedures, refer to
+   the MongoDB Realm SDK documentation:
+
+   - `Markup <https://github.com/mongodb/docs-realm/blob/63905f5bf95336bcc68ab20ffa75b2315f47e78e/source/sdk/swift.txt#L140=>`__
+   - `Result <https://www.mongodb.com/docs/realm/sdk/swift/>`__

@@ -67,3 +67,11 @@ When creating procedures, use the following guidelines:
 - ``normal``: Best for high levels of abstraction.
 - ``connected``: Useful for quick starts and tutorials.
 - ``compact``: Reserved for docs landing pages *only*.
+
+.. example::
+
+   For a live example of a MongoDB docs site using procedures, refer to
+   the MongoDB Realm SDK documentation:
+
+   - `Markup <https://github.com/mongodb/docs-realm/blob/63905f5bf95336bcc68ab20ffa75b2315f47e78e/source/tutorial/ios-swift.txt#L61=>`__
+   - `Result <https://www.mongodb.com/docs/realm/tutorial/ios-swift/>`__

@@ -127,3 +127,11 @@ When creating tabs, use the following guidelines:
   and "macOS" tabs at one point on a page, you should provide all of
   those options for each tabset, even if the Linux and macOS tabs
   include the same content.
+
+.. example::
+
+   For a live example of a MongoDB docs site using tabs, refer to
+   the Ops Manager documentation:
+
+   - `Markup <https://github.com/10gen/mms-docs/blob/d95a82795856dff69c46bca0a0b49f56f6a18651/source/tutorial/manage-alert-configurations.txt#L100=>`__
+   - `Result <https://www.mongodb.com/docs/ops-manager/current/tutorial/manage-alert-configurations/>`__
