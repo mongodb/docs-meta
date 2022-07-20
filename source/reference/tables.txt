@@ -1,4 +1,4 @@
-.. _tables:
+.. _tables-reference:
 
 ======
 Tables
@@ -113,6 +113,9 @@ common use cases:
           :copyable: false
      - .. include:: /includes/tables-example-no-widths.rst
 
+.. note::
+
+   At this time, Snooty does not respect the table alignment option.
 
 Table Guidelines
 ----------------
@@ -123,3 +126,7 @@ When creating tables, use the following guidelines:
 - Always include an introductory sentence.
 - Always include a title.
 - Always use list tables.
+
+.. seealso::
+
+   For style guidelines on tables, see :ref:`tables`.
