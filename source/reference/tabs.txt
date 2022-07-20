@@ -15,7 +15,7 @@ Tabs
    :class: singlecol
 
 Tabs organize and allow navigation between groups of related content at
-a single level of hierarchy. Use tabs whenever information branches into
+a single level of hierarchy. Use tabs whenever your information branches into
 multiple orthogonal environments, but only one of those environments
 applies to a user at a time. For example, you could create a set of tabs
 to organize documentation for:
