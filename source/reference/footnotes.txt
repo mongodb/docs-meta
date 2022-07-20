@@ -27,6 +27,11 @@ Example
     This sentence ends with a different footnote. [#second-footnote]_
     Two sentences can use the same footnote. [#first-footnote]_
 
+    This describes something cool.
+    This goes into more detail.
+    Now you've learned this cool thing!
+    Footnotes will appear below.
+
     .. rubric:: Footnotes
     .. [#first-footnote] This footnote supplements the first and third sentences above.
     .. [#second-footnote] This footnote supplements the second sentence above.
@@ -37,10 +42,13 @@ Rendered View
 | This sentence also ends with a footnote. [#second-footnote]_ 
 | Two sentences can use the same footnote. [#first-footnote]_ 
 
+| This describes something cool.
+| This goes into more detail.
+| Now you've learned this cool thing!
+| Footnotes will appear below.
+
 .. rubric:: Footnotes
 .. [#first-footnote] This footnote supplements the first and third sentences above.
-.. [#second-footnote] This footnote supplements the second sentence above.
-
-extra text here
+.. [#second-footnote] This footnote supplements the second sentence above.  
 
 
