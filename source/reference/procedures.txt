@@ -17,11 +17,11 @@ Procedures
 Procedures visually separate multi-step processes into individual steps.
 Use procedures whenever stepped instructions require any of the following:
 
-- code blocks
-- significant explanation (more than a sentence)
-- images
-- substeps
-- lists
+- Code blocks
+- Significant explanation (more than a sentence)
+- Images
+- Substeps
+- Lists
 
 Procedure Types
 ---------------

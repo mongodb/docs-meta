@@ -21,8 +21,9 @@ applies to a user at a time. For example, you could create a set of tabs
 to organize documentation for:
 
 - SDKs targeting different platforms
-- operating systems where a user might run software
-- product behavior before and after a breaking environment change
+- Operating systems where a user might run software
+- Product behavior before and after a breaking environment change
+- Code snippets duplicated across multiple languages
 
 Tab Types
 ---------
