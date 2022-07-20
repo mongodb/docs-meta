@@ -22,18 +22,12 @@ starting a line with ``#.``, or by using a number followed by a ``.``. Using
    * - Markup
      - Result
 
-   * -
+   * - ..literalinclude:: /includes/ordered-list-example.rst
+       :start-after: start-auto-ol
+       :end-before: end-auto-ol
+       :copyable: false
 
-       .. code-block:: rst
-          :copyable: false
-
-           #. Item 1
-           #. Item 2
-           #. Item 3
-
-     - #. Item 1
-       #. Item 2
-       #. Item 3
+     - ..include:: /includes/ordered-list-example.rst
 
 .. list-table::
    :header-rows: 1
@@ -42,18 +36,12 @@ starting a line with ``#.``, or by using a number followed by a ``.``. Using
    * - Markup
      - Result
 
-   * -
+   * - ..literalinclude:: /includes/ordered-list-example.rst
+       :start-after: start-numbered-ol
+       :end-before: end-numbered-ol
+       :copyable: false
 
-       .. code-block:: rst
-          :copyable: false
-
-           1. Item 1
-           2. Item 2
-           3. Item 3
-
-     - 1. Item 1
-       2. Item 2
-       3. Item 3
+     - ..include:: /includes/ordered-list-example.rst
 
 Unordered Lists
 ---------------
@@ -68,18 +56,12 @@ unordered list by starting a line with ``-`` or ``*``.
    * - Markup
      - Result
 
-   * -
+   * - ..literalinclude:: /includes/unordered-list-example.rst
+       :start-after: start-dashed-ul
+       :end-before: end-dashed-ul
+       :copyable: false
 
-       .. code-block:: rst
-          :copyable: false
-
-           - Item 1
-           - Item 2
-           - Item 3
-
-     - - Item 1
-       - Item 2
-       - Item 3
+     - ..include:: /includes/unordered-list-example.rst
 
 .. list-table::
    :header-rows: 1
@@ -88,18 +70,12 @@ unordered list by starting a line with ``-`` or ``*``.
    * - Markup
      - Result
 
-   * -
+   * - ..literalinclude:: /includes/unordered-list-example.rst
+       :start-after: start-asterisk-ul
+       :end-before: end-asterisk-ul
+       :copyable: false
 
-       .. code-block:: rst
-          :copyable: false
-
-           * Item 1
-           * Item 2
-           * Item 3
-
-     - * Item 1
-       * Item 2
-       * Item 3
+     - ..include:: /includes/unordered-list-example.rst
 
 Nested Lists
 ------------
@@ -116,25 +92,11 @@ the text of the parent list.
    * - Markup
      - Result
 
-   * -
+   * - ..literalinclude:: /includes/nested-list-example.rst
+       :start-after: start-nested-ul
+       :end-before: end-nested-ul
+       :copyable: false
 
-       .. code-block:: rst
-          :copyable: false
-
-           - Item 1
-
-             - Nested Item 1
-             - Nested Item 2
-             
-           - Item 2
-           - Item 3
-
-     - - Item 1
-
-         - Nested Item 1
-         - Nested Item 2
-
-       - Item 2
-       - Item 3
+     - ..include:: /includes/nested-list-example.rst
 
 For more guidelines on lists, see :ref:`lists`.
