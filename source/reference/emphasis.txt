@@ -7,7 +7,8 @@ Emphasis
 .. default-domain:: mongodb
 
 Use **bold** or *italics* to add emphasis to text that you want to stand out on the
-page. Use ``monospace`` to emphasize code or key information.
+page. Use bold to introduce new terms, and italics to emphasize relationships 
+between ideas. Use ``monospace`` to emphasize code or key information.
 
 Emphasis Markup
 ---------------
