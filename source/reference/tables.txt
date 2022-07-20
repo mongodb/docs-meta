@@ -135,7 +135,7 @@ When creating tables, use the following guidelines:
 
 .. example::
 
-   For a live example of a MongoDB docs site using procedures, refer to
+   For a live example of a MongoDB docs site using tables, refer to
    the MongoDB Realm SDK documentation:
 
    - `Markup <https://github.com/mongodb/docs-realm/blob/63905f5bf95336bcc68ab20ffa75b2315f47e78e/source/sdk/swift.txt#L140=>`__
