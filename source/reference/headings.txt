@@ -1,0 +1,161 @@
+.. _style-guide-headings:
+
+========
+Headings
+========
+
+.. default-domain:: mongodb
+
+Use over and underlines consisting of a repeating character to specify a heading
+in rST.
+
+Heading Level Markup
+--------------------
+
+The character used for the over and underlines has no effect on the heading
+level. Snooty determines the heading levels based on the order in which it first 
+sees the character on the page. However, to maintain consistency and readability 
+throughout the documentation, use the following heading level structure:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 10 30 10 40 10
+
+   * - Heading Level
+     - Character
+     - Under or Overline
+     - Common Usage
+     - Renders in HTML as
+
+   * - 1
+     - ``=`` (Equals sign)
+     - Both
+     - Page Titles Only
+     - ``<h1>``
+
+   * - 2
+     - ``-`` (Hyphen)
+     - Under
+     - Main Headings
+     - ``<h2>``
+
+   * - 3
+     - ``~`` (Tilde)
+     - Under
+     - Subheadings
+     - ``<h3>``
+
+   * - 4
+     - ````` (Backtick)
+     - Under
+     - 2nd Level Subheadings
+     - ``<h4>``
+
+   * - 5
+     - ``+`` (Plus sign)
+     - Under
+     - 3rd Level Subheadings
+     - ``<h5>``
+
+Heading Markup Rules
+--------------------
+
+Headings must follow these rules to prevent build errors:
+
+- Make the underline at least as long as the text above it.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+            :copyable: false
+
+            Create One New User
+            -------------------
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            Create One New User
+            --------------
+
+- When using both over and underlines, their lengths must be identical.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+            :copyable: false
+
+            -------------------
+            Create One New User
+            -------------------
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            -------------
+            Create One New User
+            -------------------
+
+- Don't skip Heading Levels. Heading Level 3 should not come after
+  Heading Level 1.
+
+  .. list-table::
+     :header-rows: 1
+     :widths: 50 50
+
+     * - Use
+       - Avoid
+
+     * -
+
+         .. code-block:: rst
+            :copyable: false
+
+            ============
+            Manage Users
+            ============
+
+            Create One New User
+            -------------------
+
+       -
+
+         .. code-block:: rst
+            :copyable: false
+
+            ============
+            Manage Users
+            ============
+
+            Create One New User
+            ~~~~~~~~~~~~~~~~~~~
+
+- Write all headings in 
+  `title case <https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case>`_. 
+  Capitalize all words, except for minor words like articles and short conjunctions.
+  
+- Avoid using {+rst+} replacements, such as :ref:`style-guide-source-constants`,
+  in heading text. If the replacement text makes the heading text longer than the
+  underline length, your build generates an error. Replacements also make no 
+  guarantees about capitalization, which could lead to a heading not being title
+  case.
+
+For more guidelines on headings, see :ref:`titles-and-headings`.

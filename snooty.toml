@@ -1,11 +1,20 @@
 name = "meta"
 title = "MongoDB Meta Documentation"
 intersphinx = ["https://www.mongodb.com/docs/manual/objects.inv"]
-toc_landing_pages = [ "/style-guide", "/writing", "/style", "/terminology", "/terminology/general-term-guidelines", 
-                      "/screenshots", "tutorials", "reference", "/tutorials/screencapture-tool" ]
+toc_landing_pages = [
+    "/style-guide",
+    "/writing",
+    "/style",
+    "/terminology",
+    "/terminology/general-term-guidelines",
+    "/screenshots",
+    "tutorials",
+    "reference",
+    "/tutorials/screencapture-tool",
+]
 
 [constants]
-rst =  "reStructuredText"
+rst = "reStructuredText"
 package-branch = "testing"
 package-version = "4.4.0"
 package-name-org = "mongodb-org"
