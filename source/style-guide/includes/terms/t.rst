@@ -1,3 +1,5 @@
+.. _glossary_t:
+
 T
 -
 
@@ -18,7 +20,7 @@ T
           - Not Recommended
 
         * - From the Settings screen, tap
-            :menuselection:`Mail, Contacts, Calendars > Add Account > Microsoft Exchange`.
+            **Mail**, **Contacts**, **Calendars > Add Account > Microsoft Exchange**.
           -
 
    terminate
@@ -35,14 +37,13 @@ T
         * - You can terminate the process by pressing :kbd:`Ctrl+C`.
           -
 
-     Don't use :term:`terminate` to refer to closing a program or
-     application; use :term:`exit` instead.
+     Don't use ``terminate`` to refer to closing a program or
+     application; use ``exit`` instead.
 
    text box
      Use *text box* as two words.
 
-   that
-   which
+   that/which
      Use *that* to introduce a restrictive clause, and don't use a
      comma. Use *which* to introduce a nonrestrictive clause, and use
      a comma. If a nonrestrictive clause occurs in midsentence, set
@@ -86,8 +87,7 @@ T
           - Specify a name for the network drive, then set the maximum
             cache size.
 
-   there are
-   there is
+   there are/there is
      :icon-fa4:`times-circle` Avoid using these ambiguous phrases at
      the beginning of sentences or clauses.
 
@@ -106,8 +106,7 @@ T
           - When there are errors in the script, the product writes
             information to the message log.
 
-   third party
-   third-party
+   third party/third-party
      Use *third party* as a noun. Use *third-party* as an adjective.
 
      .. list-table::
@@ -130,8 +129,7 @@ T
    timeline
      Use *timeline* as one word.
 
-   time out
-   timeout
+   time out/timeout
      Use *time out* as two words when using the term as a verb. Use
      *timeout* as one word when using the term as a noun or adjective.
 
@@ -141,14 +139,10 @@ T
    time zone
      Use *time zone* as two words.
 
-   toolbar
-   toolbox
-   toolkit
-   tooltip
+   toolbar/toolbox/toolkit/tooltip
      Use each of these terms as one word.
 
-   top left
-   top right
+   top left/top right
      :icon-fa5:`trash-alt` When referring to the location of an item on
      a UI, use *upper left* and *upper right* instead.
 

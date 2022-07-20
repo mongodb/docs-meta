@@ -1,3 +1,5 @@
+.. _glossary_o:
+
 O
 -
 
@@ -6,8 +8,7 @@ O
    offline
      Don't hyphenate this term.
 
-   offsite
-   onsite
+   offsite/onsite
      Don't hyphenate these terms.
 
    on
@@ -43,10 +44,9 @@ O
      For much more about the use of the word, see `Use the Word Only Correctly <https://www.wikihow.com/Use-the-Word-Only-Correctly>`__.
 
 
-   on-premises
-   off-premises
+   on-premises/off-premises
      Use these terms to distinguish local computing (in which
-     resources are located on a customer’s own site) from remote
+     resources are located on a customer's own site) from remote
      computing (in which resources are provided partially or totally
      through the cloud). Always hyphenate. *Premises* is plural;
      don't use *on-premise* or *off-premise*.
@@ -69,12 +69,10 @@ O
    open
      .. seealso:: :term:`close`, :term:`open`
 
-   open source
-   open-source
+   open source/open-source
      Use lowercase. Hyphenate when used as a modifier.
 
-   operating system
-   OS
+   operating system/OS
      *OS* is a common abbreviation for *operating system* and you can
      use it without first spelling it out if the context is clear. To
      form the plural of *OS*, add an *s* without an apostrophe—\
@@ -109,8 +107,7 @@ O
         * - Reporting is available out of the box.
           - Reporting is available OOTB.
 
-   over
-   more than
+   over/more than
      Don't use *over* to indicate quantities; use *more than*
      instead. Also, don't use *over* to refer to version numbers.
 

@@ -1,19 +1,19 @@
+.. _glossary_h:
+
 H
 -
 
 .. glossary::
 
-   high availability
-   high-availability
+   high availability/high-availability
      Use the spelled out term on first use in an article or document,
      and introduce the abbreviation in parentheses. Hyphenate the
      spelled-out term when it's used as a modifier.
 
-   higher
-   lower
+   higher/lower
      :icon-fa4:`exclamation-triangle` Don't use these terms when
      referring to product releases and version numbers. Use
-     :term:`earlier` or :term:`later` instead.
+     ``earlier`` or ``later`` instead.
 
      .. list-table::
         :widths: 50 50
@@ -32,17 +32,16 @@ H
      Use *home page* to refer to the first (main) page that you see
      when you enter a website.
 
-     .. seealso:: :term:`web`
+     .. seealso:: ``web``
 
    host
-     Use *host* instead of :term:`computer` :term:`machine` or
-     :term:`box` for any type of system that run software for users'
+     Use *host* instead of ``computer`` ``machine`` or
+     ``box`` for any type of system that run software for users'
      computers to access. The system running the software could be a
      physical server, a virtual server, a Docker container, or part of
      a Kubernetes cluster. That uncertainty requires this broader term.
 
-   host list
-   host name
+   host list/host name
      Use each of these terms as two words.
 
    How-To

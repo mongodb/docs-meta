@@ -1,3 +1,5 @@
+.. _glossary_u:
+
 U
 -
 
@@ -27,13 +29,10 @@ U
             select some text.
           -
 
-   United Kingdom
-   UK
+   United Kingdom/UK
      Use *United Kingdom* as the noun form and *UK* as the adjective form.
 
-   United States
-   US
-   USA
+   United States/US/USA
      Use *United States* as the noun form and *US* as the adjective
      form. In postal addresses, use *USA* (the approved postal
      abbreviation).
@@ -78,8 +77,7 @@ U
 
      .. seealso:: `mixed case`
 
-   upper left
-   upper right
+   upper left/upper right
      When referring to the location of an item on a UI, use *upper
      left* and *upper right* instead of *top left* or *top right*.
 
@@ -104,15 +102,12 @@ U
      :icon-fa4:`times-circle` Use *customer* to refer to
      individuals who use MongoDB products and services.
 
-   user name
-   username
+   user name/username
      Use *user name* as two words, unless you are referring to a user
      interface, screen, or command where it is shown as one word,
      *username*.
 
-   using
-   by using
-   with
+   using/by using/with
      Use *by using*, or recast the sentence. Don't use *using* (alone)
      or *with*. *By using* is easier for worldwide audiences to
      understand.
@@ -132,6 +127,5 @@ U
         * - Use the text tool to select the text.
           - You can select the text with the text tool.
 
-   utilize
-   utilization
+   utilize/utilization
      :icon-fa4:`times-circle` Use *use* and *usage* instead.

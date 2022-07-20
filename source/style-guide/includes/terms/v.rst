@@ -1,10 +1,11 @@
+.. _glossary_v:
+
 V
 -
 
 .. glossary::
 
-   versus
-   vs.
+   versus/vs.
      :icon-fa4:`times-circle` Use *compared with* instead. In a title,
      you can use *versus* to save space.
 

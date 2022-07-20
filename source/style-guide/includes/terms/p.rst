@@ -1,3 +1,5 @@
+.. _glossary_p:
+
 P
 -
 
@@ -5,8 +7,8 @@ P
 
    page
      When documenting a wizard, use *page* to mean the successively
-     displayed windows of the wizard. Don't use :term:`dialog box`,
-     :term:`pane`, :term:`screen`, or :term:`window`.
+     displayed windows of the wizard. Don't use ``dialog box``,
+     ``pane``, ``screen``, or ``window``.
 
      .. seealso:: :term:`web` and :term:`wizard page`
 
@@ -29,8 +31,7 @@ P
      Capitalize only when referring to partners in the MongoDB
      Partner Program.
 
-   path
-   path name
+   path/path name
      Use *path name* as two words unless the software requires
      otherwise. Don't use *path* when referring to a *path name*.
 
@@ -103,8 +104,8 @@ P
         term correctly for the product or technology that you're
         documenting.
 
-     Don't use :term:`permissions`, :term:`privileges`, and
-     :term:`rights` interchangeably to mean the same thing.
+     Don't use ``permissions``, ``privileges``, and
+     ``rights`` interchangeably to mean the same thing.
 
      .. seealso:: :term:`privileges` and :term:`rights`
 
@@ -219,7 +220,7 @@ P
 
    prior
      You can use *prior* as an adjective, but the preferred term is
-     :term:`earlier`.
+     ``earlier``.
 
      .. seealso:: :term:`earlier`, :term:`later`
 
@@ -235,8 +236,8 @@ P
         correctly for the product or technology that you're
         documenting.
 
-     Don't use :term:`permissions`, :term:`privileges`, and
-     :term:`rights` interchangeably to mean the same thing.
+     Don't use ``permissions``, ``privileges``, and
+     ``rights`` interchangeably to mean the same thing.
 
      .. seealso:: :term:`permissions` and :term:`rights`
 

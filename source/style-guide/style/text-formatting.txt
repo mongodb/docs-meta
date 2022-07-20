@@ -6,26 +6,6 @@ Text Formatting
 
 .. default-domain:: mongodb
 
-.. include:: /includes/styles/corrections.rst
-
-.. raw:: html
-
-   <style type="text/css">
-     .exampletable {
-       width:100%;
-       border-collapse:collapse;
-     }
-     .exampletable td{
-       padding:7px;
-     }
-     .exampletable tr:nth-child(odd){
-       background: #fff;
-     }
-     .exampletable tr:nth-child(even){
-      background: #efefef;
-     }
-   </style>
-
 You should add formatting to words, phrases, or blocks that require
 emphasis. You can use one of the formatting options to convey emphasis:
 weight (**bold**), variant (*italics*), or pitch (``monospace``).
@@ -1539,10 +1519,10 @@ elements. The following style differences are highlighted:
             designated products where access is granted.
 
    Sequences
-     Format as :term:`Cascades`.
+     Format as :ref:`Cascades <glossary_c>`.
 
    Shell, Terminal, or Command Prompt
-     Format as :term:`Command syntax`.
+     Format as :ref:`Command syntax <glossary_c>`.
 
    Syntax statements
      Format using ``monospace`` text.
@@ -1558,12 +1538,12 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
-               The main command used to change a file’s owner or group
+               The main command used to change a file's owner or group
                is ``chown``. The most common syntax used with ``chown``
                is as follows:
 
         * - Rendered Example
-          - The main command used to change a file’s owner or group is
+          - The main command used to change a file's owner or group is
             ``chown``. The most common syntax used with ``chown`` is as
             follows:
 
@@ -1684,8 +1664,7 @@ elements. The following style differences are highlighted:
             navigate to **http://yourDomain.com/zipit-install.php**.
 
    URL, clickable
-
-     .. seealso:: :ref:`links-and-cross-references`.
+     See :ref:`links-and-cross-references`.
 
    User GUI input
      Format using **boldface**.

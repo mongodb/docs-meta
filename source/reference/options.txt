@@ -163,10 +163,12 @@ Built-In Variables
   setting (e.g. :option:`mongod.--dbpath`).
 
 - ``{{program}}``: automatically replaced by the a link to the option
-  or setting's specified ``program`` (e.g. :binary:`~bin.mongod`).
+  or setting's specified ``program`` (e.g. :manual:`mongod </reference/program/mongod/`).
   
 - ``{{command}}``: automatically replaced by a link to the option or
-  setting's specified ``command`` (e.g. :toolcommand:`record`).
+  setting's specified ``command``.
+
+.. (e.g. :toolcommand:`record`).
 
 Example
 -------

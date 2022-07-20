@@ -6,8 +6,6 @@ Capitalization
 
 .. default-domain:: mongodb
 
-.. include:: /includes/styles/corrections.rst
-
 Be judicious and consistent in your use of capitalization. This topic
 provides general guidelines to help you decide to capitalize a term.
 
@@ -36,8 +34,8 @@ technologies, as well as trademarks.
 
 Be aware that some of these names might have nonstandard or no
 capitalization. Always follow the capitalization that's used by the
-company, shown in a :mw:`dictionary </>`, or accepted as standard in
-the industry.
+company, shown in a `dictionary <https://www.merriam-webster.com/dictionary/>`__, 
+or accepted as standard in the industry.
 
 .. hlist::
    :columns: 4

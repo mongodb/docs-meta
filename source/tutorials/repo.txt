@@ -1,23 +1,44 @@
 .. guide::
-   title: How to Create a Docstools-Enabled Repository
-   author: MongoDB Documentation Team
-   type: Deep Dive
-   level: intermediate
-   product_version: 4.0
-   result_description:
-     In this guide you will learn how to create a docstools-enabled repository.
-   time: 45
-   prerequisites:
-     - Access to git
-   check_your_environment:
-     - Check to make sure you have git installed
-   procedure:
-     .. include:: /includes/steps/repo.rst
-   summary:
-     If you have successfully completed this guide, you have
-     created a MongoDB docstools-enabled repository.
-   whats_next:
-     Congratulations! Now that you've created your repository, you can create your docstools-enabled content.
-   seealso:
-     - `check out the guides site for examples <http://www.mongodb.com/docs/guides>`__.
-     - :doc:`Tabbed Content Tutorial </tutorials/tabbed-content>`
+
+============================================
+How to Create a Docstools-Enabled Repository
+============================================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+.. time:: 45
+
+In this guide you will learn how to create a docstools-enabled
+repository.
+
+What You'll Need
+----------------
+
+- Access to Git
+- Git installed
+
+Procedure
+---------
+
+.. include:: /includes/steps/repo.rst
+
+Summary
+-------
+
+If you have successfully completed this guide, you have
+created a MongoDB docstools-enabled repository.
+
+Congratulations! Now that you've created your repository, you can create
+your docstools-enabled content.
+
+See Also
+--------
+
+- `Our Guides site for examples <http://www.mongodb.com/docs/guides>`__
+- :doc:`Tabbed Content Tutorial </tutorials/tabbed-content>`

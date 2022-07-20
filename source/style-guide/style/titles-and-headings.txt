@@ -60,8 +60,8 @@ words:
 
 .. seealso::
    To learn more about the principles of headline-style capitalization,
-   read :cmos17:`section 8.159 </part2/ch08/psec159.html>` of the
-   *Chicago Manual of Style*.
+   read `section 8.159 <https://www.chicagomanualofstyle.org/book/ed17/part2/ch08/psec159.html>`__ 
+   of the *Chicago Manual of Style*.
 
 Style and Structure
 ~~~~~~~~~~~~~~~~~~~
@@ -108,7 +108,7 @@ guides, and tables, figures, and examples follow this list.
   topic. If you use more than two levels of sections, consider whether
   you can reorganize to make the structure flatter.
 
-- Don’t "stack" titles or headings. That is, don’t immediately follow a
+- Don't "stack" titles or headings. That is, don't immediately follow a
   title or heading with another title or heading. Text should always
   intervene between them. Ensure that such text is meaningful. If it is
   just filler text, consider whether you can restructure the content.

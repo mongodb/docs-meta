@@ -1,3 +1,5 @@
+.. _glossary_d:
+
 D
 -
 
@@ -63,8 +65,7 @@ D
         * - Clear the check box.
           -
 
-   desire
-   desired
+   desire/desired
      :icon-fa5:`trash-alt` Use *want*, *appropriate*, *required*, or
      another word or phrase instead.
 
@@ -72,7 +73,7 @@ D
      :icon-fa4:`times-circle` Use *remove* or *delete* instead.
 
    dialog
-     :icon-fa4:`times-circle` See :term:`dialog box`.
+     :icon-fa4:`times-circle` See ``dialog box``.
 
    dialog box
      Don't use *dialog*, *dialogue*, *window*, *pop-up*, *screen*, or
@@ -91,8 +92,8 @@ D
 
    dimmed
      Use *dimmed* to describe the appearance of an unavailable command,
-     option, or button. Don't use :term:`disabled`, :term:`grayed`, or
-     :term:`grayed out`.
+     option, or button. Don't use ``disabled``, ``grayed``, or
+     ``grayed out``.
 
      .. seealso:: :term:`unavailable`
 
@@ -179,8 +180,7 @@ D
    downtime
      Use *downtime* as one word.
 
-   drag
-   drag-and-drop
+   drag/drag-and-drop
      The verb form is *drag*; *drag-and-drop* is an adjective.
      In UI environments, *drag* refers to using the mouse to "pull" an
      item from one area of the screen to another area. Because the
@@ -237,8 +237,7 @@ D
         * - The drop-down menu element must include several options.
           - The dropdown menu element must include several options.
 
-   drop-down list
-   drop-down menu
+   drop-down list/drop-down menu
      :icon-fa5:`trash-alt` Use *list* or *menu*, or use the name of the
      list or menu.
 

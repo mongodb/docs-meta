@@ -1,3 +1,5 @@
+.. _glossary_w:
+
 W
 -
 
@@ -12,11 +14,7 @@ W
 
      .. seealso:: :ref:`write-to-the-user`
 
-   web
-   web page
-   website
-   www
-   home page
+   web/web page/website/www/home page
      You can use *the web* as a short form of *the World Wide Web*.
      Use lowercase *www* only as part of a web address. Use *web
      page* to refer to a document on the Internet. Every web page is
@@ -27,8 +25,7 @@ W
 
      .. seealso:: :term:`internet`
 
-   when
-   whenever
+   when/whenever
      Use *when*, not *whenever*, to mean at a particular time.
      *Whenever* means every time, any time, at all times, or each time.
 
@@ -66,9 +63,8 @@ W
             where ``<controlFile>`` represents the name of the control
             file.
 
-   whether
-   whether or not
-     .. seealso:: :term:`if`
+   whether/whether or not
+     .. seealso:: ``if``
 
    which
      .. seealso:: :term:`that`
@@ -140,8 +136,7 @@ W
    with
      .. seealso:: :term:`using`
 
-   wizard
-   wizard page
+   wizard/wizard page
      Use lowercase letters for generic references to a wizard; use
      initial capitals when *wizard* is part of the name in the
      interface. Use *page* to refer to the successive dialog boxes or
@@ -161,8 +156,7 @@ W
             required permissions on the site's files.
           -
 
-   work around
-   workaround
+   work around/workaround
      Use *work around* as a verb. Use *workaround* as a noun.
 
      .. list-table::

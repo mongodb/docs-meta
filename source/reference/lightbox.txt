@@ -17,7 +17,9 @@ directive if the ``mongodb`` extension is activated in your ``conf.py``.
       .. figure:: /images/compass-array-query-op.png
          :figwidth: 200px
          :lightbox:
+         :alt: Compass Array Query 
 
    .. figure:: /images/compass-array-query-op.png
       :figwidth: 200px
       :lightbox:
+      :alt: Compass Array Query 

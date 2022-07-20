@@ -1,3 +1,5 @@
+.. _glossary_c:
+
 C
 -
 
@@ -8,7 +10,7 @@ C
 
      .. seealso::
 
-        :term:`may`, :term:`might`, :term:`must`, :term:`should`, and
+        ``may``, ``might``, ``must``, ``should``, and
         :ref:`helping-verbs`
 
      .. list-table::
@@ -23,8 +25,7 @@ C
             original cloud server.
           -
 
-   canceled
-   canceling
+   canceled/canceling
      Use each word as shown, with a single *l*.
 
    cannot
@@ -38,13 +39,13 @@ C
 
    check
      :icon-fa4:`times-circle` Don't use as a verb. In a user
-     action, tell the user whether to :term:`clear` or :term:`select`
+     action, tell the user whether to ``clear`` or ``select``
      the check box. Don't tell them to *check the box*. Additionally,
      prefer *verify* over *check*.
 
    check box
      Use *check box* as two words. In a user action, tell the user
-     whether to :term:`clear` or :term:`select` the check box.
+     whether to ``clear`` or ``select`` the check box.
 
      .. list-table::
         :widths: 50 50
@@ -61,12 +62,12 @@ C
 
    choose
      :icon-fa4:`exclamation-triangle` In procedure steps, use
-     :term:`select` when referring to actions in the UI. *Choose* is
+     ``select`` when referring to actions in the UI. *Choose* is
      acceptable in a general sense.
 
    clear
      When used as a verb, use *clear* to mean the opposite of
-     :term:`select` or *enter*. Don't use *deselect* or *unselect*.
+     ``select`` or *enter*. Don't use *deselect* or *unselect*.
 
    click
      Use *click* to mean press and release a mouse button. Use *click*
@@ -125,8 +126,7 @@ C
      When referring to an actual server, use *server* or *cloud
      server*.
 
-   close
-   open
+   close/open
      For folders in a tree, use *open* to refer to the action of
      opening a folder. Use *close* to refer to the action of closing
      the folder.
@@ -142,15 +142,13 @@ C
      *coexist* or *coprocessor*, unless the root word begins with
      *o*, such as *co-op*.
 
-   collapse
-   expand
+   collapse/expand
      For directories or other navigational trees, use *expand* to
      mean the action of opening the tree to view more objects (such
      as folders). Use *collapse* to mean the action of closing the
      tree to view fewer objects.
 
-   colocate
-   colocation
+   colocate/colocation
      Use as shown, with one *l* and no hyphen, when referring to
      locating customer equipment in a third-party data center.
 
@@ -200,8 +198,7 @@ C
           - The window contains an :guilabel:`Apply` button, an
             :guilabel:`OK` button, and an :guilabel:`Exit` button.
 
-   command line
-   command-line
+   command line/command-line
      Don't hyphenate *command line* when it's used as a noun.
      Hyphenate it when used as an adjective, as in *command-line
      interface*.
@@ -299,8 +296,8 @@ C
           -
 
    computer
-     Use *computer* instead of :term:`machine` or :term:`box`. Use
-     :term:`host` for any type of system that run software for users' computers to access.
+     Use *computer* instead of ``machine`` or ``box``. Use
+     ``host`` for any type of system that run software for users' computers to access.
 
    console
      Use lowercase letters when *console* isn't part of a product
@@ -320,4 +317,4 @@ C
 
    customer
      Use *customer* to refer to individuals who use MongoDB products
-     and services. Avoid using :term:`user`.
+     and services. Avoid using ``user``.
