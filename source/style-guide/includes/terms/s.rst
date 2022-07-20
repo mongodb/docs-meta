@@ -101,7 +101,7 @@ S
 
      .. seealso::
 
-        :term:`can`, :term:`may`, :term:`might`, :term:`must`, and
+        :ref:`can <glossary_c>`, :ref:`may <glossary_m>`, :ref:`might <glossary_m>`, :ref:`must <glossary_m>`, and
         :ref:`helping-verbs`
 
    shut down (v)/shutdown (adj, n)
@@ -141,7 +141,7 @@ S
      Use *since* to express a passage of time, not to explain why.
      Use *because* to explain why.
 
-     .. seealso:: :term:`as`
+     .. seealso:: :ref:`as <glossary_a>`
 
    slash
      Use *slash* to refer to the / character, and use *backslash* to
@@ -192,7 +192,7 @@ S
      Use *stop* to refer to hardware operations, jobs, services, or
      routines.
 
-     .. seealso:: :term:`exit`
+     .. seealso:: :ref:`exit <glossary_e>`
 
      .. list-table::
         :widths: 50 50

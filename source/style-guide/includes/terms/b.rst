@@ -217,7 +217,7 @@ B
      :icon-fa5:`trash-alt` When referring to the location of an item
      on a UI, use ``lower left`` and ``lower right`` instead.
 
-     .. seealso:: :term:`left` and :term:`right`
+     .. seealso:: :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 
    box
      Use *box* instead of *field* to describe a box (including a text
@@ -292,5 +292,5 @@ B
           -
 
    by using
-     .. seealso:: :term:`using`, :term:`by using`, :term:`with`
+     .. seealso:: :ref:`using <glossary_u>`, :ref:`by using <glossary_b>`, :ref:`with <glossary_w>`
 

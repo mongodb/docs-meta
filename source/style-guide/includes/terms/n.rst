@@ -8,7 +8,7 @@ N
    NA
      :icon-fa4:`exclamation-triangle`
 
-     .. seealso:: :term:`not applicable`
+     .. seealso:: :ref:`not applicable <glossary_n>`
 
    name server
      Use as two words.

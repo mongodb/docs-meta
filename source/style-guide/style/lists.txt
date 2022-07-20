@@ -64,7 +64,7 @@ guidelines when introducing lists.
 
        The following three methods are available:
 
-   * - Don’t tell users to "do the following." The verb *do* is weak,
+   * - Don't tell users to "do the following." The verb *do* is weak,
        using *following* as a noun in this context is incorrect, and
        the whole phrase is ambiguous.
 
@@ -150,7 +150,7 @@ When you create an AWS PrivateLink, the following limitations apply:
   - Create one private endpoint in multiple regions.
 
   If you create more than one private endpoint in a single region, you
-  can’t create private endpoints in other regions.
+  can't create private endpoints in other regions.
 
 All List Items Are Fragments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

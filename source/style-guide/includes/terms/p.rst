@@ -10,7 +10,7 @@ P
      displayed windows of the wizard. Don't use ``dialog box``,
      ``pane``, ``screen``, or ``window``.
 
-     .. seealso:: :term:`web` and :term:`wizard page`
+     .. seealso:: :ref:`web <glossary_w>` and :ref:`wizard page <glossary_w>`
 
    pane
      Use *pane* to refer to a portion of a window, screen, or console
@@ -107,7 +107,7 @@ P
      Don't use ``permissions``, ``privileges``, and
      ``rights`` interchangeably to mean the same thing.
 
-     .. seealso:: :term:`privileges` and :term:`rights`
+     .. seealso:: :ref:`privileges <glossary_p>` and :ref:`rights <glossary_r>`
 
      .. list-table::
         :widths: 50 50
@@ -124,7 +124,7 @@ P
    permit
      :icon-fa4:`exclamation-triangle`
 
-     .. seealso:: :term:`allow`
+     .. seealso:: :ref:`allow <glossary_a>`
 
    platform as a service (PaaS)
      Note the capitalization of the spelled-out term and the
@@ -195,13 +195,13 @@ P
      proper noun or a date.
 
    preceding
-     .. seealso:: :term:`following`, :term:`preceding`
+     .. seealso:: :ref:`following <glossary_f>`, :ref:`preceding <glossary_p>`
 
    press
      Use *press* to mean to push down a key or keys. Don't use the
      verbs *strike*, *punch*, *depress*, *push*, or *hit*.
 
-     .. seealso:: :term:`click`
+     .. seealso:: :ref:`click <glossary_c>`
 
      .. list-table::
         :widths: 50 50
@@ -222,7 +222,7 @@ P
      You can use *prior* as an adjective, but the preferred term is
      ``earlier``.
 
-     .. seealso:: :term:`earlier`, :term:`later`
+     .. seealso:: :ref:`earlier <glossary_e>`, :ref:`later <glossary_l>`
 
    privileges
      In general, you can use *privilege* to refer to the capability
@@ -239,7 +239,7 @@ P
      Don't use ``permissions``, ``privileges``, and
      ``rights`` interchangeably to mean the same thing.
 
-     .. seealso:: :term:`permissions` and :term:`rights`
+     .. seealso:: :ref:`permissions <glossary_p>` and :ref:`rights <glossary_r>`
 
      .. list-table::
         :widths: 50 50

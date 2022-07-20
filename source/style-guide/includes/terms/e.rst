@@ -10,7 +10,7 @@ E
      *above*) when referring to product releases and version numbers.
      Don't use *earlier* or *later* to refer to information in text.
 
-     .. seealso:: :term:`following`, :term:`preceding`
+     .. seealso:: :ref:`following <glossary_f>`, :ref:`preceding <glossary_p>`
 
      .. list-table::
         :widths: 50 50

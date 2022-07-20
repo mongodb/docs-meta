@@ -196,7 +196,7 @@ comprehensive glossary:
    information about third-party terms. A MongoDB glossary should
    contain mainly MongoDB terms. If the user could find the meaning
    outside of a MongoDB document by using a browser search, then we
-   probably don’t need to include it in the glossary. For example,
+   probably don't need to include it in the glossary. For example,
    *Apache*.
 
 -  If a term is specific to one MongoDB service, start the definition

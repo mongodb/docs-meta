@@ -11,7 +11,7 @@ industry dictionary or style guide, or for your particular project.
 Each word or phrase should have only one meaning, and should be used
 consistently throughout the documentation.
 
-- The |mdbsg| uses the *Merriam-Webster’s Collegiate Dictionary*. 11th
+- The |mdbsg| uses the *Merriam-Webster's Collegiate Dictionary*. 11th
   ed. Springfield, MA: Merriam-Webster, 2003. Continually updated at
   https://www.merriam-webster.com/.
 

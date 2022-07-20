@@ -170,28 +170,28 @@ elements. The following style differences are highlighted:
           - Select :guilabel:`Microsoft Exchange` and then click
             :guilabel:`Next`.
 
-   Cascades
-     - Order by menu, then field.
-     - Format using the ``:menuselection:`` role.
-     - Separate levels with :guilabel:`>`.
+  ..  Cascades
+  ..    - Order by menu, then field.
+  ..    - Format using the ``:menuselection:`` role.
+  ..    - Separate levels with :guilabel:`>`.
 
-     .. class:: exampletable
+  ..    .. class:: exampletable
 
-     .. list-table::
-        :widths: 25 75
-        :stub-columns: 1
+  ..    .. list-table::
+  ..       :widths: 25 75
+  ..       :stub-columns: 1
 
-        * - Code Example
-          -
-            .. code-block:: rst
-               :copyable: false
+  ..       * - Code Example
+  ..         -
+  ..           .. code-block:: rst
+  ..              :copyable: false
 
-               Select :menuselection:`Start > Control Panel`, and then
-               click the :guilabel:`Mail` icon.
+  ..              Select :menuselection:`Start > Control Panel`, and then
+  ..              click the :guilabel:`Mail` icon.
 
-        * - Rendered Example
-          - Select :menuselection:`Start > Control Panel`, and then
-            click the :guilabel:`Mail` icon.
+  ..       * - Rendered Example
+  ..         - Select :menuselection:`Start > Control Panel`, and then
+  ..           click the :guilabel:`Mail` icon.
 
    Check box names
      Format using ``:guilabel:`` role.
@@ -914,11 +914,11 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
-               MongoDB deploys a :term:`replica set` after you click
+               MongoDB deploys a :ref:`replica set <glossary_r>` after you click
                :guilabel:`Save`.
 
         * - Rendered Example
-          - MongoDB deploys a :term:`replica set` after you click
+          - MongoDB deploys a :ref:`replica set <glossary_r>` after you click
             :guilabel:`Save`.
 
    Group box names
@@ -1216,21 +1216,26 @@ elements. The following style differences are highlighted:
 
                The size of the oplog is only configurable during the
                first run using the ``--oplogSize`` argument to the
-               :binary:`~bin.mongod` command, or preferably, the
-               :setting:`~replication.oplogSizeMB` setting in the
-               MongoDB configuration file. If you do not specify this
-               on the command line before running with the
-               :option:`mongod --replSet` option, :binary:`~bin.mongod`
+               :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>` 
+               command, or preferably, the :manual:`~replication.oplogSizeMB
+               </reference/configuration-options/#mongodb-setting-replication.oplogSizeMB>`
+               setting in the MongoDB configuration file. If you do not 
+               specify this on the command line before running with the
+               ``--replSet`` option, 
+               :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>`  
                creates a default sized oplog.
 
         * - Rendered Example
-          - The size of the oplog is only configurable during the first
-            run using the ``--oplogSize`` argument to the
-            :binary:`~bin.mongod` command, or preferably, the
-            :setting:`~replication.oplogSizeMB` setting in the MongoDB
-            configuration file. If you do not specify this on the
-            command line before running with the ``--replSet`` option,
-            :binary:`~bin.mongod` creates a default sized oplog.
+          - The size of the oplog is only configurable during the
+            first run using the ``--oplogSize`` argument to the
+            :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>` 
+            command, or preferably, the :manual:`~replication.oplogSizeMB
+            </reference/configuration-options/#mongodb-setting-replication.oplogSizeMB>`
+            setting in the MongoDB configuration file. If you do not 
+            specify this on the command line before running with the
+            ``--replSet`` option, 
+            :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>`  
+            creates a default sized oplog.
 
    Option button names
      Format using ``:guilabel:`` role.
@@ -1509,12 +1514,12 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
-               The :authrole:`Global Owner` role has the permissions to
+               The :authrole:`Project Owner` role has the permissions to
                create, read, update, and delete resources within
                multiple designated products where access is granted.
 
         * - Rendered Example
-          - The :authrole:`Global Owner` role has the permissions to
+          - The :authrole:`Project Owner` role has the permissions to
             create, read, update, and delete resources within multiple
             designated products where access is granted.
 

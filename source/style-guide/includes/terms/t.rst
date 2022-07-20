@@ -10,7 +10,7 @@ T
      express the action of quickly touching and releasing an item on
      the device screen.
 
-     .. seealso:: :term:`double-tap`
+     .. seealso:: :ref:`double-tap <glossary_d>`
 
      .. list-table::
         :widths: 50 50
@@ -146,7 +146,7 @@ T
      :icon-fa5:`trash-alt` When referring to the location of an item on
      a UI, use *upper left* and *upper right* instead.
 
-     .. seealso:: :term:`left` and :term:`right`
+     .. seealso:: :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 
    towards
      :icon-fa5:`trash-alt` Use *toward* instead.

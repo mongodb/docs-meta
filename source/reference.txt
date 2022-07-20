@@ -18,7 +18,7 @@ Reference
    /reference/lightbox
    /reference/options
    /reference/source-constants
-   /reference/supressing-prevent-links
+   /reference/suppressing-prevnext-links
    /reference/template
    /reference/test-code
-   /reference/xml-role
+   /reference/xmlrole

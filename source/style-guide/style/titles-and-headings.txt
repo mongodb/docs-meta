@@ -191,7 +191,7 @@ In addition to the preceding guidelines, use the following guidelines
 when creating titles and headings for stand-alone articles on the
 Support site or in other collections of documentation:
 
-- Create article titles that don’t rely on body text or other titles
+- Create article titles that don't rely on body text or other titles
   for their meaning (that are, in other words, independent of context).
   Users should be able to tell from a title whether the information in
   the article is relevant to their needs. Avoid ambiguous one-word
@@ -243,7 +243,7 @@ when creating titles for tables, figures, and examples:
 Text Following Titles and Headings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Don’t immediately follow a title or heading with another title or
+Don't immediately follow a title or heading with another title or
 heading. Instead, follow a title or heading with body text.
 
 The body text must be independent from the title or heading. Don't use

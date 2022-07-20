@@ -10,7 +10,8 @@ C
 
      .. seealso::
 
-        ``may``, ``might``, ``must``, ``should``, and
+        :ref:`may <glossary_m>`, :ref:`might <glossary_m>`, :ref:`must
+        <glossary_m>`, :ref:`should <glossary_s>`, and
         :ref:`helping-verbs`
 
      .. list-table::
@@ -135,7 +136,7 @@ C
      dialog box, or file. Use *close* to refer to the **Close**
      button or closing a window, dialog box, or file.
 
-     .. seealso:: :term:`collapse`, :term:`expand` and :term:`exit`
+     .. seealso:: :ref:`collapse <glossary_c>`, :ref:`expand <glossary_e>` and :ref:`exit <glossary_e>`
 
    co (prefix)
      Don't hyphenate words that begin with the prefix *co*, such as

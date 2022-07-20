@@ -16,7 +16,7 @@ U
      state, not the appearance, of inactive commands, options, or
      buttons on the interface.
 
-     .. seealso:: :term:`dimmed`
+     .. seealso:: :ref:`dimmed <glossary_d>`
 
      .. list-table::
         :widths: 50 50
@@ -75,13 +75,13 @@ U
    uppercase
      Don't use *upper-case* or *upper-lowercase*.
 
-     .. seealso:: `mixed case`
+     .. seealso:: :ref`mixed case <glossary_m>`
 
    upper left/upper right
      When referring to the location of an item on a UI, use *upper
      left* and *upper right* instead of *top left* or *top right*.
 
-     .. seealso:: :term:`left` and :term:`right`
+     .. seealso:: :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 
    uptime
      Use *uptime* as one word.

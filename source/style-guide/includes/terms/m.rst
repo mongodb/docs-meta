@@ -57,7 +57,8 @@ M
 
      .. seealso::
 
-        ``can``, ``might``, ``must``, ``should``, and
+        :ref:`can <glossary_c>`, :ref:`might <glossary_m>`, :ref:`must
+        <glossary_m>`, :ref:`should <glossary_s>`, and
         :ref:`helping-verbs`
 
    menu
@@ -100,7 +101,8 @@ M
 
      .. seealso::
 
-        ``can``, ``may``, ``must``, ``should``, and
+        :ref:`can <glossary_c>`, :ref:`may <glossary_m>`, :ref:`must
+        <glossary_m>`, :ref:`should <glossary_s>`, and
         :ref:`helping-verbs`.
 
    mixed case/mixed-case
@@ -161,5 +163,6 @@ M
 
      .. seealso::
 
-        ``can``, ``may``, ``might``, ``should``, and
+        :ref:`can <glossary_c>`, :ref:`may <glossary_m>`, :ref:`might
+        <glossary_m>`, :ref:`should <glossary_s>`, and
         :ref:`helping-verbs`

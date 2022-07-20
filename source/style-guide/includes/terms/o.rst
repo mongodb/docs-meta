@@ -12,10 +12,10 @@ O
      Don't hyphenate these terms.
 
    on
-     .. seealso:: :term:`about`, :term:`on`
+     .. seealso:: :ref:`about <glossary_a>`, :ref:`on <glossary_o>`
 
    once
-     .. seealso:: :term:`after`, :term:`once`
+     .. seealso:: :ref:`after <glossary_a>`, :ref:`once <glossary_o>`
 
    online
      Don't hyphenate.
@@ -67,7 +67,7 @@ O
           -
 
    open
-     .. seealso:: :term:`close`, :term:`open`
+     .. seealso:: :ref:`close <glossary_c>`, :ref:`open <glossary_o>`
 
    open source/open-source
      Use lowercase. Hyphenate when used as a modifier.
@@ -111,7 +111,7 @@ O
      Don't use *over* to indicate quantities; use *more than*
      instead. Also, don't use *over* to refer to version numbers.
 
-     .. seealso:: :term:`earlier`, :term:`later`
+     .. seealso:: :ref:`earlier <glossary_e>`, :ref:`later <glossary_l>`
 
      .. list-table::
         :widths: 50 50

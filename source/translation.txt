@@ -23,7 +23,7 @@ If you would like to express interest in helping to translate the MongoDB
 documentation once this project is opened to the public, please:
 
 - complete the `MongoDB Contributor Agreement
-  <http://www.mongodb.com/legal/contributor-agreement>`_, and
+  <http://www.mongodb.com/legal/contributor-agreement>`__, and
 
 - join the `mongodb-translators`_ user group.
 
@@ -36,6 +36,7 @@ Agreement, but you will not be allowed to contribute translations.
 
 .. seealso::
 
-   - :ref:`meta-contributing`
+..  - :ref:`meta-contributing`
+  
    - :doc:`/organization`
    - :doc:`/practices`

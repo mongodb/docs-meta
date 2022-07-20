@@ -23,7 +23,7 @@ W
      documents. Use *home page* to refer to the first (main) page
      that you see when you enter a site.
 
-     .. seealso:: :term:`internet`
+     .. seealso:: :ref:`internet <glossary_i>`
 
    when/whenever
      Use *when*, not *whenever*, to mean at a particular time.
@@ -64,10 +64,10 @@ W
             file.
 
    whether/whether or not
-     .. seealso:: ``if``
+     .. seealso:: :ref`if <glossary_i>`
 
    which
-     .. seealso:: :term:`that`
+     .. seealso:: :ref:`that <glossary_t>`
 
    while
      Use *while* to refer to something occurring during a period of
@@ -128,13 +128,13 @@ W
      displayed. A window can contain documents and messages and can be
      minimized.
 
-     .. seealso:: :term:`dialog box`
+     .. seealso:: :ref:`dialog box <glossary_d>`
 
    wish
      :icon-fa5:`trash-alt` Use *want* or another appropriate word instead.
 
    with
-     .. seealso:: :term:`using`
+     .. seealso:: :ref:`using <glossary_u>`
 
    wizard/wizard page
      Use lowercase letters for generic references to a wizard; use

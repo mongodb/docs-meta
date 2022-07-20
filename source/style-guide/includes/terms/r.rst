@@ -162,7 +162,7 @@ R
      Don't use ``permissions``, ``privileges``, and
      ``rights`` interchangeably to mean the same thing.
 
-     .. seealso:: ``permissions`` and ``privileges``
+     .. seealso:: :ref:`permissions <glossary_p>` and :ref:`privileges <glossary_p>`
 
      .. list-table::
         :widths: 50 50
