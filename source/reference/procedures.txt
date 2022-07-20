@@ -26,8 +26,8 @@ procedures default to a value of ``connected``.
    :widths: 60 40
    :header-rows: 1
 
-   * - Syntax
-     - Rendered Result
+   * - Markup
+     - Result
 
    * - .. literalinclude:: /includes/procedure-example-default.rst
           :copyable: false
