@@ -38,8 +38,8 @@ Pre-configured Tab Sets
 
 To use a pre-configured tab set, you'll need to know:
 
-- a tab set name
-- the tab set ids with titles defined for that tab set
+- A tab set name
+- The tab set ids with titles defined for that tab set
 
 You can find the definitions for all preconfigured tab sets in `rstspec.toml
 <https://github.com/mongodb/snooty-parser/blob/78631219292a1e24502a3dee5ed50c83501a0528/snooty/rstspec.toml#L1802=>`__.
