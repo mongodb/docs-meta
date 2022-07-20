@@ -30,8 +30,8 @@ Tab Types
 
 Tabs come in two flavors:
 
-- pre-configured tab sets defined in Snooty via ``rstspec.toml``.
-- custom tab sets defined directly in your code
+- Pre-configured tab sets defined in Snooty via ``rstspec.toml``.
+- Custom tab sets defined directly in your code
 
 Pre-configured Tab Sets
 ~~~~~~~~~~~~~~~~~~~~~~~
