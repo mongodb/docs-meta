@@ -2,10 +2,10 @@
 Footnotes
 =========
 
-Use footnotes to add detail that not all readers will need.
+Use footnotes to add details that not all readers will need.
 
-Syntax
-------
+Procedure
+---------
 .. procedure::
     :style: normal
 
