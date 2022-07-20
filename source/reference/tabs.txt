@@ -1,0 +1,122 @@
+.. _tabs:
+
+====
+Tabs
+====
+
+.. default-domain:: mongodb
+
+.. include:: /includes/styles/corrections.rst
+
+Tabs organize and allow navigation between groups of related content at
+a single level of hierarchy. Use tabs whenever information branches into
+multiple orthogonal environments, but only one of those environments
+applies to a user at a time. For example, you could create a set of tabs
+to organize documentation for:
+
+- SDKs targeting different platforms
+- operating systems where a user might run software
+- product behavior before and after a breaking environment change
+
+Tab Types
+---------
+
+Tabs come in two flavors:
+
+- pre-configured tab sets defined in Snooty via ``rstspec.toml``.
+- custom tab sets defined directly in your code
+
+Pre-configured Tab Sets
+~~~~~~~~~~~~~~~~~~~~~~~
+
+To use a pre-configured tab set, you'll need to know:
+
+- a tab set name
+- the tab set ids with titles defined for that tab set
+
+You can find the definitions for all preconfigured tab sets in `rstspec.toml
+<https://github.com/mongodb/snooty-parser/blob/78631219292a1e24502a3dee5ed50c83501a0528/snooty/rstspec.toml#L1802=>`__.
+Under the ``[tabs]`` section of this file, tabs are defined in the
+following form:
+
+.. code-block::
+
+   cloud-providers = [
+      {id = "aws", title = "AWS"},
+      {id = "azure", title = "Azure"},
+      {id = "gcp", title = "GCP"},
+   ]
+
+The above tab set has a tab set name of "cloud-providers" and the
+following tab set ids:
+
+- "aws" (titled "AWS")
+- "azure" (titled "Azure")
+- "gcp" (titled "GCP")
+
+To use a pre-configured tab set, use a directive of the form
+``tabs-<tab set name>``. Create tabs using ``tab`` directives. Tab
+titles come from ``tabid`` option values: pick an id from the tab set,
+and Snooty automatically assigns a title.
+
+.. list-table::
+   :widths: 60 40
+   :header-rows: 1
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/tabs-example-preconfigured.rst
+          :copyable: false
+     - .. include:: /includes/tabs-example-preconfigured.rst
+
+Custom Tab Sets
+~~~~~~~~~~~~~~~
+
+To use a custom tab set, use a ``tabs`` directive. Within that directive,
+use ``tab`` directives to define tab titles and ids. Specify the title
+as the argument for the ``tab`` directive, and tab ids using the
+``tabid`` option. Tab ids keep selected tabs in sync across an entire
+page: if the user selects a tab anywhere on the page, all tab sets that
+contain that id will switch to that tab.
+
+The following table shows an example of pre-configured tab sets
+and an example of custom tab sets:
+
+.. list-table::
+   :widths: 60 40
+   :header-rows: 1
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/tabs-example-custom.rst
+          :copyable: false
+     - .. include:: /includes/tabs-example-custom.rst
+
+Hidden Tabs
+~~~~~~~~~~~
+
+You can add the ``:hidden:`` option to any pre-configured or custom tabs
+directive to hide the tab titles and tab selector GUI on that tabset.
+This can be useful when you want to offer a tab option at the top of a
+page, but that option isn't useful further down the page. For example,
+a tutorial with multiple sequential steps (some common between
+environments, some tabbed) could benefit from hiding tabs after the first
+step, since users aren't likely to switch between tabs in the middle of
+the tutorial.
+
+Tab Guidelines
+--------------
+
+When creating tabs, use the following guidelines:
+
+- If a pre-configured tab set exists, use it instead of defining a custom
+  tab set. This keeps titles consistent across the docs and makes it easier
+  to update all similar tab sets if the tab set gains a new option
+  (e.g. a new OS version release).
+- When defining multiple tab sets on the same page, use the same tabs on
+  all tabsets. For instance, if you provide separate "Linux", "Windows",
+  and "macOS" tabs at one point on a page, you should provide all of
+  those options for each tabset, even if the Linux and macOS tabs
+  include the same content.
