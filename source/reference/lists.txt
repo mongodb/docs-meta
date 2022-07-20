@@ -22,12 +22,10 @@ starting a line with ``#.``, or by using a number followed by a ``.``. Using
    * - Markup
      - Result
 
-   * - ..literalinclude:: /includes/ordered-list-example.rst
-       :start-after: start-auto-ol
-       :end-before: end-auto-ol
+   * - ..literalinclude:: /includes/ordered-list-auto-example.rst
        :copyable: false
 
-     - ..include:: /includes/ordered-list-example.rst
+     - ..include:: /includes/ordered-list-auto-example.rst
 
 .. list-table::
    :header-rows: 1
@@ -36,12 +34,10 @@ starting a line with ``#.``, or by using a number followed by a ``.``. Using
    * - Markup
      - Result
 
-   * - ..literalinclude:: /includes/ordered-list-example.rst
-       :start-after: start-numbered-ol
-       :end-before: end-numbered-ol
+   * - ..literalinclude:: /includes/ordered-list-numbered-example.rst
        :copyable: false
 
-     - ..include:: /includes/ordered-list-example.rst
+     - ..include:: /includes/ordered-list-numbered-example.rst
 
 Unordered Lists
 ---------------
@@ -56,12 +52,10 @@ unordered list by starting a line with ``-`` or ``*``.
    * - Markup
      - Result
 
-   * - ..literalinclude:: /includes/unordered-list-example.rst
-       :start-after: start-dashed-ul
-       :end-before: end-dashed-ul
+   * - ..literalinclude:: /includes/unordered-list-dashed-example.rst
        :copyable: false
 
-     - ..include:: /includes/unordered-list-example.rst
+     - ..include:: /includes/unordered-list-dashed-example.rst
 
 .. list-table::
    :header-rows: 1
@@ -70,12 +64,10 @@ unordered list by starting a line with ``-`` or ``*``.
    * - Markup
      - Result
 
-   * - ..literalinclude:: /includes/unordered-list-example.rst
-       :start-after: start-asterisk-ul
-       :end-before: end-asterisk-ul
+   * - ..literalinclude:: /includes/unordered-list-asterisk-example.rst
        :copyable: false
 
-     - ..include:: /includes/unordered-list-example.rst
+     - ..include:: /includes/unordered-list-asterisk-example.rst
 
 Nested Lists
 ------------
@@ -93,8 +85,6 @@ the text of the parent list.
      - Result
 
    * - ..literalinclude:: /includes/nested-list-example.rst
-       :start-after: start-nested-ul
-       :end-before: end-nested-ul
        :copyable: false
 
      - ..include:: /includes/nested-list-example.rst
