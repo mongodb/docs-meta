@@ -13,9 +13,9 @@ Heading Level Markup
 --------------------
 
 The character used for the over and underlines has no effect on the heading
-level, as long as the order used is consistent. However, to maintain consistency
-and readability throughout the documentation, use the following heading level
-structure:
+level. Snooty determines the heading levels based on the order in which it first 
+sees the character on the page. However, to maintain consistency and readability 
+throughout the documentation, use the following heading level structure:
 
 .. list-table::
    :header-rows: 1
@@ -114,7 +114,7 @@ Headings must follow these rules to prevent build errors:
             Create One New User
             -------------------
 
-- Don't skip Heading Levels. Heading Level 3 cannot come after
+- Don't skip Heading Levels. Heading Level 3 should not come after
   Heading Level 1.
 
   .. list-table::
@@ -148,8 +148,14 @@ Headings must follow these rules to prevent build errors:
             Create One New User
             ~~~~~~~~~~~~~~~~~~~
 
-- Avoid using {+rst+} replacements-such as source constants-in heading text. If the
-  replacement text makes the heading text longer than the underline length, your
-  build generates an error.
+- Write all headings in 
+  `title case <https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case>`_. 
+  Capitalize all words, except for minor words like articles and short conjunctions.
+  
+- Avoid using {+rst+} replacements, such as :ref:`style-guide-source-constants`,
+  in heading text. If the replacement text makes the heading text longer than the
+  underline length, your build generates an error. Replacements also make no 
+  guarantees about capitalization, which could lead to a heading not being title
+  case.
 
 For more guidelines on headings, see :ref:`titles-and-headings`.

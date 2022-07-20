@@ -59,27 +59,7 @@ Unordered Lists
 ---------------
 
 Unordered lists show a bullet point for each item in the list. Create an
-unordered list by starting a line with ``*`` or ``-``. 
-
-.. list-table::
-   :header-rows: 1
-   :widths: 50 50
-
-   * - Markup
-     - Result
-
-   * -
-
-       .. code-block:: rst
-          :copyable: false
-
-           * Item 1
-           * Item 2
-           * Item 3
-
-     - * Item 1
-       * Item 2
-       * Item 3
+unordered list by starting a line with ``-`` or ``*``. 
 
 .. list-table::
    :header-rows: 1
@@ -100,6 +80,26 @@ unordered list by starting a line with ``*`` or ``-``.
      - - Item 1
        - Item 2
        - Item 3
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * -
+
+       .. code-block:: rst
+          :copyable: false
+
+           * Item 1
+           * Item 2
+           * Item 3
+
+     - * Item 1
+       * Item 2
+       * Item 3
 
 Nested Lists
 ------------
