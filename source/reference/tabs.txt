@@ -8,6 +8,12 @@ Tabs
 
 .. include:: /includes/styles/corrections.rst
 
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
 Tabs organize and allow navigation between groups of related content at
 a single level of hierarchy. Use tabs whenever information branches into
 multiple orthogonal environments, but only one of those environments

@@ -8,6 +8,12 @@ Procedures
 
 .. include:: /includes/styles/corrections.rst
 
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
 Procedures visually separate multi-step processes into individual steps.
 Use procedures whenever stepped instructions require any of the following:
 

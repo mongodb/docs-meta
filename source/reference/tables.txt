@@ -1,0 +1,125 @@
+.. _tables:
+
+======
+Tables
+======
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+.. include:: /includes/styles/corrections.rst
+
+Tables compare items across multiple domains.
+Use tables whenever you need to compare multiple items in multiple ways.
+
+Table Types
+-----------
+
+rST offers multiple kinds of table, but ``list-table`` is the only
+variant we use at MongoDB.
+
+Introduce Tables
+----------------
+
+Tables represent lots of information simultaneously. To help your readers
+know how to best use a table, provide an introductory sentence that begins
+with "The following table" and end it with a colon.
+
+.. tip:: Accessibility
+
+   Not all screen readers preannounce tables. Introductory sentences
+   help screen reader users understand the context of a table before
+   reading the table itself.
+
+The following table shows information about the documentation teams at
+MongoDB and what they work on:
+
+.. include:: /includes/tables-example.rst
+
+Example
+-------
+
+To create a table, use the ``list-table`` directive. List tables accept the following options:
+
+.. list-table:: List Table Options
+   :widths: 20 30 50
+   :header-rows: 1
+
+   * - Name
+     - Values
+     - Description
+   * - ``align``
+     - ``left``, ``center``, or ``right``
+     - The horizontal alignment of the table.
+   * - ``header-rows``
+     - Number (e.g. ``1``)
+     - The number of rows to format as headers at the top of the table.
+   * - ``stub-columns``
+     - Number (e.g. ``0``)
+     - The number of columns to format as row titles at the left of the table.
+   * - ``widths``
+     - space-separated numbers, one for each column (e.g. ``20 40 40``)
+     - A list of relative column widths. Defaults to equal-width columns.
+       It is recommended that these add up to 100 to make comparisons easier.
+   * - ``width``
+     - Number or percentage (e.g. ``60%``)
+     - The width of the table on the page.
+
+Under the ``list-table`` directive, create rows and columns using a two-level
+bulleted list with the following form:
+
+.. code-block::
+
+   * - Row 1, Column 1
+     - Row 1, Column 2
+     - Row 1, Column 3
+
+   * - Row 2, Column 1
+     - Row 2, Column 2
+     - Row 2, Column 3
+
+The following examples demonstrate table markup and rendered results for
+common use cases:
+
+.. list-table::
+   :widths: 60 40
+   :header-rows: 1
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/tables-example.rst
+          :copyable: false
+     - .. include:: /includes/tables-example.rst
+
+   * - .. literalinclude:: /includes/tables-example-stub-columns.rst
+          :copyable: false
+     - .. include:: /includes/tables-example-stub-columns.rst
+
+   * - .. literalinclude:: /includes/tables-example-alignment.rst
+          :copyable: false
+     - .. include:: /includes/tables-example-alignment.rst
+
+   * - .. literalinclude:: /includes/tables-example-width.rst
+          :copyable: false
+     - .. include:: /includes/tables-example-width.rst
+
+   * - .. literalinclude:: /includes/tables-example-no-widths.rst
+          :copyable: false
+     - .. include:: /includes/tables-example-no-widths.rst
+
+
+Table Guidelines
+----------------
+
+When creating tables, use the following guidelines:
+
+- If your table only has one column, use a list instead.
+- Always include an introductory sentence.
+- Always include a title.
+- Always use list tables.
