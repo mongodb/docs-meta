@@ -3,12 +3,12 @@ The MongoDB Documentation Project
 =================================
 
 
-:doc:`/style-guide`
-:doc:`/tutorials`
-:doc:`/reference`
-:doc:`/organization`
-:doc:`/practices`
-:doc:`/translation`
+- :doc:`/style-guide`
+- :doc:`/tutorials`
+- :doc:`/reference`
+- :doc:`/organization`
+- :doc:`/practices`
+- :doc:`/translation`
 
 .. toctree::
    :titlesonly:
