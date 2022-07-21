@@ -12,7 +12,7 @@ How to Create a Guide for MongoDB Legacy Docs
    :depth: 1
    :class: singlecol
 
-.. time:: 45
+**Time: 45**
 
 In this guide you will learn how to create a MongoDB Guide in our legacy
 (old gen) documentation.
