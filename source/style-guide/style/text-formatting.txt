@@ -1102,7 +1102,7 @@ elements. The following style differences are highlighted:
             :guilabel:`Preferences`.
 
    Menu sequences
-     Format as :term:`Cascades`.
+     Format as :ref:`Cascades <glossary_c>`.
 
    Messages (error, warning)
      Format using ``monospace`` text.
