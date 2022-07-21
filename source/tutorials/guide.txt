@@ -1,5 +1,3 @@
-:template: guide
-
 =============================================
 How to Create a Guide for MongoDB Legacy Docs
 =============================================
