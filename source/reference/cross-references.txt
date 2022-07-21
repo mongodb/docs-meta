@@ -1,0 +1,83 @@
+.. _style-guide-cross-references:
+
+================
+Cross References
+================
+
+.. default-domain:: mongodb
+
+Use cross references to link to other sections within the MongoDB documentation.
+You can reference to a specific page, or to a specified reference target on a
+page.
+
+Reference Targets
+-----------------
+
+To create a reference target on a page, add the following above the section you
+are referencing:
+
+.. code-block:: rst
+
+   .. _reference-target-name:
+
+The reference target can have any name, but the target must begin with
+``.. _`` and end with a colon ``:``. Use **kebab-case**, all lowercase words
+separated by dashes, for all reference names.
+
+To create a link to that specific reference target, use the following syntax:
+
+.. code-block:: rst'
+
+    :ref:`Title to display <reference-target-name>`
+
+.. _reference-target-name:
+
+This example renders as: :ref:`Name to display <reference-target-name>`.
+
+You can omit the display title and the carrot brackets if the reference target 
+is directly above a heading. This causes Snooty to use the heading name as the 
+link title. 
+
+.. code-block:: none
+
+    .. _sample-header-reference:
+
+    =============
+    Sample Header
+    =============
+
+    ...
+
+    To learn more, see: :ref:`sample-header-reference`.
+
+.. _sample-header-reference:
+
+This renders as: To learn more, see: :ref:`Sample Header <sample-header-reference>`.
+
+Commonly Used Roles
+-------------------
+
+You can reference other pages in the documentation using roles besides
+```:ref:``. Some commonly used roles are:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
+
+   * - Role
+     - Links To
+
+   * - :doc:
+     - Another location within the MongoDB documentation
+
+   * - :manual:
+     - A page in the latest stable version of the :manual:`MongoDB manual </>`
+   
+   * - :term:
+     - A term in the :manual:`glossary <reference/glossary>`
+
+To see a full list of custom roles, see
+`snooty-parser/snooty/rstspec.toml <https://github.com/mongodb/snooty-parser/blob/master/snooty/rstspec.toml>`__
+   
+
+
