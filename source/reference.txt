@@ -9,12 +9,18 @@ Reference
 - :doc:`/reference/apiargs`
 - :doc:`/reference/cond`
 - :doc:`/reference/copyable`
+- :doc:`/reference/emphasis`
 - :doc:`/reference/eval`
 - :doc:`/reference/icon`
+- :doc:`/reference/footnotes`
 - :doc:`/reference/lightbox`
+- :doc:`/reference/lists`
 - :doc:`/reference/options`
+- :doc:`/reference/procedures`
 - :doc:`/reference/source-constants`
 - :doc:`/reference/suppressing-prevnext-links`
+- :doc:`/reference/tables`
+- :doc:`/reference/tabs`
 - :doc:`/reference/template`
 - :doc:`/reference/test-code`
 - :doc:`/reference/xmlrole`
@@ -29,12 +35,18 @@ Reference
    /reference/apiargs
    /reference/cond
    /reference/copyable
+   /reference/emphasis
    /reference/eval
+   /reference/footnotes
    /reference/icon
    /reference/lightbox
+   /reference/lists
    /reference/options
+   /reference/procedures
    /reference/source-constants
    /reference/suppressing-prevnext-links
+   /reference/tables
+   /reference/tabs
    /reference/template
    /reference/test-code
    /reference/xmlrole
