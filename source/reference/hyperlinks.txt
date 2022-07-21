@@ -1,4 +1,4 @@
-.. _style-guide-hyperlink-ref:
+.. _style-guide-hyperlinks:
 
 ==========
 Hyperlinks
@@ -12,31 +12,10 @@ Inline Hyperlinks
 
 Use inline hyperlinks when you want to link to a full URL.
 
-Syntax
-~~~~~~
-
-.. code-block:: none
-
-   `your text <your link>`__
-
-.. procedure::
-   :style:  normal
-
-   .. step:: Start with a backtick ``\```.
-
-   .. step:: Insert the text you want displayed.
-
-   .. step:: Put your URL between the angle brackets ``<>``.
-
-   .. step:: Close with another backtick ``\```.
-
-   .. step:: Append 2 underscores ``__``. This tells Sphinx and docutils to treat
-      each link as unique when converting to it HTML.
-
 Example
-```````
+~~~~~~~
 
-.. code-block:: none
+.. code-block:: rst
 
    Here is the `MongoDB Go Driver Documentation <https://www.mongodb.com/docs/drivers/go/current/>`__.
 
@@ -52,79 +31,51 @@ Use cross-referenced hyperlinks when you want to link to another page in
 docs. This page can be in the same repo, or another within the same
 organization.
 
-Syntax
-~~~~~~
-
-To create a cross-referenced hyperlink:
-
-.. code-block:: none
-
-    .. _some-link:
-
-To reference a cross-referenced hyperlink:
-
-.. code-block:: none
-
-    :ref:`Some Text <some-link>`
+Procedure
+~~~~~~~~~
 
 .. procedure::
    :style:  normal
 
-   .. step:: At the line before where you want to link to, create the cross-referenced hyperlink.
-    
-    .. procedure::
-      :style:  connected
-      
-      .. step:: Start with two periods ``..``.
+   .. step:: If the hyperlink doesn't already exist, in the line before where you want to link to, create the cross-referenced hyperlink.
 
-      .. step:: Enter a space `` ``.
+      If the hyperlink is in a different repo, add the rendered docs URL
+      landing page and append ``objects.inv``. Add the URL to the
+      ``intersphinx`` array in the ``snooty.toml`` file.
 
-      .. step:: Add an underscore ``_`` followed with the text you want displayed.
-   
-      .. step:: Close with a colon ``:``.
+      For example, if you want to use hyperlinks in the manual, you'd
+      add this to the ``intersphinx`` array:
 
-   .. step:: Reference the cross-referenced hyperlink.
-    
-      .. procedure::
-         :style:  connected
-      
-         .. step:: Start with the ref tag ``:ref:``.
+      .. code-block:: rst
 
-         .. step:: Add a backtick ``\```.
+         https://www.mongodb.com/docs/manual/objects.inv
 
-         .. step:: Insert the text you want displayed.
-
-            You can omit ``Some Text`` if its the same as the heading
-            below the reference. 
-
-         .. step:: Put your URL between the angle brackets ``<>``.
-
-         .. step:: Close with another backtick ``\```.    
+   .. step:: Reference the cross-referenced hyperlink.  
 
 Example
 ```````
 
 This is the first line of this page:
 
-.. code-block:: none
+.. code-block:: rst
 
-    .. _style-guide-hyperlink-ref:
+    .. _style-guide-hyperlinks:
 
 Here, we'll reference the link:
 
-.. code-block:: none
+.. code-block:: rst
 
-    To learn more, see :ref:`Hyperlinks <style-guide-hyperlink-ref>`.
+    To learn more, see :ref:`Hyperlinks <style-guide-hyperlinks>`.
 
 .. tip::
     
    You could also reference the link like this:
 
-   .. code-block:: none
+   .. code-block:: rst
 
-      To learn more, see :ref:`style-guide-hyperlink-ref`.
+      To learn more, see :ref:`style-guide-hyperlinks`.
 
 Rendered View
 `````````````
 
-To learn more, see :ref:`style-guide-hyperlink-ref`.
+To learn more, see :ref:`style-guide-hyperlinks`.
