@@ -2,6 +2,16 @@
 Tutorials
 =========
 
+- :doc:`/images-guide`
+- :doc:`/tutorials/screencapture-tool`
+- :doc:`/tutorials/tabbed-content`
+- :doc:`/tutorials/version-bumping`
+- :doc:`/tutorials/generating-a-browser-list`
+- :doc:`/error-kb`
+- :doc:`/tutorials/install`
+- :doc:`/tutorials/repo`
+- :doc:`/tutorials/guide`
+
 .. toctree::
    :titlesonly:
 

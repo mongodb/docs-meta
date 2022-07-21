@@ -2,8 +2,24 @@
 Reference
 =========
 
+- Syntax <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>
+- Docutils Directives <http://docutils.sourceforge.net/docs/ref/rst/directives.html>
+- Sphinx Documentation <http://www.sphinx-doc.org/en/stable/contents.html>
+- :doc:`/redirects`
+- :doc:`/reference/apiargs`
+- :doc:`/reference/cond`
+- :doc:`/reference/copyable`
+- :doc:`/reference/eval`
+- :doc:`/reference/icon`
+- :doc:`/reference/lightbox`
+- :doc:`/reference/options`
+- :doc:`/reference/source-constants`
+- :doc:`/reference/suppressing-prevnext-links`
+- :doc:`/reference/template`
+- :doc:`/reference/test-code`
+- :doc:`/reference/xmlrole`
+
 .. toctree::
-   :glob:
    :titlesonly:
 
    Syntax <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>
