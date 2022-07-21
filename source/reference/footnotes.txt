@@ -1,0 +1,54 @@
+=========
+Footnotes
+=========
+
+Use footnotes to add details that not all readers will need.
+
+Procedure
+---------
+.. procedure::
+    :style: normal
+
+    .. step:: Mark the footnote location in your text with ``[#footnote-identifier]``,
+        where "footnote-identifier" is arbitrary. 
+
+    .. step:: If the bottom of the page doesn't have a "Footnotes" rubric, use 
+        ``.. rubric:: Footnotes`` to create one.
+    
+    .. step:: Beneath the "Footnotes" rubric, enter  ``.. [#footnote-identifier] 
+                <footnote text>`` to add your footnote.
+
+Example
+-------
+
+.. code-block:: rst
+
+    This sentence ends with a footnote. [#first-footnote]_
+    This sentence ends with a different footnote. [#second-footnote]_
+    Two sentences can use the same footnote. [#first-footnote]_
+
+    This describes something cool.
+    This goes into more detail.
+    Now you've learned this cool thing!
+    Footnotes will appear below.
+
+    .. rubric:: Footnotes
+    .. [#first-footnote] This footnote supplements the first and third sentences above.
+    .. [#second-footnote] This footnote supplements the second sentence above.
+
+Rendered View
+`````````````
+| This sentence ends with a footnote. [#first-footnote]_
+| This sentence also ends with a footnote. [#second-footnote]_ 
+| Two sentences can use the same footnote. [#first-footnote]_ 
+
+| This describes something cool.
+| This goes into more detail.
+| Now you've learned this cool thing!
+| Footnotes will appear below.
+
+.. rubric:: Footnotes
+.. [#first-footnote] This footnote supplements the first and third sentences above.
+.. [#second-footnote] This footnote supplements the second sentence above.  
+
+

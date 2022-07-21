@@ -1,0 +1,92 @@
+..  _style-guide-lists:
+
+=====
+Lists
+=====
+
+.. default-domain:: mongodb
+
+You can create *ordered* or *unordered* lists in {+rst+}.
+
+Ordered Lists
+-------------
+
+Ordered lists show a number for each item in the list. Create an ordered list by
+starting a line with ``#.``, or by using a number followed by a ``.``. Using
+``#.`` in place of numbers prompts Snooty to generate list numbers automatically.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/ordered-list-auto-example.rst
+       :copyable: false
+
+     - .. include:: /includes/ordered-list-auto-example.rst
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/ordered-list-numbered-example.rst
+       :copyable: false
+
+     - .. include:: /includes/ordered-list-numbered-example.rst
+
+Unordered Lists
+---------------
+
+Unordered lists show a bullet point for each item in the list. Create an
+unordered list by starting a line with ``-`` or ``*``. 
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/unordered-list-dashed-example.rst
+       :copyable: false
+
+     - .. include:: /includes/unordered-list-dashed-example.rst
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/unordered-list-asterisk-example.rst
+       :copyable: false
+
+     - .. include:: /includes/unordered-list-asterisk-example.rst
+
+Nested Lists
+------------
+
+You can create nested lists with both ordered and unordered lists. Create a
+nested list by first creating a list, then creating a second list separated by
+a blank line and indented. Indent the second list to the same level of
+the text of the parent list.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 50 50
+
+   * - Markup
+     - Result
+
+   * - .. literalinclude:: /includes/nested-list-example.rst
+       :copyable: false
+
+     - .. include:: /includes/nested-list-example.rst
+
+For more guidelines on lists, see :ref:`lists`.

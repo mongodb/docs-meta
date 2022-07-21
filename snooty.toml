@@ -19,7 +19,7 @@ toc_landing_pages = [
 ]
 
 [constants]
-rst =  "reStructuredText"
+rst = "reStructuredText"
 package-branch = "testing"
 package-version = "4.4.0"
 package-name-org = "mongodb-org"
