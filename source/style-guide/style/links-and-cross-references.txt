@@ -23,9 +23,7 @@ outside of the current page or section. Links may be:
 - Explicit references to different sections. For example:
 
   "To learn more about aggregation pipelines, see:
-
-  - :ref:`aggregation-expression-operators`
-  - :ref:`aggregation-pipeline-operator-reference`
+  
   - `Practical MongoDB Aggregations
     <https://www.practical-mongodb-aggregations.com>`__"
 

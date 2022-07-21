@@ -170,29 +170,6 @@ elements. The following style differences are highlighted:
           - Select :guilabel:`Microsoft Exchange` and then click
             :guilabel:`Next`.
 
-  ..  Cascades
-  ..    - Order by menu, then field.
-  ..    - Format using the ``:menuselection:`` role.
-  ..    - Separate levels with :guilabel:`>`.
-
-  ..    .. class:: exampletable
-
-  ..    .. list-table::
-  ..       :widths: 25 75
-  ..       :stub-columns: 1
-
-  ..       * - Code Example
-  ..         -
-  ..           .. code-block:: rst
-  ..              :copyable: false
-
-  ..              Select :menuselection:`Start > Control Panel`, and then
-  ..              click the :guilabel:`Mail` icon.
-
-  ..       * - Rendered Example
-  ..         - Select :menuselection:`Start > Control Panel`, and then
-  ..           click the :guilabel:`Mail` icon.
-
    Check box names
      Format using ``:guilabel:`` role.
 
