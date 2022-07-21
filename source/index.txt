@@ -4,11 +4,40 @@ The MongoDB Documentation Project
 
 
 - :doc:`/style-guide`
+  
+  The Style Guide section contains our :ref:`writing
+  <index-writing-guidelines>`, :ref:`style <index-style-guidelines>`,
+  :ref:`markup <markup-guidelines>`,
+  :ref:`terminology <index-terminology-guidelines>`, :ref:`screenshot
+  and diagram <index-screenshot-diagram-guidelines>`, :ref:`error
+  message <error-message-guidelines>`, and 
+  :ref:`release notes <release-notes-guidelines>`
+  guidelines.
+
 - :doc:`/tutorials`
+
+  The Tutorials section contains step by step procedures on various
+  task that you can perform.
+
 - :doc:`/reference`
+
+  The Reference section contains information and examples on common rst
+  terms and concepts you'll need when writing our docs.
+
 - :doc:`/organization`
+
+  The Organization section provides an overview of the global
+  organization of the documentation resource.
+
 - :doc:`/practices`
+
+  The Practices and Processes section goes over how we do the things we
+  do.
+
 - :doc:`/translation`
+
+  The Translation section discusses our plans in making our documentaion
+  available in other languages.
 
 .. toctree::
    :titlesonly:
