@@ -51,8 +51,8 @@ Procedure
 
          https://www.mongodb.com/docs/manual/objects.inv
 
-      If someone else already created the hyperlink in the same repo,
-      skip the next step.
+      If someone else already created the cross-referenced hyperlink in
+      the same repo, skip the next step.
    
    .. step:: Create the cross-referenced hyperlink.
       
@@ -64,7 +64,7 @@ Procedure
          You need to place this two lines before where you want the link
          to.
 
-   .. step:: Reference the cross-referenced hyperlink.  
+   .. step:: Reference the cross-referenced hyperlink using ``:ref:``.  
 
 Example
 ```````
