@@ -48,7 +48,8 @@ Procedure
       If the cross-referenced hyperlink is in a different MongoDB repo, 
       add the documentation URL landing page and append
       ``/objects.inv``. Then, add the URL to the  ``intersphinx`` array
-      in the ``snooty.toml`` file and skip the next step.
+      in the ``snooty.toml`` file and skip the next step. See the
+      :ref:`different-repo-example` for an example.
 
       If someone else already created the cross-referenced hyperlink in
       the same repo, skip the next step.
@@ -61,12 +62,14 @@ Procedure
       .. note::
 
          You need to place this two lines before where you want the link
-         to.
+         to. See the :ref:`same-repo-example` for an example.
 
    .. step:: Reference the cross-referenced hyperlink using ``:ref:``.
 
-Example
-```````
+.. _same-repo-example:
+
+Same Repo Example
+`````````````````
 
 The following example creates a cross-referenced hyperlink to the top of
 this page.
@@ -100,8 +103,10 @@ Rendered View
 
 To learn more, see :ref:`style-guide-hyperlinks`.
 
-Example
-```````
+.. _different-repo-example:
+
+Different Repo Example
+``````````````````````
 
 The following example uses a cross-referenced hyperlink to the CRUD page
 in the manual.
@@ -111,7 +116,6 @@ First, add this to the ``intersphinx`` array:
 .. code-block:: rst
 
    https://www.mongodb.com/docs/manual/objects.inv
-
 
 Then, looking at `the CRUD page
 <https://github.com/mongodb/docs/blob/master/source/crud.txt>`__, we see
