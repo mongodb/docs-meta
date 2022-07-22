@@ -163,7 +163,7 @@ Built-In Variables
   setting (e.g. :manual:`dbpath </reference/program/mongod/#std-option-mongod.--dbpath>`).
 
 - ``{{program}}``: automatically replaced by the a link to the option
-  or setting's specified ``program`` (e.g. :manual:`mongod </reference/program/mongod/`).
+  or setting's specified ``program`` (e.g. :manual:`mongod </reference/program/mongod/>`).
   
 - ``{{command}}``: automatically replaced by a link to the option or
   setting's specified ``command``.
