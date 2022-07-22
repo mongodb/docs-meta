@@ -4,13 +4,13 @@
 Hyperlinks
 ==========
 
-You can link out to other sites, internal pages or sections using inline
-hyperlinks and cross-referenced hyperlinks.
+You can link out to other sites, internal pages or specific sections on
+a page using inline hyperlinks and cross-referenced hyperlinks.
 
 Inline Hyperlinks
 -----------------
 
-Use inline hyperlinks when you want to link to a full URL.
+Use inline hyperlinks when you want to link to a website with its full URL.
 
 Example
 ~~~~~~~
@@ -28,7 +28,7 @@ Cross-Referenced Hyperlinks
 ---------------------------
 
 Use cross-referenced hyperlinks when you want to link to another page in
-docs. This page can be in the same repo, or another within the same
+docs. This page can be in the same repo, or another within the ``MongoDB``
 organization.
 
 Procedure
@@ -37,11 +37,12 @@ Procedure
 .. procedure::
    :style:  normal
 
-   .. step:: If the hyperlink doesn't already exist, in the line before where you want to link to, create the cross-referenced hyperlink.
+   .. step:: Check if the cross-referenced hyperlink exists.
 
-      If the hyperlink is in a different repo, add the rendered docs URL
-      landing page and append ``objects.inv``. Add the URL to the
-      ``intersphinx`` array in the ``snooty.toml`` file.
+      If the cross-referenced hyperlink is in a different MongoDB repo, 
+      add the documentation URL landing page and append
+      ``/objects.inv``. Then, add the URL to the  ``intersphinx`` array
+      in the ``snooty.toml`` file and skip the next step.
 
       For example, if you want to use hyperlinks in the manual, you'd
       add this to the ``intersphinx`` array:
@@ -50,16 +51,36 @@ Procedure
 
          https://www.mongodb.com/docs/manual/objects.inv
 
+      If someone else already created the hyperlink in the same repo,
+      skip the next step.
+   
+   .. step:: Create the cross-referenced hyperlink.
+      
+      Place your cross-referenced hyperlink a line before where you 
+      want the reference to be.
+
+      .. note::
+
+         You need to place this two lines before where you want the link
+         to.
+
    .. step:: Reference the cross-referenced hyperlink.  
 
 Example
 ```````
+
+The following example creates a cross-referenced hyperlink to the top of
+this page.
 
 This is the first line of this page:
 
 .. code-block:: rst
 
     .. _style-guide-hyperlinks:
+
+    ==========
+    Hyperlinks
+    ==========
 
 Here, we'll reference the link:
 
