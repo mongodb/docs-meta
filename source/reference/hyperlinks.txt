@@ -64,7 +64,9 @@ Procedure
          You need to place this two lines before where you want the link
          to. See the :ref:`same-repo-example` for an example.
 
-   .. step:: Reference the cross-referenced hyperlink using ``:ref:``.
+   .. step:: Reference the cross-referenced hyperlink.
+
+      To learn about using cross references, see <TODO: link cross referece>.
 
 .. _same-repo-example:
 
