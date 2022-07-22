@@ -13,12 +13,13 @@ page.
 Reference Targets
 -----------------
 
-To create a reference target on a page, add the following above the section you
+To create a reference target on a page, use the following syntax above the section you
 are referencing:
 
 .. code-block:: rst
 
    .. _reference-target-name:
+
 
 The reference target can have any name, but the target must begin with
 ``.. _`` and end with a colon ``:``. Use **kebab-case**, all lowercase words
@@ -28,7 +29,7 @@ To create a link to that specific reference target, use the following syntax:
 
 .. code-block:: rst'
 
-    :ref:`Title to display <reference-target-name>`
+    :ref:`Title To Display <reference-target-name>`
 
 .. _reference-target-name:
 
@@ -67,17 +68,17 @@ You can reference other pages in the documentation using roles besides
    * - Role
      - Links To
 
-   * - :doc:
+   * - ``:doc:``
      - Another location within the MongoDB documentation
 
-   * - :manual:
+   * - ``:manual:``
      - A page in the latest stable version of the :manual:`MongoDB manual </>`
    
-   * - :term:
-     - A term in the :manual:`glossary <reference/glossary>`
+   * - ``:term:``
+     - A term in the :manual:`glossary </reference/glossary>`
 
-To see a full list of custom roles, see
-`snooty-parser/snooty/rstspec.toml <https://github.com/mongodb/snooty-parser/blob/master/snooty/rstspec.toml>`__
+To see a full list of custom roles, see the
+`Snooty parser rstspec.toml <https://github.com/mongodb/snooty-parser/blob/master/snooty/rstspec.toml>`__
    
-
+For more guidance on using cross references, see :ref:`links-and-cross-references`.
 
