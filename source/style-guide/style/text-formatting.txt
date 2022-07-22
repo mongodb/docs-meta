@@ -6,26 +6,6 @@ Text Formatting
 
 .. default-domain:: mongodb
 
-.. include:: /includes/styles/corrections.rst
-
-.. raw:: html
-
-   <style type="text/css">
-     .exampletable {
-       width:100%;
-       border-collapse:collapse;
-     }
-     .exampletable td{
-       padding:7px;
-     }
-     .exampletable tr:nth-child(odd){
-       background: #fff;
-     }
-     .exampletable tr:nth-child(even){
-      background: #efefef;
-     }
-   </style>
-
 You should add formatting to words, phrases, or blocks that require
 emphasis. You can use one of the formatting options to convey emphasis:
 weight (**bold**), variant (*italics*), or pitch (``monospace``).
@@ -63,7 +43,9 @@ elements. The following style differences are highlighted:
    Application names
      Apply no additional formatting.
 
-     .. seealso:: :ref:`product-names-version-numbers`
+     .. seealso:: 
+
+        :ref:`product-names-version-numbers`
 
      .. class:: exampletable
 
@@ -96,6 +78,9 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
+               In the :guilabel:`Edit Signature` area, enter the text that
+               you want to appear in your signature.
+
         * - Rendered Example
           - In the :guilabel:`Edit Signature` area, enter the text that
             you want to appear in your signature.
@@ -113,6 +98,10 @@ elements. The following style differences are highlighted:
           -
             .. code-block:: rst
                :copyable: false
+
+               To list or retrieve files from a node that's running the
+               OpenCenter agent, use the ``file`` argument with the
+               ``opencentercli`` node command.
 
         * - Rendered Example
           - To list or retrieve files from a node that's running the
@@ -189,29 +178,6 @@ elements. The following style differences are highlighted:
         * - Rendered Example
           - Select :guilabel:`Microsoft Exchange` and then click
             :guilabel:`Next`.
-
-   Cascades
-     - Order by menu, then field.
-     - Format using the ``:menuselection:`` role.
-     - Separate levels with :guilabel:`>`.
-
-     .. class:: exampletable
-
-     .. list-table::
-        :widths: 25 75
-        :stub-columns: 1
-
-        * - Code Example
-          -
-            .. code-block:: rst
-               :copyable: false
-
-               Select :menuselection:`Start > Control Panel`, and then
-               click the :guilabel:`Mail` icon.
-
-        * - Rendered Example
-          - Select :menuselection:`Start > Control Panel`, and then
-            click the :guilabel:`Mail` icon.
 
    Check box names
      Format using ``:guilabel:`` role.
@@ -478,7 +444,9 @@ elements. The following style differences are highlighted:
                  persistent: true
 
    Cross-references
-     .. seealso:: :ref:`links-and-cross-references`.
+     .. seealso::
+
+        :ref:`links-and-cross-references`.
 
    Database names
      Format using ``monospace`` text.
@@ -934,11 +902,11 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
-               MongoDB deploys a :term:`replica set` after you click
+               MongoDB deploys a :ref:`replica set <glossary_r>` after you click
                :guilabel:`Save`.
 
         * - Rendered Example
-          - MongoDB deploys a :term:`replica set` after you click
+          - MongoDB deploys a :ref:`replica set <glossary_r>` after you click
             :guilabel:`Save`.
 
    Group box names
@@ -1024,7 +992,9 @@ elements. The following style differences are highlighted:
             tag.
 
    Hyperlinks, clickable
-     .. seealso:: :ref:`links-and-cross-references`.
+     .. seealso::
+
+        :ref:`links-and-cross-references`.
 
    Icon names
      Format using ``:guilabel:`` role.
@@ -1088,7 +1058,9 @@ elements. The following style differences are highlighted:
           - Place *i* before *e* except after *c*.
 
    Links, clickable
-     .. seealso:: :ref:`links-and-cross-references`.
+     .. seealso::
+
+        :ref:`links-and-cross-references`.
 
    List box names and selections
      Format using ``:guilabel:`` role.
@@ -1145,7 +1117,7 @@ elements. The following style differences are highlighted:
             :guilabel:`Preferences`.
 
    Menu sequences
-     Format as :term:`Cascades`.
+     Format as :ref:`Cascades <glossary_c>`.
 
    Messages (error, warning)
      Format using ``monospace`` text.
@@ -1236,21 +1208,26 @@ elements. The following style differences are highlighted:
 
                The size of the oplog is only configurable during the
                first run using the ``--oplogSize`` argument to the
-               :binary:`~bin.mongod` command, or preferably, the
-               :setting:`~replication.oplogSizeMB` setting in the
-               MongoDB configuration file. If you do not specify this
-               on the command line before running with the
-               :option:`mongod --replSet` option, :binary:`~bin.mongod`
+               :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>` 
+               command, or preferably, the :manual:`~replication.oplogSizeMB
+               </reference/configuration-options/#mongodb-setting-replication.oplogSizeMB>`
+               setting in the MongoDB configuration file. If you do not 
+               specify this on the command line before running with the
+               ``--replSet`` option, 
+               :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>`  
                creates a default sized oplog.
 
         * - Rendered Example
-          - The size of the oplog is only configurable during the first
-            run using the ``--oplogSize`` argument to the
-            :binary:`~bin.mongod` command, or preferably, the
-            :setting:`~replication.oplogSizeMB` setting in the MongoDB
-            configuration file. If you do not specify this on the
-            command line before running with the ``--replSet`` option,
-            :binary:`~bin.mongod` creates a default sized oplog.
+          - The size of the oplog is only configurable during the
+            first run using the ``--oplogSize`` argument to the
+            :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>` 
+            command, or preferably, the :manual:`~replication.oplogSizeMB
+            </reference/configuration-options/#mongodb-setting-replication.oplogSizeMB>`
+            setting in the MongoDB configuration file. If you do not 
+            specify this on the command line before running with the
+            ``--replSet`` option, 
+            :manual:`~bin.mongod </reference/program/mongod/#mongodb-binary-bin.mongod>`  
+            creates a default sized oplog.
 
    Option button names
      Format using ``:guilabel:`` role.
@@ -1404,7 +1381,9 @@ elements. The following style differences are highlighted:
             ``/usr/local/bin`` on your local computer.
 
    Placeholder text
-     .. seealso:: :ref:`placeholder-variable-text`.
+     .. seealso::
+
+        :ref:`placeholder-variable-text`.
 
    Privileges
      Apply no additional formatting unless the privilege is an operating system command like ``sudo``. Otherwise, you can say elevated privileges.
@@ -1529,20 +1508,20 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
-               The :authrole:`Global Owner` role has the permissions to
+               The :authrole:`Project Owner` role has the permissions to
                create, read, update, and delete resources within
                multiple designated products where access is granted.
 
         * - Rendered Example
-          - The :authrole:`Global Owner` role has the permissions to
+          - The :authrole:`Project Owner` role has the permissions to
             create, read, update, and delete resources within multiple
             designated products where access is granted.
 
    Sequences
-     Format as :term:`Cascades`.
+     Format as :ref:`Cascades <glossary_c>`.
 
    Shell, Terminal, or Command Prompt
-     Format as :term:`Command syntax`.
+     Format as :ref:`Command syntax <glossary_c>`.
 
    Syntax statements
      Format using ``monospace`` text.
@@ -1558,12 +1537,12 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
-               The main command used to change a file’s owner or group
+               The main command used to change a file's owner or group
                is ``chown``. The most common syntax used with ``chown``
                is as follows:
 
         * - Rendered Example
-          - The main command used to change a file’s owner or group is
+          - The main command used to change a file's owner or group is
             ``chown``. The most common syntax used with ``chown`` is as
             follows:
 
@@ -1622,7 +1601,9 @@ elements. The following style differences are highlighted:
    Terms, unique sense
      Don't use.
 
-     .. seealso:: :cmos17:`CMOS 7.57 Scare Quotes </part2/ch07/psec057.html>`.
+     .. seealso::
+
+        `CMOS 7.57 Scare Quotes <https://www.chicagomanualofstyle.org/book/ed17/part2/ch07/psec057.html>`__.
 
    UI label
      Format using ``:guilabel:`` role. If the UI uses all capital
@@ -1684,8 +1665,7 @@ elements. The following style differences are highlighted:
             navigate to **http://yourDomain.com/zipit-install.php**.
 
    URL, clickable
-
-     .. seealso:: :ref:`links-and-cross-references`.
+     See :ref:`links-and-cross-references`.
 
    User GUI input
      Format using **boldface**.
@@ -1734,7 +1714,9 @@ elements. The following style differences are highlighted:
             For the username, enter ``admin``.
 
    Variable text
-     .. seealso:: :ref:`placeholder-variable-text`.
+     .. seealso::
+
+        :ref:`placeholder-variable-text`.
 
    Window names
      Format using the ``:guilabel:`` role.

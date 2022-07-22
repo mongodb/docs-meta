@@ -1,0 +1,135 @@
+.. _style-guide-hyperlinks:
+
+==========
+Hyperlinks
+==========
+
+You can link out to other sites, internal pages, or specific sections on
+a page using inline hyperlinks and cross-referenced hyperlinks.
+
+Inline Hyperlinks
+-----------------
+
+Use inline hyperlinks when you want to link to a website with its full URL.
+
+Example
+~~~~~~~
+
+.. code-block:: rst
+
+   Here is the `MongoDB Go Driver Documentation <https://www.mongodb.com/docs/drivers/go/current/>`__.
+
+Rendered View
+`````````````
+
+Here is the `MongoDB Go Driver Documentation <https://www.mongodb.com/docs/drivers/go/current/>`__.
+
+Cross-Referenced Hyperlinks
+---------------------------
+
+Use cross-referenced hyperlinks when you want to link to another page in
+docs. This page can be in the same repo, or another within the MongoDB
+organization.
+
+Procedure
+~~~~~~~~~
+
+.. procedure::
+   :style:  normal
+
+   .. step:: Check if the cross-referenced hyperlink you want exists.
+
+      A cross-referenced hyperlink has the following format:
+
+      .. code-block:: rst
+
+         .. _<some-text>:
+
+      If the cross-referenced hyperlink is in a different MongoDB repo, 
+      add the documentation URL landing page and append
+      ``/objects.inv``. Then, add the URL to the  ``intersphinx`` array
+      in the ``snooty.toml`` file and skip the next step. See the
+      :ref:`different-repo-example` for an example.
+
+      If someone else already created the cross-referenced hyperlink in
+      the same repo, skip the next step.
+   
+   .. step:: Create the cross-referenced hyperlink.
+      
+      Place your cross-referenced hyperlink a line before where you 
+      want the reference to be.
+
+      .. note::
+
+         You need to place this two lines before where you want the link
+         to. See the :ref:`same-repo-example` for an example.
+
+   .. step:: Reference the cross-referenced hyperlink.
+
+      To learn about using cross references, see <TODO: link cross referece>.
+
+.. _same-repo-example:
+
+Same Repo Example
+`````````````````
+
+The following example creates a cross-referenced hyperlink to the top of
+this page.
+
+This is the first line of this page:
+
+.. code-block:: rst
+
+    .. _style-guide-hyperlinks:
+
+    ==========
+    Hyperlinks
+    ==========
+
+Here, we'll reference the link:
+
+.. code-block:: rst
+
+    To learn more, see :ref:`Hyperlinks <style-guide-hyperlinks>`.
+
+.. tip::
+    
+   You could also reference the link like this:
+
+   .. code-block:: rst
+
+      To learn more, see :ref:`style-guide-hyperlinks`.
+
+Rendered View
+`````````````
+
+To learn more, see :ref:`style-guide-hyperlinks`.
+
+.. _different-repo-example:
+
+Different Repo Example
+``````````````````````
+
+The following example uses a cross-referenced hyperlink to the CRUD page
+in the manual.
+
+First, add this to the ``intersphinx`` array:
+
+.. code-block:: rst
+
+   https://www.mongodb.com/docs/manual/objects.inv
+
+Then, looking at `the CRUD page
+<https://github.com/mongodb/docs/blob/master/source/crud.txt>`__, we see
+a hyperlink called ``crud``. Reference the hyperlink in between the
+angle brackets ``< >``      
+
+.. code-block:: rst
+
+   This links to the :ref:`Manual CRUD page <crud>`.
+
+
+Rendered View
+`````````````
+
+This links to the :ref:`Manual CRUD page <crud>`.

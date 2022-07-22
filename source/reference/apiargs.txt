@@ -56,7 +56,8 @@ The generated file path (i.e. the file to include) is of the format
 
 .. example::
 
-   The arguments file for the parameters that the :method:`db.collection.find()`
+   The arguments file for the parameters that the
+   :manual:`db.collection.find() </reference/method/db.collection.find>`
    method accepts would be:
 
    .. code-block:: none
@@ -175,8 +176,8 @@ Built-In Variables
 - ``{{argname}}``: automatically replaced by the name of the argument.
 
 In the following example, ``{{role}}`` would render as
-:method:`db.collection.find()` and ``{{argname}}`` would render as
-``query``.
+:manual:`db.collection.find() </reference/method/db.collection.find>` 
+and ``{{argname}}`` would render as ``query``.
   
 .. code-block:: yaml
 
@@ -198,7 +199,8 @@ Example
 -------
 
 The following ``apiargs-method-db.collection.find-param.yaml`` file 
-documents the parameters accepted by :method:`db.collection.find()`.
+documents the parameters accepted by 
+:manual:`db.collection.find() </reference/method/db.collection.find>`.
 
 .. code-block:: yaml
 

@@ -4,8 +4,6 @@
 Use *that*, *which*, and *such as* Correctly
 ============================================
 
-.. include:: /includes/styles/corrections.rst
-
 A **restrictive clause** gives meaning to a sentence because it limits
 the noun to which it refers. If you omit a restrictive clause, you
 change the meaning of the sentence. You can indicate a restrictive
@@ -33,7 +31,7 @@ the relative pronoun *which* or *who* in some cases.
      - The hourly backups are rolled into a nightly backup, **which is
        retained for two days**.
 
-   * - Foods such as pizza and ice cream aren’t very good for you.
+   * - Foods such as pizza and ice cream aren't very good for you.
      - Don't hyphenate words that begin with the prefix *multi*, such
        as *multitenant* and *multifaceted*, unless the root word starts
        with an *i* or a capital letter.
@@ -58,7 +56,9 @@ Make sure to clarify restrictive clauses, as follows:
 
       - In this forest, you can see many types of coniferous trees.
 
-   .. seealso:: :term:`such as`.
+   .. seealso::
+
+      :term:`such as`.
 
 .. list-table::
    :widths: 50 50

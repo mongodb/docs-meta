@@ -17,7 +17,9 @@ deleted or renamed, a redirect rule should be created.
 The master redirect file for a project generally exists under
 ``config/redirects``.
 
-.. seealso:: :doc:`/tutorials/version-bumping`
+.. seealso::
+  
+  :doc:`/tutorials/version-bumping`
 
 Redirect Syntax
 ---------------
@@ -122,7 +124,6 @@ Example
 Generating Redirects
 --------------------
 
-.. cssclass:: copyable-code
 .. code-block:: sh
 
     mut-redirects config/redirects -o build/public/.htaccess
@@ -130,7 +131,6 @@ Generating Redirects
 When placed in a project's Makefile, this command should only be run if
 the ``master`` branch is currently checked out:
 
-.. cssclass:: copyable-code
 .. code-block:: sh
 
    if [ ${GIT_BRANCH} = master ]; then mut-redirects config/redirects -o build/public/.htaccess; fi

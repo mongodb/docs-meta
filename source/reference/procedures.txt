@@ -6,8 +6,6 @@ Procedures
 
 .. default-domain:: mongodb
 
-.. include:: /includes/styles/corrections.rst
-
 .. contents:: On this page
    :local:
    :backlinks: none
@@ -38,21 +36,18 @@ procedures default to a value of ``connected``.
      - Result
 
    * - .. literalinclude:: /includes/procedure-example-default.rst
-          :copyable: false
      - .. include:: /includes/procedure-example-default.rst
      
 
    * - .. literalinclude:: /includes/procedure-example-connected.rst
-          :copyable: false
      - .. include:: /includes/procedure-example-connected.rst
 
    * - .. literalinclude:: /includes/procedure-example-normal.rst
-          :copyable: false
      - .. include:: /includes/procedure-example-normal.rst
 
    * - .. literalinclude:: /includes/procedure-example-compact.rst
-          :copyable: false
-     - **compact style does not render on non-landing pages**
+     - **compact style does not render on non-landing pages and gives an
+       error in the build log**
 
 .. warning:: Compact Style
 

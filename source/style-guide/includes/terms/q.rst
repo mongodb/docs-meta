@@ -1,3 +1,5 @@
+.. _glossary_q:
+
 Q
 -
 
@@ -20,7 +22,9 @@ Q
         * - When you finish updating parameters, type ``q`` to quit.
           -
 
-     .. seealso:: :term:`exit`
+     .. seealso::
+
+        :ref:`exit <glossary_e>`
 
    quotation mark
      Use *quotation mark*, not *quote*, when referring to single

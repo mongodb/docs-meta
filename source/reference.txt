@@ -2,12 +2,53 @@
 Reference
 =========
 
+- `Syntax <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`__
+- `Docutils Directives <http://docutils.sourceforge.net/docs/ref/rst/directives.html>`__
+- `Sphinx Documentation <http://www.sphinx-doc.org/en/stable/contents.html>`__
+- :doc:`/redirects`
+- :doc:`/reference/apiargs`
+- :doc:`/reference/cond`
+- :doc:`/reference/copyable`
+- :doc:`/reference/emphasis`
+- :doc:`/reference/eval`
+- :doc:`/reference/footnotes`
+- :doc:`/reference/hyperlinks`
+- :doc:`/reference/icon`
+- :doc:`/reference/lightbox`
+- :doc:`/reference/lists`
+- :doc:`/reference/options`
+- :doc:`/reference/procedures`
+- :doc:`/reference/source-constants`
+- :doc:`/reference/suppressing-prevnext-links`
+- :doc:`/reference/tables`
+- :doc:`/reference/tabs`
+- :doc:`/reference/template`
+- :doc:`/reference/test-code`
+- :doc:`/reference/xmlrole`
+
 .. toctree::
-   :glob:
    :titlesonly:
 
    Syntax <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>
    Docutils Directives <http://docutils.sourceforge.net/docs/ref/rst/directives.html>
    Sphinx Documentation <http://www.sphinx-doc.org/en/stable/contents.html>
    /redirects
-   /reference/*
+   /reference/apiargs
+   /reference/cond
+   /reference/copyable
+   /reference/emphasis
+   /reference/eval
+   /reference/footnotes
+   /reference/hyperlinks
+   /reference/icon
+   /reference/lightbox
+   /reference/lists
+   /reference/options
+   /reference/procedures
+   /reference/source-constants
+   /reference/suppressing-prevnext-links
+   /reference/tables
+   /reference/tabs
+   /reference/template
+   /reference/test-code
+   /reference/xmlrole
