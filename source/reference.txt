@@ -11,8 +11,9 @@ Reference
 - :doc:`/reference/copyable`
 - :doc:`/reference/emphasis`
 - :doc:`/reference/eval`
-- :doc:`/reference/icon`
 - :doc:`/reference/footnotes`
+- :doc:`/reference/hyperlinks`
+- :doc:`/reference/icon`
 - :doc:`/reference/lightbox`
 - :doc:`/reference/lists`
 - :doc:`/reference/options`
@@ -38,6 +39,7 @@ Reference
    /reference/emphasis
    /reference/eval
    /reference/footnotes
+   /reference/hyperlinks
    /reference/icon
    /reference/lightbox
    /reference/lists
