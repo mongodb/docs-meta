@@ -1,0 +1,329 @@
+title: Determine where the guide fits into the Index.
+ref: add-guides-to-index
+content: |
+  The main landing page for MongoDB Guides is the `Index<https://www.mongodb.com/docs/guides/>`__. 
+  Its source code is found at `docs-tutorials/index.txt`. Writers can use the source code to determine 
+  the ordered relationships between specific guides. 
+
+  The guides listed under a `chapter::` directive are its members. The order in which they are listed is 
+  the order in which they will render next to each other. 
+
+  .. code-block:: yaml
+
+     .. chapters::
+ 
+        .. chapter:: Atlas
+           :description: Get up and running with MongoDB Atlas.
+              Learn how to create a cluster, load a sample dataset, and
+              get your connection information.
+           :image: /images/chapter-image-atlas.png
+           :icon: /images/chapter-icon-atlas.png
+ 
+           .. guide:: /atlas/account.txt
+           .. guide:: /atlas/cluster.txt
+           .. guide:: /atlas/db-user.txt
+           .. guide:: /atlas/network-connections.txt
+           .. guide:: /atlas/sample-data.txt
+           .. guide:: /atlas/connection-string.txt
+ 
+        .. chapter:: CRUD
+           :description: Learn how to perform these core operations with
+              your preferred language and associated MongoDB Driver.
+           :image: /images/chapter-image-crud.png
+           :icon: /images/chapter-icon-crud.png
+ 
+           .. guide:: /crud/install.txt
+           .. guide:: /crud/read.txt
+           .. guide:: /crud/read_queries.txt
+           .. guide:: /crud/read_operators.txt
+           .. guide:: /crud/insert.txt
+           .. guide:: /crud/update.txt
+           .. guide:: /crud/delete.txt
+---
+title: Create a header for the guide.
+ref: create-header
+content: |
+  Use the template below to create a header for the guide. The parts of the template that vary from one guide 
+  to another are the ref anchor (`.. _guide-read--noquery:`) and the title block (`Read Data in MongoDB`).
+  Replace these parts with a succinct and descriptive title and a ref anchor that appropriately reflects the title 
+  for the guide you are creating. The rest should be copied identically at the top of your document. 
+
+  .. code-block:: yaml
+
+     :template: guide
+ 
+     .. _guide-read-noquery:
+ 
+     ====================
+     Read Data in MongoDB  
+     ====================
+ 
+     .. default-domain:: mongodb
+ 
+     .. contents:: On this page
+        :local:
+        :backlinks: none
+        :depth: 1
+        :class: singlecol
+---
+title: Provide an Overview.
+ref: provide-overview
+content: |
+  The **Overview** provides a brief description of what is to follow. The following example is from 
+  the `Read Data in MongoDB<https://www.mongodb.com/docs/guides/>`__ guide.
+
+  The `.. short-description::` directive should be immediately followed by a one-sentence summary of the 
+  task the user will learn to perform. This description will appear in the **What's Next** section of the tutorial 
+  preceding your guide. The description following this description will appear at the top of your guide, immediately 
+  under the **Overview** heading. The `.. time:: x` directive will be rendered as the *Time required: x minutes* recommendation 
+  beneath the description.
+
+  .. code-block:: yaml
+
+     Overview
+     --------
+ 
+     .. short-description::
+    
+     Without a query, retrieve documents in MongoDB.
+ 
+     In this guide, you will learn how to retrieve data from MongoDB.
+ 
+     .. time:: 10
+---
+title: Inform the reader about what they will need in **What You'll Need**.
+ref: state-what-the-reader-needs
+content: |
+  This section tells the user what procedures they will need to have completed or what resources they will need to access to 
+  before they can follow along with your guide. Consider the following two examples that approach the section in different ways. 
+
+  This example is from the `Read Data in MongoDB<https://www.mongodb.com/docs/guides/>`__ guide. If the required steps or considerations 
+  are not already concisely enumerated elsewhere in the docs, they are broken out into their own .rst file and stored in the 
+  docs-tutorials/includes subdirectory.
+
+  .. code-block:: yaml
+
+     What You'll Need
+     ----------------
+ 
+     .. include:: /includes/prereqs_read_CRUD.rst
+
+  This example is from the `Configure a Network Connection<https://www.mongodb.com/docs/guides/atlas/network-connections/>`__ guide. If 
+  the required steps or considerations are already enumerated elsewhere in the docs, link to them as you would in any other doc. Note that 
+  in this example, the considerations are formatted as a list.
+
+    .. code-block:: yaml
+
+     What You'll Need
+     ----------------
+ 
+     - A MongoDB account. See :ref:`guides-create-atlas-account`.
+     - An Atlas cluster. See :ref:`guides-create-a-cluster`.
+
+---
+title: Document the steps required to complete the tutorial in **Procedure**.
+ref: document-the-steps
+content: |
+  This section describes the steps to follow to complete the tutorial.
+
+  - Use the `.. procedure::` directive at the top level of the procedure, and at each level of nesting.
+  - Use the `:style:` key for the following values: `normal` and `connected`.
+    - `normal` marks the steps in white text on black circles.
+    - `connected` is the default and is used if `:style:` is omitted. `connected` marks the steps in dark green 
+      text on mint green circles, and will link the circles together with dashed lines along the margin of the text. 
+      The convention is to use `normal` for the top level of a procedure, and `connected` for first-level nesting. As 
+      of June 9, 2022, there will be more second-level nesting.
+  - Each `.. step::` is immediately followed by its text starting on the same line.
+  
+  The following example is taken from the `Sign Up for a MongoDB Account<https://www.mongodb.com/docs/guides/atlas/account/>`__ guide.
+
+  .. code-block:: yaml
+
+     Procedure
+     ---------
+ 
+     .. procedure::
+        :style: normal
+ 
+        .. step:: Create your MongoDB account.
+ 
+           Go to `account.mongodb.com/account/register
+           <https://account.mongodb.com/account/register>`__ to create your
+           MongoDB account. To register for a new MongoDB account, you
+           must do the following:
+ 
+           .. procedure::
+              :style: connected
+ 
+              .. step:: Provide the following information about yourself:
+ 
+                 - :guilabel:`Email Address`
+                 - :guilabel:`First Name` and :guilabel:`Last Name`
+                 - :guilabel:`Password`
+                 - :guilabel:`Phone Number`
+                 - :guilabel:`Company`
+                 - :guilabel:`Job Function`
+                 - :guilabel:`Country`
+ 
+              .. step:: Review and select the checkbox to accept the :guilabel:`Privacy
+                 Policy` and the :guilabel:`Terms of Service`.
+ 
+              .. step:: Click :guilabel:`Sign up` to create the account.
+ 
+        .. step:: Access your MongoDB services.
+ 
+           .. procedure::
+              :style: connected
+ 
+              .. step:: Log in to your account at `account.mongodb.com/account/login
+                 <https://account.mongodb.com/account/login>`__ and select
+                 :guilabel:`Overview` from the left navigation menu to access the
+                 MongoDB services.
+ 
+              .. step:: Click:
+ 
+                 - :guilabel:`Visit MongoDB Atlas` to go to MongoDB Atlas or MongoDB
+                   Cloud Manager UI.
+                 - :guilabel:`Visit MongoDB University` to take courses at the
+                   MongoDB University.
+                 - :guilabel:`Visit MongoDB Support` to get help from MongoDB Support.
+ 
+              You can also directly log into the following MongoDB
+              services using your MongoDB account credentials:
+ 
+              - `Atlas <https://cloud.mongodb.com/account/login>`__
+              - `Cloud Manager <https://cloud.mongodb.com/account/login>`__
+              - `MongoDB University <https://university.mongodb.com/>`__
+              - `MongoDB Support <https://support.mongodb.com/welcome>`__
+
+  For procedures where code examples are driver-dependent, each code step gets its own .rst file include 
+  that then has the standard structure for tabbed pages. Consider the following example from the 
+  `Read Data in MongoDB<https://www.mongodb.com/docs/guides/crud/read/>`__ guide.
+  
+  .. code-block:: yaml
+
+     Procedure
+     ---------
+ 
+     .. tabs-selector:: drivers
+
+     .. procedure::
+     :style: normal
+ 
+     .. step:: Connect to your MongoDB instance.
+
+     .. include:: /includes/drivers_connect.rst
+ 
+     In this code block there is a comment to replace the connection URI
+     with your own. Make sure to replace the URI string with your
+     :ref:`Atlas connection string <guides-get-connection-string>`.
+ 
+     .. step:: Get the database and collection.
+ 
+     Switch to the database and collection you want to query. In this case
+     you will use the ``{+guides-db+}`` database and ``{+guides-coll+}``
+     collection.
+ 
+     .. include:: /includes/bind_db.rst
+ 
+     .. step:: Retrieve all documents in the ``{+guides-coll+}`` collection.
+ 
+ 
+     .. include:: /includes/find_all.rst
+ 
+     .. step:: Iterate over the results.
+ 
+     .. include:: /includes/iterate_all_noshellcursor.rst
+ 
+     .. step:: Check your results.
+ 
+     Here is the complete code followed by sample output.
+ 
+     .. include:: /includes/crud_read_find_final_noquery.rst
+ 
+     ..
+     .. include:: /includes/drivers_close_connection.rst
+---
+title: Create a **Summary**.
+ref: create-summary
+content: |
+  The **Summary** describes in plain text what successful completion of the guide means, and briefly describes what 
+  comes next. (The description of what comes next could warrant discussing within the team, as the first item under the 
+  `.. short-description::` directive for each guide already achieves this purpose.) The following example is taken 
+  from the `Read Data in MongoDB<https://www.mongodb.com/docs/guides/crud/read/>`__ guide.
+
+  .. code-block:: yaml
+
+     Summary
+     -------
+ 
+     If you successfully completed the procedure in this guide, you have
+     retrieved data from MongoDB.
+ 
+     In the next guide, you'll learn how to retrieve data from MongoDB using criteria.
+
+---
+title: Direct the reader to additional resources (optional) in **See Also**.
+ref: direct-to-additional-resources
+content: |
+  This section provides links to other pages related to the content of the tutorial. These links may be 
+  external links, links to non-guides, or links to other guides that address the same topic area. 
+
+  The following is an example from `Read Data in MongoDB<https://www.mongodb.com/docs/guides/crud/read/>`__ guide that includes all three.
+
+  .. code-block:: yaml
+
+     See Also
+     --------
+ 
+     .. tabs-drivers::
+ 
+        tabs:
+          - id: python
+            content: |
+              The `PyMongo <https://pymongo.readthedocs.io/en/stable/>`__ documentation .
+ 
+          - id: nodejs
+            content: |
+              The :driver:`MongoDB Node.js Driver </docs/node/current>` documentation
+ 
+          - id: csharp
+            content: |
+              The :driver:`MongoDB C# Driver </docs/csharp>` documentation
+ 
+          - id: go
+            content: |
+              The :driver:`MongoDB Go Driver </docs/go/current>` documentation
+ 
+          - id: java-sync
+            content: |
+              The :driver:`MongoDB Java(Sync) Driver </docs/java/sync/current>` documentation
+ 
+     For other CRUD guides:
+ 
+     - :ref:`guide-read-query`
+     - :ref:`guide-read-operators`
+     - :ref:`guide-insert-query`
+     - :ref:`guide-update-query`
+     - :ref:`guide-delete-query`
+---
+title: Create a **Footer**.
+ref: create-footer
+content: |
+  The Footer consists of content pulled from other sources by the `.. guide-next::` directive which immediately 
+  follows the **See Also** section if it exists, and the **Summary** section if not. It is separated from the preceding 
+  content by one blank line, and is the last content in the document. The `.. guide-next::` directive is defined in `snooty/rstspec.toml` 
+  like so:
+
+  .. code-block:: yaml
+
+     [directive."mongodb:guide-next"]
+     help = "A section that directs users to what they should do next after reading a guide"
+     example = """.. guide-next:: ${0: string}
+        ${1: content}
+   
+  It pulls in the first element of the `.. short-description::` of the next guide in the sequence, and also shows a progress road,ap for the 
+  guides chapter as a whole.
+ 
+
+
