@@ -8,7 +8,7 @@ L
    later
      .. seealso::
 
-   :ref:`earlier <glossary_e>`, :ref:`later <glossary_l>`.
+        :ref:`earlier <glossary_e>`, :ref:`later <glossary_l>`.
 
    launch
      :icon-fa4:`times-circle` Use *start* instead of *launch* to

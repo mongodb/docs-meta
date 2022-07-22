@@ -10,7 +10,7 @@ N
 
      .. seealso::
 
-   :ref:`not applicable <glossary_n>`
+        :ref:`not applicable <glossary_n>`
 
    name server
      Use as two words.
