@@ -1,10 +1,14 @@
+.. _glossary_l:
+
 L
 -
 
 .. glossary::
 
    later
-     .. seealso:: *earlier, later*.
+     .. seealso::
+
+        :ref:`earlier <glossary_e>`, :ref:`later <glossary_l>`.
 
    launch
      :icon-fa4:`times-circle` Use *start* instead of *launch* to
@@ -40,8 +44,7 @@ L
           - Select :guilabel:`Entourage` in the upper-left corner of
             the pane.
 
-   less
-   fewer
+   less/fewer
      Use *fewer* to modify countable nouns. Use *less* to modify
      collective or mass nouns.
 
@@ -59,7 +62,9 @@ L
    lets
      :icon-fa4:`exclamation-triangle`
 
-     .. seealso:: :term:`allow`
+     .. seealso::
+
+        :ref:`allow <glossary_a>`
 
    leverage
      :icon-fa4:`exclamation-triangle` In technical content, use *use*
@@ -78,8 +83,7 @@ L
           - When you create a cloud server, leverage the metadata
             option to specify the pools.
 
-   life cycle
-   life-cycle
+   life cycle/life-cycle
      In most cases, use as two words. Use *lifecycle* only if it's
      used in a product interface, is part of a product name, or is
      part of the name of an external standard.
@@ -102,7 +106,7 @@ L
 
    like
      :icon-fa4:`times-circle` Depending on context, use
-     :term:`such as` instead.
+     ``such as`` instead.
 
    link
      Use *link* as both a noun and a verb. To avoid using it as both
@@ -123,17 +127,16 @@ L
    log file
      Use *log file* as two words.
 
-   log in
-   log off
-   login
-   logoff
+   log in/log off/login/logoff
      - Use *log in* and *log off* as verbs for connecting to and
        disconnecting from a computer, system, or network.
 
      - Use *login* and *logoff* as nouns or adjectives.
 
      - Don't use *log into*; use *log in to*. *Log in* is a single
-       :mw:`phrasal verb`. *To* links that verb to the next word.
+       `phrasal verb
+       <https://www.merriam-webster.com/dictionary/phrasal%20verb>`__. 
+       *To* links that verb to the next word.
 
      .. list-table::
         :widths: 50 50
@@ -149,10 +152,11 @@ L
      Don't use *lower-case*. Don't use *upper/lowercase* to mean
      mixed case.
 
-     .. seealso:: `mixed case`
+     .. seealso::
 
-   lower
-   higher
+        :ref:`mixed case <glossary_m>`
+
+   lower/higher
      :icon-fa4:`exclamation-triangle` Don't use these terms when
      referring to product releases and version numbers. Use *earlier*
      or *later* instead.
@@ -170,11 +174,12 @@ L
         * - Windows 3.1 or later
           - Windows 3.1 or higher
 
-   lower left
-   lower right
+   lower left/lower right
      When referring to the location of an item on a UI, use *lower
      left* and *lower right* instead of *bottom left* or *bottom
      right*.
 
-     .. seealso:: :term:`left` and :term:`right`
+     .. seealso::
+
+        :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 

@@ -1,3 +1,8 @@
+.. _glossary_i:
+
+I
+-
+
 .. glossary::
 
    icon
@@ -17,8 +22,7 @@
             conference call, click the :guilabel:`Camera` icon.
           -
 
-   ID
-   IDs
+   ID/IDs
      - Use uppercase letters. Don't use *id* or *Id* unless the context
        requires it.
 
@@ -38,7 +42,9 @@
    i.e.
      :icon-fa5:`trash-alt` Use *that is* instead.
 
-     .. seealso:: :ref:`avoid-obscure-words`
+     .. seealso::
+
+        :ref:`avoid-obscure-words`
 
    if necessary
      :icon-fa4:`times-circle` Avoid using this ambiguous
@@ -59,8 +65,7 @@
           - If you select **Specific local ports**, specify the port
             numbers, separating them with a comma if necessary.
 
-   if
-   whether
+   if/whether
      - Use *if* to introduce an adverbial clause that describes a
        condition on which an action depends.
 
@@ -105,8 +110,7 @@
           - Migrating to a hosted SharePoint environment can also
             impact user support and training.
 
-   in to
-   into
+   in to/into
      Use *in to* when *in* is part of the verb phrase. Use *into* to
      imply motion to the inside of something.
 
@@ -123,8 +127,7 @@
         * - Insert the DVD into the disc drive.
           -
 
-   include
-   including
+   include/including
      Use these terms for partial lists or partial information only.
      *Include* or *including* implies incomplete information.
 
@@ -137,8 +140,7 @@
      introduce the abbreviation in parentheses. Use the abbreviation
      thereafter.
 
-   install
-   installation
+   install/installation
      Use *install* as a verb only, not as a noun or adjective. Use
      *installation* (not *install*) as a noun meaning the process of
      installing a product or as an adjective describing the process.
@@ -199,10 +201,8 @@
           - The phpMyAdmin package enables you to interface with your
             database through a PHP user interface.
 
-   internet
-   Internet
-   intranet
-     Capitalize *Internet* when referring to the world’s largest
+   internet/Internet/intranet
+     Capitalize *Internet* when referring to the world's largest
      computer network; use lowercase letters when referring
      generically to any large network made up of smaller networks
      that are connected by routers. The World Wide Web is part of the
@@ -214,10 +214,11 @@
         e-mail system), but the network is accessible only to people
         within a given company or organization.
 
-     .. seealso:: :term:`web`
+     .. seealso::
 
-   its
-   it's
+        :ref:`web <glossary_w>`
+
+   its/it's
      *Its* is the possessive form of *it*. *It's* is the contraction
      of *it is*. To avoid confusion and mistakes, use *it is* instead
      of *it's*, or revise the sentence to eliminate *it's* or *it

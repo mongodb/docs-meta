@@ -1,3 +1,5 @@
+.. _glossary_w:
+
 W
 -
 
@@ -10,13 +12,11 @@ W
    we
      :icon-fa4:`exclamation-triangle` Use first person judiciously.
 
-     .. seealso:: :ref:`write-to-the-user`
+     .. seealso::
 
-   web
-   web page
-   website
-   www
-   home page
+        :ref:`write-to-the-user`
+
+   web/web page/website/www/home page
      You can use *the web* as a short form of *the World Wide Web*.
      Use lowercase *www* only as part of a web address. Use *web
      page* to refer to a document on the Internet. Every web page is
@@ -25,10 +25,11 @@ W
      documents. Use *home page* to refer to the first (main) page
      that you see when you enter a site.
 
-     .. seealso:: :term:`internet`
+     .. seealso::
 
-   when
-   whenever
+        :ref:`internet <glossary_i>`
+
+   when/whenever
      Use *when*, not *whenever*, to mean at a particular time.
      *Whenever* means every time, any time, at all times, or each time.
 
@@ -66,12 +67,15 @@ W
             where ``<controlFile>`` represents the name of the control
             file.
 
-   whether
-   whether or not
-     .. seealso:: :term:`if`
+   whether/whether or not
+     .. seealso::
+
+        :ref`if <glossary_i>`
 
    which
-     .. seealso:: :term:`that`
+     .. seealso::
+
+        :ref:`that <glossary_t>`
 
    while
      Use *while* to refer to something occurring during a period of
@@ -132,16 +136,19 @@ W
      displayed. A window can contain documents and messages and can be
      minimized.
 
-     .. seealso:: :term:`dialog box`
+     .. seealso::
+
+        :ref:`dialog box <glossary_d>`
 
    wish
      :icon-fa5:`trash-alt` Use *want* or another appropriate word instead.
 
    with
-     .. seealso:: :term:`using`
+     .. seealso::
 
-   wizard
-   wizard page
+        :ref:`using <glossary_u>`
+
+   wizard/wizard page
      Use lowercase letters for generic references to a wizard; use
      initial capitals when *wizard* is part of the name in the
      interface. Use *page* to refer to the successive dialog boxes or
@@ -161,8 +168,7 @@ W
             required permissions on the site's files.
           -
 
-   work around
-   workaround
+   work around/workaround
      Use *work around* as a verb. Use *workaround* as a noun.
 
      .. list-table::

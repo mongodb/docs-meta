@@ -1,3 +1,5 @@
+.. _glossary_f:
+
 F
 -
 
@@ -33,8 +35,7 @@ F
    fatal
      :icon-fa4:`times-circle` Use *serious* instead.
 
-   fewer
-   less
+   fewer/less
      Use *fewer* for countable items. Use *less* for collective or
      mass items.
 
@@ -49,16 +50,14 @@ F
             lower levels of staff experience.
           -
 
-   file name
-   file system
+   file name/file system
      Use these terms as two words unless the context requires
      otherwise.
 
    firewall
      Use *firewall* as one word.
 
-   follow
-   follow-up
+   follow/follow-up
      Use *follow* as a verb. Use *follow-up* as a noun or adjective.
 
      .. list-table::
@@ -77,8 +76,7 @@ F
         * - Complete the follow-up.
           - Complete the follow up.
 
-   following
-   preceding
+   following/preceding
      Use these terms as adjectives, not as nouns.
 
      .. list-table::
@@ -94,8 +92,8 @@ F
         * - See the preceding example.
           - See the preceding.
 
-     Don't use :term:`above`, :term:`below`, :term:`earlier`, or
-     :term:`later` to refer to information in text. Where possible,
+     Don't use ``above``, ``below``, ``earlier``, or
+     ``later`` to refer to information in text. Where possible,
      use specific references. If you can't use specific references,
      use *preceding* and *following* as adjectives to refer to
      elements such as figures and tables.
@@ -112,7 +110,6 @@ F
      the availability of MongoDB products and services. Use *no charge*
      or *at no cost* instead.
 
-   front end
-   front-end
+   front end/front-end
      Use a more specific term if possible. If you need to use the
      term, use *front-end* as an adjective and *front end* as a noun.

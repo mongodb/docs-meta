@@ -12,8 +12,6 @@ Tables
    :depth: 2
    :class: singlecol
 
-.. include:: /includes/styles/corrections.rst
-
 Tables compare items across multiple domains in a consistent manner.
 Use tables whenever you need to compare multiple items in multiple ways,
 such as a summary of API or function parameters.

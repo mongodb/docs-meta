@@ -15,7 +15,6 @@ ref: create-wrapper
 content: |
   Save the following script template as ``codereview.sh``:
 
-  .. cssclass:: copyable-code
   .. code-block:: sh
 
      #!/bin/bash

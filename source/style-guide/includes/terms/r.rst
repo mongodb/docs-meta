@@ -1,3 +1,5 @@
+.. _glossary_r:
+
 R
 -
 
@@ -31,12 +33,10 @@ R
    read/write
      Use a slash. Don't hyphenate this term.
 
-   real time
-   real-time
+   real time/real-time
      Use two words as a noun. Hyphenate the term as an adjective.
 
-   re-create
-   recreate
+   re-create/recreate
      Use *re-create* to mean to create again. *Recreate* means to
      take recreation (relax, renew).
 
@@ -110,8 +110,8 @@ R
 
    right
      :icon-fa4:`exclamation-triangle` Avoid using *right* by itself as
-     a directional term. When possible, use such terms as :term:`upper
-     right`, :term:`lower right`, *rightmost*, and *on the right side
+     a directional term. When possible, use such terms as ``upper
+     right``, ``lower right``, *rightmost*, and *on the right side
      of* instead. Include a hyphen if modifying a noun, as in
      *upper-right corner*. Don't use *right hand*.
 
@@ -159,10 +159,12 @@ R
         term correctly for the product or technology that you're
         documenting.
 
-     Don't use :term:`permissions`, :term:`privileges`, and
-     :term:`rights` interchangeably to mean the same thing.
+     Don't use ``permissions``, ``privileges``, and
+     ``rights`` interchangeably to mean the same thing.
 
-     .. seealso:: :term:`permissions` and :term:`privileges`
+     .. seealso::
+
+        :ref:`permissions <glossary_p>` and :ref:`privileges <glossary_p>`
 
      .. list-table::
         :widths: 50 50
@@ -178,8 +180,7 @@ R
    road map
      Use as two words.
 
-   roll back (v)
-   rollback (adj, n)
+   roll back (v)/rollback (adj, n)
      Use *roll back* as a verb. Use *rollback* as a noun or adjective.
      Use these terms to describe a feature that reverses the current
      transaction.
@@ -197,8 +198,7 @@ R
             Use the rollback feature.
           -
 
-   run time
-   runtime
+   run time/runtime
      Use the noun *run time* to indicate the time during which an
      application is running. Use the adjective *runtime* to describe
      a thing that's occurring or relevant at run time. Don't
