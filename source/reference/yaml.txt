@@ -1,0 +1,20 @@
+====
+YAML
+====
+
+.. default-domain:: mongodb
+
+Before the DOP team created ``procedure`` directive, our documentation
+team used Yet Another Markup Language (YAML) when writing steps for a
+guide. Eventually, we'll convert all YAML files into ``procedure``
+directives.
+
+.. note::
+
+   This is NOT the preffered way to write steps today. See the <TODO:
+   procedure-directive-ref> to learn how to use the preffered way.
+
+To see if the repository you're working out of uses YAML, look for the
+``includes`` folder and see if any files end in ``.yaml``.
+
+.. CREATE TOC HERE
