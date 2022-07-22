@@ -25,15 +25,16 @@ The reference target can have any name, but the target must begin with
 ``.. _`` and end with a colon ``:``. Use **kebab-case**, all lowercase words
 separated by dashes, for all reference names.
 
+.. _link-to-reference:
+
 To create a link to that specific reference target, use the following syntax:
 
 .. code-block:: rst'
 
     :ref:`Title To Display <reference-target-name>`
 
-.. _reference-target-name:
 
-This example renders as: :ref:`Name to display <reference-target-name>`.
+This example renders as: :ref:`Name to display <link-to-reference>`.
 
 You can omit the display title and the carrot brackets if the reference target 
 is directly above a heading. This causes Snooty to use the heading name as the 
@@ -80,5 +81,24 @@ You can reference other pages in the documentation using roles besides
 To see a full list of custom roles, see the
 `Snooty parser rstspec.toml <https://github.com/mongodb/snooty-parser/blob/master/snooty/rstspec.toml>`__
    
+Use these roles with the same syntax as linking to a reference,
+:ref:`shown above <link-to-reference>`, replacing ``:ref:`` with the role you want
+to use.
+
+.. tip::
+
+   If the role you are using links to a specific page, such as ``:manual:``, 
+   you can further link to it's sub-pages by specifying the path in the brackets.
+   For example, to link to the Bulk Write Operations page in the MongoDB manual, 
+   use the following syntax.
+
+   .. code-block:: language
+   
+      :manual:`Bulk Write Operations </core/bulk-write-operations>`
+
+   This renders to :manual:`Bulk Write Operations </core/bulk-write-operations>`. 
+
+To learn more about using hyperlinks, see :ref:`style-guide-hyperlinks`.
+
 For more guidance on using cross references, see :ref:`links-and-cross-references`.
 
