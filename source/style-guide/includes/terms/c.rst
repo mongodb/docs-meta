@@ -136,7 +136,9 @@ C
      dialog box, or file. Use *close* to refer to the **Close**
      button or closing a window, dialog box, or file.
 
-     .. seealso:: :ref:`collapse <glossary_c>`, :ref:`expand <glossary_e>` and :ref:`exit <glossary_e>`
+     .. seealso::
+
+        :ref:`collapse <glossary_c>`, :ref:`expand <glossary_e>` and :ref:`exit <glossary_e>`
 
    co (prefix)
      Don't hyphenate words that begin with the prefix *co*, such as

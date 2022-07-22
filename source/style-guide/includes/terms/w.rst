@@ -12,7 +12,9 @@ W
    we
      :icon-fa4:`exclamation-triangle` Use first person judiciously.
 
-     .. seealso:: :ref:`write-to-the-user`
+     .. seealso::
+
+        :ref:`write-to-the-user`
 
    web/web page/website/www/home page
      You can use *the web* as a short form of *the World Wide Web*.
@@ -23,7 +25,9 @@ W
      documents. Use *home page* to refer to the first (main) page
      that you see when you enter a site.
 
-     .. seealso:: :ref:`internet <glossary_i>`
+     .. seealso::
+
+        :ref:`internet <glossary_i>`
 
    when/whenever
      Use *when*, not *whenever*, to mean at a particular time.
@@ -64,10 +68,14 @@ W
             file.
 
    whether/whether or not
-     .. seealso:: :ref`if <glossary_i>`
+     .. seealso::
+
+        :ref`if <glossary_i>`
 
    which
-     .. seealso:: :ref:`that <glossary_t>`
+     .. seealso::
+
+        :ref:`that <glossary_t>`
 
    while
      Use *while* to refer to something occurring during a period of
@@ -128,13 +136,17 @@ W
      displayed. A window can contain documents and messages and can be
      minimized.
 
-     .. seealso:: :ref:`dialog box <glossary_d>`
+     .. seealso::
+
+        :ref:`dialog box <glossary_d>`
 
    wish
      :icon-fa5:`trash-alt` Use *want* or another appropriate word instead.
 
    with
-     .. seealso:: :ref:`using <glossary_u>`
+     .. seealso::
+
+        :ref:`using <glossary_u>`
 
    wizard/wizard page
      Use lowercase letters for generic references to a wizard; use

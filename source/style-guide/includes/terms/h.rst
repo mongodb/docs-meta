@@ -32,7 +32,9 @@ H
      Use *home page* to refer to the first (main) page that you see
      when you enter a website.
 
-     .. seealso:: :ref:`web <glossary_w>`
+     .. seealso::
+
+        :ref:`web <glossary_w>`
 
    host
      Use *host* instead of ``computer`` ``machine`` or
@@ -50,4 +52,6 @@ H
      How-To.
 
    hyperlink
-     .. seealso:: :ref:`link <glossary_l>`
+     .. seealso::
+
+        :ref:`link <glossary_l>`

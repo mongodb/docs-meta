@@ -10,7 +10,9 @@ T
      express the action of quickly touching and releasing an item on
      the device screen.
 
-     .. seealso:: :ref:`double-tap <glossary_d>`
+     .. seealso::
+
+        :ref:`double-tap <glossary_d>`
 
      .. list-table::
         :widths: 50 50
@@ -49,7 +51,9 @@ T
      a comma. If a nonrestrictive clause occurs in midsentence, set
      the clause off with commas.
 
-     .. seealso:: :ref:`restrictive clauses<restrictive-clauses>`
+     .. seealso::
+
+        :ref:`restrictive clauses<restrictive-clauses>`
 
      .. list-table::
         :widths: 50 50
@@ -146,7 +150,9 @@ T
      :icon-fa5:`trash-alt` When referring to the location of an item on
      a UI, use *upper left* and *upper right* instead.
 
-     .. seealso:: :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
+     .. seealso::
+
+        :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 
    towards
      :icon-fa5:`trash-alt` Use *toward* instead.

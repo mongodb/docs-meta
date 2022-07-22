@@ -42,7 +42,9 @@ I
    i.e.
      :icon-fa5:`trash-alt` Use *that is* instead.
 
-     .. seealso:: :ref:`avoid-obscure-words`
+     .. seealso::
+
+        :ref:`avoid-obscure-words`
 
    if necessary
      :icon-fa4:`times-circle` Avoid using this ambiguous
@@ -212,7 +214,9 @@ I
         e-mail system), but the network is accessible only to people
         within a given company or organization.
 
-     .. seealso:: :ref:`web <glossary_w>`
+     .. seealso::
+
+        :ref:`web <glossary_w>`
 
    its/it's
      *Its* is the possessive form of *it*. *It's* is the contraction

@@ -6,7 +6,9 @@ L
 .. glossary::
 
    later
-     .. seealso:: :ref:`earlier <glossary_e>`, :ref:`later <glossary_l>`.
+     .. seealso::
+
+   :ref:`earlier <glossary_e>`, :ref:`later <glossary_l>`.
 
    launch
      :icon-fa4:`times-circle` Use *start* instead of *launch* to
@@ -60,7 +62,9 @@ L
    lets
      :icon-fa4:`exclamation-triangle`
 
-     .. seealso:: :ref:`allow <glossary_a>`
+     .. seealso::
+
+        :ref:`allow <glossary_a>`
 
    leverage
      :icon-fa4:`exclamation-triangle` In technical content, use *use*
@@ -148,7 +152,9 @@ L
      Don't use *lower-case*. Don't use *upper/lowercase* to mean
      mixed case.
 
-     .. seealso:: :ref:`mixed case <glossary_m>`
+     .. seealso::
+
+        :ref:`mixed case <glossary_m>`
 
    lower/higher
      :icon-fa4:`exclamation-triangle` Don't use these terms when
@@ -173,5 +179,7 @@ L
      left* and *lower right* instead of *bottom left* or *bottom
      right*.
 
-     .. seealso:: :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
+     .. seealso::
+
+        :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 

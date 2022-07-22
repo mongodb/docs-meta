@@ -43,7 +43,9 @@ elements. The following style differences are highlighted:
    Application names
      Apply no additional formatting.
 
-     .. seealso:: :ref:`product-names-version-numbers`
+     .. seealso:: 
+
+        :ref:`product-names-version-numbers`
 
      .. class:: exampletable
 
@@ -76,6 +78,9 @@ elements. The following style differences are highlighted:
             .. code-block:: rst
                :copyable: false
 
+               In the :guilabel:`Edit Signature` area, enter the text that
+               you want to appear in your signature.
+
         * - Rendered Example
           - In the :guilabel:`Edit Signature` area, enter the text that
             you want to appear in your signature.
@@ -93,6 +98,10 @@ elements. The following style differences are highlighted:
           -
             .. code-block:: rst
                :copyable: false
+
+               To list or retrieve files from a node that's running the
+               OpenCenter agent, use the ``file`` argument with the
+               ``opencentercli`` node command.
 
         * - Rendered Example
           - To list or retrieve files from a node that's running the
@@ -435,7 +444,9 @@ elements. The following style differences are highlighted:
                  persistent: true
 
    Cross-references
-     .. seealso:: :ref:`links-and-cross-references`.
+     .. seealso::
+
+        :ref:`links-and-cross-references`.
 
    Database names
      Format using ``monospace`` text.
@@ -981,7 +992,9 @@ elements. The following style differences are highlighted:
             tag.
 
    Hyperlinks, clickable
-     .. seealso:: :ref:`links-and-cross-references`.
+     .. seealso::
+
+        :ref:`links-and-cross-references`.
 
    Icon names
      Format using ``:guilabel:`` role.
@@ -1045,7 +1058,9 @@ elements. The following style differences are highlighted:
           - Place *i* before *e* except after *c*.
 
    Links, clickable
-     .. seealso:: :ref:`links-and-cross-references`.
+     .. seealso::
+
+        :ref:`links-and-cross-references`.
 
    List box names and selections
      Format using ``:guilabel:`` role.
@@ -1366,7 +1381,9 @@ elements. The following style differences are highlighted:
             ``/usr/local/bin`` on your local computer.
 
    Placeholder text
-     .. seealso:: :ref:`placeholder-variable-text`.
+     .. seealso::
+
+        :ref:`placeholder-variable-text`.
 
    Privileges
      Apply no additional formatting unless the privilege is an operating system command like ``sudo``. Otherwise, you can say elevated privileges.
@@ -1584,7 +1601,9 @@ elements. The following style differences are highlighted:
    Terms, unique sense
      Don't use.
 
-     .. seealso:: :cmos17:`CMOS 7.57 Scare Quotes </part2/ch07/psec057.html>`.
+     .. seealso::
+
+        `CMOS 7.57 Scare Quotes <https://www.chicagomanualofstyle.org/book/ed17/part2/ch07/psec057.html>`__.
 
    UI label
      Format using ``:guilabel:`` role. If the UI uses all capital
@@ -1695,7 +1714,9 @@ elements. The following style differences are highlighted:
             For the username, enter ``admin``.
 
    Variable text
-     .. seealso:: :ref:`placeholder-variable-text`.
+     .. seealso::
+
+        :ref:`placeholder-variable-text`.
 
    Window names
      Format using the ``:guilabel:`` role.

@@ -141,7 +141,9 @@ S
      Use *since* to express a passage of time, not to explain why.
      Use *because* to explain why.
 
-     .. seealso:: :ref:`as <glossary_a>`
+     .. seealso::
+
+        :ref:`as <glossary_a>`
 
    slash
      Use *slash* to refer to the / character, and use *backslash* to
@@ -192,7 +194,9 @@ S
      Use *stop* to refer to hardware operations, jobs, services, or
      routines.
 
-     .. seealso:: :ref:`exit <glossary_e>`
+     .. seealso::
+
+        :ref:`exit <glossary_e>`
 
      .. list-table::
         :widths: 50 50
@@ -217,7 +221,9 @@ S
      If a nonrestrictive clause occurs in midsentence, set the clause
      off with commas.
 
-     .. seealso:: :ref:`restrictive clauses<restrictive-clauses>`
+     .. seealso::
+
+        :ref:`restrictive clauses<restrictive-clauses>`
 
      .. list-table::
         :widths: 50 50
