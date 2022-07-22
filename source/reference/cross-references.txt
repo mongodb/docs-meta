@@ -27,6 +27,9 @@ separated by dashes, for all reference names.
 
 .. _link-to-reference:
 
+Example
+~~~~~~~
+
 To create a link to that specific reference target, use the following syntax:
 
 .. code-block:: rst'
@@ -34,7 +37,7 @@ To create a link to that specific reference target, use the following syntax:
     :ref:`Title To Display <reference-target-name>`
 
 
-This example renders as: :ref:`Name to display <link-to-reference>`.
+This example renders as: :ref:`Title To Display <link-to-reference>`.
 
 You can omit the display title and the carrot brackets if the reference target 
 is directly above a heading. This causes Snooty to use the heading name as the 
@@ -70,13 +73,13 @@ You can reference other pages in the documentation using roles besides
      - Links To
 
    * - ``:doc:``
-     - Another location within the MongoDB documentation
+     - Another page within the MongoDB documentation
 
    * - ``:manual:``
      - A page in the latest stable version of the :manual:`MongoDB manual </>`
    
-   * - ``:term:``
-     - A term in the :manual:`glossary </reference/glossary>`
+   * - ``:atlas:``
+     - A page in the :atlas:`Atlas documentation </>`.
 
 To see a full list of custom roles, see the
 `Snooty parser rstspec.toml <https://github.com/mongodb/snooty-parser/blob/master/snooty/rstspec.toml>`__
@@ -101,4 +104,3 @@ to use.
 To learn more about using hyperlinks, see :ref:`style-guide-hyperlinks`.
 
 For more guidance on using cross references, see :ref:`links-and-cross-references`.
-
