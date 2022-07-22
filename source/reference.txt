@@ -13,6 +13,7 @@ Reference
 - :doc:`/reference/eval`
 - :doc:`/reference/icon`
 - :doc:`/reference/footnotes`
+- :doc:`/reference/hyperlinks`
 - :doc:`/reference/lightbox`
 - :doc:`/reference/lists`
 - :doc:`/reference/options`
