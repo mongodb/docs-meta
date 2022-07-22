@@ -6,8 +6,6 @@ Voice and Tone
 
 .. default-domain:: mongodb
 
-.. include:: /includes/styles/corrections.rst
-
 The *voice* and *tone* that we use influence how people think
 and feel about MongoDB.
 
@@ -130,8 +128,8 @@ Consider the following best practices for voice and tone:
      - Congratulations!! ALL of your databases are now being
        monitored!!
 
-   * - Be careful about laying blame. Don’t take the blame for a
-       negative situation. Don’t lay the blame of the negative
+   * - Be careful about laying blame. Don't take the blame for a
+       negative situation. Don't lay the blame of the negative
        situation on the user.
      - The system could not validate your account. Enter your
        credentials again.
@@ -139,16 +137,16 @@ Consider the following best practices for voice and tone:
        system timed out. Please enter your credentials again.
 
    * - In positive situations, be encouraging and offer next steps.
-       Don’t take credit for the user’s success.
+       Don't take credit for the user's success.
      - Configuration successful. You can now commission and
        decommission servers on-demand.
      - Congrats! Our system is so easy to use that you are now able to
        commission and decommission servers on-demand
 
    * - In negative situations, be clear about the problem and how the
-       user can fix it. Don’t ask the user to trust us without
+       user can fix it. Don't ask the user to trust us without
        providing more information.
-     - Your account details and database IP address range don’t match.
+     - Your account details and database IP address range don't match.
        Ensure that the IP addresses on the **Account Details** page are
        correct.
      - The database configuration failed.

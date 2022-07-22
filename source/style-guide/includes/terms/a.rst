@@ -1,10 +1,12 @@
+.. _glossary_a:
+
 A
 -
 
 .. glossary::
+   :sorted: 
 
-   about
-   on
+   about/on
      :icon-fa4:`exclamation-triangle` Don't use *on* to mean *about*.
 
      .. example::
@@ -104,10 +106,7 @@ A
      Use as two words. Don't hyphenate *ad hoc*, even when it's used
      as a modifier (for example, *ad hoc tasks*).
 
-   admin
-   administrator
-   administer
-   administrative
+   admin/administrator/administer/administrative
      - Use *admin* in code as needed, such as ``role: "admin"``.
 
      - Use *administrator* in descriptive content, such as "The
@@ -120,8 +119,7 @@ A
      - Use *administrative* as ad adjective before a noun, such as
        *administrative role*.
 
-   affect
-   effect
+   affect/effect
      Use *affect* as a verb to mean influence, change, or have an
      effect on. Use *effect* as a noun to mean the result of an
      action or the power to bring about a result.
@@ -141,8 +139,7 @@ A
         * - The open cloud has a long-term effect on innovation.
           -
 
-   after
-   once
+   after/once
      Use *after* to mean occurring subsequently in time or order. Use
      *once* to mean one time.
 
@@ -213,8 +210,7 @@ A
           - Cloud Block Storage allows you to expand the storage
             capacity of your cloud server.
 
-   alternate
-   alternative
+   alternate/alternative
      Use *alternate* as a verb to refer to performing by turns or
      changing from one state to another state repeatedly.
 
@@ -236,9 +232,7 @@ A
             select a command from the menu.
           -
 
-
-   AM
-   PM
+   AM/PM
      Show in uppercase, with no periods after each letter, and a
      space before.
 
@@ -252,8 +246,7 @@ A
         * - Between 8:00 AM and 5:00 PM
           - Between 8:00 a.m. and 5:00 p.m.
 
-   among
-   between
+   among/between
      When referring to three or more persons or items or when the
      number is unspecified, use *among*.
 
@@ -378,8 +371,7 @@ A
           -
 
 
-   API
-   APIs
+   API/APIs
      Use *API* to refer to either an API for a service or a
      language-Specific API. Don't use it when referring to a method
      or a class. The plural form of API is APIs, not API's.
@@ -427,8 +419,7 @@ A
      phrase such as *application programming interface*, but in
      general usage, *app* is preferable.
 
-   architect
-   architected
+   architect/architected
      :icon-fa5:`trash-alt` Use *architect* as a noun only. For a verb,
      use *design*, *create*, *plan*, or another appropriate verb.
 
@@ -438,8 +429,7 @@ A
    argument
      :icon-fa5:`trash-alt` In a command-line context, use *option*.
 
-   as
-   since
+   as/since
      :icon-fa4:`exclamation-triangle` Don't use *as* or *since* when describing the reason for a
      situation, event, and so on. Use *because* instead.
 

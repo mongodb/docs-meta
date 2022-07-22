@@ -1,3 +1,5 @@
+.. _glossary_u:
+
 U
 -
 
@@ -14,7 +16,9 @@ U
      state, not the appearance, of inactive commands, options, or
      buttons on the interface.
 
-     .. seealso:: :term:`dimmed`
+     .. seealso::
+
+        :ref:`dimmed <glossary_d>`
 
      .. list-table::
         :widths: 50 50
@@ -27,13 +31,10 @@ U
             select some text.
           -
 
-   United Kingdom
-   UK
+   United Kingdom/UK
      Use *United Kingdom* as the noun form and *UK* as the adjective form.
 
-   United States
-   US
-   USA
+   United States/US/USA
      Use *United States* as the noun form and *US* as the adjective
      form. In postal addresses, use *USA* (the approved postal
      abbreviation).
@@ -76,14 +77,17 @@ U
    uppercase
      Don't use *upper-case* or *upper-lowercase*.
 
-     .. seealso:: `mixed case`
+     .. seealso::
 
-   upper left
-   upper right
+        :ref`mixed case <glossary_m>`
+
+   upper left/upper right
      When referring to the location of an item on a UI, use *upper
      left* and *upper right* instead of *top left* or *top right*.
 
-     .. seealso:: :term:`left` and :term:`right`
+     .. seealso::
+
+        :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 
    uptime
      Use *uptime* as one word.
@@ -95,7 +99,9 @@ U
    us
      :icon-fa4:`exclamation-triangle` Use first person judiciously.
 
-     .. seealso:: :ref:`write-to-the-user`
+     .. seealso::
+
+        :ref:`write-to-the-user`
 
    usable
      Use *usable* instead of *useable*.
@@ -104,15 +110,12 @@ U
      :icon-fa4:`times-circle` Use *customer* to refer to
      individuals who use MongoDB products and services.
 
-   user name
-   username
+   user name/username
      Use *user name* as two words, unless you are referring to a user
      interface, screen, or command where it is shown as one word,
      *username*.
 
-   using
-   by using
-   with
+   using/by using/with
      Use *by using*, or recast the sentence. Don't use *using* (alone)
      or *with*. *By using* is easier for worldwide audiences to
      understand.
@@ -132,6 +135,5 @@ U
         * - Use the text tool to select the text.
           - You can select the text with the text tool.
 
-   utilize
-   utilization
+   utilize/utilization
      :icon-fa4:`times-circle` Use *use* and *usage* instead.

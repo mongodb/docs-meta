@@ -2,8 +2,6 @@
 Clarify Ambgiuous Modifiers
 ===========================
 
-.. include:: /includes/styles/corrections.rst
-
 .. contents:: On this page
    :local:
    :backlinks: none

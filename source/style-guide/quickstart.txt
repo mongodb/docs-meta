@@ -77,7 +77,7 @@ the following ones to help you boost the effectiveness of your writing.
        Pronouns  such as *it*, *this*, *there*, and *that* are useful,
        but you must ensure that their antecedents (the words that they
        are used in place of) are clear, and that they (the pronouns)
-       don’t cause vagueness and ambiguity.
+       don't cause vagueness and ambiguity.
      - :ref:`use-pronouns-carefully`
    * - **Use correct punctuation**.
 

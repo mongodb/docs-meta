@@ -1,3 +1,5 @@
+.. _glossary_m:
+
 M
 -
 
@@ -37,8 +39,7 @@ M
             you money in server hardware, software, upgrades, and
             man-hours needed to run it all.
 
-   managed hosting
-   Managed Hosting
+   managed hosting/Managed Hosting
      Use lowercase when referring generally to the industry and
      providers. Capitalize when referring to it as a MongoDB
      offering.
@@ -56,7 +57,8 @@ M
 
      .. seealso::
 
-        :term:`can`, :term:`might`, :term:`must`, :term:`should`, and
+        :ref:`can <glossary_c>`, :ref:`might <glossary_m>`, :ref:`must
+        <glossary_m>`, :ref:`should <glossary_s>`, and
         :ref:`helping-verbs`
 
    menu
@@ -84,7 +86,7 @@ M
         * - Recommended
           - Not Recommended
 
-        * - You might see the ``Connection timed out – please try
+        * - You might see the ``Connection timed out - please try
             again`` message because your browser is storing an invalid
             cookie.
 
@@ -99,11 +101,11 @@ M
 
      .. seealso::
 
-        :term:`can`, :term:`may`, :term:`must`, :term:`should`, and
+        :ref:`can <glossary_c>`, :ref:`may <glossary_m>`, :ref:`must
+        <glossary_m>`, :ref:`should <glossary_s>`, and
         :ref:`helping-verbs`.
 
-   mixed case
-   mixed-case
+   mixed case/mixed-case
      Use *mixed case* to refer to terms that have been formatted with
      a combination of uppercase and lowercase letters. Don't use
      *upper- and lowercase* or *upper/lowercase* to mean mixed case.
@@ -161,5 +163,6 @@ M
 
      .. seealso::
 
-        :term:`can`, :term:`may`, :term:`might`, :term:`should`, and
+        :ref:`can <glossary_c>`, :ref:`may <glossary_m>`, :ref:`might
+        <glossary_m>`, :ref:`should <glossary_s>`, and
         :ref:`helping-verbs`

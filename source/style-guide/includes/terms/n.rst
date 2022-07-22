@@ -1,3 +1,5 @@
+.. _glossary_n:
+
 N
 -
 
@@ -6,7 +8,9 @@ N
    NA
      :icon-fa4:`exclamation-triangle`
 
-     .. seealso:: :term:`not applicable`
+     .. seealso::
+
+        :ref:`not applicable <glossary_n>`
 
    name server
      Use as two words.
@@ -44,8 +48,7 @@ N
             of available servers and ports.
           -
 
-   not applicable
-   NA
+   not applicable/NA
      Use the abbreviation *NA* to mean *not applicable*. For example,
      if you have a table cell for which no information is available
      and space constraints prevent spelling out *Not applicable* or

@@ -1,15 +1,18 @@
+.. _glossary_e:
+
 E
 -
 
 .. glossary::
 
-   earlier
-   later
+   earlier/later
      Use these terms (instead of *lower* and *higher* or *below* and
      *above*) when referring to product releases and version numbers.
      Don't use *earlier* or *later* to refer to information in text.
 
-     .. seealso:: :term:`following`, :term:`preceding`
+     .. seealso::
+
+        :ref:`following <glossary_f>`, :ref:`preceding <glossary_p>`
 
      .. list-table::
         :widths: 50 50
@@ -41,8 +44,7 @@ E
             Ecommerce sites can meet PCI DSS requirements in the following ways.
           -
 
-   effect
-   affect
+   effect/affect
      Use *affect* as a verb to mean influence, change, or have an
      effect on. Use *effect* as a noun to mean the result of an
      action or the power to bring about a result.
@@ -130,8 +132,7 @@ E
             approach that allows customers to create a sharded cluster
             on Ubuntu or Red Hat Enterprise Linux.
 
-   end user
-   end-user
+   end user/end-user
      :icon-fa4:`exclamation-triangle` When addressing your audience, use *customer*, *you*, or the
      imperative mood instead. You can use *end user* to refer to the
      users of your audience.
@@ -171,7 +172,9 @@ E
      You can use *message* by itself as a general term to refer to an
      error, informational, or warning message.
 
-     .. seealso:: :ref:`error-message-guidelines`
+     .. seealso::
+
+        :ref:`error-message-guidelines`
 
      .. list-table::
         :widths: 50 50
@@ -180,11 +183,11 @@ E
         * - Recommended
           - Not Recommended
 
-        * - You might see the ``Connection timed out – please try
+        * - You might see the ``Connection timed out - please try
             again.`` error message because your browser is storing an
             invalid cookie.
 
-          - You might see the ``Connection timed out – please try
+          - You might see the ``Connection timed out - please try
             again.`` error because your browser is storing an invalid
             cookie.
 
@@ -194,7 +197,9 @@ E
      example). Precede a limited list of examples with *such as*, or
      list all specific items.
 
-     .. seealso:: :ref:`avoid-obscure-words`
+     .. seealso::
+
+        :ref:`avoid-obscure-words`
 
    Ethernet
      Capitalize.
@@ -210,10 +215,7 @@ E
 
      Don't make up new e-words.
 
-   exit
-   close
-   quit
-   stop
+   exit/close/quit/stop
      - Use *exit* to refer to closing a program or application.
      - Don't use *end*, *leave*, *stop*, or *terminate* to refer to
        closing a program or application.

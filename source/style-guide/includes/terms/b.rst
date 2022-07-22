@@ -1,10 +1,11 @@
+.. _glossary_b:
+
 B
 -
 
 .. glossary::
 
-   back end
-   back-end
+   back end, back-end
      :icon-fa4:`times-circle` Use a more specific term such as
      *server*, *operating system*, or *network*. If you need to use the
      term, show it as noted.
@@ -13,9 +14,7 @@ B
      Use *backslash* to refer to the \\ character, and use *slash* to
      refer to the / character. Don't use *slash mark*.
 
-   back up
-   backup
-
+   back up, backup
      Use *back up* as a verb. Use *backup* as a noun or adjective.
 
      .. list-table::
@@ -86,14 +85,14 @@ B
             scope.
 
    below
-     :icon-fa4:`exclamation-triangle` Don't use *below* to locate
+     Don't use *below* to locate
      information within a topic or a deliverable or to refer to
      releases or product versions.
 
-     To locate information, use :term:`following` or provide a specific
+     To locate information, use ``following`` or provide a specific
      link or cross-reference.
 
-     To refer to releases or product versions, use :term:`earlier`.
+     To refer to releases or product versions, use ``earlier``.
 
      .. list-table::
         :widths: 50 50
@@ -118,8 +117,7 @@ B
           - To configure a custom error page for 3.5 SP1 and below,
             follow this example.
 
-   between
-   among
+   between/among
      When referring to three or more persons or items or when the
      number is unspecified, use *among*.
 
@@ -164,8 +162,7 @@ B
      prevent writing numerals, use *billion* as defined in the
      short-scale system.
 
-   biweekly
-   bimonthly
+   biweekly/bimonthly
      :icon-fa4:`times-circle` Because these terms can be interpreted
      as *twice a week or month* or *once every two weeks or months*,
      avoid using them. For clarity, instead use longer terms such as
@@ -216,12 +213,13 @@ B
           - OpenStack provides both large, medium, and small
             organizations an alternative to closed cloud environments.
 
-   bottom left
-   bottom right
+   bottom left/bottom right
      :icon-fa5:`trash-alt` When referring to the location of an item
-     on a UI, use :term:`lower left` and :term:`lower right` instead.
+     on a UI, use ``lower left`` and ``lower right`` instead.
 
-     .. seealso:: :term:`left` and :term:`right`
+     .. seealso::
+
+        :ref:`left <glossary_l>` and :ref:`right <glossary_r>`
 
    box
      Use *box* instead of *field* to describe a box (including a text
@@ -296,5 +294,7 @@ B
           -
 
    by using
-     .. seealso:: :term:`using`, :term:`by using`, :term:`with`
+     .. seealso::
+        
+        :ref:`using <glossary_u>`, :ref:`by using <glossary_b>`, :ref:`with <glossary_w>`
 

@@ -1,3 +1,5 @@
+.. _glossary_s:
+
 S
 -
 
@@ -73,8 +75,7 @@ S
      Use *serious* instead of the more negative terms *bad*,
      *catastrophic*, or *fatal*.
 
-   set up
-   setup
+   set up/setup
      Use *set up* as a verb. Use *setup* as an adjective or noun.
 
      .. list-table::
@@ -100,11 +101,10 @@ S
 
      .. seealso::
 
-        :term:`can`, :term:`may`, :term:`might`, :term:`must`, and
+        :ref:`can <glossary_c>`, :ref:`may <glossary_m>`, :ref:`might <glossary_m>`, :ref:`must <glossary_m>`, and
         :ref:`helping-verbs`
 
-   shut down (v)
-   shutdown (adj, n)
+   shut down (v)/shutdown (adj, n)
      Use *shut down* as a verb. Use *shutdown* as a noun or adjective.
 
      .. list-table::
@@ -141,11 +141,13 @@ S
      Use *since* to express a passage of time, not to explain why.
      Use *because* to explain why.
 
-     .. seealso:: :term:`as`
+     .. seealso::
+
+        :ref:`as <glossary_a>`
 
    slash
      Use *slash* to refer to the / character, and use *backslash* to
-     refer to the \\ character. Don't use :term:`slash mark`.
+     refer to the \\ character. Don't use ``slash mark``.
 
    slash mark
      :icon-fa5:`trash-alt` Use *slash* to refer to the / character,
@@ -170,8 +172,7 @@ S
    stand-alone
      Hyphenate *stand-alone* and use it as an adjective only.
 
-   start
-   startup
+   start/startup
      Use *start* as a verb instead of *start up* or *launch* to refer
      to programs, services, jobs, routines, or hardware operations. Use
      *startup* as a noun or adjective.
@@ -193,7 +194,9 @@ S
      Use *stop* to refer to hardware operations, jobs, services, or
      routines.
 
-     .. seealso:: :term:`exit`
+     .. seealso::
+
+        :ref:`exit <glossary_e>`
 
      .. list-table::
         :widths: 50 50
@@ -218,7 +221,9 @@ S
      If a nonrestrictive clause occurs in midsentence, set the clause
      off with commas.
 
-     .. seealso:: :ref:`restrictive clauses<restrictive-clauses>`
+     .. seealso::
+
+        :ref:`restrictive clauses<restrictive-clauses>`
 
      .. list-table::
         :widths: 50 50
@@ -227,11 +232,11 @@ S
         * - Recommended
           - Not Recommended
 
-        * - Trees such as oaks and elms don’t grow at this altitude.
+        * - Trees such as oaks and elms don't grow at this altitude.
             (restrictive)
           -
 
-        * - This year we’d like to visit a place such as Greece or
+        * - This year we'd like to visit a place such as Greece or
             Rome. (restrictive)
           -
 

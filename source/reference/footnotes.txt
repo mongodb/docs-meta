@@ -1,7 +1,11 @@
+.. _style-guide-footnotes:
+
 =========
 Footnotes
 =========
 
+.. default-domain:: mongodb
+    
 Use footnotes to add details that not all readers will need.
 
 Procedure
