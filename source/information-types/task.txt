@@ -1,0 +1,85 @@
+===================
+Task Page Prototype
+===================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+The audience for a task page is users who want to accomplish a task. They may 
+never have completed the task before, may only have done it a few times, or may 
+need a refresher on the steps. The task page should contain all the necessary 
+information for someone to complete the task: any necessary conceptual 
+information, prerequisites, steps, and expected results. 
+
+Task page titles begin with a present-tense action verb. 
+
+A task page begins with a brief introduction summarizing the task, often called 
+a short description. The short description briefly explains the task, and  
+answers the questions "What is this task?", "What is it used for?", and "Why do 
+I care?". This paragraph can include links out to important conceptual information 
+required for this task.
+
+About This Task
+---------------
+This is optional.
+Include important conceptual or behavioral information that's directly relevant 
+to the task. If task-related information is extensive, consider a bulleted list 
+that contains brief descriptions of important concepts and links to deeper reading.  
+
+Before You Begin
+----------------
+This is optional. 
+An ordered or unordered list of any prerequisites for the task.
+
+Steps
+-----
+These are the steps to complete the task. 
+In some cases, we recomend that you use a stepped content approach. In others, 
+a single statement and copyable command or syntax example.  In most cases, it's helpful 
+to include an example of what a successful result looks like. It could be a 
+brief description, code block, or screenshot. 
+
+.. procedure::
+   :style:  connected
+
+   .. step:: Take an action.
+     
+      Say a little more or provide additional substeps or examples.
+
+      .. note:: 
+     
+         Use admonitions sparingly. This note gives critical context or a tip 
+         for step completion. It could also include a link to more 
+         context or important information.
+
+   .. step:: Take another action.
+     
+      Say a little more or provide additional substeps or examples.
+
+
+Example
+-------
+This is optional.
+In some cases, you can work through a specific example throughout the steps. 
+In others, it is helpful to show a complete example at the end. In most cases, 
+it's helpful to include an example of what a successful result looks like. It 
+could be a brief description, code block, or screenshot. 
+
+Next Steps
+----------
+This is optional.
+If there is one or many logical next things to do, you can link to them here.
+
+Learn More
+----------
+This section appears on every information typed page. Use it to link related pages 
+that are not already linked above, such as reference information, technical 
+deep dives, less commonly used task pages, or related concepts. It does not replace 
+inline linking.
+
+

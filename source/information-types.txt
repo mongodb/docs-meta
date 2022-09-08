@@ -1,0 +1,57 @@
+=================
+Information Types
+=================
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+At its best, information typing is being aware of your audience's goal as you 
+start to write a page, and keeping the information you write focused on those goals.
+
+What Is Information Typing?
+---------------------------
+
+Information typing is: 
+
+- Separating content into categories and delivering roughly one type at a time.
+
+- Understanding the purpose of a page before you write it.
+
+- Answering the user question "why do I care?" or "what does this mean for me?" quickly.
+
+- Using a suggested format to help you get started on a blank page.
+
+What Types of Information are We Talking About?
+-----------------------------------------------
+
+We'll begin with three main information types.
+
+- Concept -- A concept page helps a user learn about a concept or new feature. 
+  It is intended to answer the questions "what is this?", "why do I care", and "how
+  does this work?". The audience for a concept page is users who have never used 
+  a particular feature or command. 
+
+- Task -- A task page helps a user do a job. The audience for a task page is 
+  users who want to accomplish a task. They may never have completed the task 
+  before, may only have done it a few times, or may need a refresher on the steps. 
+  The task page should contain all the necessary information for someone to 
+  complete the task, any necessary conceptual information, prerequisites, steps, 
+  and expected results. 
+
+- Reference -- A reference page delivers granular details about a thing. The 
+  audience for reference pages is experienced users. Apart from 
+  straightforward reference manual pages, reference pages can be anything that 
+  is a bulleted list or primarily a table of information. 
+
+.. toctree::
+   :titlesonly:
+
+   /information-types/task
+   /information-types/concept
+   /information-types/reference
+

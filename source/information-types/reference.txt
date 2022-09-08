@@ -1,0 +1,80 @@
+========================
+Reference Page Prototype
+========================
+
+A reference page provides quick information to experienced users of a product. 
+Reference pages may describe the use of a method, operator, or database command. 
+Information presented as a bulleted list or table is usually a reference page. 
+Release notes are another good example of a reference page.
+
+Usually, the title of a reference page is the name of the command, operator, or 
+method it describes.
+
+Definition
+----------
+A reference page begins with a brief introduction summarizing its contents, 
+often called a short description. The short description explains a little about 
+how the reference material is used, and may link to a concept and/or task page.
+
+Syntax
+------
+This is the sample syntax with the required parameters. 
+
+.. code-block:: javascript                                                 
+                                                                           
+   db.adminCommand(                                                        
+      {                                                                    
+        addShard: "<replica_set>/<hostname><:port>",                       
+        maxSize: <size>,                                                   
+        name: "<shard_name>"                                               
+      }                                                                    
+   )  
+
+Command Fields
+--------------
+The command takes the following fields:
+
+.. list-table::                                                            
+   :header-rows: 1                                                         
+   :widths: 20 20 10 60                                                       
+                                                                           
+   * - Field                                                               
+                                                                           
+     - Type 
+
+     - Necessity                                                               
+                                                                           
+     - Description
+
+   * - Parameter
+
+     - String
+
+     - Required
+
+     - String
+
+Behaviors
+---------
+Optional. 
+
+Behaviors should only apply to the operator being described on this page. 
+
+Examples
+--------
+Optional.
+
+This section could contain examples of the most common usages. We would populate
+Reference and Task page examples using includes, so that the examples are written
+once, consistent throughout, and easier to update.
+
+If an example is shared between task and reference, it should be written as an
+include.
+
+Learn More
+----------
+This section appears on every information typed page. It does not replace 
+inline linking, but is intended to augment the information on the page with 
+related concepts, tasks, and reference material. Use it to link related pages 
+that are not already linked above, such as reference information, technical 
+deep dives, less commonly used task pages, or related concepts. 
