@@ -10,13 +10,20 @@ Information Types
    :depth: 1
    :class: singlecol
 
-At its best, information typing is being aware of your audience's goal as you 
-start to write a page, and keeping the information you write focused on those goals.
+.. note:: Work in Progress
+   This information typing section is a work in progress. The Server documentation
+   team started this project mid-2022 and we are in the process of reviewing with 
+   the team and discussing the possibility of adoption.
+
+This section contains details about information typing and prototypes showing how 
+we can apply this to our documentation. 
 
 What Is Information Typing?
 ---------------------------
 
-Information typing is: 
+At its best, information typing is being aware of your audience's goal as you 
+start to write a page, and keeping the information you write focused on those goals.
+Additionally, information typing is: 
 
 - Separating content into categories and delivering roughly one type at a time.
 
