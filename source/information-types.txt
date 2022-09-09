@@ -10,8 +10,8 @@ Information Types
    :depth: 1
    :class: singlecol
 
-.. note:: Work in Progress
-   This information typing section is a work in progress. The Server documentation
+.. note:: 
+   This information typing section is a Work in Progress. The Server documentation
    team started this project mid-2022 and we are in the process of reviewing with 
    the team and discussing the possibility of adoption.
 
