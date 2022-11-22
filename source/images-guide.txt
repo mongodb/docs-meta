@@ -61,7 +61,7 @@ itself should not be wider than 1000px.
    content.
 
    It may make sense to use
-   `mozjpeg <https://github.com/mozilla/mozjpeg>__ if you need lossy
+   `mozjpeg <https://github.com/mozilla/mozjpeg>`__ if you need lossy
    compression; `imagemagick <http://imagemagick.org/>`__ to resize images;
    and a `Ninja <http://ninja-build.org/>`__ file to put the pieces
    together.

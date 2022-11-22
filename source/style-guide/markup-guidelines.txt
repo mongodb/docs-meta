@@ -40,3 +40,5 @@ Docutils provides the following directives:
    :titlesonly:
 
    /style-guide/markup/directives
+   /style-guide/markup/headings
+   /style-guide/markup/inline

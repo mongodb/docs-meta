@@ -96,4 +96,4 @@ combinations, names, and shortcuts, see :ref:`text-formatting`.
      - Press :kbd:`F3` to find the next matching process, or press
        :kbd:`Esc` to quit the search.
 
-       Press the Help key (``F1``).
+       Press the Help key (:kbd:`F1`).

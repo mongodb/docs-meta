@@ -62,10 +62,10 @@ The |mdbsg| includes material from the following:
 
 - `Google Developer Documentation Style Guide <https://developers.google.com/style/>`__
   by `Google <https://www.google.com>`__, licensed under `CC BY 4.0
-  <https://creativecommons.org/licenses/by/4.0/>`_;
+  <https://creativecommons.org/licenses/by/4.0/>`__;
 - `Rackspace Style Guide for Technical Content <https://developer.rackspace.com/docs/style-guide/>`__
   by `Rackspace <https://www.rackspace.com/>`__, licensed under
-  `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_; and
+  `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`__; and
 - `Mailchimp Content Style Guide <https://styleguide.mailchimp.com/>`__
   by `Mailchimp <https://mailchimp.com>`__, licensed under
   `CC BY-NC 4.0 <https://creativecommons.org/licenses/by-nc/4.0/>`__.
