@@ -52,7 +52,7 @@ Installation
    This will only take effect in *new* terminal sessions.
 
 #. Select the :guilabel:`Extensions` pane by pressing Shift-Command(⌘)-X,
-   search for ``Snooty``, and press **Install**.
+   search for ``Snooty``, and press :guilabel:`Install`.
    
    This may take a moment while Snooty downloads and installs its dependencies.
 
