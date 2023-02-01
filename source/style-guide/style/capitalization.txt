@@ -95,7 +95,8 @@ Following are some examples.
      - gigahertz
 
    * - ID
-     - identification
+     - | identification
+       | Note: `_id` is never capitalized.
 
    * - I/O
      - input/output
