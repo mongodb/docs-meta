@@ -4,8 +4,6 @@
 Page Metadata Directives
 ========================
 
-.. default-domain:: mongodb
-
 meta
 ----
 
@@ -20,7 +18,7 @@ keywords and descriptions. To learn more, see :ref:`seo-guidelines`.
 	      :description: You can tune the consistency and availability of your application using write concerns and read concerns.
 
 Add the ``.. meta::`` directive on the line below the 
-``.. default-domain::`` directive with a line break in between.
+page title with a line break in between.
 
 Learn more about the ``meta`` directive from the
 `{+docutils+} documentation <http://docutils.sourceforge.net/docs/ref/rst/directives.html#meta>`__.

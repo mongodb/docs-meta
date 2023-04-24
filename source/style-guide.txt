@@ -39,7 +39,7 @@ MongoDB external and internal customers.
    however, when writing release notes for any product or service.
 
 :doc:`/style-guide/seo-guidelines`
-   Provides guidance for optimizing your documentations pages for 
+   Provides guidance for optimizing your documentation pages for 
    search.
 
 :github:`User Interface Guidelines </mongodb/leafygreen-ui>`
