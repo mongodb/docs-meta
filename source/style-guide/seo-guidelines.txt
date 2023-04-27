@@ -79,6 +79,20 @@ the following best practices:
 - Include target keywords and a call to action (CTA) that prompts the 
   user to complete their desired task.
 
+  .. example::
+
+     The following examples use a CTA in the description meta tag:
+
+     .. code-block:: rst
+	     
+	      .. meta::
+	         :description: Use a language analyzer to create search keywords in your Atlas Search index that are optimized for a particular natural language.
+
+     .. code-block:: rst
+	     
+	      .. meta::
+	         :description: Use the character filters in an Atlas Search custom analyzer to examine text one character at a time and perform filtering operations.
+
 - Use unique descriptions for every page.
 
 To learn more, see :ref:`metadata`.
