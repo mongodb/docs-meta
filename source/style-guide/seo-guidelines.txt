@@ -12,8 +12,7 @@ guidance should help you optimize your documentation pages for search.
 Titles
 ------
 
-Title pages and subsections according to the following SEO best 
-practices:
+Use the following SEO best practices for page and subsection titles:
 
 - Use a maximum of 70 characters.
 
@@ -38,8 +37,8 @@ following SEO best practices:
 
 - Describe the image with sufficient detail to understand what it shows.
 
-- If it makes sense, include keywords (the actual terms that users 
-  enter into search engines).
+- If they apply to the image, include keywords 
+  (the actual terms that users enter into search engines). 
 
 To learn more, see :ref:`write-for-accessibility`.
 
@@ -52,6 +51,12 @@ the following best practices:
 
 - Take the most concise form of the information that the page conveys 
   and make that the target keyword.
+
+  .. example::
+
+     The target keyword for the `Getting Started with MongoDB Atlas 
+     <https://learn.mongodb.com/courses/getting-started-with-mongodb-atlas>`_ University page is 
+     ``mongodb atlas course``.
 
 - Don't add keywords so broad that they compete with the product page.
 
