@@ -11,7 +11,16 @@ The title is typically a noun or noun phrase.
 
 A concept page begins with a brief introduction summarizing its contents, often 
 called a short description. The short description explains a little about the 
-concept and why the audience should care about it. 
+concept and why the audience should care about it.
+
+If it's appropriate, you may include a code-block with a copyable
+prototype to familiarize users with command syntax:
+
+.. code-block:: javascript
+
+   db.collection.<method>( {
+      /* command fields */
+   } )
 
 Use Cases
 ---------
