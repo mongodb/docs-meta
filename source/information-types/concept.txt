@@ -13,8 +13,8 @@ A concept page begins with a brief introduction summarizing its contents, often
 called a short description. The short description explains a little about the 
 concept and why the audience should care about it.
 
-Command Syntax
---------------
+Command Syntax (Optional)
+-------------------------
 
 If it's appropriate, you may include a code-block with a copyable
 prototype to familiarize users with command syntax.
