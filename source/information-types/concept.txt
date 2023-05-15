@@ -13,8 +13,11 @@ A concept page begins with a brief introduction summarizing its contents, often
 called a short description. The short description explains a little about the 
 concept and why the audience should care about it.
 
+Command Syntax
+--------------
+
 If it's appropriate, you may include a code-block with a copyable
-prototype to familiarize users with command syntax:
+prototype to familiarize users with command syntax.
 
 .. code-block:: javascript
 
@@ -22,8 +25,19 @@ prototype to familiarize users with command syntax:
       /* command fields */
    } )
 
+After the code block, provide a link to the corresponding
+:ref:`reference page <meta-reference-prototype>` to provide readers with
+complete examples and behavior details. When possible, single-source
+code examples and prototypes with the reference page.
+
+.. note::
+
+   For concept pages that have multiple linked tasks, the code example
+   should show the most common task we expect users to look for.
+
 Use Cases
 ---------
+
 This section is a collection of use cases to explain "What do I do with this 
 thing?" In general, use cases are short descriptions of how to use a feature. 
 They set expectations of when and how you might use a feature  and what 
@@ -31,6 +45,7 @@ differentiates this feature from other options.
 
 Behavior
 --------
+
 This section includes stuff you need to know before using a feature. It can be as long
 or short as appropriate. Some examples of technical details include:
 
@@ -40,6 +55,7 @@ or short as appropriate. Some examples of technical details include:
 
 Tasks
 -----
+
 Link to the most common task pages related to this concept. Linking to all 
 task pages isn't necessary here; the goal of this section is to make sure users 
 can easily find common related tasks.
@@ -50,11 +66,13 @@ can easily find common related tasks.
 
 Details
 -------
+
 This section is a brief unpacking of the technical details. It can be as long
 or short as appropriate. 
 
 Learn More
 ----------
+
 This section appears on every information typed page. It does not replace 
 inline linking, but is intended to augment the information on the page with 
 related concepts, tasks, and reference material. Use it to link related pages 

@@ -1,3 +1,5 @@
+.. _meta-reference-prototype:
+
 ========================
 Reference Page Prototype
 ========================
