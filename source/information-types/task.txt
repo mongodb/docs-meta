@@ -1,3 +1,5 @@
+.. _meta-task-prototype:
+
 ===================
 Task Page Prototype
 ===================
@@ -81,5 +83,3 @@ This section appears on every information typed page. Use it to link related pag
 that are not already linked above, such as reference information, technical 
 deep dives, less commonly used task pages, or related concepts. It does not replace 
 inline linking.
-
-

@@ -26,9 +26,10 @@ prototype to familiarize users with command syntax.
    } )
 
 After the code block, provide a link to the corresponding
-:ref:`reference page <meta-reference-prototype>` to provide readers with
-complete examples and behavior details. When possible, single-source
-code examples and prototypes with the reference page.
+:ref:`reference <meta-reference-prototype>` or :ref:`task
+<meta-task-prototype>` page to provide readers with complete examples
+and behavior details. When possible, single-source code examples and
+prototypes across pages.
 
 .. note::
 
