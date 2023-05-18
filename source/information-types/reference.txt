@@ -4,6 +4,14 @@
 Reference Page Prototype
 ========================
 
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
 A reference page provides quick information to experienced users of a product. 
 Reference pages may describe the use of a method, operator, or database command. 
 Information presented as a bulleted list or table is usually a reference page. 

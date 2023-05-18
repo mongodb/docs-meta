@@ -9,7 +9,7 @@ Task Page Prototype
 .. contents:: On this page
    :local:
    :backlinks: none
-   :depth: 1
+   :depth: 2
    :class: singlecol
 
 The audience for a task page is users who want to accomplish a task. They may 

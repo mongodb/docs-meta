@@ -2,6 +2,14 @@
 Concept Page Prototype
 ======================
 
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
 A concept page helps a user learn about a concept or new feature. 
 It is intended to answer the questions "what is this?", "why do I care", and 
 "how does this work?". The audience for a concept page is users who have never
