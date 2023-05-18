@@ -54,8 +54,8 @@ or short as appropriate. Some examples of technical details include:
 - Support for a feature (supported in sharded clusters, for example)
 - Version support 
 
-Tasks
------
+Get Started
+-----------
 
 Link to the most common task pages related to this concept. Linking to all 
 task pages isn't necessary here; the goal of this section is to make sure users 
