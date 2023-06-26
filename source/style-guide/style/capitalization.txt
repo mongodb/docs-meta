@@ -88,6 +88,9 @@ Following are some examples.
    * - API
      - application programming interface
 
+   * - fCV
+     - Feature Compatibility Version
+
    * - GB
      - gigabyte
 

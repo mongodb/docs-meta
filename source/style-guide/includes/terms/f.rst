@@ -33,6 +33,10 @@ F
    fatal
      :icon-fa4:`times-circle` Use *serious* instead.
 
+   fCV
+     Feature compatibility version. Abbreviate using mixed case,
+     ``fCV``. Do not use ``FCV``.
+
    fewer
      **less**
      Use *fewer* for countable items. Use *less* for collective or
