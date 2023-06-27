@@ -34,8 +34,9 @@ F
      :icon-fa4:`times-circle` Use *serious* instead.
 
    fCV
-     Feature compatibility version. Abbreviate using mixed case,
-     ``fCV``. Do not use ``FCV``.
+     A MongoDB term that describes the "feature compatibility version"
+     of a server. Abbreviate by using mixed case, ``fCV``. Do not use
+     ``FCV``.
 
    fewer
      **less**

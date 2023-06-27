@@ -89,7 +89,7 @@ Following are some examples.
      - application programming interface
 
    * - fCV
-     - Feature Compatibility Version
+     - feature compatibility version
 
    * - GB
      - gigabyte
