@@ -163,9 +163,10 @@ Use the following guideline when creating items in each section:
 
    * - Resolved issues
      - Provide an initial phrase that describes the issue that was
-       fixed. Start the phrase with a past-tense verb. If necessary,
-       include sentences to further explain the fix. If you list only
-       phrases, do not use ending punctuation.
+       fixed. Start the phrase with a present-tense verb. If necessary,
+       include sentences to further explain the fix and the previous 
+       behavior. If you list only phrases, do not use ending 
+       punctuation.
      - - Supports Debian 8 (Jessie)
 
        - Trimms the Monitoring ID and Monitoring Token configuration
@@ -181,7 +182,7 @@ Use the following guideline when creating items in each section:
 
    * - Documentation changes
      - Provide an initial phrase that describes the issue that was
-       fixed. Start the phrase with a past-tense verb. If necessary,
+       fixed. Start the phrase with a present-tense verb. If necessary,
        include sentences to further explain the fix. If you list only
        phrases, do not use ending punctuation. Provide a link to the
        relevant section in the documentation.
