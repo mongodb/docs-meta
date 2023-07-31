@@ -22,12 +22,14 @@ method it describes.
 
 Definition
 ----------
+
 A reference page begins with a brief introduction summarizing its contents, 
 often called a short description. The short description explains a little about 
 how the reference material is used, and may link to a concept and/or task page.
 
 Syntax
 ------
+
 This is the sample syntax with the required parameters. 
 
 .. code-block:: javascript                                                 
@@ -42,6 +44,7 @@ This is the sample syntax with the required parameters.
 
 Command Fields
 --------------
+
 The command takes the following fields:
 
 .. list-table::                                                            
@@ -66,12 +69,14 @@ The command takes the following fields:
 
 Behaviors
 ---------
+
 Optional. 
 
 Behaviors should only apply to the operator being described on this page. 
 
 Examples
 --------
+
 Optional.
 
 This section could contain examples of the most common usages. We would populate
@@ -83,6 +88,7 @@ include.
 
 Learn More
 ----------
+
 This section appears on every information typed page. It does not replace 
 inline linking, but is intended to augment the information on the page with 
 related concepts, tasks, and reference material. Use it to link related pages 

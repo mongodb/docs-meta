@@ -28,19 +28,25 @@ required for this task.
 
 About This Task
 ---------------
+
 This is optional.
+
 Include important conceptual or behavioral information that's directly relevant 
 to the task. If task-related information is extensive, consider a bulleted list 
 that contains brief descriptions of important concepts and links to deeper reading.  
 
 Before You Begin
 ----------------
-This is optional. 
+
+This is optional.
+
 An ordered or unordered list of any prerequisites for the task.
 
 Steps
 -----
+
 These are the steps to complete the task. 
+
 In some cases, we recomend that you use a stepped content approach. In others, 
 a single statement and copyable command or syntax example.  In most cases, it's helpful 
 to include an example of what a successful result looks like. It could be a 
@@ -49,7 +55,7 @@ brief description, code block, or screenshot.
 .. procedure::
    :style:  connected
 
-   .. step:: Take an action.
+   .. step:: Take an action
      
       Say a little more or provide additional substeps or examples.
 
@@ -59,14 +65,16 @@ brief description, code block, or screenshot.
          for step completion. It could also include a link to more 
          context or important information.
 
-   .. step:: Take another action.
+   .. step:: Take another action
      
       Say a little more or provide additional substeps or examples.
 
 
 Example
 -------
+
 This is optional.
+
 In some cases, you can work through a specific example throughout the steps. 
 In others, it is helpful to show a complete example at the end. In most cases, 
 it's helpful to include an example of what a successful result looks like. It 
@@ -74,11 +82,14 @@ could be a brief description, code block, or screenshot.
 
 Next Steps
 ----------
+
 This is optional.
+
 If there is one or many logical next things to do, you can link to them here.
 
 Learn More
 ----------
+
 This section appears on every information typed page. Use it to link related pages 
 that are not already linked above, such as reference information, technical 
 deep dives, less commonly used task pages, or related concepts. It does not replace 
