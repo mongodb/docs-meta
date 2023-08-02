@@ -167,12 +167,14 @@ Use the following guideline when creating items in each section:
        include sentences to further explain the fix and the previous 
        behavior. If you list only phrases, do not use ending 
        punctuation.
-     - - Supports Debian 8 (Jessie)
+     - - Supports Debian 8 (Jessie).
 
-       - Trimms the Monitoring ID and Monitoring Token configuration
+       - Trims the Monitoring ID and Monitoring Token configuration
          variables to ensure correctness.
 
-       - Fixes the Xen Server 6 package repo.
+       - Fixes the Xen Server 6 package repository to resolve an issue 
+         that caused inconsistencies and errors with package 
+         management.
 
    * - Known issues
      - Use sentences to describe the issue. If a workaround is
