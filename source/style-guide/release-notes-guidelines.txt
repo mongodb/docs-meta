@@ -6,9 +6,9 @@ Release Notes Guidelines
 
 .. warning::
    
-   This page provides model guidance and examples for Release Notes. 
-   Verify the correct and consistent model for each product with your 
-   team.
+   This page provides general guidance and examples for Release Notes. 
+   Verify the correct and consistent guidelines for each product with 
+   your team.
 
 Follow the Rackspace `Release Guidelines <https://docs.rackspace.com/docs/style-guide/release-notes-guidelines/>`__
 from the Rackspace Style Guide.
