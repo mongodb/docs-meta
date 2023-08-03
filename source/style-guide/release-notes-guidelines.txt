@@ -4,10 +4,11 @@
 Release Notes Guidelines
 ========================
 
-.. include:: /style-guide/includes/page-needs-update.rst
-
-This topic provides guidelines for writing release notes (RN) for
-MongoDB Cloud services APIs.
+.. warning::
+   
+   This page provides model guidance and examples for Release Notes. 
+   Verify the correct and consistent model for each product with your 
+   team.
 
 Follow the Rackspace `Release Guidelines <https://docs.rackspace.com/docs/style-guide/release-notes-guidelines/>`__
 from the Rackspace Style Guide.
@@ -163,10 +164,11 @@ Use the following guideline when creating items in each section:
 
    * - Resolved issues
      - Provide an initial phrase that describes the issue that was
-       fixed. Start the phrase with a present-tense verb. If necessary,
-       include sentences to further explain the fix and the previous 
-       behavior. If you list only phrases, do not use ending 
-       punctuation.
+       fixed. Start the phrase with a verb. :ref:`Use present tense 
+       <use-present-tense>` or past tense consistently throughout the 
+       release notes. If necessary, include sentences to further 
+       explain the fix and the previous behavior. If you list only 
+       phrases, do not use ending punctuation.
      - - Supports Debian 8 (Jessie).
 
        - Trims the Monitoring ID and Monitoring Token configuration
@@ -184,10 +186,12 @@ Use the following guideline when creating items in each section:
 
    * - Documentation changes
      - Provide an initial phrase that describes the issue that was
-       fixed. Start the phrase with a present-tense verb. If necessary,
-       include sentences to further explain the fix. If you list only
-       phrases, do not use ending punctuation. Provide a link to the
-       relevant section in the documentation.
+       fixed. Start the phrase with a verb. :ref:`Use present tense 
+       <use-present-tense>` or past tense consistently throughout the 
+       release notes. If necessary, include sentences to further 
+       explain the fix. If you list only phrases, do not use ending 
+       punctuation. Provide a link to the relevant section in the 
+       documentation.
      - Clarifies the alert policy descriptions to include how
        the polling window affects the alarm state.
 
