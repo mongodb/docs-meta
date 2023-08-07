@@ -189,11 +189,12 @@ Use the following guideline when creating items in each section:
        fixed. Start the phrase with a verb. :ref:`Use present tense 
        <use-present-tense>` or past tense consistently throughout the 
        release notes. If necessary, include sentences to further 
-       explain the fix. If you list only phrases, do not use ending 
+       explain the changes. If you list only phrases, omit ending 
        punctuation. Provide a link to the relevant section in the 
        documentation.
      - Clarifies the alert policy descriptions to include how
-       the polling window affects the alarm state.
+       the polling window affects the alarm state. To learn more, see 
+       :atlas:`/alerts/`.
 
 Editing Existing Release Notes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
