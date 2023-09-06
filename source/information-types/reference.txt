@@ -12,6 +12,8 @@ Reference Page Prototype
    :depth: 2
    :class: singlecol
 
+.. |topic| replace:: Information Types
+
 .. include:: /includes/fact-general-guidance.rst
 
 A reference page provides quick information to experienced users of a product. 

@@ -37,7 +37,7 @@ Additionally, information typing accomplishes the following goals:
 
 - Use a suggested format to help you get started on a blank page.
 
-What Information Types do We Use?
+What Information Types Do We Use?
 ---------------------------------
 
 Currently, some teams use the following information types:
