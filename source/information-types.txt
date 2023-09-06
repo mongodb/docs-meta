@@ -15,45 +15,58 @@ Information Types
 
 .. include:: /includes/fact-general-guidance.rst
 
-This section contains details about information typing and prototypes showing how 
-we can apply this to our documentation. 
+The following sections describe information typing and provide
+prototypes that show how to apply this strategy to our documentation.
 
 What is Information Typing?
 ---------------------------
 
-At its best, information typing is being aware of your audience's goal as you 
-start to write a page, and keeping the information you write focused on those goals.
-Additionally, information typing is: 
+Information typing categorizes content by type based your audience's
+goal. Throughout the writing process, information typing helps keep the
+information that you write focused on those goals.
 
-- Separating content into categories and delivering roughly one type at a time.
+Additionally, information typing accomplishes the following goals:
 
-- Understanding the purpose of a page before you write it.
+- Separate content into categories and delivers roughly one type at a
+  time.
 
-- Answering the user question "why do I care?" or "what does this mean for me?" quickly.
+- Account for the purpose of a page before you write it.
 
-- Using a suggested format to help you get started on a blank page.
+- Answer the user question "why do I care?" or "what does this mean for
+  me?" quickly.
 
-What Types of Information are We Talking About?
------------------------------------------------
+- Use a suggested format to help you get started on a blank page.
 
-We'll begin with three main information types.
+What Information Types do We Use?
+---------------------------------
 
-- Concept -- A concept page helps a user learn about a concept or new feature. 
-  It is intended to answer the questions "what is this?", "why do I care", and "how
-  does this work?". The audience for a concept page is users who have never used 
-  a particular feature or command. 
+Currently, some teams use the following information types:
 
-- Task -- A task page helps a user do a job. The audience for a task page is 
-  users who want to accomplish a task. They may never have completed the task 
-  before, may only have done it a few times, or may need a refresher on the steps. 
-  The task page should contain all the necessary information for someone to 
-  complete the task, any necessary conceptual information, prerequisites, steps, 
-  and expected results. 
+Concept
+  Helps a user learn about a concept or new feature. Concept pages
+  intend to answer the following questions:
+  
+  - "What is this feature?"
+  
+  - "Why do I care about this feature?"
+  
+  - "How does this feature work?"
+  
+  The audience includes users who have never used a particular feature
+  or command. 
 
-- Reference -- A reference page delivers granular details about a thing. The 
-  audience for reference pages is experienced users. Apart from 
-  straightforward reference manual pages, reference pages can be anything that 
-  is a bulleted list or primarily a table of information. 
+Task
+  Helps a user do a job. The audience includes users who want to
+  accomplish a particular goal. They might approach this task for the
+  very first time, have limited experience, or need a refresher. This
+  page should contain all the necessary information for someone to
+  complete the task, any necessary conceptual information,
+  prerequisites, steps, and expected results. 
+
+Reference
+  Delivers granular details about a thing. The audience includes
+  experienced users. Apart from straightforward reference manual pages,
+  reference pages can include bulleted lists or tables of information. 
 
 .. toctree::
    :titlesonly:
