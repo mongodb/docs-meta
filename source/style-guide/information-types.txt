@@ -73,6 +73,6 @@ Reference
 .. toctree::
    :titlesonly:
 
-   /information-types/task
-   /information-types/concept
-   /information-types/reference
+   /style-guide/information-types/task
+   /style-guide/information-types/concept
+   /style-guide/information-types/reference
