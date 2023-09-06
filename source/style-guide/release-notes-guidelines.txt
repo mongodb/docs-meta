@@ -4,11 +4,9 @@
 Release Notes Guidelines
 ========================
 
-.. warning::
-   
-   This page provides general guidance and examples for Release Notes. 
-   Verify the correct and consistent guidelines for each product with 
-   your team.
+.. |topic| replace:: Release Notes
+
+.. include:: /includes/fact-general-guidance.rst
 
 Follow the Rackspace `Release Guidelines <https://docs.rackspace.com/docs/style-guide/release-notes-guidelines/>`__
 from the Rackspace Style Guide.

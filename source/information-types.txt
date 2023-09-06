@@ -10,15 +10,15 @@ Information Types
    :depth: 1
    :class: singlecol
 
-.. note:: 
-   This information typing section is a Work in Progress. The Server documentation
-   team started this project mid-2022 and we are in the process of reviewing with 
-   the team and discussing the possibility of adoption.
+
+.. |topic| replace:: Information Types
+
+.. include:: /includes/fact-general-guidance.rst
 
 This section contains details about information typing and prototypes showing how 
 we can apply this to our documentation. 
 
-What Is Information Typing?
+What is Information Typing?
 ---------------------------
 
 At its best, information typing is being aware of your audience's goal as you 
@@ -61,4 +61,3 @@ We'll begin with three main information types.
    /information-types/task
    /information-types/concept
    /information-types/reference
-
