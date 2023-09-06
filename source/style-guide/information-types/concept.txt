@@ -48,8 +48,8 @@ prototype to familiarize users with command syntax.
 After the code block, provide a link to the corresponding
 :ref:`reference <meta-reference-prototype>` or :ref:`task
 <meta-task-prototype>` page to provide readers with complete examples
-and behavior details. When possible, single-source code examples and
-prototypes across pages.
+and behavior details. When possible, use includes to single-source code
+examples across related concept, task, and reference pages.
 
 .. note::
 
@@ -92,8 +92,10 @@ sure users can easily find common related tasks.
 Details
 -------
 
-This section is a brief unpacking of the technical details. It can be as long
-or short as appropriate. 
+This section is a brief unpacking of the technical details. It can be as
+long or short as appropriate. Generally, the information in this section
+is supplemental and should not be a major factor in a user's decision to
+use a feature.
 
 Learn More
 ----------

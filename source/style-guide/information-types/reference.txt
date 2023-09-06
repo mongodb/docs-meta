@@ -82,10 +82,10 @@ Examples
 
 Optional.
 
-This section could contain examples of the most common use cases.
-Populate Reference and Task page examples using includes, so we write
-the examples once, present them consistently throughout the
-documentation, and can update them easily.
+This section could contain examples of the most common use cases. Use
+includes for Reference and Task page examples, so we write the examples
+once, present them consistently throughout the documentation, and can
+update them easily.
 
 If an example is shared between task and reference, you should write it
 as an include.
