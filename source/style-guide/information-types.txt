@@ -20,8 +20,8 @@ prototypes that show how to apply this strategy to our documentation.
 What is Information Typing?
 ---------------------------
 
-Information typing categorizes content by type based your audience's
-goal. Throughout the writing process, information typing helps keep the
+Information typing categorizes content by type based on your audience's
+goals. Throughout the writing process, information typing helps keep the
 information that you write focused on those goals.
 
 Additionally, information typing accomplishes the following goals:
