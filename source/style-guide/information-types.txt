@@ -12,9 +12,7 @@ Information Types
    :depth: 1
    :class: singlecol
 
-.. |topic| replace:: abc
-
-.. include:: /includes/fact-general-guidance.rst
+.. include:: /includes/info-typing/fact-general-guidance.rst
 
 The following sections describe information typing and provide
 prototypes that show how to apply this strategy to our documentation.
