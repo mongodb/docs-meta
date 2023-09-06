@@ -1,3 +1,5 @@
+.. _information-types:
+
 =================
 Information Types
 =================
