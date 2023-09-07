@@ -43,17 +43,17 @@ Concept
   .. include:: /includes/info-typing/concept-overview.rst
 
 Task
-  Helps a user do a job. The audience includes users who want to
-  accomplish a particular goal. They might approach this task for the
-  very first time, have limited experience, or need a refresher. This
-  page should contain all the necessary information for someone to
+  A task page helps a user do a job. The audience includes users who
+  want to accomplish a particular goal. They might approach this task
+  for the very first time, have limited experience, or need a refresher.
+  This page should contain all the necessary information for someone to
   complete the task, any necessary conceptual information,
   prerequisites, steps, and expected results. 
 
 Reference
-  Delivers granular details about a topic. The audience includes
-  experienced users. Reference pages may describe the use of a method,
-  operator, or database command.
+  A reference page delivers granular details about a topic. The audience
+  includes experienced users. Reference pages may describe the use of a
+  method, operator, or database command.
 
 Comparison with DITA Document Types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
