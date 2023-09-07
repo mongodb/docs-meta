@@ -55,6 +55,16 @@ Reference
   experienced users. Reference pages may describe the use of a method,
   operator, or database command.
 
+Comparison with DITA Document Types
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The information types used in MongoDB documentation are similar to
+`DITA Document Types
+<http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-technicalContent-InformationTypes.html#dita_technicalContent_InformationTypes>`__.
+While we do not impose the same {+rst-abbrev+} requirements that are
+used in DITA, the high-level purposes of corresponding content types are largely
+the same.
+
 .. toctree::
    :titlesonly:
 
