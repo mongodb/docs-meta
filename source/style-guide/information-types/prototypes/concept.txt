@@ -1,3 +1,5 @@
+.. _meta-concept-prototype:
+
 ======================
 Concept Page Prototype
 ======================

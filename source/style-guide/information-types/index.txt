@@ -42,18 +42,18 @@ Currently, some teams use the following information types:
 Concept
   .. include:: /includes/info-typing/concept-overview.rst
 
+Reference
+  A reference page delivers granular details about a topic. The audience
+  includes experienced users. Reference pages may describe the use of a
+  method, operator, or database command.
+
 Task
   A task page helps a user do a job. The audience includes users who
   want to accomplish a particular goal. They might approach this task
   for the very first time, have limited experience, or need a refresher.
   This page should contain all the necessary information for someone to
   complete the task, any necessary conceptual information,
-  prerequisites, steps, and expected results. 
-
-Reference
-  A reference page delivers granular details about a topic. The audience
-  includes experienced users. Reference pages may describe the use of a
-  method, operator, or database command.
+  prerequisites, steps, and expected results.
 
 Comparison with DITA Document Types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -68,6 +68,4 @@ the same.
 .. toctree::
    :titlesonly:
 
-   /style-guide/information-types/prototypes/task
-   /style-guide/information-types/prototypes/concept
-   /style-guide/information-types/prototypes/reference
+   /style-guide/information-types/prototypes
