@@ -19,7 +19,7 @@ some documentation teams:
 :ref:`meta-reference-prototype`
   Delivers granular details about a topic.
 
-:ref:`'meta-task-prototype`
+:ref:`meta-task-prototype`
   Helps a user do a job.
 
 .. toctree::
