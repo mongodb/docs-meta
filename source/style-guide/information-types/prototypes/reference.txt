@@ -4,8 +4,6 @@
 Reference Page Prototype
 ========================
 
-.. default-domain:: mongodb
-
 .. contents:: On this page
    :local:
    :backlinks: none
@@ -14,10 +12,9 @@ Reference Page Prototype
 
 .. include:: /includes/info-typing/fact-general-guidance.rst
 
-A reference page provides quick information to experienced users of a product. 
-Reference pages may describe the use of a method, operator, or database command. 
-Information presented as a bulleted list or table is usually a reference page. 
-Release notes are another good example of a reference page.
+A reference page provides quick information to experienced users of a
+product. Reference pages may describe the use of a method, operator, or
+database command. Release notes are another example of reference page.
 
 Usually, the title of a reference page is the name of the command, operator, or 
 method it describes.

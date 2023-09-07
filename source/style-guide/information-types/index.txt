@@ -4,8 +4,6 @@
 Information Types
 =================
 
-.. default-domain:: mongodb
-
 .. contents:: On this page
    :local:
    :backlinks: none
@@ -42,17 +40,7 @@ What Information Types Do We Use?
 Currently, some teams use the following information types:
 
 Concept
-  Helps a user learn about a concept or new feature. Concept pages
-  intend to answer the following questions:
-  
-  - "What is this feature?"
-  
-  - "Why do I care about this feature?"
-  
-  - "How does this feature work?"
-  
-  The audience includes users who have never used a particular feature
-  or command. 
+  .. include:: /includes/info-typing/concept-overview.rst
 
 Task
   Helps a user do a job. The audience includes users who want to
@@ -63,13 +51,13 @@ Task
   prerequisites, steps, and expected results. 
 
 Reference
-  Delivers granular details about a thing. The audience includes
-  experienced users. Apart from straightforward reference manual pages,
-  reference pages can include bulleted lists or tables of information. 
+  Delivers granular details about a topic. The audience includes
+  experienced users. Reference pages may describe the use of a method,
+  operator, or database command.
 
 .. toctree::
    :titlesonly:
 
-   /style-guide/information-types/task
-   /style-guide/information-types/concept
-   /style-guide/information-types/reference
+   /style-guide/information-types/prototypes/task
+   /style-guide/information-types/prototypes/concept
+   /style-guide/information-types/prototypes/reference

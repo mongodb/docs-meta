@@ -62,7 +62,7 @@ MongoDB external and internal customers.
    /style-guide/screenshots/index
    /style-guide/error-message-guidelines
    /style-guide/release-notes-guidelines
-   /style-guide/information-types
+   /style-guide/information-types/index
    /style-guide/seo-guidelines
    /style-guide/revision-history
 

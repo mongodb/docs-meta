@@ -2,8 +2,6 @@
 Concept Page Prototype
 ======================
 
-.. default-domain:: mongodb
-
 .. contents:: On this page
    :local:
    :backlinks: none
@@ -12,17 +10,7 @@ Concept Page Prototype
 
 .. include:: /includes/info-typing/fact-general-guidance.rst
 
-A concept page helps a user learn about a concept or new feature. The page intends to 
-answer the following questions:
-
-- "What is this?"
-
-- "Why do I care?"
-
-- "How does this work?"
-
-The audience includes users who have never used a particular feature or
-command.
+.. include:: /includes/info-typing/concept-overview.rst
 
 The title is typically a noun or noun phrase. 
 
