@@ -12,12 +12,7 @@ Task Page Prototype
 
 .. include:: /includes/info-typing/fact-general-guidance.rst
 
-The audience for a task page includes users who want to accomplish a
-particular goal. They might approach this task for the very first time,
-have limited experience, or need a refresher. This page should contain
-all the necessary information for someone to complete the task, any
-necessary conceptual information, prerequisites, steps, and expected
-results.
+.. include:: /includes/info-typing/task-overview.rst
 
 Task page titles begin with a present-tense action verb. 
 
