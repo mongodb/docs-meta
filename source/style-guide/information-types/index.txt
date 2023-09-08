@@ -37,7 +37,7 @@ Additionally, information typing accomplishes the following goals:
 What Information Types Do We Use?
 ---------------------------------
 
-.. note::
+.. note:: DITA Document Types
 
    The information types used in MongoDB documentation are similar to
    `DITA Document Types
