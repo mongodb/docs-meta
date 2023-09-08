@@ -57,12 +57,13 @@ Reference
   method, operator, or database command.
 
 Task
-  A task page helps a user do a job. The audience includes users who
-  want to accomplish a particular goal. They might approach this task
-  for the very first time, have limited experience, or need a refresher.
-  This page should contain all the necessary information for someone to
-  complete the task, any necessary conceptual information,
-  prerequisites, steps, and expected results.
+  A task page instructs a user on how to accomplish a particular goal. A
+  task page can be written for users with any level of experience with
+  MongoDB. Users might approach this task for the very first time, have
+  limited experience, or need a refresher. A task page should contain
+  all the necessary information for someone to complete the task, any
+  necessary conceptual information, prerequisites, steps, and expected
+  results.
 
 .. toctree::
    :titlesonly:
