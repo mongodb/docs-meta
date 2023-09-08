@@ -37,6 +37,15 @@ Additionally, information typing accomplishes the following goals:
 What Information Types Do We Use?
 ---------------------------------
 
+.. note::
+
+   The information types used in MongoDB documentation are similar to
+   `DITA Document Types
+   <http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-technicalContent-InformationTypes.html#dita_technicalContent_InformationTypes>`__.
+   While we do not impose the same {+rst-abbrev+} requirements that are
+   used in DITA, the high-level purposes of corresponding content types
+   are largely the same.
+
 Currently, some teams use the following information types:
 
 Concept
@@ -54,16 +63,6 @@ Task
   This page should contain all the necessary information for someone to
   complete the task, any necessary conceptual information,
   prerequisites, steps, and expected results.
-
-Comparison with DITA Document Types
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The information types used in MongoDB documentation are similar to
-`DITA Document Types
-<http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-technicalContent-InformationTypes.html#dita_technicalContent_InformationTypes>`__.
-While we do not impose the same {+rst-abbrev+} requirements that are
-used in DITA, the high-level purposes of corresponding content types are largely
-the same.
 
 .. toctree::
    :titlesonly:
