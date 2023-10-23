@@ -16,18 +16,51 @@ Code Blocks
 -----------
 
 The ``code-block`` directive shows a code sample written inline in the same file. 
-This directive supports the following options:
 
-- Numbered lines
-- To specify the language to use for syntax highlighting, include the language after 
-  the directive.
+Options
+~~~~~~~
 
+.. code-block::
 
-- 
+   .. code-block:: <language>
+      :copyable: <boolean>
+      :linenos:
+      :emphasize-lines: <line numbers>
 
-The following example shows how to create a code block with the following options:
+.. list-table::
 
-- Python language syntax highlighting
+   * - ``code-block:: <language>``
+     - **Optional.** The language to use for syntax highlighting. 
+       For a complete list of directive options, including supported languages, see the
+       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
+   
+   * - ``copyable: <boolean>``
+     -  Whether to show the Copy button
+
+   * - ``linenos``
+     - Shows line numbers
+
+   * - ``emphasize-lines: <lines>``
+     - Lines to highlight
+
+Example
+~~~~~~~
+
+.. code-block:: python
+   
+   .. code-block:: python
+      :linenos:
+      :copyable: false
+      :emphasize-lines: 1-3, 6
+
+      print("Hello MongoDB") # Python code
+      print("Hello MongoDB") # Python code
+      print("Hello MongoDB") # Python code
+      print("Hello MongoDB") # Python code
+      print("Hello MongoDB") # Python code
+      print("Hello MongoDB") # Python code
+
+The previous ``code-block`` renders the following output:
 
 .. code-block:: python
    :linenos:
@@ -41,7 +74,3 @@ The following example shows how to create a code block with the following option
    print("Hello MongoDB") # Python code
    print("Hello MongoDB") # Python code
 
-.. tip:: Supported Languages
-
-   For a complete list of directive options, including supported languages, see the
-   `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
