@@ -30,11 +30,9 @@ The following example shows how to create a code block with the following option
 - Python language syntax highlighting
 
 .. code-block:: python
-
-   :lineNumberStart: 5
-   :showLineNumbers:
+   :linenos:
    :copyable: false
-   :highlightLines: 5-6, 8
+   :emphasize-lines: 1-3, 6
 
    print("Hello MongoDB") # Python code
    print("Hello MongoDB") # Python code
