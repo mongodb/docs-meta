@@ -9,13 +9,41 @@ including the following directives:
 - ``io-code-block``
 - ``literalinclude``
 
-These directives feature syntax highlighting which makes the source code 
-contained in them easier to interpret. The following example shows how to 
-specify Python language syntax highlighting in a ``code-block`` directive:
+These directives feature syntax highlighting that makes the source code 
+contained in them easier to interpret.
 
-.. code-block::
+Code Blocks
+-----------
 
-   .. code-block:: python
+The ``code-block`` directive shows a code sample written inline in the same file. 
+This directive supports the following options:
 
-      print("Hello MongoDB") # Python code
+- Numbered lines
+- To specify the language to use for syntax highlighting, include the language after 
+  the directive.
 
+
+- 
+
+The following example shows how to create a code block with the following options:
+
+- Python language syntax highlighting
+
+.. code-block:: python
+
+   :lineNumberStart: 5
+   :showLineNumbers:
+   :copyable: false
+   :highlightLines: 5-6, 8
+
+   print("Hello MongoDB") # Python code
+   print("Hello MongoDB") # Python code
+   print("Hello MongoDB") # Python code
+   print("Hello MongoDB") # Python code
+   print("Hello MongoDB") # Python code
+   print("Hello MongoDB") # Python code
+
+.. tip:: Supported Languages
+
+   For a complete list of directive options, including supported languages, see the
+   `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
