@@ -133,14 +133,10 @@ Example 3
    .. code-block:: python
       :source: https://github.com/mongodb/node-mongodb-native/blob/main/src/bson.ts
 
-      print("Hello Docs team!") 
-
 The previous ``code-block`` renders the following output:
 
 .. code-block:: python
       :source: https://github.com/mongodb/node-mongodb-native/blob/main/src/bson.ts
-
-   print("Hello Docs team!") 
 
 
 I/O Code Blocks
