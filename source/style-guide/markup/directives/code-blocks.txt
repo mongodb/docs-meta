@@ -9,68 +9,221 @@ including the following directives:
 - ``io-code-block``
 - ``literalinclude``
 
-These directives feature syntax highlighting that makes the source code 
-contained in them easier to interpret.
+These directives feature a monospace font and syntax highlighting that makes the
+source code contained in them easier to interpret.
 
 Code Blocks
 -----------
 
-The ``code-block`` directive shows a code sample written inline in the same file. 
+The ``code-block`` directive formats a code sample written within the
+directive.
 
-Options
-~~~~~~~
+Syntax
+~~~~~~
 
 .. code-block::
 
    .. code-block:: <language>
       :copyable: <boolean>
-      :linenos:
       :emphasize-lines: <line numbers>
+      :linenos:
+      :caption: <caption text>
+      :class: <css class>
+      :source: <url>
+
+      <code sample>
+
+Options
+~~~~~~~
 
 .. list-table::
 
-   * - ``code-block:: <language>``
+   * - ``<language>``
      - **Optional.** The language to use for syntax highlighting. 
+       
        For a complete list of directive options, including supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
-   
-   * - ``copyable: <boolean>``
-     -  Whether to show the Copy button
 
-   * - ``linenos``
-     - Shows line numbers
+       **Default:** None
+ 
+   * - ``copyable: <boolean>``
+     -  **Optional.** Whether to show the Copy button for the code sample.
+
+        **Default:** ``true``
 
    * - ``emphasize-lines: <lines>``
-     - Lines to highlight
+     - **Optional.** Lines to highlight for the code sample. You can specify a range 
+       of lines, individual lines, or both.
 
-Example
-~~~~~~~
+       **Default:** None
 
-.. code-block:: python
+   * - ``linenos``
+     - **Optional.** Shows line numbers for the code sample.
+
+       **Default:** None
+  
+   * - ``caption: <caption text>``
+     -  **Optional.** The caption for the code sample.
+
+        **Default:** None
+
+   * - ``class: <css class>``
+     -  **Optional.** Extra CSS styling to add to the code sample.
+
+        **Default:** None 
+
+   * - ``source``
+     - **Optional.** The URL to load code from.
+
+       **Default:** None
+
+Example 1
+~~~~~~~~~
+
+.. code-block::
    
    .. code-block:: python
       :linenos:
-      :copyable: false
-      :emphasize-lines: 1-3, 6
+      :copyable: true
+      :emphasize-lines: 1, 4-5
+      :caption: An example Python code block
 
-      print("Hello MongoDB") # Python code
-      print("Hello MongoDB") # Python code
-      print("Hello MongoDB") # Python code
-      print("Hello MongoDB") # Python code
-      print("Hello MongoDB") # Python code
-      print("Hello MongoDB") # Python code
+      print("Hello Docs team!") 
+      print("This is Python code...") 
+      print("...inside a code-block.")
+      print("The line numbers are over here <-")
+      print("And the Copy button is over there ->")
 
 The previous ``code-block`` renders the following output:
 
 .. code-block:: python
    :linenos:
-   :copyable: false
-   :emphasize-lines: 1-3, 6
+   :copyable: true
+   :emphasize-lines: 1, 4-5
+   :caption: An example Python code block
 
-   print("Hello MongoDB") # Python code
-   print("Hello MongoDB") # Python code
-   print("Hello MongoDB") # Python code
-   print("Hello MongoDB") # Python code
-   print("Hello MongoDB") # Python code
-   print("Hello MongoDB") # Python code
+   print("Hello Docs team!") 
+   print("This is Python code...") 
+   print("...inside a code-block.")
+   print("The line numbers are over here <-")
+   print("And the Copy button is over there ->")
 
+Example 2
+~~~~~~~~~
+
+.. code-block::
+   
+   .. code-block:: python
+      :class: singlecol
+
+      print("Hello Docs team!") 
+
+The previous ``code-block`` renders the following output:
+
+.. code-block:: python
+   :class: singlecol
+
+   print("Hello Docs team!") 
+
+Example 3
+~~~~~~~~~
+
+.. code-block::
+   
+   .. code-block:: python
+      :source: https://github.com/mongodb/node-mongodb-native/blob/main/src/bson.ts
+
+      print("Hello Docs team!") 
+
+The previous ``code-block`` renders the following output:
+
+.. code-block:: python
+      :source: https://github.com/mongodb/node-mongodb-native/blob/main/src/bson.ts
+
+   print("Hello Docs team!") 
+
+
+I/O Code Blocks
+---------------
+
+The ``io-code-block`` directive formats a code sample written below the directive, but
+also displays a second window for the output of the code sample.
+
+Syntax
+~~~~~~
+
+.. code-block::
+
+   .. io-code-block::
+      :copyable: <boolean>
+
+      .. input::
+         :language: <input language>
+
+         <input code>
+
+      .. output::
+         :language: <output language>
+         :visible: <boolean>
+
+         <output code>
+
+Options
+~~~~~~~
+
+.. list-table::
+
+   * - ``copyable: <boolean>``
+     -  **Optional.** Whether to show the Copy button for the input code.
+   
+        **Default:** ``true``
+   
+   * - ``:language:``
+     - **Optional.** The language to use for syntax highlighting. You can specify
+       different languages for the input and output code. 
+       
+       For a complete list of directive options, including supported languages, see the
+       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
+
+       **Default:** No syntax highlighting
+
+   * - ``linenos``
+     - **Optional.** Shows line numbers for this code sample. Input/output
+
+       **Default:** No line numbers
+
+   * - ``emphasize-lines: <lines>``
+     - **Optional.** Lines to highlight for this code sample. You can specify a range 
+       of lines, individual lines, or both.
+
+       **Default:** No highlighting
+
+.. todo: caption, class, source
+
+Example
+~~~~~~~
+
+.. code-block::
+
+   .. io-code-block::
+      :copyable: true
+      :linenos:
+
+      .. input::
+         :language: python
+         :emphasize-lines: 1
+         :linenos:
+
+         print("Hello Docs team!") 
+         print("This is Python code...") 
+         print("...inside a code-block.")
+         print("The line numbers are over here <-")
+         print("And the Copy button is over there ->")
+
+      .. output::
+         :language: shell
+         :emphasize-lines: 1
+         :linenos:
+         :visible: true
+
+         <output code> 
