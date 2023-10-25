@@ -73,7 +73,7 @@ Options
         **Default:** None 
 
    * - ``source``
-     - **Optional.** The URL to load code from.
+     - **Optional.** The URL of the full code file.
 
        **Default:** None
 
@@ -113,31 +113,24 @@ Example 2
 
 .. code-block::
    
-   .. code-block:: python
-      :class: singlecol
+   .. code-block:: typescript
+      :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
 
-      print("Hello Docs team!") 
+      html_theme = sconf.theme.name
+      html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
+      html_title = conf.project.title
+      htmlhelp_basename = 'MongoDBdoc'
 
-The previous ``code-block`` renders the following output:
+The previous ``code-block`` renders the following output. Notice the link to the
+full source file to the right of the code sample.
 
-.. code-block:: python
-   :class: singlecol
+.. code-block:: typescript
+      :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
 
-   print("Hello Docs team!") 
-
-Example 3
-~~~~~~~~~
-
-.. code-block::
-   
-   .. code-block:: python
-      :source: https://github.com/mongodb/node-mongodb-native/blob/main/src/bson.ts
-
-The previous ``code-block`` renders the following output:
-
-.. code-block:: python
-      :source: https://github.com/mongodb/node-mongodb-native/blob/main/src/bson.ts
-
+      html_theme = sconf.theme.name
+      html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
+      html_title = conf.project.title
+      htmlhelp_basename = 'MongoDBdoc'
 
 I/O Code Blocks
 ---------------
