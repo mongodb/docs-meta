@@ -299,7 +299,7 @@ full source file on the right of the code sample.
       coll.find({ $text: { $search: 'zissou' } });
 
    .. output::
-      :language: javascript
+      :language: js
 
       [
           { title: 'The Life Aquatic with Steve Zissou', ... }
