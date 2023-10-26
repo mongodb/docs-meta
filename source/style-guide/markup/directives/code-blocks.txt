@@ -73,8 +73,9 @@ Options
 
    * - ``source``
      - **Optional.** The URL of the full code file. This option adds a link to the 
-       specified URL on the right side of the code sample. If you specify
-       ``copyable: false``, the source link will not be displayed.
+       specified URL on the right side of the code sample. You must also specify
+       ``copyable: true`` (or omit the ``copyable`` option) in order for this option
+       to work.
 
        **Default:** None
 
@@ -307,3 +308,126 @@ full source file on the right of the code sample.
       [
           { title: 'The Life Aquatic with Steve Zissou', ... }
       ]
+
+Literal Includes
+----------------
+
+The ``literalinclude`` directive formats a code sample written within the
+directive.
+
+Syntax
+~~~~~~
+
+.. code-block::
+
+   .. code-block:: <language>
+      :copyable: <boolean>
+      :emphasize-lines: <line numbers>
+      :linenos:
+      :caption: <caption text>
+      :class: <css class>
+      :source: <url>
+
+      <code sample>
+
+Options
+~~~~~~~
+
+.. list-table::
+
+   * - ``<language>``
+     - **Optional.** The language to use for syntax highlighting. 
+       
+       For a complete list of supported languages, see the
+       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
+
+       **Default:** None
+ 
+   * - ``copyable: <boolean>``
+     -  **Optional.** Whether to show the Copy button for the code sample.
+
+        **Default:** ``true``
+
+   * - ``emphasize-lines: <lines>``
+     - **Optional.** Lines to highlight for the code sample. You can specify a range 
+       of lines, individual lines, or both.
+
+       **Default:** None
+
+   * - ``linenos``
+     - **Optional.** Shows line numbers for the code sample.
+
+       **Default:** None
+  
+   * - ``caption: <caption text>``
+     -  **Optional.** The caption for the code sample.
+
+        **Default:** None
+
+   * - ``class: <css class>``
+     -  **Optional.** A CSS class to apply to the code sample.
+
+        **Default:** None 
+
+   * - ``source``
+     - **Optional.** The URL of the full code file. This option adds a link to the 
+       specified URL on the right side of the code sample. You must also specify
+       ``copyable: true`` (or omit the ``copyable`` option) in order for this option
+       to work.
+
+       **Default:** None
+
+Example 1
+~~~~~~~~~
+
+.. code-block::
+   
+   .. code-block:: python
+      :linenos:
+      :copyable: true
+      :emphasize-lines: 1, 4-5
+      :caption: An example Python code block
+
+      print("Hello Docs team!") 
+      print("This is Python code...") 
+      print("...inside a code-block.")
+      print("The line numbers are over here <-")
+      print("And the Copy button is over there ->")
+
+The previous ``code-block`` renders the following output:
+
+.. code-block:: python
+   :linenos:
+   :copyable: true
+   :emphasize-lines: 1, 4-5
+   :caption: An example Python code block
+
+   print("Hello Docs team!") 
+   print("This is Python code...") 
+   print("...inside a code-block.")
+   print("The line numbers are over here <-")
+   print("And the Copy button is over there ->")
+
+Example 2
+~~~~~~~~~
+
+.. code-block::
+   
+   .. code-block:: python
+      :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
+
+      html_theme = sconf.theme.name
+      html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
+      html_title = conf.project.title
+      htmlhelp_basename = 'MongoDBdoc'
+
+The previous ``code-block`` renders the following output. Notice the link to the
+full source file to the right of the code sample.
+
+.. code-block:: python
+      :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
+
+      html_theme = sconf.theme.name
+      html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
+      html_title = conf.project.title
+      htmlhelp_basename = 'MongoDBdoc'
