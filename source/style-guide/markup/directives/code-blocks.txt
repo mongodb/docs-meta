@@ -98,6 +98,7 @@ The previous ``code-block`` renders the following output:
 
 .. code-block:: python
    :linenos:
+   :copyable: false
    :emphasize-lines: 1, 4-5
    :caption: An example Python code block
    :class: mw-custom-class
