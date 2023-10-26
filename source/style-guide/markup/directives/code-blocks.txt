@@ -346,19 +346,19 @@ Options
        **Default:** None
  
    * - ``copyable: <boolean>``
-     -  Whether to show the Copy button for the code sample.
+     - Whether to show the Copy button for the code sample.
 
-        **Default:** ``true``
+       **Default:** ``true``
 
    * - ``start-after: <line of code>``
-     -  Whether to show the Copy button for the code sample.
+     - The line of code before the line where the extract should begin.
 
-        **Default:** None
+       **Default:** Start at beginning of file
    
    * - ``end-before: <line of code>``
-     -  Whether to show the Copy button for the code sample.
+     - The line of code after the line where the extract should end.
 
-        **Default:** None
+       **Default:** Finish at end of file
 
    * - ``emphasize-lines: <lines>``
      - Lines to highlight for the code sample. You can specify a range 
@@ -390,36 +390,52 @@ Options
 Example 1
 ~~~~~~~~~
 
+Suppose a Python file looks like this:
+
+.. literalinclude:: /includes/python-sample.py
+
+This sample starts at the beginning of the file and ends before the line that reads,
+``print("...but this line won't.")``: 
+
 .. code-block::
    
 The previous ``literalinclude`` renders the following output:
 
 .. literalinclude:: /includes/python-sample.py
-   :lineno-start: 3
-   :dedent: 0
-   :linenos:
-   :start-after: print("Hello Docs team!") 
+   :copyable: false
+   :end-before: print("...but this line won't.")
+   :caption: Sample Python code from another file
 
 Example 2
 ~~~~~~~~~
 
+You can use comments to mark the starting and ending points of a code sample.
+This is useful if you need to extract multiple samples from the same file while
+avoiding ambiguity. You also won't need to update the docs if the code changes.
+
+This sample uses dedent to remove the spaces at the beginning of these lines, which
+are indented inside a function in the original code file.
+
+.. rebuidl docs after code change?
+
 .. code-block::
-   
+
    .. code-block:: python
-      :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
 
-      html_theme = sconf.theme.name
-      html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
-      html_title = conf.project.title
-      htmlhelp_basename = 'MongoDBdoc'
+      .. literalinclude:: /includes/python-sample.py
+         :dedent: 2
+         :start-after: # start-python-sample
+         :end-before: # end-python sample
+         :linenos:
+         :lineno-start: 9 
 
-The previous ``code-block`` renders the following output. Notice the link to the
-full source file to the right of the code sample.
+The previous ``code-block`` renders the following output:
 
 .. code-block:: python
-      :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
 
-      html_theme = sconf.theme.name
-      html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
-      html_title = conf.project.title
-      htmlhelp_basename = 'MongoDBdoc'
+   .. literalinclude:: /includes/python-sample.py
+      :dedent: 2
+      :start-after: # start-python-sample
+      :end-before: # end-python sample
+      :linenos:
+      :lineno-start: 9 
