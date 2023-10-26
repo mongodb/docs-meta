@@ -281,7 +281,7 @@ Example 2
          coll.find({ $text: { $search: 'zissou' } });
 
       .. output::
-         :language: shell
+         :language: javascript
 
          [
              { title: 'The Life Aquatic with Steve Zissou', ... }
@@ -292,14 +292,20 @@ full source file on the right of the code sample.
 
 .. io-code-block::
    :source: https://github.com/mongodb/docs-node/blob/0cf95d4eac536ed0ae1a2085948dd98f24ac48af/source/quick-reference.txt#L473
-     
+   :copyable: true
+
    .. input::
       :language: javascript
          
       coll.find({ $text: { $search: 'zissou' } });
+      coll.find({ $text: { $search: 'zissou' } });
+      coll.find({ $text: { $search: 'zissou' } });
+      coll.find({ $text: { $search: 'zissou' } });
+      coll.find({ $text: { $search: 'zissou' } });
+      coll.find({ $text: { $search: 'zissou' } });
 
    .. output::
-      :language: js
+      :language: javascript
 
       [
           { title: 'The Life Aquatic with Steve Zissou', ... }
