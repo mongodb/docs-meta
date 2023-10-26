@@ -14,7 +14,7 @@ source code contained in them easier to interpret.
 Code Blocks
 -----------
 
-The ``code-block`` directive formats a code sample written within the
+The ``code-block`` directive formats a code sample written beneath the
 directive.
 
 Syntax
@@ -45,38 +45,39 @@ Options
 
        **Default:** None
  
-   * - ``copyable: <boolean>``
+   * - ``:copyable: <boolean>``
      -  Whether to show the Copy button for the code sample.
 
         **Default:** ``true``
 
-   * - ``emphasize-lines: <lines>``
+   * - ``:emphasize-lines: <line number>``
      - Lines to highlight for the code sample. You can specify a range 
-       of lines, individual lines, or both.
+       of line numbers, individual line numbers, or both.
 
        **Default:** None
 
-   * - ``linenos``
+   * - ``:linenos``
      - Shows line numbers for the code sample.
 
        **Default:** None
   
-   * - ``caption: <caption text>``
+   * - ``:caption: <caption text>``
      -  The caption for the code sample.
 
         **Default:** None
 
-   * - ``class: <css class>``
+   * - ``:class: <css class>``
      -  A CSS class to apply to the code sample.
 
         **Default:** None 
 
-   * - ``source``
-     - The URL of the full code file. This option adds a link to the 
-       specified URL on the right side of the code sample. You must also specify
-       ``copyable: true`` (or omit the ``copyable`` option) in order for this option
-       to work.
-
+   * - ``:source: <url>``
+     - The URL of the code file. This option adds a link to the 
+       specified URL on the right side of the code sample.
+       
+       You must also specify ``:copyable: true`` (or omit the ``:copyable:`` option)
+       for this option to work.
+       
        **Default:** None
 
 Example 1
@@ -96,7 +97,7 @@ Example 1
       print("The line numbers are over here <-")
       print("And the Copy button is over there ->")
 
-The previous ``code-block`` renders the following output:
+The previous ``code-block`` directive creates the following output:
 
 .. code-block:: python
    :linenos:
@@ -123,8 +124,7 @@ Example 2
       html_title = conf.project.title
       htmlhelp_basename = 'MongoDBdoc'
 
-The previous ``code-block`` renders the following output. Notice the link to the
-full source file to the right of the code sample.
+The previous ``code-block`` directive creates the following output:
 
 .. code-block:: python
       :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
@@ -137,8 +137,8 @@ full source file to the right of the code sample.
 I/O Code Blocks
 ---------------
 
-The ``io-code-block`` directive formats a code sample written within the directive, but
-also displays a second window for the output of the code sample.
+The ``io-code-block`` directive formats a code sample written beneath the directive, but
+also displays a second window for the sample's output.
 
 Syntax
 ~~~~~~
@@ -171,7 +171,7 @@ Options
 
 .. list-table::
 
-   * - ``copyable: <boolean>``
+   * - ``:copyable: <boolean>``
      -  Whether to show the Copy button for the input code.
    
         **Default:** ``false``
@@ -183,39 +183,40 @@ Options
        For a complete list of supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
 
-       **Default:** No syntax highlighting
+       **Default:** None
 
-   * - ``linenos``
+   * - ``:linenos:``
      - Shows line numbers for the code sample.
 
-       **Default:** No line numbers
+       **Default:** None
 
-   * - ``emphasize-lines: <lines>``
+   * - ``:emphasize-lines: <line number>``
      - Lines to highlight for the code sample. You can specify a range 
-       of lines, individual lines, or both.
+       of line numbers, individual line numbers, or both.
 
-       **Default:** No highlighting
+       **Default:** None
    
-   * - ``visible: <boolean>``
-     - Whether the output code begins visible. If ``false``, the user 
+   * - ``:visible: <boolean>``
+     - Whether the output code is initially visible. If ``false``, the user 
        must click a button to see the output.
 
        **Default:** ``true``
 
-   * - ``caption: <caption text>``
+   * - ``:caption: <caption text>``
      - The caption for the code sample.
 
        **Default:** None
 
-   * - ``class: <css class>``
+   * - ``:class: <css class>``
      - A CSS class to apply to the code sample.
 
        **Default:** None 
 
-   * - ``source``
-     - The URL of the full code file. This option adds a link to the 
-       specified URL on the right side of the code sample. You must also specify
-       ``copyable: true`` in order for this option to work.
+   * - ``:source: <url>``
+     - The URL of the code file. This option adds a link to the 
+       specified URL on the right side of the code sample.
+       
+       You must also specify ``copyable: true`` for this option to work.
        
        **Default:** None
 
@@ -290,8 +291,7 @@ Example 2
              { title: 'The Life Aquatic with Steve Zissou', ... }
          ]
 
-The previous ``io-code-block`` renders the following output. Notice the link to the
-full source file on the right of the code sample.
+The previous ``io-code-block`` directive creates the following output:
 
 .. io-code-block::
    :source: https://github.com/mongodb/docs-node/blob/0cf95d4eac536ed0ae1a2085948dd98f24ac48af/source/quick-reference.txt#L473
@@ -313,7 +313,7 @@ Literal Includes
 ----------------
 
 The ``literalinclude`` directive formats a code sample pulled in from another file.
-This directive is helpful if you need to maintain a separate file that includes the code
+This directive is helpful if you need to keep the code in a separate file
 or if you need to display the same code sample in more than one place.
 
 Syntax
@@ -322,22 +322,28 @@ Syntax
 .. code-block::
 
    .. literalinclude:: <file path>
-      :start-after: <line of code>
-      :end-before: <line of code>
       :language: <language>
       :copyable: <boolean>
+      :start-after: <line of code>
+      :end-before: <line of code>
+      :linenos:
+      :lineno-start: <line number>
+      :emphasize-lines: <line numbers>
       :caption: <caption>
       :dedent: <number>
-      :emphasize-lines: <line numbers>
-      :lineno-start: <line number>
-      :linenos:
 
 Options
 ~~~~~~~
 
 .. list-table::
 
-   * - ``<language>``
+   * - ``<file path>``
+     - **Required.** The path to the file in the repository that contains the code you
+       want to show.
+
+       **Default:** None
+
+   * - ``:language: <language>``
      - The language to use for syntax highlighting. 
        
        For a complete list of supported languages, see the
@@ -345,61 +351,68 @@ Options
 
        **Default:** None
  
-   * - ``copyable: <boolean>``
+   * - ``:copyable: <boolean>``
      - Whether to show the Copy button for the code sample.
 
        **Default:** ``true``
 
-   * - ``start-after: <line of code>``
-     - The line of code before the line where the extract should begin.
+   * - ``:start-after: <line of code>``
+     - The line of code before the first line that you want to include in the sample.
 
-       **Default:** Start at beginning of file
+       **Default:** Beginning of file
    
-   * - ``end-before: <line of code>``
-     - The line of code after the line where the extract should end.
+   * - ``:end-before: <line of code>``
+     - The line of code after the last line that you want to include in the sample.
 
-       **Default:** Finish at end of file
+       **Default:** End of file
 
-   * - ``emphasize-lines: <lines>``
-     - Lines to highlight for the code sample. You can specify a range 
-       of lines, individual lines, or both.
-
-       **Default:** None
-
-   * - ``linenos``
+   * - ``:linenos:``
      - Shows line numbers for the code sample.
 
        **Default:** None
-  
-   * - ``caption: <caption text>``
+ 
+   * - ``:lineno-start:``
+     - The number at which to start line numbering. This option requires the
+       ``:linenos:`` option.
+
+       **Default:** 1
+
+   * - ``:emphasize-lines: <line number>``
+     - Lines to highlight for the code sample. You can specify a range 
+       of line numbers, individual line numbers, or both.
+
+       **Default:** None
+ 
+   * - ``:caption: <caption text>``
      - The caption for the code sample.
 
        **Default:** None
 
-   * - ``dedent: <number>``
-     - The number of spaces to remove from the beginning of the line. Use this option
-       if the code you want to show is indented. 
+   * - ``:dedent: <number of spaces>``
+     - The number of spaces to remove from the beginning of each line of code.
+       Use this option if the code you want to show is indented in the code file.
 
        **Default:** None 
-
-   * - ``lineno-start``
-     - The number where line numbering should start. This option does nothing without the ``:linenos:`` option.
-
-       **Default:** None
 
 Example 1
 ~~~~~~~~~
 
-Suppose a Python file looks like this:
+Suppose you want to include samples from the following Python file in a docs page:
 
 .. literalinclude:: /includes/python-sample.py
+   :language: python
 
-This sample starts at the beginning of the file and ends before the line that reads,
-``print("...but this line won't.")``: 
+The following ``literalinclude`` directive starts with the first line of the file and
+ends before the line that reads ``print("...but this line won't.")``: 
 
 .. code-block::
-   
-The previous ``literalinclude`` renders the following output:
+ 
+   .. literalinclude:: /includes/python-sample.py
+      :copyable: false
+      :end-before: print("...but this line won't.")
+      :caption: Sample Python code from another file
+  
+The previous ``literalinclude`` directive creates the following output:
 
 .. literalinclude:: /includes/python-sample.py
    :copyable: false
@@ -409,33 +422,34 @@ The previous ``literalinclude`` renders the following output:
 Example 2
 ~~~~~~~~~
 
-You can use comments to mark the starting and ending points of a code sample.
-This is useful if you need to extract multiple samples from the same file while
-avoiding ambiguity. You also won't need to update the docs if the code changes.
+You can use comments to mark the points where the ``literalinclude`` directive
+starts and finishes pulling in code.
+By using comments instead of code, you can unambiguously specify the start and end of
+the code sample, regardless of how many samples you're pulling in from the file.
+You also won't need to update the directive if the extracted code changes.
 
-This sample uses dedent to remove the spaces at the beginning of these lines, which
-are indented inside a function in the original code file.
-
-.. rebuidl docs after code change?
+In the Python file in the previous example, the code inside ``sample_function()`` is
+indented two spaces. The following ``literalinclude`` directive uses the ``:dedent:``
+option to remove these spaces:
 
 .. code-block::
 
    .. code-block:: python
 
       .. literalinclude:: /includes/python-sample.py
-         :dedent: 2
-         :start-after: # start-python-sample
-         :end-before: # end-python sample
+         :start-after: # start-function-sample
+         :end-before: # end-function-sample
          :linenos:
          :lineno-start: 9 
+         :dedent: 2
 
-The previous ``code-block`` renders the following output:
+The previous directive creates the following output:
 
 .. code-block:: python
 
    .. literalinclude:: /includes/python-sample.py
-      :dedent: 2
-      :start-after: # start-python-sample
-      :end-before: # end-python-sample
+      :start-after: # start-function-sample
+      :end-before: # end-function-sample
       :linenos:
       :lineno-start: 9 
+      :dedent: 2
