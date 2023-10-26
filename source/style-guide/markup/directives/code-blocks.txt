@@ -350,15 +350,15 @@ Options
 
         **Default:** ``true``
 
-   * - ``start-after: <line number>``
+   * - ``start-after: <line of code>``
      -  Whether to show the Copy button for the code sample.
 
-        **Default:** ``true``
+        **Default:** None
    
-   * - ``end-before: <line number>``
+   * - ``end-before: <line of code>``
      -  Whether to show the Copy button for the code sample.
 
-        **Default:** ``true``
+        **Default:** None
 
    * - ``emphasize-lines: <lines>``
      - Lines to highlight for the code sample. You can specify a range 
@@ -372,17 +372,18 @@ Options
        **Default:** None
   
    * - ``caption: <caption text>``
-     -  The caption for the code sample.
+     - The caption for the code sample.
 
-        **Default:** None
+       **Default:** None
 
    * - ``dedent: <number>``
-     - 
+     - The number of spaces to remove from the beginning of the line. Use this option
+       if the code you want to show is indented. 
 
-        **Default:** None 
+       **Default:** None 
 
    * - ``lineno-start``
-     - This option does nothing without the ``:linenos:`` option.
+     - The number where line numbering should start. This option does nothing without the ``:linenos:`` option.
 
        **Default:** None
 
@@ -395,8 +396,9 @@ The previous ``literalinclude`` renders the following output:
 
 .. literalinclude:: /includes/python-sample.py
    :lineno-start: 3
-   :dedent: 8
+   :dedent: 0
    :linenos:
+   :start-after: print("Hello Docs team!") 
 
 Example 2
 ~~~~~~~~~
