@@ -292,7 +292,6 @@ full source file on the right of the code sample.
 
 .. io-code-block::
    :source: https://github.com/mongodb/docs-node/blob/0cf95d4eac536ed0ae1a2085948dd98f24ac48af/source/quick-reference.txt#L473
-   :copyable: true
 
    .. input::
       :language: javascript
