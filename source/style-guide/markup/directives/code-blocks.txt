@@ -312,23 +312,16 @@ full source file on the right of the code sample.
 Literal Includes
 ----------------
 
-The ``literalinclude`` directive formats a code sample written within the
-directive.
+The ``literalinclude`` directive formats a code sample pulled in from another file.
+This directive is helpful if you need to maintain a separate file that includes the code
+or if you need to display the same code sample in more than one place.
 
 Syntax
 ~~~~~~
 
 .. code-block::
 
-   .. code-block:: <language>
-      :copyable: <boolean>
-      :emphasize-lines: <line numbers>
-      :linenos:
-      :caption: <caption text>
-      :class: <css class>
-      :source: <url>
-
-      <code sample>
+   .. literalinclude:: <file path> 
 
 Options
 ~~~~~~~
@@ -382,31 +375,9 @@ Example 1
 
 .. code-block::
    
-   .. code-block:: python
-      :linenos:
-      :copyable: true
-      :emphasize-lines: 1, 4-5
-      :caption: An example Python code block
+The previous ``literalinclude`` renders the following output:
 
-      print("Hello Docs team!") 
-      print("This is Python code...") 
-      print("...inside a code-block.")
-      print("The line numbers are over here <-")
-      print("And the Copy button is over there ->")
-
-The previous ``code-block`` renders the following output:
-
-.. code-block:: python
-   :linenos:
-   :copyable: true
-   :emphasize-lines: 1, 4-5
-   :caption: An example Python code block
-
-   print("Hello Docs team!") 
-   print("This is Python code...") 
-   print("...inside a code-block.")
-   print("The line numbers are over here <-")
-   print("And the Copy button is over there ->")
+.. literalinclude:: /includes/python-sample.py
 
 Example 2
 ~~~~~~~~~
