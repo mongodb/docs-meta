@@ -41,7 +41,7 @@ Options
    * - ``<language>``
      - **Optional.** The language to use for syntax highlighting. 
        
-       For a complete list of directive options, including supported languages, see the
+       For a complete list of supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
 
        **Default:** None
@@ -68,7 +68,7 @@ Options
         **Default:** None
 
    * - ``class: <css class>``
-     -  **Optional.** Extra CSS styling to add to the code sample.
+     -  **Optional.** A CSS class to add to the code sample.
 
         **Default:** None 
 
@@ -137,7 +137,7 @@ full source file to the right of the code sample.
 I/O Code Blocks
 ---------------
 
-The ``io-code-block`` directive formats a code sample written below the directive, but
+The ``io-code-block`` directive formats a code sample written within the directive, but
 also displays a second window for the output of the code sample.
 
 Syntax
@@ -153,11 +153,15 @@ Syntax
       
       .. input::
          :language: <input language>
+         :emphasize-lines: <line numbers>
+         :linenos:
 
          <input code>
 
       .. output::
          :language: <output language>
+         :emphasize-lines: <line numbers>
+         :linenos:
          :visible: <boolean>
 
          <output code>
@@ -176,7 +180,7 @@ Options
      - **Optional.** The language to use for syntax highlighting. You can specify
        different languages for the input and output code. 
        
-       For a complete list of directive options, including supported languages, see the
+       For a complete list of supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
 
        **Default:** No syntax highlighting
@@ -191,16 +195,22 @@ Options
        of lines, individual lines, or both.
 
        **Default:** No highlighting
+   
+   * - ``visible: <boolean>``
+     - **Optional.** Whether the output code begins visible. If ``false``, the user 
+       must click a button to see the output.
+
+       **Default:** ``true``
 
    * - ``caption: <caption text>``
-     -  **Optional.** The caption for the code sample.
+     - **Optional.** The caption for the code sample.
 
-        **Default:** None
+       **Default:** None
 
    * - ``class: <css class>``
-     -  **Optional.** Extra CSS styling to add to the code sample.
+     - **Optional.** A CSS class to add to the code sample.
 
-        **Default:** None 
+       **Default:** None 
 
    * - ``source``
      - **Optional.** The URL of the full code file. This option adds a link to the 
@@ -215,7 +225,6 @@ Example 1
 
    .. io-code-block::
       :copyable: true
-      :linenos:
       :caption: An example Python code block with output
 
       .. input::
@@ -226,13 +235,36 @@ Example 1
          print("Hello Docs team!") 
          print("This is Python code...") 
          print("...inside an io-code-block.")
-         print("The line numbers are over here <-")
-         print("And the Copy button is over there ->")
 
       .. output::
          :language: shell
          :emphasize-lines: 1
          :linenos:
-         :visible: true
+         :visible: false
 
-         <output code> 
+         "Hello Docs team!"
+         "This is Python code..."
+         "...inside an io-code-block."
+
+.. io-code-block::
+   :copyable: true
+   :caption: An example Python code block with output
+
+   .. input::
+      :language: python
+      :emphasize-lines: 1
+      :linenos:
+
+      print("Hello Docs team!") 
+      print("This is Python code...") 
+      print("...inside an io-code-block.")
+
+   .. output::
+      :language: shell
+      :emphasize-lines: 1
+      :linenos:
+      :visible: false
+
+      "Hello Docs team!"
+      "This is Python code..."
+      "...inside an io-code-block."
