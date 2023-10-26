@@ -73,7 +73,8 @@ Options
 
    * - ``source``
      - **Optional.** The URL of the full code file. This option adds a link to the 
-       specified URL on the right side of the code sample.
+       specified URL on the right side of the code sample. If you specify
+       ``copyable: false``, the source link will not be displayed.
 
        **Default:** None
 
@@ -126,7 +127,6 @@ full source file to the right of the code sample.
 
 .. code-block:: python
       :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
-      :copyable: false
 
       html_theme = sconf.theme.name
       html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
@@ -275,7 +275,8 @@ Example 2
    
    .. io-code-block::
       :source: https://github.com/mongodb/docs-node/blob/0cf95d4eac536ed0ae1a2085948dd98f24ac48af/source/quick-reference.txt#L473
-     
+      :copyable: true
+
       .. input::
          :language: javascript
          
@@ -293,6 +294,7 @@ full source file on the right of the code sample.
 
 .. io-code-block::
    :source: https://github.com/mongodb/docs-node/blob/0cf95d4eac536ed0ae1a2085948dd98f24ac48af/source/quick-reference.txt#L473
+   :copyable: true
 
    .. input::
       :language: javascript
