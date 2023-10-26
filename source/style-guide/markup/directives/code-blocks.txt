@@ -38,7 +38,7 @@ Options
 .. list-table::
 
    * - ``<language>``
-     - **Optional.** The language to use for syntax highlighting. 
+     - The language to use for syntax highlighting. 
        
        For a complete list of supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
@@ -46,33 +46,33 @@ Options
        **Default:** None
  
    * - ``copyable: <boolean>``
-     -  **Optional.** Whether to show the Copy button for the code sample.
+     -  Whether to show the Copy button for the code sample.
 
         **Default:** ``true``
 
    * - ``emphasize-lines: <lines>``
-     - **Optional.** Lines to highlight for the code sample. You can specify a range 
+     - Lines to highlight for the code sample. You can specify a range 
        of lines, individual lines, or both.
 
        **Default:** None
 
    * - ``linenos``
-     - **Optional.** Shows line numbers for the code sample.
+     - Shows line numbers for the code sample.
 
        **Default:** None
   
    * - ``caption: <caption text>``
-     -  **Optional.** The caption for the code sample.
+     -  The caption for the code sample.
 
         **Default:** None
 
    * - ``class: <css class>``
-     -  **Optional.** A CSS class to apply to the code sample.
+     -  A CSS class to apply to the code sample.
 
         **Default:** None 
 
    * - ``source``
-     - **Optional.** The URL of the full code file. This option adds a link to the 
+     - The URL of the full code file. This option adds a link to the 
        specified URL on the right side of the code sample. You must also specify
        ``copyable: true`` (or omit the ``copyable`` option) in order for this option
        to work.
@@ -172,12 +172,12 @@ Options
 .. list-table::
 
    * - ``copyable: <boolean>``
-     -  **Optional.** Whether to show the Copy button for the input code.
+     -  Whether to show the Copy button for the input code.
    
         **Default:** ``false``
    
    * - ``:language:``
-     - **Optional.** The language to use for syntax highlighting. You can specify
+     - The language to use for syntax highlighting. You can specify
        different languages for the input and output code. 
        
        For a complete list of supported languages, see the
@@ -186,34 +186,34 @@ Options
        **Default:** No syntax highlighting
 
    * - ``linenos``
-     - **Optional.** Shows line numbers for the code sample.
+     - Shows line numbers for the code sample.
 
        **Default:** No line numbers
 
    * - ``emphasize-lines: <lines>``
-     - **Optional.** Lines to highlight for the code sample. You can specify a range 
+     - Lines to highlight for the code sample. You can specify a range 
        of lines, individual lines, or both.
 
        **Default:** No highlighting
    
    * - ``visible: <boolean>``
-     - **Optional.** Whether the output code begins visible. If ``false``, the user 
+     - Whether the output code begins visible. If ``false``, the user 
        must click a button to see the output.
 
        **Default:** ``true``
 
    * - ``caption: <caption text>``
-     - **Optional.** The caption for the code sample.
+     - The caption for the code sample.
 
        **Default:** None
 
    * - ``class: <css class>``
-     - **Optional.** A CSS class to apply to the code sample.
+     - A CSS class to apply to the code sample.
 
        **Default:** None 
 
    * - ``source``
-     - **Optional.** The URL of the full code file. This option adds a link to the 
+     - The URL of the full code file. This option adds a link to the 
        specified URL on the right side of the code sample. You must also specify
        ``copyable: true`` in order for this option to work.
        
@@ -321,7 +321,16 @@ Syntax
 
 .. code-block::
 
-   .. literalinclude:: <file path> 
+   .. literalinclude:: <file path>
+      :start-after: <line of code>
+      :end-before: <line of code>
+      :language: <language>
+      :copyable: <boolean>
+      :caption: <caption>
+      :dedent: <number>
+      :emphasize-lines: <line numbers>
+      :lineno-start: <line number>
+      :linenos:
 
 Options
 ~~~~~~~
@@ -329,7 +338,7 @@ Options
 .. list-table::
 
    * - ``<language>``
-     - **Optional.** The language to use for syntax highlighting. 
+     - The language to use for syntax highlighting. 
        
        For a complete list of supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
@@ -337,36 +346,43 @@ Options
        **Default:** None
  
    * - ``copyable: <boolean>``
-     -  **Optional.** Whether to show the Copy button for the code sample.
+     -  Whether to show the Copy button for the code sample.
+
+        **Default:** ``true``
+
+   * - ``start-after: <line number>``
+     -  Whether to show the Copy button for the code sample.
+
+        **Default:** ``true``
+   
+   * - ``end-before: <line number>``
+     -  Whether to show the Copy button for the code sample.
 
         **Default:** ``true``
 
    * - ``emphasize-lines: <lines>``
-     - **Optional.** Lines to highlight for the code sample. You can specify a range 
+     - Lines to highlight for the code sample. You can specify a range 
        of lines, individual lines, or both.
 
        **Default:** None
 
    * - ``linenos``
-     - **Optional.** Shows line numbers for the code sample.
+     - Shows line numbers for the code sample.
 
        **Default:** None
   
    * - ``caption: <caption text>``
-     -  **Optional.** The caption for the code sample.
+     -  The caption for the code sample.
 
         **Default:** None
 
-   * - ``class: <css class>``
-     -  **Optional.** A CSS class to apply to the code sample.
+   * - ``dedent: <number>``
+     - 
 
         **Default:** None 
 
-   * - ``source``
-     - **Optional.** The URL of the full code file. This option adds a link to the 
-       specified URL on the right side of the code sample. You must also specify
-       ``copyable: true`` (or omit the ``copyable`` option) in order for this option
-       to work.
+   * - ``lineno-start``
+     - The URL of the full code file. This option adds a link to the 
 
        **Default:** None
 
@@ -378,6 +394,8 @@ Example 1
 The previous ``literalinclude`` renders the following output:
 
 .. literalinclude:: /includes/python-sample.py
+   :lineno-start: 3
+   :dedent: 4
 
 Example 2
 ~~~~~~~~~
