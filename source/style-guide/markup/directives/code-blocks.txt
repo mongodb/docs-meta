@@ -98,7 +98,6 @@ The previous ``code-block`` renders the following output:
 
 .. code-block:: python
    :linenos:
-   :copyable: true
    :emphasize-lines: 1, 4-5
    :caption: An example Python code block
    :class: mw-custom-class
@@ -173,7 +172,7 @@ Options
    * - ``copyable: <boolean>``
      -  **Optional.** Whether to show the Copy button for the input code.
    
-        **Default:** ``true``
+        **Default:** ``false``
    
    * - ``:language:``
      - **Optional.** The language to use for syntax highlighting. You can specify
@@ -213,7 +212,8 @@ Options
 
    * - ``source``
      - **Optional.** The URL of the full code file. This option adds a link to the 
-       specified URL on the right side of the code sample.
+       specified URL on the right side of the code sample. You must also specify
+       ``copyable: true`` in order for this option to work.
        
        **Default:** None
 
