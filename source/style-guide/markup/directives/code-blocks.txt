@@ -298,7 +298,6 @@ full source file on the right of the code sample.
       :language: javascript
          
       coll.find({ $text: { $search: 'zissou' } });
-      coll.find({ $text: { $search: 'zissou' } });
 
    .. output::
       :language: javascript
