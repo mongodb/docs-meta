@@ -2,8 +2,7 @@
 Code Examples
 =============
 
-As needed, use the appropriate language option for code blocks directives
-including the following directives:
+Snooty supports three directives for including code samples in a docs page:
 
 - ``code-block``
 - ``io-code-block``
@@ -74,7 +73,7 @@ Options
 
    * - ``source``
      - **Optional.** The URL of the full code file. This option adds a link to the 
-       right of the code sample.
+       specified URL on the right side of the code sample.
 
        **Default:** None
 
@@ -88,6 +87,8 @@ Example 1
       :copyable: true
       :emphasize-lines: 1, 4-5
       :caption: An example Python code block
+
+      .. include:: /includes/python-test.py
 
       print("Hello Docs team!") 
       print("This is Python code...") 
@@ -214,8 +215,8 @@ Options
 
    * - ``source``
      - **Optional.** The URL of the full code file. This option adds a link to the 
-       right of the code sample.
-
+       specified URL on the right side of the code sample.
+       
        **Default:** None
 
 Example 1
@@ -263,7 +264,6 @@ Example 1
       :language: shell
       :emphasize-lines: 1
       :linenos:
-      :visible: false
 
       "Hello Docs team!"
       "This is Python code..."
