@@ -67,7 +67,7 @@ Options
         **Default:** None
 
    * - ``class: <css class>``
-     -  **Optional.** A CSS class to add to the code sample.
+     -  **Optional.** A CSS class to apply to the code sample.
 
         **Default:** None 
 
@@ -87,8 +87,6 @@ Example 1
       :copyable: true
       :emphasize-lines: 1, 4-5
       :caption: An example Python code block
-
-      .. include:: /includes/python-test.py
 
       print("Hello Docs team!") 
       print("This is Python code...") 
@@ -116,7 +114,7 @@ Example 2
 
 .. code-block::
    
-   .. code-block:: typescript
+   .. code-block:: python
       :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
 
       html_theme = sconf.theme.name
@@ -127,7 +125,7 @@ Example 2
 The previous ``code-block`` renders the following output. Notice the link to the
 full source file to the right of the code sample.
 
-.. code-block:: typescript
+.. code-block:: python
       :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
 
       html_theme = sconf.theme.name
@@ -187,12 +185,12 @@ Options
        **Default:** No syntax highlighting
 
    * - ``linenos``
-     - **Optional.** Shows line numbers for this code sample. Input/output
+     - **Optional.** Shows line numbers for the code sample.
 
        **Default:** No line numbers
 
    * - ``emphasize-lines: <lines>``
-     - **Optional.** Lines to highlight for this code sample. You can specify a range 
+     - **Optional.** Lines to highlight for the code sample. You can specify a range 
        of lines, individual lines, or both.
 
        **Default:** No highlighting
@@ -209,7 +207,7 @@ Options
        **Default:** None
 
    * - ``class: <css class>``
-     - **Optional.** A CSS class to add to the code sample.
+     - **Optional.** A CSS class to apply to the code sample.
 
        **Default:** None 
 
@@ -268,3 +266,41 @@ Example 1
       "Hello Docs team!"
       "This is Python code..."
       "...inside an io-code-block."
+
+Example 2
+~~~~~~~~~
+
+.. code-block::
+   
+   .. io-code-block::
+      :source: https://github.com/mongodb/docs-node/blob/0cf95d4eac536ed0ae1a2085948dd98f24ac48af/source/quick-reference.txt#L473
+     
+      .. input::
+         :language: javascript
+         
+         coll.find({ $text: { $search: 'zissou' } });
+
+      .. output::
+         :language: shell
+
+         [
+             { title: 'The Life Aquatic with Steve Zissou', ... }
+         ]
+
+The previous ``io-code-block`` renders the following output. Notice the link to the
+full source file on the right of the code sample.
+
+.. io-code-block::
+   :source: https://github.com/mongodb/docs-node/blob/0cf95d4eac536ed0ae1a2085948dd98f24ac48af/source/quick-reference.txt#L473
+     
+   .. input::
+      :language: javascript
+         
+      coll.find({ $text: { $search: 'zissou' } });
+
+   .. output::
+      :language: javascript
+
+      [
+          { title: 'The Life Aquatic with Steve Zissou', ... }
+      ]
