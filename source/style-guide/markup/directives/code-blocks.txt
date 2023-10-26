@@ -382,7 +382,7 @@ Options
         **Default:** None 
 
    * - ``lineno-start``
-     - The URL of the full code file. This option adds a link to the 
+     - This option does nothing without the ``:linenos:`` option.
 
        **Default:** None
 
@@ -395,7 +395,8 @@ The previous ``literalinclude`` renders the following output:
 
 .. literalinclude:: /includes/python-sample.py
    :lineno-start: 3
-   :dedent: 4
+   :dedent: 8
+   :linenos:
 
 Example 2
 ~~~~~~~~~
