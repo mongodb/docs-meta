@@ -436,6 +436,6 @@ The previous ``code-block`` renders the following output:
    .. literalinclude:: /includes/python-sample.py
       :dedent: 2
       :start-after: # start-python-sample
-      :end-before: # end-python sample
+      :end-before: # end-python-sample
       :linenos:
       :lineno-start: 9 
