@@ -73,7 +73,8 @@ Options
         **Default:** None 
 
    * - ``source``
-     - **Optional.** The URL of the full code file.
+     - **Optional.** The URL of the full code file. This option adds a link to the 
+       right of the code sample.
 
        **Default:** None
 
@@ -101,6 +102,7 @@ The previous ``code-block`` renders the following output:
    :copyable: true
    :emphasize-lines: 1, 4-5
    :caption: An example Python code block
+   :class: mw-custom-class
 
    print("Hello Docs team!") 
    print("This is Python code...") 
@@ -145,7 +147,10 @@ Syntax
 
    .. io-code-block::
       :copyable: <boolean>
-
+      :caption: <caption text>
+      :class: <css class>
+      :source: <url>
+      
       .. input::
          :language: <input language>
 
@@ -187,16 +192,31 @@ Options
 
        **Default:** No highlighting
 
-.. todo: caption, class, source
+   * - ``caption: <caption text>``
+     -  **Optional.** The caption for the code sample.
 
-Example
-~~~~~~~
+        **Default:** None
+
+   * - ``class: <css class>``
+     -  **Optional.** Extra CSS styling to add to the code sample.
+
+        **Default:** None 
+
+   * - ``source``
+     - **Optional.** The URL of the full code file. This option adds a link to the 
+       right of the code sample.
+
+       **Default:** None
+
+Example 1
+~~~~~~~~~
 
 .. code-block::
 
    .. io-code-block::
       :copyable: true
       :linenos:
+      :caption: An example Python code block with output
 
       .. input::
          :language: python
@@ -205,7 +225,7 @@ Example
 
          print("Hello Docs team!") 
          print("This is Python code...") 
-         print("...inside a code-block.")
+         print("...inside an io-code-block.")
          print("The line numbers are over here <-")
          print("And the Copy button is over there ->")
 
