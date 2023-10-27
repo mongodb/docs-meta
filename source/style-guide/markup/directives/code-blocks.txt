@@ -439,22 +439,19 @@ option to remove these spaces:
 
 .. code-block::
 
-   .. code-block:: python
-
-      .. literalinclude:: /includes/python-sample.py
-         :start-after: # start-function-sample
-         :end-before: # end-function-sample
-         :linenos:
-         :lineno-start: 9 
-         :dedent: 2
-
-The previous directive creates the following output:
-
-.. code-block:: python
-
    .. literalinclude:: /includes/python-sample.py
       :start-after: # start-function-sample
       :end-before: # end-function-sample
       :linenos:
       :lineno-start: 9 
       :dedent: 2
+
+The previous directive creates the following output:
+
+
+.. literalinclude:: /includes/python-sample.py
+   :start-after: # start-function-sample
+   :end-before: # end-function-sample
+   :linenos:
+   :lineno-start: 9 
+   :dedent: 2
