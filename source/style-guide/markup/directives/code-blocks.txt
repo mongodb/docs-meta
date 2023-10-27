@@ -316,6 +316,11 @@ The ``literalinclude`` directive formats a code sample pulled in from another fi
 This directive is helpful if you need to keep the code in a separate file
 or if you need to display the same code sample in more than one place.
 
+.. note::  include vs. literalinclude
+
+   Use the ``include`` directive to include an ``rst`` file in the docs. Use the
+   ``literalinclude`` directive to include a code file in the docs.
+
 Syntax
 ~~~~~~
 
