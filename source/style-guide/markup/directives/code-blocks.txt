@@ -27,7 +27,6 @@ Syntax
       :emphasize-lines: <line numbers>
       :linenos:
       :caption: <caption text>
-      :class: <css class>
       :source: <url>
 
       <code sample>
@@ -63,11 +62,6 @@ Options
   
    * - ``:caption: <caption text>``
      -  The caption for the code sample.
-
-        **Default:** None
-
-   * - ``:class: <css class>``
-     -  A CSS class to apply to the code sample.
 
         **Default:** None 
 
@@ -148,7 +142,6 @@ Syntax
    .. io-code-block::
       :copyable: <boolean>
       :caption: <caption text>
-      :class: <css class>
       :source: <url>
       
       .. input::
@@ -206,11 +199,6 @@ Options
      - The caption for the code sample.
 
        **Default:** None
-
-   * - ``:class: <css class>``
-     - A CSS class to apply to the code sample.
-
-       **Default:** None 
 
    * - ``:source: <url>``
      - The URL of the code file. This option adds a link to the 
