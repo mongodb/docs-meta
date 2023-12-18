@@ -2,20 +2,25 @@
 Code Examples
 =============
 
-Snooty supports three directives for including code samples in a docs page:
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+Snooty supports the following directives for code samples:
 
 - ``code-block``
 - ``io-code-block``
 - ``literalinclude``
 
-These directives feature a monospace font and syntax highlighting that makes the
-source code contained in them easier to interpret.
+These directives feature a monospace font and syntax highlighting that makes
+source code easier to interpret.
 
 Code Blocks
 -----------
 
-The ``code-block`` directive formats a code sample written beneath the
-directive.
+The ``code-block`` directive formats a code sample with the following options.
 
 Syntax
 ~~~~~~
@@ -37,7 +42,7 @@ Options
 .. list-table::
 
    * - ``<language>``
-     - The language to use for syntax highlighting. 
+     - Language to use for syntax highlighting. 
        
        For a complete list of supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
@@ -45,29 +50,28 @@ Options
        **Default:** None
  
    * - ``:copyable: <boolean>``
-     -  Whether to show the Copy button for the code sample.
+     - Option that indicates whether to show the :guilabel:`copy button`.
 
-        **Default:** ``true``
+       **Default:** ``true``
 
    * - ``:emphasize-lines: <line number>``
-     - Lines to highlight for the code sample. You can specify a range 
+     - Lines to highlight. You can specify a range 
        of line numbers, individual line numbers, or both.
 
        **Default:** None
 
-   * - ``:linenos``
-     - Shows line numbers for the code sample.
+   * - ``:linenos:``
+     - Option that indicates whether to show line numbers.
 
        **Default:** None
   
    * - ``:caption: <caption text>``
-     -  The caption for the code sample.
+     - Brief description.
 
-        **Default:** None 
+       **Default:** None 
 
    * - ``:source: <url>``
-     - The URL of the code file. This option adds a link to the 
-       specified URL on the right side of the code sample.
+     - Option that indicates whether to show the :guilabel:source button.
        
        You must also specify ``:copyable: true`` (or omit the ``:copyable:`` option)
        for this option to work.
@@ -89,7 +93,7 @@ Example 1
       print("This is Python code...") 
       print("...inside a code-block.")
       print("The line numbers are over here <-")
-      print("And the Copy button is over there ->")
+      print("And the copy button is over there ->")
 
 The previous ``code-block`` directive creates the following output:
 
@@ -103,7 +107,7 @@ The previous ``code-block`` directive creates the following output:
    print("This is Python code...") 
    print("...inside a code-block.")
    print("The line numbers are over here <-")
-   print("And the Copy button is over there ->")
+   print("And the copy button is over there ->")
 
 Example 2
 ~~~~~~~~~
@@ -165,12 +169,12 @@ Options
 .. list-table::
 
    * - ``:copyable: <boolean>``
-     -  Whether to show the Copy button for the input code.
+     -  Whether to show the :guilabel:`copy button` for the input code.
    
         **Default:** ``false``
    
    * - ``:language:``
-     - The language to use for syntax highlighting. You can specify
+     - Language to use for syntax highlighting. You can specify
        different languages for the input and output code. 
        
        For a complete list of supported languages, see the
@@ -179,12 +183,12 @@ Options
        **Default:** None
 
    * - ``:linenos:``
-     - Shows line numbers for the code sample.
+     - Option that indicates whether to show line numbers.
 
        **Default:** None
 
    * - ``:emphasize-lines: <line number>``
-     - Lines to highlight for the code sample. You can specify a range 
+     - Lines to highlight. You can specify a range 
        of line numbers, individual line numbers, or both.
 
        **Default:** None
@@ -196,12 +200,12 @@ Options
        **Default:** ``true``
 
    * - ``:caption: <caption text>``
-     - The caption for the code sample.
+     - Brief description.
 
        **Default:** None
 
    * - ``:source: <url>``
-     - The URL of the code file. This option adds a link to the 
+     - URL of the code file. This option adds a link to the 
        specified URL on the right side of the code sample.
        
        You must also specify ``copyable: true`` for this option to work.
@@ -337,7 +341,7 @@ Options
        **Default:** None
 
    * - ``:language: <language>``
-     - The language to use for syntax highlighting. 
+     - Language to use for syntax highlighting. 
        
        For a complete list of supported languages, see the
        `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
@@ -345,44 +349,44 @@ Options
        **Default:** None
  
    * - ``:copyable: <boolean>``
-     - Whether to show the Copy button for the code sample.
+     - Whether to show the :guilabel:`copy button` for the code sample.
 
        **Default:** ``true``
 
    * - ``:start-after: <line of code>``
-     - The line of code before the first line that you want to include in the sample.
+     - Line of code before the first line that you want to include in the sample.
 
        **Default:** Beginning of file
    
    * - ``:end-before: <line of code>``
-     - The line of code after the last line that you want to include in the sample.
+     - Line of code after the last line that you want to include in the sample.
 
        **Default:** End of file
 
    * - ``:linenos:``
-     - Shows line numbers for the code sample.
+     - Option that indicates whether to show line numbers.
 
        **Default:** None
  
    * - ``:lineno-start:``
-     - The number at which to start line numbering. This option requires the
+     - Number at which to start line numbering. This option requires the
        ``:linenos:`` option.
 
        **Default:** 1
 
    * - ``:emphasize-lines: <line number>``
-     - Lines to highlight for the code sample. You can specify a range 
+     - Lines to highlight. You can specify a range 
        of line numbers, individual line numbers, or both.
 
        **Default:** None
  
    * - ``:caption: <caption text>``
-     - The caption for the code sample.
+     - Brief description.
 
        **Default:** None
 
    * - ``:dedent: <number of spaces>``
-     - The number of spaces to remove from the beginning of each line of code.
+     - Number of spaces to remove from the beginning of each line of code.
        Use this option if the code you want to show is indented in the code file.
 
        **Default:** None 
