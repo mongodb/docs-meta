@@ -129,10 +129,10 @@ The previous ``code-block`` directive creates the following output:
 .. code-block:: python
    :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
 
-      html_theme = sconf.theme.name
-      html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
-      html_title = conf.project.title
-      htmlhelp_basename = 'MongoDBdoc'
+   html_theme = sconf.theme.name
+   html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
+   html_title = conf.project.title
+   htmlhelp_basename = 'MongoDBdoc'
 
 I/O Code Blocks
 ---------------
@@ -310,8 +310,8 @@ The previous ``io-code-block`` directive creates the following output:
 Literal Includes
 ----------------
 
-The ``literalinclude`` directive includes and formats a code example from a file that you
-specify.
+The ``literalinclude`` directive includes and formats a code example from another file.
+You can specify the comments or other lines of code on which to start and end the example.
 This directive allows you to maintain the code in a separate single file and display the
 same code example in multiple places.
 
@@ -350,7 +350,7 @@ Options
      - Language to use for syntax highlighting. 
        
        For a complete list of supported languages, see the
-       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
+       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/blob/main/packages/code/src/languages.ts>`__
 
        **Default:** None
  
@@ -377,8 +377,8 @@ Options
      - Line of code after the last line to include in the sample.
 
        You can use a comment to mark the point where the ``literalinclude`` directive
-       stops including code. If you do, omit the comment marker (``#`` or ``//``) from
-       the attribute value.
+       stops including code. If you do, you can omit the comment marker (``#`` or ``//``)
+       from the attribute value.
        
        By using comments, you can unambiguously
        specify the end of the code sample, regardless of how many examples you're
@@ -450,8 +450,8 @@ option to remove these spaces:
 .. code-block::
 
    .. literalinclude:: /includes/python-sample.py
-      :start-after: # start-function-sample
-      :end-before: # end-function-sample
+      :start-after: start-function-sample
+      :end-before: end-function-sample
       :linenos:
       :lineno-start: 9 
       :dedent: 2
@@ -460,8 +460,8 @@ The previous directive creates the following output:
 
 
 .. literalinclude:: /includes/python-sample.py
-   :start-after: # start-function-sample
-   :end-before: # end-function-sample
+   :start-after: start-function-sample
+   :end-before: end-function-sample
    :linenos:
    :lineno-start: 9 
    :dedent: 2
