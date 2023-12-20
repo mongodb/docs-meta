@@ -47,7 +47,7 @@ All of the following options are optional.
      - Language to use for syntax highlighting. 
        
        For a complete list of supported languages, see the
-       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
+       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/blob/main/packages/code/src/languages.ts>`__
 
        **Default:** None
  
@@ -184,7 +184,7 @@ All of the following options are optional.
        different languages for the input and output code. 
        
        For a complete list of supported languages, see the
-       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/tree/main/packages/code#properties>`__
+       `leafygreen-ui GitHub repository. <https://github.com/mongodb/leafygreen-ui/blob/main/packages/code/src/languages.ts>`__
 
        **Default:** None
 
