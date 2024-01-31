@@ -8460,6 +8460,10 @@
    * - ``mms-icon-add`` 
      - ``:icon-mms:`add``` 
      - :icon-mms:`add`
+
+   * - ``mms-icon-modify`` 
+     - ``:icon-mms:`modify``` 
+     - :icon-mms:`modify`
                 
    * - ``mms-icon-addcenter`` 
      - ``:icon-mms:`addcenter``` 
