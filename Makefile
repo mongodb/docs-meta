@@ -23,16 +23,6 @@ help: ## Show this help message
 	@echo 'Variables'
 	@printf "  \033[36m%-18s\033[0m %s\n" 'ARGS' 'Arguments to pass to mut-publish'
 
-html: ## Builds this branch's HTML under build/<branch>/html
-	giza make html
-
-clean-html:
-	rm -rf build/${GIT_BRANCH}
-	giza make html
-
-publish: ## Builds this branch's publishable HTML and other artifacts under build/public
-	giza make publish
-
 # - Enter build/<branch>/html, and recurse over each regular file
 #   <basename>/<filename>.
 #   * Upload each to the S3 bucket under <project>/<username>/<basename>/<filename>
