@@ -17,9 +17,8 @@ more, see :ref:`seo-guidelines`.
 
 .. important::
 
-   MongoDB Technical Writers should use the meta keyword tag standards 
-   defined in the `Taxonomy tagging instructions 
-   <https://wiki.corp.mongodb.com/display/DE/Taxonomy+tagging+instructions>`__. 
+   Use the meta keyword tag standards defined in the 
+   `Taxonomy tagging instructions <https://wiki.corp.mongodb.com/display/DE/Taxonomy+tagging+instructions>`__. 
 
 .. code-block:: rst
 

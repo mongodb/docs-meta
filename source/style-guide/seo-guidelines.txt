@@ -7,14 +7,14 @@ Search Engine Optimization Guidelines
 Search Engine Optimization (SEO) considers the actual terms that users 
 enter into search engines (keywords) and employs best practices to 
 improve traffic to web pages from search engines. The following 
-guidance should help you optimize your documentation pages for search.
+guidance helps you to optimize your documentation pages for search.
 
 .. important::
 
-   Our taxonomy efforts also improve findability and increase 
-   relevance for search queries. Our taxonomy comes with its own set of 
-   instructions and best practices. To learn more, see 
-   `Taxonomy tagging instructions 
+   In addition to this guidance, our content taxonomy improves 
+   findability and increases relevance for search queries. To learn 
+   more about the instructions and best practices for our content 
+   taxonomy, see the `Taxonomy tagging instructions 
    <https://wiki.corp.mongodb.com/display/DE/Taxonomy+tagging+instructions>`__. 
 
 Keywords
@@ -26,10 +26,12 @@ You can add the actual terms that users enter into search engines
 .. important::
   
    This guidance makes a distinction between the terms "keywords" and 
-   "keyword meta tags". While keyword meta tags are available, some 
-   search engines might ignore these tags. To learn more, see 
-   :ref:`metadata`. We primaily use keyword meta tags to supplement 
-   our taxonomy.
+   "keyword meta tags". Here "keywords" are popular search terms added 
+   throughout the content body, and "keyword meta tags" are metadata 
+   specified with the ``.. meta::`` directive. While "keyword meta 
+   tags" are available, some search engines might ignore these tags. To 
+   learn more about "keyword meta tags", see :ref:`metadata`. We 
+   primaily use "keyword meta tags" to supplement our taxonomy.
 
 Add keywords according to the following best practices:
 
@@ -40,12 +42,12 @@ Add keywords according to the following best practices:
 
      The target keyword for the `Getting Started with MongoDB Atlas 
      <https://learn.mongodb.com/courses/getting-started-with-mongodb-atlas>`_ University page is 
-     ``MongoDB Atlas Course``.
+     ``MongoDB Atlas course``.
 
-- Don't add keywords so broad that they compete with the product page.
+- Avoid keywords so broad that they compete with the product page.
 
-- Don't add keywords so specific that we miss the actual behavior of 
-  our searchers. For example, add “MongoDB Atlas Course” instead of 
+- Avoid keywords so specific that we miss the actual behavior of 
+  our searchers. For example, add “MongoDB Atlas course” instead of 
   “Getting Started with Atlas Data Platform”.
 
 Titles
@@ -55,8 +57,8 @@ Use the following SEO best practices for page and subsection titles:
 
 - Use a maximum of 70 characters.
 
-- Include target keywords (the actual terms that users 
-  enter into search engines to reach your page).
+- Include target keywords (the most concise form of the information 
+  that the page conveys).
 
 - Avoid excessive or irrelevant words (keyword stuffing).
 
