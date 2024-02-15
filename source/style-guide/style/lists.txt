@@ -40,10 +40,15 @@ guidelines when introducing lists.
 
        .. note::
 
-          Where possible, avoid using fragments to introduce lists. 
-          However, you may use stem sentences to avoid especially 
-          awkward or redundant constructions. Use your best discretion. 
-          Consider accessibility and screen readers.
+          Avoid using a fragment to introduce a list. Users might 
+          find a fragment more difficult to understand than a full 
+          sentence. If a full sentence makes the introduction awkward 
+          or redundant, you may use a stem sentence where the items in 
+          the list complete a full sentence. Consider accessibility and 
+          screen readers because introductory text plays a crucial 
+          role in providing context and navigation cues for individuals 
+          who rely on auditory output. To learn more, see `Section508 
+          <https://www.section508.gov/>`__.
 
      - You can use this product to perform the following tasks:
 
