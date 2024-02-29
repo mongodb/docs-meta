@@ -31,24 +31,28 @@ You can add the actual terms that users enter into search engines
    specified with the ``.. meta::`` directive. While "keyword meta 
    tags" are available, some search engines might ignore these tags. To 
    learn more about "keyword meta tags", see :ref:`metadata`. We 
-   primaily use "keyword meta tags" to supplement our taxonomy.
+   primaily use "keyword meta tags" to supplement our taxonomy. To 
+   learn more about the instructions and best practices for "keyword 
+   meta tags", see the `Taxonomy tagging instructions 
+   <https://wiki.corp.mongodb.com/display/DE/Taxonomy+tagging+instructions>`__.
 
-Add keywords according to the following best practices:
+Add keywords throughout the page copy according to the following best 
+practices:
 
 - Take the most concise form of the information that the page conveys 
   and make that the target keyword.
 
-  .. example::
-
-     The target keyword for the `Getting Started with MongoDB Atlas 
-     <https://learn.mongodb.com/courses/getting-started-with-mongodb-atlas>`_ University page is 
-     ``MongoDB Atlas course``.
-
 - Avoid keywords so broad that they compete with the product page.
 
 - Avoid keywords so specific that we miss the actual behavior of 
-  our searchers. For example, add “MongoDB Atlas course” instead of 
-  “Getting Started with Atlas Data Platform”.
+  our searchers.
+
+.. example::
+
+   If the terms that people search for to try to find a page are 
+   "MongoDB Atlas Course", add that phrase in at least one spot. For 
+   example, use "This MongoDB Atlas course..." instead of "This Getting 
+   Started with Atlas course...".
 
 Titles
 ------
