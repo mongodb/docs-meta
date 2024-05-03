@@ -21,7 +21,7 @@ Keywords
 --------
 
 You can add the actual terms that users enter into search engines 
-(keywords) to the body of your page to improve its SEO.  Google Search Console provides details about the keywords our users enter and can be requested from the IA and SEO teams.  
+(keywords) to the body of your page to improve its SEO.  Google Search Console provides details about the keywords our users enter and you can request this information from the IA and SEO teams.  
 
 .. important::
   
