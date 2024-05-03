@@ -6,7 +6,7 @@ Search Engine Optimization Guidelines
 
 Search Engine Optimization (SEO) considers the actual terms that users 
 enter into search engines (keywords) and employs best practices to 
-improve traffic to web pages from search engines.  Close attention to page metadata and keywords in the page content can improve placement on search results pages.  The following 
+improve traffic to web pages from search engines.  Close attention to page metadata and keywords in the page content can improve page placement in search results.  The following 
 guidance helps you to optimize your documentation pages for search.
 
 .. important::
