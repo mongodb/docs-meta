@@ -91,7 +91,7 @@ Descriptions
 ------------
 
 The description is a snippet that appears under the link in the search 
-results, which is essential for SEO. Write these descriptions according to 
+results and is essential for SEO. Write these descriptions according to 
 the following best practices:
 
 - Use a concise description of the page content that is enticing, if 
