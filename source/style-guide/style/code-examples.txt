@@ -21,7 +21,7 @@ Use the following guidelines when creating code examples:
    - Enclose placeholders in angle brackets.
    - Use lowercase letters for single-word placeholders.
 
-- For large code-blocks, use ``:emphasize-lines:`` to highlight the 
+- For large code examples, use ``:emphasize-lines:`` to highlight the 
   sections most relevant to the user.
 
 -  Follow the conventions of the programming language used and preserve
@@ -116,14 +116,24 @@ Run the Application
    environment variables that you defined to connect to the MongoDB
    container.
 
-   .. code-block:: sh
+   .. io-code-block::
+      :copyable: true
 
-      docker run --detach \
-      --env MONGO_HOST=$MONGO_HOST \ env MONGO_PORT=$MONGO_PORT \ env
-      --MONGO_SSL=$MONGO_SSL \ env MONGO_DATABASE=$MONGO_DATABASE \ env
-      --MONGO_USER=$MONGO_USER \ env MONGO_PASSWORD=$MONGO_PASSWORD \ publish
-      --5000:5000 \
-      guestbook-mongo:1.0
+      .. input::
+         :language: sh
+         :linenos:
+
+         docker run --detach \
+         --env MONGO_HOST=$MONGO_HOST \ env MONGO_PORT=$MONGO_PORT \ env
+         --MONGO_SSL=$MONGO_SSL \ env MONGO_DATABASE=$MONGO_DATABASE \ env
+         --MONGO_USER=$MONGO_USER \ env MONGO_PASSWORD=$MONGO_PASSWORD \ publish
+         --5000:5000 \
+
+      .. output::
+         :language: sh
+         :visible: true
+
+         guestbook-mongo:1.0
 
 #. View the status of the container by using the ``--latest``
    parameter.
