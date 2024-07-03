@@ -18,7 +18,7 @@ Use the following guidelines when creating code examples:
 
 -  Ensure that any placeholder text in code is obvious.
 
-   - Enclose placeholders in angle brackets.
+   - Enclose placeholders in angle brackets or curly braces.
    - Use lowercase letters for single-word placeholders.
 
 - For large code examples, use ``:emphasize-lines:`` to highlight the 
