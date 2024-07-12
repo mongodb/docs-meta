@@ -151,8 +151,8 @@ T
      Use *time zone* as two words.
 
    toggle
-     Use *toggle* for the UI element that switches between two modes, 
-     usually :guilabel:`On` and :guilabel:`Off`.
+     Use *toggle* as a noun for the UI element that switches between 
+     two modes, usually :guilabel:`On` and :guilabel:`Off`.
 
    toolbar
      **toolbox**

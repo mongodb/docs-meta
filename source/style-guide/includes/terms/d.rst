@@ -32,8 +32,8 @@ D
      Use *database* as one word.
 
    date
-     Use *timestamp* instead of *date* wherever applicable to avoid 
-     confusion.
+     :icon-fa4:`times-circle` Use *timestamp* instead of *date* 
+     wherever applicable to avoid confusion.
 
      .. seealso:: 
        
