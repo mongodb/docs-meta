@@ -31,6 +31,14 @@ D
    database
      Use *database* as one word.
 
+   date
+     Use *timestamp* instead of *date* wherever applicable to avoid 
+     confusion.
+
+     .. seealso:: 
+       
+        :term:`timestamp`
+
    default
      Use *default* as a noun or adjective. Don't use *default* as a
      verb.
