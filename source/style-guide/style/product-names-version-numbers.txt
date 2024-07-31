@@ -25,11 +25,15 @@ the following guidelines:
    * - Don't include "MongoDB" in a title unless the page is a product 
        landing page.
 
+       Use the full MongoDB product name on the first mention in the 
+       body text. Subsequent mentions may use the product name without 
+       MongoDB.
+
      - .. list-table::
           :widths: 50 50
           :header-rows: 1
 
-          * - Product landing page
+          * - Landing page or first mention
             - All other mentions
 
           * - MongoDB Atlas

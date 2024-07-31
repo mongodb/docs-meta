@@ -68,10 +68,10 @@ Page Titles
   devices, including mobile. This involves considering character limits 
   and readability on smaller screens.
 
-- Use a consistent grammatical structure for page titles. Use a 
-  consistent style and tone across all page titles to maintain a 
-  unified and professional appearance. For example, use verbs to 
-  indicate procedural content.
+- Use a consistent grammatical structure, style, and tone across all 
+  page titles to maintain a unified and professional appearance. For 
+  example, use verbs to indicate procedural content.
+
 
 To learn more, see :ref:`titles-and-headings`.
 
@@ -82,10 +82,6 @@ TOC Labels
   update the TOC as the content evolves, long titles interfere with 
   efficient navigation. So, we recommend that you specify TOC labels to 
   enhance the document's accessibility and usability.
-
-- TOC labels primarily represent the documentation's structure. They 
-  outline the hierarchy of sections and help users navigate through the 
-  content.
 
 - Craft clear and descriptive TOC labels that convey the content of 
   each section or page accurately. Users should understand the context 
