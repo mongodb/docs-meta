@@ -28,11 +28,11 @@ Page titles and Table of Contents (TOC) labels serve distinct purposes.
 We should craft them with different considerations.
 
 TOC labels and page titles can match. However, we should define them 
-separately even when they match as a good habit and for added 
-flexibility. This approach ensures that we can easily implement any 
-future changes without affecting the other element. Separate 
-definitions for TOC labels and page titles contribute to organized 
-content management and a seamless user experience.
+separately even when they match for added flexibility. This approach 
+ensures that we can easily implement any future changes without 
+affecting the other element. Separate definitions for TOC labels and 
+page titles contribute to organized content management and a seamless 
+user experience.
 
 While both page titles and TOC labels contribute to the overall user 
 experience, page titles focus more on attracting users and SEO, while 
@@ -54,7 +54,7 @@ Page Titles
 
 - While we should craft concise titles, include enough information to 
   confirm to the user that they have landed in the right place. A page 
-  title can provide a bit more detail than a TOC label.
+  title can provide more detail than a TOC label.
 
 - Ensure that each title and heading is unique. Identical titles, even 
   between documentation sets, might compete in search results.
@@ -62,7 +62,9 @@ Page Titles
 - Don't include "MongoDB" in a title unless the page is a product 
   landing page.
 
-- Aim to attract users and encourage them to click on the link.
+- Aim to attract users and encourage them to click on the link. Include 
+  phrases users might search for, or tasks they might want to 
+  accomplish.
 
 - Create page titles that are readable and effective on various 
   devices, including mobile. This involves considering character limits 
@@ -78,21 +80,21 @@ To learn more, see :ref:`titles-and-headings`.
 TOC Labels
 ----------
 
-- While the automatic labels make it easier for us to 
+- While the automatic labels make it easier for writers to 
   update the TOC as the content evolves, long titles interfere with 
-  efficient navigation. So, we recommend that you specify TOC labels to 
+  efficient navigation. We recommend that you specify TOC labels to 
   enhance the document's accessibility and usability.
 
 - Craft clear and descriptive TOC labels that convey the content of 
   each section or page accurately. Users should understand the context 
   from the TOC label and its placement in the overall TOC hierarchy.
 
-- Avoid line-wrapping. Let the placement of the TOC label in the 
-  overall TOC hierarchy provide context. Avoid redundancy and 
-  repetition. The page title itself can provide a bit more detail and 
-  confirm to the user that they have landed in the right place. To this 
-  end, you can use industry standard abbreviations and the ampersand 
-  when needed.
+- Ensure your TOC label fits on a single line of text. Let the 
+  placement of the TOC label in the overall TOC hierarchy provide 
+  context. Avoid redundancy and repetition. The page title itself can 
+  provide more detail and confirm to the user that they have landed in 
+  the right place. To this end, you can use industry standard 
+  abbreviations and the ampersand when needed.
 
   .. important::
 
