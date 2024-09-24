@@ -37,7 +37,7 @@ F
      :icon-fa4:`times-circle` Use *serious* instead.
 
    FCV
-     A MongoDB term that describes the "feature compatibility version"
+    MongoDB abbreviation for the "feature compatibility version"
      of a server. Use all uppercase: ``FCV``. Don't use
      mixed case: ``fCV``.
 
