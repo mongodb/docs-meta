@@ -12,25 +12,26 @@ Nested Components Guidelines
 
 .. default-domain:: mongodb
 
-To allow LLMs to consume our content easily, don't nest the following components:
+To allow LLMs to consume our content easily, don't nest the following 
+components:
 
-- Admonitions inside admonitions
-- Admonition inside tables
-- Examples inside admonitions
+- Callouts inside callouts
+- Callouts inside tables
+- Examples inside callouts
  
 Use the following guidance to fix existing published nested components 
 or replace nested components in your pull requests.
 
-Admonitions Inside Admonitions
-------------------------------
+Callouts Inside Callouts
+------------------------
 
-Remove the nested admonition and make its contents part of the parent 
-admonition, or remove it from admonitions altogether. The text may 
+Remove the nested callout and make its contents part of the parent 
+callout, or remove it from callouts altogether. The text may 
 follow directly after the preceding text, or you may include a line 
-break if appropriate. If the nested admonition is an example, see 
-:ref:`examples-in-admonitions`. If the nested admonition is an 
-Important or Warning admonition, see :ref:`important-or-warning`
-in the :ref:`examples-in-admonitions` section.
+break if appropriate. If the nested callout is an example, see 
+:ref:`examples-in-callouts`. If the nested callout is an 
+Important or Warning callout, see :ref:`important-or-warning`
+in the :ref:`examples-in-callouts` section.
 
 **Example:**
 
@@ -66,10 +67,10 @@ in the :ref:`examples-in-admonitions` section.
           more, see :atlas:`Set Up a Network Peering Connection 
           </security-vpc-peering>`.
 
-.. _admonitions-in_tables:
+.. _callouts-in_tables:
 
-Admonitions Inside Tables
--------------------------
+Callouts Inside Tables
+----------------------
 
 .. _notes:
 
@@ -134,8 +135,8 @@ Important or Warning
 ~~~~~~~~~~~~~~~~~~~~
 
 Assess the content and determine whether it really belongs in an 
-Important or Warning admonition. If it's merely noteworthy, remove the 
-content from the admonition. For guidance, see :ref:`callouts`.
+Important or Warning callout. If it's merely noteworthy, remove the 
+content from the callout. For guidance, see :ref:`callouts`.
 
 If the content could be a note, follow the instructions for 
 :ref:`notes`.
@@ -145,8 +146,8 @@ example, when ignoring the information results in data loss or other
 serious considerations):
 
 - For important information, remove the nested directive and make its 
-  contents part of the parent admonition. Precede the important 
-  information with a line break and add  "IMPORTANT:" in bold, gold 
+  contents part of the parent callout. Precede the important 
+  information with a line break and add  ``IMPORTANT:`` in bold, gold 
   text. To do this, use the following gold directive: 
   
   .. code-block::
@@ -154,9 +155,9 @@ serious considerations):
      :gold:`IMPORTANT:`
 
 - For warning information, remove the nested directive and add the 
-  content to the parent admonition. Precede the warning information 
-  with a line break and add  "WARNING:" in bold, red text. To do this, 
-  use the following red directive:
+  content to the parent callout. Precede the warning information 
+  with a line break and add  ``WARNING:`` in bold, red text. To do 
+  this, use the following red directive:
   
   .. code-block::
     
@@ -169,6 +170,32 @@ serious considerations):
 
    * - Before
      - After
+
+   * - 
+       .. list-table::
+          :widths: 30 70
+          
+          * - Restore from Backup
+            - The time required to restore your serverless instance.
+
+              .. important::
+
+                 Data transfer as part of the backup and restore 
+                 process is charged separately.
+
+            - Range from $2.50 to $6.00 per restore hour.
+  
+     - 
+       .. list-table::
+          :widths: 30 70
+          
+          * - Restore from Backup
+            - The time required to restore your serverless instance.
+
+              :gold:`IMPORTANT:` Data transfer as part of the backup 
+              and restore process is charged separately.
+
+            - Range from $2.50 to $6.00 per restore hour.
 
    * - 
        .. list-table::
@@ -222,15 +249,15 @@ serious considerations):
               the cluster. It preserves all backup data and snapshots 
               for the existing cluster.
 
-.. _examples-in-admonitions:
+.. _examples-in-callouts:
 
-Examples Inside Admonitions
----------------------------
+Examples Inside Callouts
+------------------------
 
 Remove the nested example and do one of the following steps:
 
 - If the example is a statement with full sentences, add the contents 
-  to the parent admonition, preceding the example with a line break and 
+  to the parent callout, preceding the example with a line break and 
   the text: "For example,".
 
 - If the example is a value in a code block, introduce the code block 
