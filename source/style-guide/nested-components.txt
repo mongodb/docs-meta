@@ -41,8 +41,7 @@ in the :ref:`examples-in-callouts` section.
    * - Before
      - After
 
-   * - 
-       .. important:: AWS Only
+   * - .. important:: AWS Only
 
           Amazon Web Services (AWS) Virtual Private Cloud (VPC) peering
           connections are region-specific. Clusters utilizing an 
@@ -55,8 +54,7 @@ in the :ref:`examples-in-callouts` section.
    
              :atlas:`Set Up a Network Peering Connection 
              </security-vpc-peering>`. 
-     - 
-       .. important:: AWS Only
+     - .. important:: AWS Only
 
           Amazon Web Services (AWS) Virtual Private Cloud (VPC) peering
           connections are region-specific. Clusters utilizing an 
@@ -89,8 +87,7 @@ you can include a line break if appropriate.
    * - Before
      - After
 
-   * - 
-       .. list-table::
+   * - .. list-table::
           :widths: 20 20 60
           
           * - id
@@ -110,8 +107,7 @@ you can include a line break if appropriate.
             - string
             - Label for this Agent API Key. Limited to 1,000 characters.
 
-     - 
-       .. list-table::
+     - .. list-table::
           :widths: 20 20 60
           
           * - id
@@ -171,9 +167,8 @@ serious considerations):
    * - Before
      - After
 
-   * - 
-       .. list-table::
-          :widths: 30 70
+   * - .. list-table::
+          :widths: 30 40 30
           
           * - Restore from Backup
             - The time required to restore your serverless instance.
@@ -185,9 +180,8 @@ serious considerations):
 
             - Range from $2.50 to $6.00 per restore hour.
   
-     - 
-       .. list-table::
-          :widths: 30 70
+     - .. list-table::
+          :widths: 30 40 30
           
           * - Restore from Backup
             - The time required to restore your serverless instance.
@@ -197,8 +191,7 @@ serious considerations):
 
             - Range from $2.50 to $6.00 per restore hour.
 
-   * - 
-       .. list-table::
+   * - .. list-table::
           :widths: 30 70
           :header-rows: 1
 
@@ -224,8 +217,7 @@ serious considerations):
                  cluster. All backup data and snapshots for the
                  existing cluster are preserved.
 
-     - 
-       .. list-table::
+     - .. list-table::
           :widths: 30 70
           :header-rows: 1
 
@@ -258,7 +250,7 @@ Remove the nested example and do one of the following steps:
 
 - If the example is a statement with full sentences, add the contents 
   to the parent callout, preceding the example with a line break and 
-  the text: "For example,".
+  the text, "For example,".
 
 - If the example is a value in a code block, introduce the code block 
   with "For example:". If more context follows the example, add "In the 
@@ -272,8 +264,7 @@ Remove the nested example and do one of the following steps:
    * - Before
      - After
 
-   * - 
-       .. important::
+   * - .. important::
 
           There must be enough disk space to accommodate all of the 
           source oplog entries that occur during the initial 
@@ -285,8 +276,7 @@ Remove the nested example and do one of the following steps:
              changes, and ``mongomirror``'s sync is estimated to 
              take 48 hours, there must be at least 20 GB of free disk 
              space in the specified directory.
-     - 
-       .. important::
+     - .. important::
 
           There must be enough disk space to accommodate all of the 
           source oplog entries that occur during the initial 
@@ -304,7 +294,7 @@ Remove the nested example and do one of the following steps:
 
 - If the example is in a statement with full sentences, add its 
   contents in plain text, preceding the example with a line break and 
-  the text: "For example,".
+  the text, "For example,".
 
 - If the example is a value in a code block, introduce the code block 
   with "For example:". If more context follows the example, add "In the 
@@ -318,8 +308,7 @@ Remove the nested example and do one of the following steps:
    * - Before
      - After
 
-   * - 
-       .. list-table::
+   * - .. list-table::
           :widths: 20 20 60
           
           * - 404
@@ -337,8 +326,7 @@ Remove the nested example and do one of the following steps:
                  You are not allowed to ``DELETE`` the
                  :opsmgr:`root </reference/api/root>` resource.
 
-     - 
-       .. list-table::
+     - .. list-table::
           :widths: 20 30 30
           
           * - 404
@@ -369,8 +357,7 @@ Do not nest steps more than that.
    * - Before
      - After
 
-   * - 
-       .. procedure::
+   * - .. procedure::
           :style: normal
 
           .. step:: Open the Atlas Search index you want to update.
@@ -385,8 +372,7 @@ Do not nest steps more than that.
                 .. step:: Click :guilabel:`Edit With JSON Editor`.
    
           .. step:: Copy the index.
-     - 
-       .. procedure::
+     - .. procedure::
           :style: normal
 
           .. step:: Open the Atlas Search index you want to update.
