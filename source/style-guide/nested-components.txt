@@ -12,17 +12,14 @@ Nested Components Guidelines
 
 .. default-domain:: mongodb
 
-Use the following guidance to fix nested component issues. As you 
-fix nested component issues, you may make copy edits to existing text 
-where appropriate.
+To allow LLMs to consume our content easily, don't nest the following components:
 
-If the content you edit doesn't conform well to the patterns outlined 
-in this guidance, or you have questions, pause before you proceed with 
-the changes, raise the issue in the #docs-nested-components channel on 
-Slack, and tag Sarah Simpers.
-
-For changes in versioned repos, backport the fix to all supported 
-versions.
+- Admonitions inside admonitions
+- Admonition inside tables
+- Examples inside admonitions
+ 
+Use the following guidance to fix existing published nested components 
+or replace nested components in your pull requests.
 
 Admonitions Inside Admonitions
 ------------------------------
@@ -55,7 +52,8 @@ in the :ref:`examples-in-admonitions` section.
 
           .. seealso:: 
    
-             :atlas:`/security-vpc-peering`. 
+             :atlas:`Set Up a Network Peering Connection 
+             </security-vpc-peering>`. 
      - 
        .. important:: AWS Only
 
@@ -64,7 +62,9 @@ in the :ref:`examples-in-admonitions` section.
           existing VPC peering connection to an AWS VPC in a 
           given AWS region lose access to that peering connection if 
           moved to a different AWS region. The moved cluster may use 
-          an existing peering connection in the new region.
+          an existing peering connection in the new region. To learn 
+          more, see :atlas:`Set Up a Network Peering Connection 
+          </security-vpc-peering>`.
 
 .. _admonitions-in_tables:
 
@@ -370,10 +370,3 @@ Do not nest steps more than that.
              c. Click :guilabel:`Edit With JSON Editor`.
    
           .. step:: Copy the index.
-
-Tables Inside Tables
---------------------
-
-Don't change tables inside tables until we have a better solution from 
-Design. You can complete and close the ticket without changing tables 
-inside tables.
