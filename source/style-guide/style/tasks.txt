@@ -172,11 +172,6 @@ When you create a procedure, use the following guidelines:
    successfully.
 
 - Don't add subheaders to steps.
-  
-  .. figure:: /images/procedure-subheaders.png
-     :alt: procedure subheaders
-     :align: center
-     :figwidth: 700px
 
 - You may add other components like callouts or code examples within 
   the steps. Don't nest multiple components within each other. To 

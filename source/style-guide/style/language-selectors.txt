@@ -86,11 +86,6 @@ guidelines:
 - Add a language selector only when :guilabel:`Driver` is the selected 
   method.
 
-  .. figure:: /images/language-selector-driver-method.png
-     :alt: language selector for driver method
-     :align: center
-     :figwidth: 700px
-
 - Include a minimum of two options and a maximum of six options per 
   method selector. You may have only one instance of a method selector 
   per page.
