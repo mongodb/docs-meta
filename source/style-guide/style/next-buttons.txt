@@ -32,7 +32,16 @@ The following example shows the syntax for a next button:
 
    .. multi-page-tutorial::
       :show-next-top:
-      :time-required: 5
+
+The following example shows the syntax for defining multi-step 
+tutorials in the ``snooty.toml`` file:
+
+.. code-block::
+
+   multi_page_tutorials = [
+    "/get-started-cli",
+    "/get-started-ui"
+   ]
 
 Next Button Guidelines
 ----------------------
@@ -44,5 +53,3 @@ When you create next buttons, use the following guidelines:
 
 - Use next and back buttons on the bottom of the page to follow the 
   structure of the table of contents.
-
-- If there is no back or next page, don't add the corresponding button.

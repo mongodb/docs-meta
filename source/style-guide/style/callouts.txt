@@ -70,42 +70,27 @@ Callout Guidelines
 
 When you create callouts, use the following guidelines:
 
-- Use the callout type to convey the kind of information you want 
-  to communicate. Don't rely on color to convey intensity. Don't change 
-  the callout label.
-
-  .. figure:: /images/callout-label.png
-     :alt: callout label
-     :align: center
-     :figwidth: 700px
-
-- Use the correct {+rst+} directive to create the callout. Don't 
-  attempt to create callouts using boldface, headings, or custom
-  :abbr:`CSS (Cascading Style Sheets)`.
+- Use the appropriate callout type to convey the kind of information 
+  you want to communicate. 
 
 - Don't stack multiple callouts directly after one another, as these can
   distract users. To avoid stacking callouts, group supplemental 
-  information from callouts into a dedicated section.
+  information from callouts into a dedicated section. For callouts of 
+  the same type, use a single callout that contains separate paragraphs 
+  or an unordered list.
 
-- If possible, don't use callouts in tables and option lists
+- If possible, don't use callouts in tables and option lists.
   Callouts reduce the scannability of tables and options lists.
 
-- Avoid nesting callouts inside tables and other elements.
-
-- Avoid nesting code blocks inside callouts.
+- Avoid nesting callouts inside tables, code blocks, and other elements.
 
 - Place a callout as close as possible to the information that it
   emphasizes or clarifies.
 
-- Avoid stacking callouts of the same type. For example, avoid adding
-  one labeled note directly after another labeled note. Instead, use
-  a single callout that contains separate paragraphs or an unordered 
-  list.
-
 - Use callouts for long form text and avoid using callouts for links 
   only.
 
-- Use callouts only when absolutely needed and avoid overcrowding the 
+- Use callouts only when needed and avoid overcrowding the 
   page with callouts.
 
 The following callouts might appear in existing documentation but are
@@ -115,16 +100,11 @@ deprecated. Don't use these callouts in new content:
 - ``.. caution::``
 - ``.. danger::``
 - ``.. example::``
-- ``.. see``
-- ``.. see also``
+- ``.. see::``
+- ``.. see also::``
 - ``.. topic::``
 
 Nested Components
 -----------------
 
 Don't nest components. To learn more, see :ref:`nested-components`.
-
-.. figure:: /images/nested-callouts.png
-   :alt: nested callouts
-   :align: center
-   :figwidth: 700px
