@@ -49,10 +49,15 @@ O
 
    on-premises
      **off-premises**
-     Use these terms to distinguish local computing (in which
-     resources are located on a customer’s own site) from remote
-     computing (in which resources are provided partially or totally
-     through the cloud). Always hyphenate. *Premises* is plural;
+
+     :icon-fa4:`times-circle` Avoid when referring to non-Atlas
+     deployments. To refer to non-Atlas deployments, use
+     :term:`self-managed`.
+
+     When used in other contexts, use *on-premises* to distinguish local
+     computing (in which resources are located on a customer's own site)
+     from remote computing (in which resources are provided partially or
+     totally through the cloud). Always hyphenate. *Premises* is plural;
      don't use *on-premise* or *off-premise*.
 
      .. list-table::
@@ -72,7 +77,7 @@ O
 
      .. note::
 
-        To refer to non-Atlas deployments, use :term:`self-managed`.
+        
    open
      .. seealso:: 
        
