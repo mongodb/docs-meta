@@ -70,6 +70,9 @@ O
             hosted either on-premises or off-premises.
           -
 
+     .. note::
+
+        To refer to non-Atlas deployments, use :term:`self-managed`.
    open
      .. seealso:: 
        
@@ -135,4 +138,3 @@ O
             MongoDB email hosting.
           - Over three million business email users rely on MongoDB
             email hosting.
-
