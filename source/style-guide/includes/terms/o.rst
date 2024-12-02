@@ -50,15 +50,15 @@ O
    on-premises
      **off-premises**
 
-     :icon-fa4:`times-circle` Avoid when referring to non-Atlas
-     deployments. To refer to non-Atlas deployments, use
+     :icon-fa4:`times-circle` Avoid these terms when you distinguish
+     non-Atlas deployments. To distinguish non-Atlas deployments, use
      :term:`self-managed`.
 
-     When used in other contexts, use *on-premises* to distinguish local
-     computing (in which resources are located on a customer's own site)
-     from remote computing (in which resources are provided partially or
-     totally through the cloud). Always hyphenate. *Premises* is plural;
-     don't use *on-premise* or *off-premise*.
+     When you use *on-premises* in other contexts, use the term to
+     distinguish local computing (in which resources are located on a
+     customer's own site) from remote computing (in which resources are
+     provided partially or totally through the cloud). Always hyphenate.
+     *Premises* is plural; don't use *on-premise* or *off-premise*.
 
      .. list-table::
         :widths: 50 50
