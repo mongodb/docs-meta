@@ -58,7 +58,8 @@ O
      resources are located on a customer's own site) from remote
      computing (in which resources are provided partially or totally
      through the cloud). Always hyphenate. *Premises* is plural; don't
-     use *on-premise* or *off-premise*.
+     use *on-premise* or *off-premise*. For consistency, always use the
+     complete *on-premises* term, and do not shorten to *on-prem*.
 
      .. list-table::
         :widths: 50 50
