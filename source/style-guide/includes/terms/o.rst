@@ -75,9 +75,6 @@ O
             hosted either on-premises or off-premises.
           -
 
-     .. note::
-
-        
    open
      .. seealso:: 
        
