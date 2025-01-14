@@ -52,7 +52,7 @@ Builds
 ------
 
 Building the documentation is useful because `Sphinx
-<http://sphinx.pocoo.org/>`__ and docutils can catch numerous errors in
+<https://www.sphinx-doc.org/en/master/>`__ and docutils can catch numerous errors in
 the format and syntax of the documentation. Additionally, having
 access to an example documentation as it *will* appear to the users is
 useful for providing more effective basis for the review
