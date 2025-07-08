@@ -38,6 +38,7 @@ Syntax
       :linenos:
       :caption: <caption text>
       :source: <url>
+      :category: <string>
 
       <code sample>
 
@@ -84,7 +85,14 @@ All of the following options are optional.
        This icon is hidden if the ``copyable`` option is set to ``false``.
        
        **Default:** None
+   
+   * - ``:category: <string>``
+     - Option to classify the code example. Possible categories
+       are "Syntax example", "Non-MongoDB command", "Example return object",
+       "Example configuration object", or "Usage example". 
 
+       **Default:** None
+      
 Example 1
 ~~~~~~~~~
 
@@ -95,6 +103,7 @@ Example 1
       :copyable: true
       :emphasize-lines: 1, 4-5
       :caption: An example Python code block
+      :category: Usage example
 
       print("Hello Docs team!") 
       print("This is Python code...") 
@@ -123,6 +132,7 @@ Example 2
    
    .. code-block:: python
       :source: https://github.com/mongodb/docs-ecosystem/blob/36f9cc7260a246d47cb05ac35276a2c92734b028/conf.py#L120
+      :category: Syntax example
 
       html_theme = sconf.theme.name
       html_theme_path = [os.path.join(conf.paths.buildsystem, 'themes')]
@@ -155,6 +165,7 @@ Syntax
       :copyable: <boolean>
       :caption: <caption text>
       :source: <url>
+      :category: <category>
       
       .. input::
          :language: <input language>
@@ -222,6 +233,13 @@ All of the following options are optional.
        This icon is hidden if the ``copyable`` option is set to ``false``.
        
        **Default:** None
+   
+   * - ``:category: <string>``
+     - Option to classify the code example. Possible categories
+       are "Syntax example", "Non-MongoDB command", "Example return object",
+       "Example configuration object", or "Usage example". 
+
+       **Default:** None
 
 Example 1
 ~~~~~~~~~
@@ -231,6 +249,7 @@ Example 1
    .. io-code-block::
       :copyable: true
       :caption: An example Python code block with output
+      :category: Usage example
 
       .. input::
          :language: python
@@ -284,6 +303,7 @@ Example 2
 
       .. input::
          :language: javascript
+         :category: Syntax example
          
          coll.find({ $text: { $search: 'zissou' } });
 
@@ -293,6 +313,9 @@ Example 2
          [
              { title: 'The Life Aquatic with Steve Zissou', ... }
          ]
+
+No need to specify a category for the ``..output::`` directive as it is always
+a "Example return object". 
 
 The previous ``io-code-block`` directive creates the following output:
 
@@ -340,6 +363,7 @@ Syntax
       :emphasize-lines: <line numbers>
       :caption: <caption>
       :dedent: <number>
+      :catgeory: <string>
 
 Options
 ~~~~~~~
@@ -419,6 +443,13 @@ Options
        Use this option if the code to show is indented in the code file.
 
        **Default:** None 
+   
+   * - ``:category: <string>``
+     - Option to classify the code example. Possible categories
+       are "Syntax example", "Non-MongoDB command", "Example return object",
+       "Example configuration object", or "Usage example". 
+
+       **Default:** None
 
 Example 1
 ~~~~~~~~~
@@ -437,6 +468,7 @@ ends before the line that reads ``print("...but this line won't.")``:
       :copyable: false
       :end-before: print("...but this line won't.")
       :caption: Sample Python code from another file
+      :category: Usage example
   
 The previous ``literalinclude`` directive creates the following output:
 
@@ -460,6 +492,7 @@ option to remove these spaces:
       :linenos:
       :lineno-start: 9 
       :dedent: 2
+      :category: Usage example
 
 The previous directive creates the following output:
 
