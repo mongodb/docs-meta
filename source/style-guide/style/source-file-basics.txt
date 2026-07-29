@@ -1,0 +1,54 @@
+.. meta::
+   :robots: noindex, nosnippet
+
+.. _source-file-basics:
+
+==================
+Source File Basics
+==================
+
+.. default-domain:: mongodb
+
+Use the following baseline conventions for source files in
+docs-as-code repositories.
+
+Character set
+-------------
+
+Use UTF-8 encoding for text files.
+
+Line length
+-----------
+
+Hard wrap prose to between 72 and 80 characters per line.
+
+Exceptions are acceptable when wrapping would reduce readability,
+such as long URLs, code samples, command output, or other fixed-format
+content.
+
+Line endings
+------------
+
+Use Unix line endings (LF).
+
+Tabs and indentation
+--------------------
+
+Use spaces for indentation.
+Do not use tab characters in source files.
+
+For nested list items in {+rst+}, indent continuation lines by two spaces.
+
+Naming conventions
+------------------
+
+Use lowercase file and directory names and separate words with hyphens
+when possible.
+Keep variable and placeholder names descriptive and consistent in each page.
+
+Snooty support
+--------------
+
+Use the Snooty Visual Studio Code extension while editing docs so you
+can catch structural and formatting issues early.
+For setup instructions, see :doc:`/snooty`.
