@@ -27,6 +27,7 @@ instructions for applying style conventions.
    /style-guide/style/dates
    /style-guide/style/email-addresses
    /style-guide/style/file-types
+   /style-guide/style/source-file-basics
    /style-guide/style/glossaries
    /style-guide/style/ip-addresses
    /style-guide/style/keyboard-keys
